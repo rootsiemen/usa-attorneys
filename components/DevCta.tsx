@@ -14,7 +14,7 @@ export function DevCta() {
           — designed and built by Raza, web developer.
         </p>
       </div>
-      <Link href="/list-your-firm" className="btn btn-gold">
+      <Link href="/list-your-firm" className="btn btn-burgundy">
         Get a Free Quote
       </Link>
     </div>

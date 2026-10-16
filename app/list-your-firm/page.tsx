@@ -27,7 +27,7 @@ export default function ListYourFirmPage() {
             <span aria-current="page">List Your Firm</span>
           </nav>
           <h1>
-            List Your Firm — <span>Free</span>
+            List Your Firm — <em>Free</em>
           </h1>
           <p>
             Get found by clients searching for attorneys in your state and

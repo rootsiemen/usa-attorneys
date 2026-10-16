@@ -19,7 +19,7 @@ export default function TermsPage() {
             <span className="sep">›</span> Terms of Service
           </div>
           <h1>
-            Terms of <span>Service</span>
+            Terms of <em>Service</em>
           </h1>
           <p>Last updated: October 16, 2026</p>
         </div>

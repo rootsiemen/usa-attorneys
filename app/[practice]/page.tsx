@@ -96,7 +96,7 @@ export default function PracticePage({
             <span aria-current="page">{p.title}</span>
           </nav>
           <h1>
-            {p.title} <span>Near You</span>
+            {p.title} <em>Near You</em>
           </h1>
           <p>{p.directAnswer}</p>
         </div>

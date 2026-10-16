@@ -91,7 +91,7 @@ export default function StatePage({ params }: { params: { state: string } }) {
             <span aria-current="page">{state.name}</span>
           </nav>
           <h1>
-            {state.name} <span>Attorneys</span>
+            {state.name} <em>Attorneys</em>
           </h1>
           <p>
             Looking for an attorney in {state.name}? Start with your legal

@@ -122,7 +122,7 @@ export function ListingForm() {
                       firm — send me a free quote.
                     </span>
                   </label>
-                  <button type="submit" className="btn btn-gold">
+                  <button type="submit" className="btn btn-burgundy">
                     Submit Free Listing
                   </button>
                 </form>

@@ -20,7 +20,7 @@ export default function PrivacyPolicyPage() {
             <span className="sep">›</span> Privacy Policy
           </div>
           <h1>
-            Privacy <span>Policy</span>
+            Privacy <em>Policy</em>
           </h1>
           <p>Last updated: October 16, 2026</p>
         </div>

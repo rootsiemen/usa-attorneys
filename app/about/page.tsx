@@ -20,7 +20,7 @@ export default function AboutPage() {
             <span className="sep">›</span> About
           </div>
           <h1>
-            About <span>USA Attorneys</span>
+            About <em>USA Attorneys</em>
           </h1>
           <p>
             A free, independent directory connecting Americans with qualified

@@ -26,7 +26,7 @@ export default function AttorneysIndexPage() {
             <span className="sep">›</span> Attorneys by State
           </div>
           <h1>
-            Find Attorneys <span>by State</span>
+            Find Attorneys <em>by State</em>
           </h1>
           <p>
             Laws, courts, and licensing differ in every state. Choose your

@@ -27,7 +27,7 @@ export default function ContactPage() {
             <span aria-current="page">Contact</span>
           </nav>
           <h1>
-            Contact <span>Us</span>
+            Contact <em>Us</em>
           </h1>
           <p>
             Questions about the directory, a listing, or a correction? Send us
