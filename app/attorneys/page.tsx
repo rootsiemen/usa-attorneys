@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SITE_URL, SITE_NAME, STATES } from "@/lib/data";
+import { SITE_URL, SITE_NAME, ALL_STATES } from "@/lib/data";
 import { DevCta } from "@/components/DevCta";
 
 export const metadata: Metadata = {
@@ -38,7 +38,7 @@ export default function AttorneysIndexPage() {
       <section className="section">
         <div className="container">
           <div className="center">
-            {STATES.map((s) => (
+            {ALL_STATES.map((s) => (
               <Link
                 key={s.slug}
                 href={`/attorneys/${s.slug}`}

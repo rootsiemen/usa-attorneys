@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { PRACTICE_AREAS, STATES } from "@/lib/data";
+import { PRACTICE_AREAS, ALL_STATES } from "@/lib/data";
 
 export function Footer() {
   const topPractices = PRACTICE_AREAS.slice(0, 6);
-  const topStates = STATES.slice(0, 6);
+  const topStates = ALL_STATES.slice(0, 6);
   return (
     <footer className="site-footer">
       <div className="container">

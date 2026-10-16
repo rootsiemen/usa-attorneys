@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SITE_URL, SITE_NAME, STATES, PRACTICE_AREAS } from "@/lib/data";
+import { SITE_URL, SITE_NAME, ALL_STATES, PRACTICE_AREAS } from "@/lib/data";
 import { StateSearch } from "@/components/StateSearch";
 import { DevCta } from "@/components/DevCta";
 import { JsonLd } from "@/components/JsonLd";
@@ -8,7 +8,7 @@ import { JsonLd } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: `${SITE_NAME} — Find a Qualified Attorney Near You`,
   description:
-    "Find qualified attorneys in all 50 US states. Browse by state and practice area — personal injury, divorce, criminal defense, immigration, bankruptcy, and more.",
+    "Find qualified attorneys in all 50 states. Browse by practice area — injury, divorce, criminal defense, immigration & more.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     title: `${SITE_NAME} — Find a Qualified Attorney Near You`,
@@ -132,7 +132,7 @@ export default function HomePage() {
             Attorney licensing and laws vary by state — start with yours.
           </p>
           <div className="center">
-            {STATES.map((s) => (
+            {ALL_STATES.map((s) => (
               <Link
                 key={s.slug}
                 href={`/attorneys/${s.slug}`}

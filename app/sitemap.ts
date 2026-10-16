@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL, STATES, PRACTICE_AREAS } from "@/lib/data";
+import { SITE_URL, ALL_STATES, PRACTICE_AREAS } from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
@@ -19,7 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: p === "" ? 1 : 0.8,
   }));
 
-  for (const s of STATES) {
+  for (const s of ALL_STATES) {
     urls.push({
       url: `${SITE_URL}/attorneys/${s.slug}`,
       lastModified: new Date("2026-10-16"),

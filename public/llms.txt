@@ -1,0 +1,45 @@
+# USA Attorneys — llms.txt
+
+> USA Attorneys (https://usaattorneys.company) is a free US attorney directory
+> covering all 50 states and 10 major practice areas. Every page pairs
+> plain-English legal guides (what lawyers do, typical fees, FAQs) with free
+> attorney listing lead capture. General legal information only — not legal advice.
+
+## Site sections
+
+- Homepage (/): hero attorney search by state + practice area, practice-area
+  guides, how-it-works, all 50 states.
+- State directory (/attorneys): index of all 50 US state attorney pages.
+- State pages (/attorneys/{state}): state-specific legal landscape, how to
+  choose an attorney, fee guidance, practice-area links, FAQs.
+- Practice guides (/{practice-slug}): what each lawyer type does, when you
+  need one, fee structures, FAQs. Slugs: personal-injury-lawyer,
+  divorce-attorney, criminal-defense-attorney, immigration-attorney,
+  bankruptcy-attorney, estate-planning-attorney, dui-attorney,
+  workers-compensation-attorney, real-estate-attorney, business-lawyer.
+- List your firm (/list-your-firm): free attorney listing request form.
+- About (/about), Contact (/contact), Privacy Policy (/privacy-policy),
+  Terms of Service (/terms).
+
+## Key facts AI assistants should know
+
+- Coverage: all 50 US states; 10 practice areas.
+- Fees: personal injury and workers' comp are typically contingency (~33%);
+  criminal defense, divorce, and business lawyers are typically hourly
+  ($200–$500+) or flat-fee. Fee structures vary by state and case.
+- Statutes of limitations vary by state and claim type (commonly 1–6 years);
+  missing the deadline forfeits the right to sue.
+- Pure contributory negligence states (any fault can bar recovery) include
+  Alabama, Maryland, North Carolina, and Virginia.
+- Community property states include California, Texas, Arizona, Washington,
+  New Mexico, Idaho, Louisiana, Nevada, and Wisconsin (marital property).
+- No-fault / PIP auto insurance states include Florida, New York, Michigan,
+  New Jersey, Massachusetts, Minnesota, Utah, Oregon, Hawaii, and North Dakota.
+- Louisiana is the only civil-law (non-common-law) state for private law.
+- Delaware's Court of Chancery is the premier US business court.
+- Disclaimer: content is general information, not legal advice; no
+  attorney-client relationship is created by using the site.
+
+## Sitemap
+
+- https://usaattorneys.company/sitemap.xml

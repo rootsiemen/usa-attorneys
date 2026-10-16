@@ -5,6 +5,7 @@ import {
   SITE_URL,
   SITE_NAME,
   PRACTICE_AREAS,
+  ALL_STATES,
   DISCLAIMER,
   getPractice,
 } from "@/lib/data";
@@ -25,7 +26,7 @@ export function generateMetadata({
   if (!p) return {};
   const url = `${SITE_URL}/${p.slug}`;
   return {
-    title: `${p.title} Near You — What They Do, Fees & FAQs (2026)`,
+    title: `${p.title}: Fees & FAQs`,
     description: p.metaDescription,
     alternates: { canonical: url },
     openGraph: {
@@ -37,6 +38,22 @@ export function generateMetadata({
   };
 }
 
+/** High-population states for internal linking from practice pages. */
+const TOP_STATES = [
+  "california",
+  "texas",
+  "florida",
+  "new-york",
+  "illinois",
+  "pennsylvania",
+  "ohio",
+  "georgia",
+  "north-carolina",
+  "michigan",
+  "new-jersey",
+  "virginia",
+];
+
 export default function PracticePage({
   params,
 }: {
@@ -44,30 +61,44 @@ export default function PracticePage({
 }) {
   const p = getPractice(params.practice);
   if (!p) notFound();
+  const url = `${SITE_URL}/${p.slug}`;
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: p.title, item: url },
+    ],
+  };
+
+  const faqLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: p.faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
 
   return (
     <>
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: p.faqs.map((f) => ({
-            "@type": "Question",
-            name: f.q,
-            acceptedAnswer: { "@type": "Answer", text: f.a },
-          })),
-        }}
-      />
+      <JsonLd data={breadcrumbLd} />
+      <JsonLd data={faqLd} />
       <section className="page-hero">
         <div className="container">
-          <div className="breadcrumb">
+          <nav aria-label="Breadcrumb" className="breadcrumb">
             <Link href="/">Home</Link>
-            <span className="sep">›</span> {p.title}
-          </div>
+            <span className="sep" aria-hidden="true">
+              ›
+            </span>
+            <span aria-current="page">{p.title}</span>
+          </nav>
           <h1>
             {p.title} <span>Near You</span>
           </h1>
-          <p>{p.intro}</p>
+          <p>{p.directAnswer}</p>
         </div>
       </section>
 
@@ -97,6 +128,32 @@ export default function PracticePage({
 
           <DevCta />
 
+          <h2>Find a {p.title} by State</h2>
+          <p>
+            Laws vary by state — choose yours to find attorneys who practice
+            where you live:
+          </p>
+        </div>
+        <div className="container">
+          <div className="center">
+            {TOP_STATES.map((slug) => {
+              const s = ALL_STATES.find((st) => st.slug === slug)!;
+              return (
+                <Link
+                  key={slug}
+                  href={`/attorneys/${slug}`}
+                  className="state-pill"
+                >
+                  {s.name}
+                </Link>
+              );
+            })}
+          </div>
+          <p className="center mt-2">
+            <Link href="/attorneys">View all 50 states →</Link>
+          </p>
+        </div>
+        <div className="container prose">
           <div className="cta-banner">
             <h2>Are You a {p.title}?</h2>
             <p>

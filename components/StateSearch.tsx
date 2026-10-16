@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { STATES, PRACTICE_AREAS } from "@/lib/data";
+import { ALL_STATES, PRACTICE_AREAS } from "@/lib/data";
 
 export function StateSearch() {
   const router = useRouter();
@@ -18,7 +18,7 @@ export function StateSearch() {
           value={state}
           onChange={(e) => setState(e.target.value)}
         >
-          {STATES.map((s) => (
+          {ALL_STATES.map((s) => (
             <option key={s.slug} value={s.slug}>
               {s.name}
             </option>
