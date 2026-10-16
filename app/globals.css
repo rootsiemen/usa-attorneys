@@ -77,9 +77,10 @@ a:hover { color: var(--burgundy); }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--navy-dark); }
 .brand-mark {
   width: 38px; height: 38px; border-radius: 8px;
-  background: var(--navy-dark); color: var(--gold);
+  background: #14305e; color: #e8b923;
   display: flex; align-items: center; justify-content: center;
-  font-weight: 800; font-size: 20px; font-family: var(--serif);
+  font-weight: 900; font-size: 30px; font-family: var(--serif);
+  line-height: 1; padding-bottom: 2px;
 }
 .brand-name { font-weight: 800; font-size: 20px; letter-spacing: 0.2px; font-family: var(--serif); }
 .brand-name span { color: var(--burgundy); }
