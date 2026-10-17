@@ -8,7 +8,9 @@ import {
   ALL_STATES,
   DISCLAIMER,
   getPractice,
+  getState,
 } from "@/lib/data";
+import { getAttorneysByPractice } from "@/lib/attorneys-db";
 import { Faq } from "@/components/Faq";
 import { DevCta } from "@/components/DevCta";
 import { JsonLd } from "@/components/JsonLd";
@@ -54,7 +56,7 @@ const TOP_STATES = [
   "virginia",
 ];
 
-export default function PracticePage({
+export default async function PracticePage({
   params,
 }: {
   params: { practice: string };
@@ -62,6 +64,7 @@ export default function PracticePage({
   const p = getPractice(params.practice);
   if (!p) notFound();
   const url = `${SITE_URL}/${p.slug}`;
+  const attorneys = await getAttorneysByPractice(p.slug, 12);
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -101,6 +104,74 @@ export default function PracticePage({
           <p>{p.directAnswer}</p>
         </div>
       </section>
+
+      {attorneys.length > 0 ? (
+        <section className="section">
+          <div className="container">
+            <h2 style={{ textAlign: "center" }}>
+              {p.shortTitle} Attorneys
+            </h2>
+            <p className="center" style={{ maxWidth: 640, margin: "0 auto 24px" }}>
+              Top-rated {p.shortTitle.toLowerCase()} attorneys in our directory.
+              Click a profile for contact details.
+            </p>
+            <div className="grid-3">
+              {attorneys.map((a) => (
+                <Link
+                  key={a.slug}
+                  href={`/attorney/${a.slug}`}
+                  className="attorney-card"
+                >
+                  <div className="attorney-avatar" aria-hidden="true">
+                    {a.name
+                      .split(" ")
+                      .filter(Boolean)
+                      .slice(0, 2)
+                      .map((w) => w[0]?.toUpperCase() ?? "")
+                      .join("")}
+                  </div>
+                  <div>
+                    <h3>{a.name}</h3>
+                    <p className="firm">
+                      {a.firm ? `${a.firm} · ` : ""}
+                      {a.city}
+                      {getState(a.state)?.name ? `, ${getState(a.state)!.name}` : ""}
+                    </p>
+                    <p className="meta">
+                      {a.phone && <span className="phone">{a.phone}</span>}
+                      {a.claimed ? (
+                        <span className="badge-claimed">✓ Claimed</span>
+                      ) : (
+                        <span className="badge-unclaimed">Unclaimed</span>
+                      )}
+                    </p>
+                    <span className="card-link">View Profile →</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            <p className="center mt-2">
+              <Link href="/attorneys">View all attorneys →</Link>
+            </p>
+          </div>
+        </section>
+      ) : (
+        <section className="section">
+          <div className="container">
+            <div className="cta-banner">
+              <h2>Are You a {p.title}?</h2>
+              <p>
+                No {p.shortTitle.toLowerCase()} attorneys are listed in our
+                directory yet. Be the first — claim your free listing and get
+                found by clients searching for legal help.
+              </p>
+              <Link href="/list-your-firm" className="btn btn-navy">
+                List Your Firm — Free
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="section">
         <div className="container prose">

@@ -1,8 +1,15 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL, ALL_STATES, PRACTICE_AREAS, ATTORNEYS } from "@/lib/data";
+import {
+  SITE_URL,
+  ALL_STATES,
+  PRACTICE_AREAS
+} from "@/lib/data";
+import {
+  getAllAttorneySlugs,
+} from "@/lib/attorneys-db";
 import { getAllPosts } from "@/lib/posts";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages = [
     "",
     "/attorneys",
@@ -39,9 +46,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  for (const a of ATTORNEYS) {
+  for (const slug of await getAllAttorneySlugs()) {
     urls.push({
-      url: `${SITE_URL}/attorney/${a.slug}`,
+      url: `${SITE_URL}/attorney/${slug}`,
       lastModified: new Date("2026-10-17"),
       changeFrequency: "monthly",
       priority: 0.8,

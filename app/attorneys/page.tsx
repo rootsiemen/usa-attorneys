@@ -1,6 +1,13 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SITE_URL, SITE_NAME, ALL_STATES, ATTORNEYS } from "@/lib/data";
+import {
+  SITE_URL,
+  SITE_NAME,
+  ALL_STATES,
+} from "@/lib/data";
+import {
+  getAttorneyCount,
+} from "@/lib/attorneys-db";
 import { DevCta } from "@/components/DevCta";
 
 export const metadata: Metadata = {
@@ -16,7 +23,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function AttorneysIndexPage() {
+export default async function AttorneysIndexPage() {
+  const attorneyCount = await getAttorneyCount();
   return (
     <>
       <section className="page-hero">
@@ -33,10 +41,10 @@ export default function AttorneysIndexPage() {
             state to find attorneys who practice where you live — plus
             plain-English guides on fees and what to ask before you hire.
           </p>
-          {ATTORNEYS.length > 0 && (
+          {attorneyCount > 0 && (
             <p className="center" style={{ marginTop: 12 }}>
-              <strong>{ATTORNEYS.length}</strong> attorney
-              {ATTORNEYS.length === 1 ? "" : "s"} listed and growing —{" "}
+              <strong>{attorneyCount}</strong> attorney
+              {attorneyCount === 1 ? "" : "s"} listed and growing —{" "}
               <Link href="/list-your-firm">list your firm free</Link>.
             </p>
           )}

@@ -8,9 +8,11 @@ import {
   PRACTICE_AREAS,
   STATE_FAQ_SETS,
   DISCLAIMER,
-  getState,
-  getAttorneysByState,
+  getState
 } from "@/lib/data";
+import {
+  getAttorneysByState,
+} from "@/lib/attorneys-db";
 import { Faq } from "@/components/Faq";
 import { DevCta } from "@/components/DevCta";
 import { JsonLd } from "@/components/JsonLd";
@@ -41,14 +43,14 @@ export function generateMetadata({
   };
 }
 
-export default function StatePage({ params }: { params: { state: string } }) {
+export default async function StatePage({ params }: { params: { state: string } }) {
   const state = getState(params.state);
   if (!state) notFound();
 
   const stateIndex = ALL_STATES.findIndex((s) => s.slug === state.slug);
   const faqs = STATE_FAQ_SETS[stateIndex % STATE_FAQ_SETS.length](state.name);
   const url = `${SITE_URL}/attorneys/${state.slug}`;
-  const attorneys = getAttorneysByState(state.slug);
+  const attorneys = await getAttorneysByState(state.slug);
 
   const breadcrumbLd = {
     "@context": "https://schema.org",

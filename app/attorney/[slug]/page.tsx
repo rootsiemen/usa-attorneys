@@ -4,25 +4,29 @@ import { notFound } from "next/navigation";
 import {
   SITE_URL,
   SITE_NAME,
-  ATTORNEYS,
   DISCLAIMER,
-  getAttorney,
   getState,
-  getPractice,
+  getPractice
 } from "@/lib/data";
+import {
+  getAttorney,
+  getAllAttorneySlugs,
+} from "@/lib/attorneys-db";
 import { DevCta } from "@/components/DevCta";
 import { JsonLd } from "@/components/JsonLd";
+import { Reviews } from "@/components/Reviews";
 
-export function generateStaticParams() {
-  return ATTORNEYS.map((a) => ({ slug: a.slug }));
+export async function generateStaticParams() {
+  const slugs = await getAllAttorneySlugs();
+  return slugs.map((slug) => ({ slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
   params: { slug: string };
-}): Metadata {
-  const attorney = getAttorney(params.slug);
+}): Promise<Metadata> {
+  const attorney = await getAttorney(params.slug);
   if (!attorney) return {};
   const url = `${SITE_URL}/attorney/${attorney.slug}`;
   const state = getState(attorney.state);
@@ -54,8 +58,8 @@ function telHref(phone: string): string {
   return `tel:+1${digits}`;
 }
 
-export default function AttorneyPage({ params }: { params: { slug: string } }) {
-  const attorney = getAttorney(params.slug);
+export default async function AttorneyPage({ params }: { params: { slug: string } }) {
+  const attorney = await getAttorney(params.slug);
   if (!attorney) notFound();
 
   const state = getState(attorney.state);
@@ -191,17 +195,27 @@ export default function AttorneyPage({ params }: { params: { slug: string } }) {
               This is an unclaimed profile. The information below comes from
               public records and has not been verified by the attorney. Are
               you {attorney.name}?{" "}
-              <Link href="/list-your-firm">Claim this profile free</Link> to
+              <Link href={`/claim/${attorney.slug}`}>Claim this profile free</Link> to
               update it.
             </p>
           )}
 
           <h2>Contact</h2>
-          <p>
-            <a href={telHref(attorney.phone)} className="btn btn-burgundy">
-              Call {attorney.phone}
-            </a>
-          </p>
+          {attorney.phone ? (
+            <p>
+              <a href={telHref(attorney.phone)} className="btn btn-burgundy">
+                Call {attorney.phone}
+              </a>
+            </p>
+          ) : (
+            <p className="notice">
+              No public phone number on file for this attorney.{" "}
+              <Link href={`/claim/${attorney.slug}`}>
+                Claim this profile
+              </Link>{" "}
+              to add contact details.
+            </p>
+          )}
           {attorney.address && (
             <p>
               <strong>Address:</strong> {attorney.address}
@@ -248,11 +262,7 @@ export default function AttorneyPage({ params }: { params: { slug: string } }) {
           )}
 
           <h2>Client Reviews</h2>
-          <p>
-            No reviews yet. <strong>Be the first to review {attorney.name}.</strong>{" "}
-            Reviews help others find the right lawyer — share your experience
-            after contacting this firm.
-          </p>
+          <Reviews slug={attorney.slug} attorneyName={attorney.name} />
 
           <div className="disclaimer">{DISCLAIMER}</div>
           <DevCta />
@@ -262,7 +272,7 @@ export default function AttorneyPage({ params }: { params: { slug: string } }) {
               Claim this profile to update your information, add a photo, and
               respond to reviews — free.
             </p>
-            <Link href="/list-your-firm" className="btn btn-navy">
+            <Link href={`/claim/${attorney.slug}`} className="btn btn-navy">
               Claim This Profile — Free
             </Link>
           </div>
