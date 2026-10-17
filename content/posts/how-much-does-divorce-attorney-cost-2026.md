@@ -30,6 +30,18 @@ More useful than the average is the range by divorce type:
 
 Hourly rates for divorce attorneys in 2026 typically run **$250–$450 per hour** in most markets, $350–$600+ in expensive metros like New York City, San Francisco, or Washington, D.C. Most require an upfront **retainer** — often $3,000–$10,000 — which the lawyer bills against as work is done.
 
+## Three real divorce bills: what the money actually bought
+
+Averages hide the mechanics. Here's what three different divorces actually cost, line by line — so you can see which one looks like yours.
+
+**The $1,200 divorce.** Married 4 years, no kids, renting an apartment, one shared car, no joint debts beyond a $3,000 credit card. Both spouses agreed on everything before calling a lawyer. Flat fee: $1,000 for document preparation and filing, plus $200 in court filing fees. Total time from first call to final decree: 7 weeks. The lawyer's actual work: about 4 hours.
+
+**The $9,500 divorce.** Married 11 years, two kids (ages 7 and 9), a house with $90,000 in equity, two retirement accounts. The couple agreed on custody (joint) but fought over the house buyout number and holiday schedule. The bill: $5,000 retainer, depleted in 6 weeks; a second $5,000 retainer, of which $4,500 was used. Roughly 27 billable hours at $350/hour, mostly negotiation calls, two mediation sessions, and drafting the settlement agreement. Total time: 5 months.
+
+**The $47,000 divorce.** Married 14 years, three kids, a family business, and genuine hostility. Custody evaluation ($8,500), business valuation ($12,000), 14 months of litigation, one failed mediation, and a 3-day trial. The lawyer billed 110 hours at $425/hour. The kicker: the amount in dispute over the business valuation was about $60,000 — meaning the couple spent nearly that much fighting over it. This is the math that ruins people.
+
+The pattern: cost doesn't track how much you *have*. It tracks how much you *fight*.
+
 ## What drives the cost up
 
 **Children.** Custody disputes are the single biggest cost multiplier in divorce. Custody evaluations, guardian ad litem appointments, and repeated court hearings can double or triple the bill. If you and your spouse can agree on a parenting plan, you've saved more money than any other single decision.
@@ -41,6 +53,24 @@ Hourly rates for divorce attorneys in 2026 typically run **$250–$450 per hour*
 **Hidden assets and businesses.** If a spouse owns a business, holds stock options, or might be hiding money, expect forensic accountants and business valuations at $5,000–$15,000+ on top of legal fees.
 
 **Your spouse's lawyer.** You can't control this one, but an aggressive opposing attorney who files everything and concedes nothing will inflate your costs no matter how reasonable you are.
+
+## The retainer trap: how your deposit really disappears
+
+Most people hear "$5,000 retainer" and think that's the price. It isn't — it's a deposit, and it evaporates faster than anyone expects. Here's the math on a typical month:
+
+Your lawyer bills $350/hour in 15-minute increments (0.25 hours minimum per task). In one ordinary month of a moderately contested divorce:
+
+- Two phone calls with you (20 min each, billed as 0.5 hr total): **$175**
+- Reviewing your spouse's financial disclosure (1.5 hrs): **$525**
+- Drafting a response letter to opposing counsel (1 hr): **$350**
+- Three emails back and forth about the house appraisal (0.75 hr): **$262**
+- Court filing and scheduling for one hearing (0.5 hr): **$175**
+- Preparing for and attending that hearing (3 hrs): **$1,050**
+- Follow-up memo and file notes (0.5 hr): **$175**
+
+**One month's total: $2,712.** Your $5,000 retainer is more than half gone, and nothing dramatic even happened — no trial, no emergency motions, just routine divorce work. This is why lawyers ask you to replenish the retainer, and why the final bill shocks people who thought they were "almost done" three times in a row.
+
+The defense: ask for monthly itemized statements from day one, question every entry you don't understand, and batch your communications — one organized weekly email instead of six scattered calls saves you real money.
 
 ## How divorce lawyers charge
 

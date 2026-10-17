@@ -54,6 +54,23 @@ Criminal defense fees are usually flat fees for misdemeanors and either flat fee
 
 A written fee agreement is non-negotiable. If a lawyer resists putting fees in writing, walk away.
 
+## What criminal defense actually costs: fee ranges by charge
+
+Nobody publishes a price list, but after talking to defense lawyers across the country, here's what people actually pay in 2026 — and what separates the low end from the high end.
+
+| Charge level | Typical flat fee range | What moves it up |
+|---|---|---|
+| First DUI, no accident | $2,500 – $7,500 | Prior DUIs, high BAC, accident with injuries |
+| Misdemeanor (theft, simple assault, drug possession) | $2,000 – $8,000 | Trial vs. plea, criminal history |
+| Felony drug charges | $8,000 – $25,000 | Drug quantity, trafficking vs. possession, federal vs. state |
+| Violent felonies (aggravated assault, robbery) | $15,000 – $50,000+ | Trial length, expert witnesses, victim testimony |
+| Federal charges | $25,000 – $100,000+ | Complexity, mandatory minimums, multi-defendant cases |
+| Homicide / serious sex offenses | $50,000 – $250,000+ | Months of investigation, forensics, weeks of trial |
+
+Two things most people don't realize: **going to trial roughly doubles or triples the fee** versus a plea, because trial means weeks of preparation, motions, jury selection, and days in court. And **the cheapest lawyer is often the most expensive** — a $2,500 lawyer who pleads you out on day one to a charge carrying a 5-year collateral record can cost you hundreds of thousands in lifetime earnings. Price-shop, but price-shop among lawyers you'd actually trust with your freedom.
+
+Payment plans are standard in criminal defense precisely because arrests don't wait for payday. Most lawyers accept a down payment of 30–50% with monthly installments. Get the payment schedule in the written agreement — verbal "we'll work something out" deals are how fee disputes start.
+
 ## 5. "What is your trial record — and do you take cases to trial?"
 
 Most criminal cases settle through plea deals, but you want a lawyer the prosecutor *believes* will go to trial. Prosecutors offer better deals to lawyers with a track record of winning in front of a jury, because the threat of trial is what creates leverage.

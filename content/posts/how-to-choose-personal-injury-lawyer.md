@@ -37,6 +37,18 @@ The key question: if we lose, do I owe you for those expenses? Reputable firms a
 
 Never sign a fee agreement you haven't read fully. A trustworthy lawyer will walk through it line by line without rushing you.
 
+## Contingency fee math: three worked examples
+
+The "one-third" fee sounds simple until you see what it does to real numbers. Here's how the same $100,000 settlement breaks down under three common arrangements — and why the fine print matters more than the headline percentage.
+
+**Example A: 33% fee, expenses deducted after.** Settlement: $100,000. Case expenses: $8,000 (experts, filings, depositions). Lawyer takes 33% of $100,000 = $33,000. Then $8,000 in expenses comes off the top. You receive: **$59,000.**
+
+**Example B: 33% fee, expenses deducted before.** Same $100,000 settlement, same $8,000 expenses. Expenses come off first: $92,000 remains. Lawyer takes 33% of $92,000 = $30,360. You receive: **$61,640.** Same fee percentage, $2,640 more in your pocket — just from the order of subtraction.
+
+**Example C: sliding scale, 25% pre-suit / 40% at trial.** Your case settles before a lawsuit is filed: lawyer takes 25% = $25,000, expenses $4,000 (lower because no litigation). You receive: **$71,000.** But if the same case goes to trial and wins $150,000 with $25,000 in trial expenses: lawyer takes 40% = $60,000, and you receive **$65,000** — less than the smaller pre-suit settlement netted you. This is why "we'll take it to trial" isn't always the win it sounds like; run the numbers both ways before deciding.
+
+The lesson: never compare lawyers on percentage alone. Compare them on the *net to you* under realistic scenarios, and get the expense terms in writing.
+
 ## 4. "What is my case worth — and what could go wrong with it?"
 
 Be suspicious of any lawyer who quotes you a big number in the first meeting. An honest attorney can't value your case before seeing your medical records, the police report, and the insurance policy limits — anyone who does is telling you what you want to hear.
@@ -60,6 +72,20 @@ This matters even more in states with unusual rules. [New York](/attorneys/new-y
 Ethics rules limit what lawyers can share, but many firms can connect you with former clients willing to talk, or point you to detailed reviews. Check your state bar's website for disciplinary history — it takes two minutes and surprises people more often than you'd think.
 
 Also trust your gut at the consultation. Did the lawyer listen, or lecture? Did they explain things plainly, or hide behind jargon? You'll work with this person for a year or more through one of the most stressful periods of your life. Competence matters most, but you should also feel heard.
+
+## The settlement-mill problem: how to spot one
+
+Some firms run on volume: sign 1,000 cases a year, settle every one fast for whatever the insurer offers, and move on. The business model works for the firm. It rarely works for the client. Here's how to tell the difference between a settlement mill and a real trial practice.
+
+**The math gives it away.** A firm carrying 400+ active injury files per attorney cannot prepare any of them for trial — there aren't enough hours in the year. Ask directly: "How many open files does each attorney carry?" Under 50 is a real practice. Over 150 is a processing plant.
+
+**Watch the first meeting.** Settlement mills sign you up in 15 minutes, often with a non-lawyer "investigator" who shows up at your house or hospital room. Real firms have a lawyer evaluate your case, explain the weaknesses, and sometimes *decline* cases they can't add value to. A firm that accepts literally everyone isn't selective — it's hungry.
+
+**Check their trial footprint.** Search the firm's name plus "jury verdict" or "trial." Real trial lawyers leave a paper trail: reported verdicts, courtroom news coverage, speaking engagements at trial-lawyer conferences. If all you find is advertising, that's your answer.
+
+**The settlement pattern.** Ask: "What percentage of your cases settle before filing a lawsuit?" Anything over 95% filed-to-settled without meaningful litigation is a red flag — it means the firm never applies pressure, and insurers price that in. Your herniated disc is worth whatever the adjuster's spreadsheet says, because the adjuster knows no jury will ever see it.
+
+None of this means every big advertiser is bad. Some large firms do excellent trial work. But the billboard tells you about their marketing budget, not their courtroom record. The seven questions above tell you the rest.
 
 ## Red flags: when to walk away
 
