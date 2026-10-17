@@ -1,4 +1,5 @@
 import { getDb, isDbConfigured } from "@/lib/db";
+import { ensureCustomersTable } from "@/lib/customers";
 import { requireAdmin } from "../require-admin";
 
 export const dynamic = "force-dynamic";
@@ -7,6 +8,7 @@ export default async function UsersPage() {
   await requireAdmin();
   let customers: { id: number; email: string; name: string; created_at: string }[] = [];
   if (isDbConfigured()) {
+    await ensureCustomersTable();
     const db = getDb();
     const res = await db.execute(
       "SELECT id, email, name, created_at FROM customers ORDER BY created_at DESC LIMIT 200"

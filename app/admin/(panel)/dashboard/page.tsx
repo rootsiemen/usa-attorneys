@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { getDb, isDbConfigured } from "@/lib/db";
+import { ensureCustomersTable } from "@/lib/customers";
 import { requireAdmin } from "../require-admin";
 
 export const dynamic = "force-dynamic";
 
 async function getDashboardData() {
   if (!isDbConfigured()) return null;
+  await ensureCustomersTable();
   const db = getDb();
   const [a, c, pc, pr, tr, cu, pend] = await Promise.all([
     db.execute("SELECT COUNT(*) AS n FROM attorneys"),
