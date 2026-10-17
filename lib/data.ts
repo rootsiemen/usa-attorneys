@@ -1523,6 +1523,312 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       },
     ],
   },
+  {
+    slug: "truck-accident-attorney",
+    title: "Truck Accident Attorney",
+    shortTitle: "Truck Accident",
+    metaDescription:
+      "Find a truck accident attorney near you. FMCSA rules, black box evidence, multi-party liability, and contingency fees — explained plainly.",
+    directAnswer:
+      "What does a truck accident attorney do? A truck accident attorney represents people hurt in crashes with 18-wheelers and commercial trucks — investigating driver logs, black box data, and maintenance records to hold every liable party accountable: the driver, the trucking company, the cargo loader, and sometimes the freight broker. These cases run on federal FMCSA regulations layered over state law, which is why they demand a specialist, not a general car-accident lawyer.",
+    intro:
+      "A truck crash is not a big car crash. A loaded tractor-trailer can weigh 80,000 pounds — twenty times a passenger car — and the companies behind those trucks deploy rapid-response defense teams to crash scenes within hours. Truck accident attorneys work against that machinery: firing off spoliation letters to preserve electronic logging device (ELD) data before it can be legally destroyed, downloading the truck's engine control module for speed and braking records, and auditing the carrier's safety history in the FMCSA's public database. Because federal hours-of-service rules, maintenance standards, and insurance minimums govern every interstate truck, these lawyers operate in a regulatory world most personal injury attorneys never enter — and that expertise is often the difference between a lowball offer and full compensation.",
+    whatTheyDo: [
+      "Send spoliation letters within days of the crash to preserve ELD data, dashcam footage, driver qualification files, and dispatch records before the carrier can legally destroy them.",
+      "Download the truck's engine control module (ECM) — the black box — for speed, hard-braking events, RPM, and hours-of-service data from the moments before impact.",
+      "Audit the motor carrier's FMCSA safety record: prior hours-of-service violations, out-of-service orders, and crash history are all publicly searchable.",
+      "Identify every liable party — the driver, the motor carrier, the freight broker, the shipper or loader, the maintenance shop, and the parts manufacturer — because truck cases rarely have just one defendant.",
+      "Reconstruct the crash with accident reconstructionists who specialize in commercial-vehicle physics: stopping distances, underride dynamics, and jackknife mechanics.",
+      "Pursue the layered insurance stack — primary liability, excess, and umbrella policies — which on commercial trucks routinely totals in the millions.",
+    ],
+    whenYouNeed: [
+      "You were hit by an 18-wheeler, box truck, delivery van, tanker, or other commercial vehicle.",
+      "The trucking company's insurer or investigator contacted you before you had even left the hospital.",
+      "The crash involved a fatigued driver, an overloaded or improperly loaded trailer, or visibly neglected truck maintenance.",
+      "Multiple vehicles were involved and the trucking company is disputing fault.",
+      "You suffered serious or catastrophic injuries — truck crashes cause a disproportionate share of highway fatalities.",
+      "A loved one was killed in a commercial truck crash and the carrier is already lawyering up.",
+    ],
+    fees:
+      "Truck accident attorneys work on contingency: you pay nothing upfront, and the lawyer takes a percentage — typically 33% to 40% — of your settlement or verdict, often tiered higher if the case goes to trial. These cases demand expensive experts (reconstructionists, trucking-industry specialists, life-care planners), so ask how case costs are advanced and whether you owe them if the case is lost; reputable firms absorb those costs on a loss. Get the fee agreement in writing before signing anything.",
+    faqs: [
+      {
+        q: "How is a truck accident case different from a car accident case?",
+        a: "Four big differences: federal FMCSA regulations apply on top of state law; there are usually multiple defendants (driver, carrier, broker, shipper); critical evidence is electronic and can be destroyed within months; and commercial insurance minimums are far higher, which means the defense fights harder. A lawyer without trucking experience will miss regulatory violations that can make or break the case.",
+      },
+      {
+        q: "What are the FMCSA hours-of-service rules?",
+        a: "The Federal Motor Carrier Safety Administration limits property-carrying drivers to 11 hours of driving after 10 consecutive hours off duty, within a 14-hour on-duty window, plus a 30-minute break after 8 cumulative driving hours, and 60/70-hour caps over 7/8 days. When logbooks or ELD data show a driver exceeded these limits, that violation is powerful evidence of negligence.",
+      },
+      {
+        q: "How much insurance must a trucking company carry?",
+        a: "Federal law requires a minimum of $750,000 in liability coverage for general freight, rising to $1 million–$5 million for hazardous materials. In practice, many carriers layer excess and umbrella policies worth several million more. Your attorney's job includes finding every applicable policy — carriers rarely volunteer that information.",
+      },
+      {
+        q: "What is truck black box data and how long is it kept?",
+        a: "The engine control module (ECM) records speed, braking, throttle, and RPM; ELDs track driving hours and location. Carriers must retain supporting documents for only six months, and some data can be overwritten sooner — which is why attorneys send spoliation letters immediately demanding preservation. Once that data is gone, it is gone forever.",
+      },
+      {
+        q: "Who can be held liable after a truck crash?",
+        a: "Potentially many parties: the driver for negligent operation; the motor carrier under vicarious liability and for its own failures in hiring, training, or maintenance; the freight broker for negligently selecting an unsafe carrier; the shipper or loader for overweight or unbalanced cargo; the maintenance provider; and the manufacturer of a defective part. Naming every responsible party is how full compensation gets recovered.",
+      },
+    ],
+  },
+  {
+    slug: "oil-rig-injury-lawyer",
+    title: "Oil Rig Injury Lawyer",
+    shortTitle: "Oil Rig Injury",
+    metaDescription:
+      "Find an oil rig injury lawyer near you. Blowouts, H2S exposure, multi-contractor liability, and third-party claims — explained plainly.",
+    directAnswer:
+      "What does an oil rig injury lawyer do? An oil rig injury lawyer represents roughnecks, drillers, derrickhands, and other oilfield workers hurt on land-based drilling rigs — investigating blowouts, equipment failures, and hydrogen sulfide exposure, and pursuing claims against rig operators, contractors, and equipment makers. Because a single well site hosts multiple employers at once, these cases routinely go beyond workers' compensation into high-value third-party lawsuits.",
+    intro:
+      "A land drilling rig is one of the most dangerous workplaces in America: a towering derrick, high-pressure lines, explosive gases, and crews pulling 12-hour shifts in brutal heat, cold, and isolation. When something fails, the injuries are catastrophic — flash burns from blowouts, crush injuries from pipe handling, traumatic brain injuries from falls off the monkey board, lung damage from hydrogen sulfide (H2S) exposure. Oil rig injury lawyers know the patch: the chain of operators, drilling contractors, mudloggers, and fracking crews sharing one well site; OSHA's oil and gas standards; and the hard truth that a workers' comp check rarely covers the real cost of a life-altering injury. Their value is finding the third parties whose negligence actually caused the harm — and making them pay for all of it.",
+    whatTheyDo: [
+      "Investigate the incident using drilling reports, IADC tour sheets, safety meeting records, equipment maintenance logs, and H2S monitoring data.",
+      "Map every company on the well site — the operator, the drilling contractor, directional drillers, mud companies, fracking crews — because each may share liability for your injury.",
+      "Pursue third-party claims beyond workers' compensation against negligent contractors, operators, and defective equipment manufacturers.",
+      "Work with petroleum engineers and oilfield safety experts to prove what failed mechanically and which safety step was skipped.",
+      "Document the long-term harm: burns requiring skin grafts, respiratory damage, TBIs, amputations, and lost earning capacity in a high-wage trade.",
+      "Untangle workers' compensation liens against third-party settlements so medical liens don't eat your recovery.",
+    ],
+    whenYouNeed: [
+      "You were injured in a blowout, explosion, or flash fire on a drilling rig.",
+      "You were exposed to hydrogen sulfide (H2S) or other toxic gases on site and now have breathing or neurological problems.",
+      "Heavy equipment — top drives, drawworks, tongs, pipe handlers — crushed, struck, or caught you.",
+      "You fell from the derrick, the monkey board, rig stairs, or a catwalk.",
+      "A contractor's crew, the operator's decisions, or defective equipment caused your injury — not just your direct employer.",
+      "Workers' compensation doesn't come close to covering your lost wages, medical bills, or permanent disability.",
+    ],
+    fees:
+      "Oil rig injury lawyers take these cases on contingency — typically around one-third of the recovery, rising if the case goes to trial — with no upfront payment from you. Given the catastrophic injuries common on rigs, settlements and verdicts can be substantial, but proving them requires costly experts (petroleum engineers, life-care planners, economists), so confirm the firm advances all case expenses and only recovers them from a win. Never sign a fee agreement you haven't read fully.",
+    faqs: [
+      {
+        q: "Can I sue if I'm already receiving workers' compensation?",
+        a: "Yes — and you usually should explore it. Workers' comp covers claims against your direct employer, but it doesn't bar third-party lawsuits against the well operator, other contractors on site, or equipment manufacturers whose negligence caused your injury. Those third-party claims are where the significant compensation lives, because workers' comp alone never pays for pain and suffering or full lost earning capacity.",
+      },
+      {
+        q: "What is hydrogen sulfide (H2S) exposure and why is it so dangerous?",
+        a: "H2S is a colorless, highly toxic gas common in oil and gas production — deadly at high concentrations and capable of causing lasting respiratory, neurological, and eye damage even at lower exposures. OSHA sets a 20 ppm ceiling with a 50 ppm peak limit. When operators fail to monitor, alarm, or equip crews with breathing apparatus, H2S injuries become a clear liability case.",
+      },
+      {
+        q: "Who is liable when multiple contractors work the same well site?",
+        a: "Potentially all of them. The operator controls the site, the drilling contractor runs the rig, and service companies bring their own crews and equipment — each owes safety duties to workers on location. A thorough investigation of contracts, safety records, and witness accounts determines how fault is shared, and your lawyer names every negligent party rather than letting them point fingers at each other.",
+      },
+      {
+        q: "What if I was classified as an independent contractor, not an employee?",
+        a: "Oilfield misclassification is rampant, and it often works in your favor: true independent contractors aren't limited to workers' comp at all and can sue negligent parties directly for full damages. Even if the classification holds, you can still bring third-party claims against everyone except your direct employer. Don't assume a 1099 means you have no case.",
+      },
+      {
+        q: "How long do I have to file an oil rig injury claim?",
+        a: "State statutes of limitations — commonly two to three years — set the legal deadline, but the practical deadline is much sooner: rigs move to new locations, crews disperse across states, and equipment gets repaired or scrapped. Critical evidence like tour sheets and gas monitoring logs can vanish within months. Contact a lawyer immediately after a serious rig injury.",
+      },
+    ],
+  },
+  {
+    slug: "offshore-accident-lawyer",
+    title: "Offshore Accident Lawyer",
+    shortTitle: "Offshore Accident",
+    metaDescription:
+      "Find an offshore accident lawyer near you. Jones Act rights, maintenance and cure, unseaworthiness claims — explained plainly.",
+    directAnswer:
+      "What does an offshore accident lawyer do? An offshore accident lawyer represents seamen, deckhands, and offshore workers injured on vessels, rigs, and platforms — filing claims under the Jones Act, the century-old federal law that gives maritime workers far stronger rights than land-based employees receive. These attorneys also pursue unseaworthiness claims against vessel owners and Longshore Act claims for harbor workers, working in a body of law most personal injury lawyers never touch.",
+    intro:
+      "Maritime injury law is the oldest in America — and the most generous to workers. Since 1920, the Jones Act (46 U.S.C. § 30104) has let seamen sue their employers for negligence under a featherweight burden of proof, while the ancient doctrine of maintenance and cure obligates employers to pay daily living expenses and medical care regardless of fault. Vessel owners separately owe an absolute, non-delegable duty to furnish a seaworthy vessel. Offshore accident lawyers live in this parallel legal universe: the Jones Act, unseaworthiness, the Longshore and Harbor Workers' Compensation Act, the Outer Continental Shelf Lands Act, and the Death on the High Seas Act — each with its own definitions, deadlines, and remedies. Choosing a lawyer who can't tell a Jones Act seaman from a Longshore harbor worker is how strong maritime claims die quietly.",
+    whatTheyDo: [
+      "Determine your exact maritime status — Jones Act seaman, Longshore harbor worker, or OCSLA platform worker — because each status unlocks a different set of rights and remedies.",
+      "File Jones Act negligence claims, where even the slightest employer fault can establish liability under the Act's famously light causation standard.",
+      "Pursue unseaworthiness claims against vessel owners for unsafe conditions, defective gear, or an incompetent or inadequate crew — liability that doesn't require proving negligence at all.",
+      "Demand maintenance and cure — your daily stipend plus medical care — which the employer owes from day one with no lawsuit required, and fight back when payments are cut off.",
+      "Defeat the McCorpen defense, where employers try to void your entire claim by alleging you concealed a pre-existing condition when hired.",
+      "Navigate the three-year Jones Act limitations period and the special jurisdictional rules for injuries beyond the three-mile limit and on the high seas.",
+    ],
+    whenYouNeed: [
+      "You were injured working aboard a ship, tug, barge, supply vessel, fishing boat, or offshore drilling unit.",
+      "Your employer stopped paying maintenance and cure, or is pressuring you to sign a release before your treatment is finished.",
+      "Defective equipment, an undermanned crew, or unsafe orders at sea caused your injury.",
+      "You work on docks, terminals, or in shipyards and were injured on or over navigable waters.",
+      "A loved one died working offshore — maritime wrongful death under DOHSA and the Jones Act follows very different rules than state law.",
+      "Your injury happened beyond state waters, where state workers' compensation doesn't apply at all.",
+    ],
+    fees:
+      "Offshore accident lawyers work on contingency — typically one-third to 40% of the recovery — with no upfront fees and case costs for maritime experts and vessel inspections advanced by the firm. One critical difference from land cases: maintenance and cure is owed immediately and separately from any lawsuit, so a good maritime lawyer gets those daily payments and medical bills flowing before any settlement is negotiated. If your employer has cut off maintenance, that alone is reason to call.",
+    faqs: [
+      {
+        q: "What is the Jones Act?",
+        a: "The Merchant Marine Act of 1920, codified at 46 U.S.C. § 30104, gives seamen — workers who contribute to a vessel's mission and have a substantial connection to it — the right to sue their employers for negligence with a featherweight causation standard: the employer's fault need only have played the slightest part. It also guarantees a jury trial and carries a three-year statute of limitations. It remains the single most powerful worker-protection statute in American injury law.",
+      },
+      {
+        q: "What are maintenance and cure?",
+        a: "Two ancient maritime obligations owed to an injured seaman regardless of fault: maintenance, a daily living allowance paid while you're recovering and unable to work, and cure, payment of your medical treatment until you reach maximum medical improvement. The employer owes both from the moment of injury — no lawsuit needed — and willfully refusing to pay can trigger punitive damages under Atlantic Sounding v. Townsend.",
+      },
+      {
+        q: "What's the difference between the Jones Act and the Longshore Act?",
+        a: "The Jones Act covers seamen — the crew of vessels — and requires proving employer negligence (though the burden is light), with full tort damages including pain and suffering. The Longshore and Harbor Workers' Compensation Act (33 U.S.C. § 901) covers harbor workers, longshoremen, and shipyard workers: it's a federal workers' comp system that pays without proving fault but doesn't allow pain-and-suffering damages. Your lawyer's first job is determining which one you fall under.",
+      },
+      {
+        q: "What does it mean for a vessel to be unseaworthy?",
+        a: "A vessel is unseaworthy when the ship, its equipment, or its crew is not reasonably fit for its intended use — a slippery deck, a frayed line, a broken winch, or an undertrained crew all qualify. The owner's duty to provide a seaworthy vessel is absolute: if unseaworthiness caused your injury, the owner is liable even without negligence. This claim can be brought alongside a Jones Act negligence claim for maximum recovery.",
+      },
+      {
+        q: "Does the Jones Act apply on offshore oil platforms?",
+        a: "It depends on the structure. Jack-up rigs and drillships that move on navigable waters generally count as vessels, so their crews are Jones Act seamen. Fixed platforms attached to the seabed fall under the Outer Continental Shelf Lands Act, which typically extends Longshore Act benefits instead. Employers routinely misclassify platform workers to dodge Jones Act liability — status disputes are common, and they're winnable with the right lawyer.",
+      },
+    ],
+  },
+  {
+    slug: "construction-accident-lawyer",
+    title: "Construction Accident Lawyer",
+    shortTitle: "Construction Accidents",
+    metaDescription:
+      "Hurt on a construction site? How construction accident lawyers handle OSHA violations, third-party claims, and workers' comp — explained plainly.",
+    directAnswer:
+      "What does a construction accident lawyer do? A construction accident lawyer represents workers hurt on job sites — falls, equipment failures, trench collapses, electrocutions — pursuing compensation beyond workers' comp by filing third-party claims against general contractors, subcontractors, property owners, and equipment manufacturers. They turn OSHA violations, safety records, and inspection reports into leverage for full recovery.",
+    intro:
+      "Construction remains one of America's deadliest industries — about 1,069 construction workers died on the job in 2022 alone, roughly one in five of all U.S. workplace fatalities. OSHA calls the four leading killers the Fatal Four: falls (about 36–39% of construction deaths), struck-by incidents, electrocutions, and caught-in/between accidents, together responsible for roughly 60% of construction deaths. A construction accident lawyer knows that workers' compensation is only the starting point. The real recovery usually comes from third-party claims against the other companies on the site — the general contractor who controlled safety, the subcontractor who created the hazard, or the manufacturer of the defective scaffold, crane, or power tool.",
+    whatTheyDo: [
+      "Investigate the accident scene: OSHA reports, site safety plans, training records, equipment maintenance logs, and witness statements from the crew.",
+      "Identify every liable party beyond your employer — general contractors, subcontractors, property owners, architects, engineers, and equipment manufacturers.",
+      "Preserve critical evidence fast: subpoena inspection records, operator certifications, and toolbox-talk logs before they disappear.",
+      "Coordinate your workers' comp claim while building the separate third-party lawsuit, which is where the larger recovery comes from.",
+      "Work with safety engineers and medical experts to prove how the violation caused your injury and what your lifetime care will cost.",
+      "Negotiate with multiple insurers at once — and take the case to trial when contractors blame each other instead of paying.",
+    ],
+    whenYouNeed: [
+      "You fell from a scaffold, ladder, roof, or unprotected edge — falls are the #1 construction killer and the #1 most-cited OSHA violation.",
+      "You were struck by falling materials, a swinging crane load, or a backing vehicle on site.",
+      "You were electrocuted or shocked by live wires, defective tools, or unmarked power lines.",
+      "You were caught in or crushed by machinery, a trench cave-in, or collapsing materials.",
+      "Your employer's workers' comp check doesn't cover your lost earning capacity, or a contractor is pressuring you not to report.",
+      "A family member was killed on a job site and you need to know whether a wrongful death claim exists alongside workers' comp.",
+    ],
+    fees:
+      "Construction accident lawyers almost always work on contingency for third-party claims — typically about one-third of the recovery, with nothing paid upfront. The workers' comp portion is usually handled under state-regulated fee schedules that cap what the lawyer can take. Because third-party cases involve multiple defendants and insurers, ask in writing how fees apply if the case settles with some defendants but goes to trial against others.",
+    faqs: [
+      {
+        q: "Isn't workers' comp my only option after a construction accident?",
+        a: "No — workers' comp is your exclusive remedy against your own employer in most states, but it is not your only option overall. You can separately sue negligent third parties: the general contractor, other subcontractors, the property owner, or equipment manufacturers. These third-party claims are where the real money is — they cover pain and suffering and full lost wages, which workers' comp does not. A lawyer maps every company on the site to find them.",
+      },
+      {
+        q: "What are OSHA's Fatal Four, and why do they matter for my case?",
+        a: "The Fatal Four are falls, struck-by incidents, electrocutions, and caught-in/between accidents — they cause roughly 60% of construction deaths. They matter because OSHA has detailed safety standards for each (like 29 CFR 1926.501 for fall protection, the most-cited violation in construction). When an employer or contractor violated one of these standards, that citation becomes powerful evidence of negligence in your lawsuit.",
+      },
+      {
+        q: "What if I was partially at fault for my construction accident?",
+        a: "In most states, partial fault reduces but does not eliminate your recovery under comparative negligence rules — a worker found 20% at fault still recovers 80% of damages. And fault is often shared across multiple contractors, which can actually increase the total pool of insurance available. Never assume you have no case because a foreman said you should have been more careful.",
+      },
+      {
+        q: "Can I sue if I am an undocumented construction worker?",
+        a: "In most states, yes. Immigration status generally does not bar an injured worker from workers' comp benefits or a third-party personal injury claim, and courts in many jurisdictions limit what defendants can even ask about status. Wage calculations may be disputed, but the right to compensation stands. Speak with a lawyer before discussing status with anyone on the site.",
+      },
+      {
+        q: "How long do I have to file a construction accident lawsuit?",
+        a: "Deadlines vary by state — typically 2 to 3 years for the third-party injury claim, but workers' comp has much shorter notice deadlines, sometimes as little as 30 days to report the injury to your employer. Miss the comp notice window and you can lose benefits even with a valid lawsuit. Report the injury in writing immediately and get a lawyer involved early.",
+      },
+    ],
+  },
+  {
+    slug: "mesothelioma-attorney",
+    title: "Mesothelioma Attorney",
+    shortTitle: "Mesothelioma",
+    metaDescription:
+      "Diagnosed with mesothelioma? How asbestos attorneys file trust fund claims and lawsuits, what the $30B in trusts means for you — explained plainly.",
+    directAnswer:
+      "What does a mesothelioma attorney do? A mesothelioma attorney helps people diagnosed with asbestos-related diseases trace decades-old exposure, then files claims against the $30 billion in asbestos bankruptcy trust funds and lawsuits against the companies responsible. Because mesothelioma takes 20 to 50 years to appear, these lawyers specialize in reconstructing work histories from the 1960s through the 1980s to identify every liable manufacturer.",
+    intro:
+      "Mesothelioma is a rare, aggressive cancer caused almost exclusively by asbestos exposure — and it hides for 20 to 50 years before symptoms appear. By the time of diagnosis, the companies that made the asbestos products have often gone bankrupt. That is why Congress and the bankruptcy courts created the asbestos trust system: more than 60 active trusts holding roughly $30 billion, set up by companies like Johns Manville (the first, funded with $2.5 billion back in 1988) to pay current and future victims. A mesothelioma attorney's core skill is exposure archaeology — rebuilding your work history product by product, job site by job site, to file claims with every trust you qualify for, usually 20 or more, plus any viable lawsuits.",
+    whatTheyDo: [
+      "Reconstruct your asbestos exposure history: job sites, military service, products handled, and secondhand exposure from a family member's work clothes.",
+      "Identify which of the 60+ asbestos trust funds you qualify for — most victims file with 20 or more trusts at once.",
+      "File trust claims under expedited review (often decided within about 90 days) or individual review for stronger, higher-value claims.",
+      "Pursue lawsuits against solvent companies that have not gone bankrupt, in addition to trust claims — you can do both.",
+      "Handle VA disability claims for veterans, who make up a large share of mesothelioma patients due to Navy and shipyard exposure.",
+      "Manage disclosure and setoff rules so trust payments do not undercut your lawsuit recovery under your state's laws.",
+    ],
+    whenYouNeed: [
+      "You or a family member was just diagnosed with mesothelioma, lung cancer, or asbestosis with a history of asbestos exposure.",
+      "You worked in construction, shipyards, power plants, refineries, auto repair, or manufacturing before the mid-1980s.",
+      "You served in the Navy or worked in shipbuilding — veterans face some of the highest asbestos exposure rates of any group.",
+      "A loved one died of mesothelioma and you need to know whether the family can still file claims.",
+      "You were exposed secondhand — for example, washing a spouse's or parent's dusty work clothes for years.",
+      "An earlier claim was denied or underpaid, or you suspect more trusts apply to your exposure than were originally filed.",
+    ],
+    fees:
+      "Mesothelioma attorneys work on contingency — no upfront cost, with fees typically around one-third to 40% of the recovery, taken only if you win. Because cases involve dozens of trust filings plus possible lawsuits, ask exactly how the fee applies across trust payments versus lawsuit settlements, and whether costs like medical-record retrieval are deducted before or after the fee is calculated. Reputable firms advance all costs.",
+    faqs: [
+      {
+        q: "How much compensation can a mesothelioma case bring?",
+        a: "It varies widely. Individual trust claims average around $41,000 according to RAND research, but most victims file with 20 or more trusts, bringing combined trust recoveries to roughly $300,000 to $400,000. Lawsuits against solvent companies can add significantly more — some verdicts reach millions. An attorney evaluates your exposure history to estimate the realistic range before you file anything.",
+      },
+      {
+        q: "What is the statute of limitations for mesothelioma?",
+        a: "Typically 2 to 3 years, but the clock starts at diagnosis — not at exposure — because of the 20-to-50-year latency period. This discovery rule exists precisely because no one could have known they were injured decades ago. Still, waiting is dangerous: evidence and witnesses fade, and some trusts have their own filing deadlines. Call promptly after diagnosis.",
+      },
+      {
+        q: "Can I file a trust claim and a lawsuit at the same time?",
+        a: "Yes — they are separate systems. Trust claims go through the bankruptcy trusts' administrative process (often resolved in months), while lawsuits target companies that are still in business and can take a year or more. Some states require you to disclose trust payments in the lawsuit, and setoff rules may reduce the lawsuit award by amounts already received, which is why coordinating both through one attorney matters.",
+      },
+      {
+        q: "What if the company that exposed me went bankrupt decades ago?",
+        a: "That is exactly what the trust system is for. When asbestos companies filed Chapter 11 bankruptcy, courts forced them to fund trusts for future victims as a condition of protection. Your attorney files a claim directly with each relevant trust — no lawsuit against the bankrupt company needed. With 60+ active trusts, bankrupt manufacturers are often the easiest money in the case, not a dead end.",
+      },
+      {
+        q: "Do veterans get additional help for asbestos exposure?",
+        a: "Yes. Veterans exposed during military service — especially Navy veterans who worked around ship insulation, boilers, and engine rooms — can file VA disability claims alongside trust and lawsuit claims. Mesothelioma is typically rated at 100% disability by the VA. A mesothelioma attorney experienced with veterans coordinates all three tracks so nothing is left on the table.",
+      },
+    ],
+  },
+  {
+    slug: "motorcycle-accident-lawyer",
+    title: "Motorcycle Accident Lawyer",
+    shortTitle: "Motorcycle Accidents",
+    metaDescription:
+      "Hurt in a motorcycle crash? How motorcycle accident lawyers fight rider bias, handle helmet and lane-splitting issues — explained plainly.",
+    directAnswer:
+      "What does a motorcycle accident lawyer do? A motorcycle accident lawyer represents riders hurt in crashes — fighting the built-in bias that motorcyclists are reckless, proving the other driver was at fault, and navigating motorcycle-specific issues like helmet laws, lane-splitting rules, and severe injury valuations. They know that a jury's first instinct about a rider is often wrong, and they build the case to overcome it.",
+    intro:
+      "Motorcyclists are about 29 times more likely than car occupants to die in a crash per mile traveled — yet when a crash happens, the rider is the one who has to prove they weren't the reckless one. Insurance adjusters and juries carry a quiet bias: they assume the motorcyclist was speeding, weaving, or asking for it. A motorcycle accident lawyer's first job is often dismantling that assumption with evidence — helmet camera footage, black-box data, witness statements, and accident reconstruction. The second job is knowing the motorcycle-specific law cold: which states require helmets, where lane splitting or filtering is legal, and how a state's comparative fault rules interact with a rider's choices.",
+    whatTheyDo: [
+      "Counter rider bias from the start — frame the case around the driver's negligence, not the motorcycle, in every filing and negotiation.",
+      "Preserve bike-specific evidence: helmet damage patterns, gear abrasion, skid marks, bike computer data, and helmet or dash camera footage.",
+      "Handle helmet-law issues — in many states, not wearing a helmet can reduce but not eliminate recovery, and the defense must still prove the helmet would have prevented your specific injuries.",
+      "Address lane-splitting and filtering questions with your state's actual law — legal only in California for full splitting, with limited filtering now allowed in Utah, Montana, Arizona, Colorado, and Minnesota.",
+      "Work with trauma doctors and life-care planners to document catastrophic injuries — road rash, degloving, amputations, traumatic brain injury — that define motorcycle cases.",
+      "Stack every available policy: the at-fault driver's liability, your own uninsured/underinsured motorist coverage, and umbrella policies most riders don't know they have.",
+    ],
+    whenYouNeed: [
+      "A driver turned left in front of you, merged into your lane, or opened a door into your path — the classic motorcycle crash scenarios.",
+      "The insurance company is blaming you for the crash because you ride a motorcycle, or lowballing because they assume a jury will too.",
+      "You suffered serious road rash, fractures, amputation, spinal injury, or traumatic brain injury in the crash.",
+      "The at-fault driver is uninsured or underinsured and your own UM/UIM coverage needs to be triggered.",
+      "A defective bike part — brakes, tires, steering — contributed to the crash, opening a product liability claim.",
+      "A loved one was killed riding and the insurer is already framing it as rider error.",
+    ],
+    fees:
+      "Motorcycle accident lawyers work on contingency — typically about one-third of the settlement, more if the case goes to trial, with nothing owed upfront. Because motorcycle injuries are often catastrophic, cases may involve larger expert costs (accident reconstruction, life-care planning); ask in writing whether those costs come off the top before or after the fee percentage. Most offer free consultations and will review your insurance stack at no charge.",
+    faqs: [
+      {
+        q: "Will not wearing a helmet ruin my motorcycle accident case?",
+        a: "Not necessarily — it depends on your state. In states without universal helmet laws, the defense still has to prove a helmet would have prevented your specific injuries; a broken leg has nothing to do with a helmet. Even where helmet non-use is admissible, it typically reduces damages under comparative fault rather than eliminating the claim. Never let an adjuster tell you the case is worthless over a helmet.",
+      },
+      {
+        q: "Is lane splitting legal, and does it affect my claim?",
+        a: "Full lane splitting is legal only in California. Limited lane filtering — passing stopped or very slow traffic at low speed — is now legal in Utah, Montana, Arizona, Colorado, and Minnesota, each with specific speed and road conditions. Everywhere else, splitting can be cited as unsafe lane use or reckless driving, which the insurer will use against you. A lawyer checks exactly what your state's law allowed at your crash location.",
+      },
+      {
+        q: "Why do motorcycle cases need a specialist instead of any injury lawyer?",
+        a: "Three reasons: bias, injuries, and insurance. Juries and adjusters start skeptical of riders, so the case must be framed differently from a car crash. Injuries are typically far more severe, requiring different medical and life-care expertise. And motorcycle insurance stacks differently — many riders carry UM/UIM on both bike and auto policies without realizing it. A generalist misses these layers.",
+      },
+      {
+        q: "What is my motorcycle accident case worth?",
+        a: "Motorcycle cases often value higher than car cases because the injuries are worse — road rash requiring skin grafts, compound fractures, amputations, and TBIs generate large medical bills and lost earning capacity. Value turns on injury severity, permanence, the clarity of the other driver's fault, and available insurance. Severe-injury cases regularly reach six and seven figures when coverage exists.",
+      },
+      {
+        q: "What should I do right after a motorcycle crash?",
+        a: "Get medical care immediately — adrenaline masks serious injuries and gaps in treatment hurt claims. Preserve your helmet and gear exactly as they are; damage patterns are evidence. Photograph everything, get witness contacts, and do not give a recorded statement to the other driver's insurer. Then call a lawyer before your bike is repaired or declared a total loss, because the bike itself is evidence.",
+      },
+    ],
+  },
 ];
 
 export const DISCLAIMER =
