@@ -15,8 +15,8 @@ async function checkAuth(): Promise<boolean> {
 }
 
 /**
- * GET /api/admin?action=claims|reviews&status=pending|approved|rejected
- * Header: x-admin-password: <ADMIN_PASSWORD>
+ * GET /api/admin?action=claims|reviews|stats|attorneys&status=pending|approved|rejected&q=...
+ * Auth: admin session cookie.
  */
 export async function GET(req: NextRequest) {
   if (!(await checkAuth())) return unauthorized();
@@ -31,6 +31,37 @@ export async function GET(req: NextRequest) {
   }
   try {
     const db = getDb();
+    if (action === "stats") {
+      const [a, c, pc, pr, tr] = await Promise.all([
+        db.execute("SELECT COUNT(*) AS n FROM attorneys"),
+        db.execute("SELECT COUNT(*) AS n FROM attorneys WHERE claimed = 1"),
+        db.execute("SELECT COUNT(*) AS n FROM claim_requests WHERE status = 'pending'"),
+        db.execute("SELECT COUNT(*) AS n FROM reviews WHERE status = 'pending'"),
+        db.execute("SELECT COUNT(*) AS n FROM reviews"),
+      ]);
+      return NextResponse.json({
+        stats: {
+          attorneys: Number(a.rows[0]?.n ?? 0),
+          claimed: Number(c.rows[0]?.n ?? 0),
+          pendingClaims: Number(pc.rows[0]?.n ?? 0),
+          pendingReviews: Number(pr.rows[0]?.n ?? 0),
+          totalReviews: Number(tr.rows[0]?.n ?? 0),
+        },
+      });
+    }
+    if (action === "attorneys") {
+      const q = (searchParams.get("q") || "").trim().slice(0, 80);
+      if (q.length < 2) {
+        return NextResponse.json({ attorneys: [] });
+      }
+      const res = await db.execute({
+        sql: `SELECT slug, name, firm, city, state, phone, website, address, claimed
+              FROM attorneys WHERE name LIKE ? OR firm LIKE ?
+              ORDER BY name LIMIT 50`,
+        args: [`%${q}%`, `%${q}%`],
+      });
+      return NextResponse.json({ attorneys: res.rows });
+    }
     if (action === "claims") {
       const res = await db.execute({
         sql: `SELECT c.*, a.name AS attorney_name, a.city AS attorney_city
@@ -116,6 +147,56 @@ export async function POST(req: NextRequest) {
         args: [status, id],
       });
       return NextResponse.json({ ok: true, status });
+    }
+    if (action === "update-attorney") {
+      const slug = String(body.slug || "").trim().toLowerCase().slice(0, 160);
+      if (!slug) {
+        return NextResponse.json({ error: "slug is required" }, { status: 400 });
+      }
+      const fields: Record<string, number> = {
+        phone: 40,
+        firm: 200,
+        city: 100,
+        website: 300,
+        address: 300,
+      };
+      const sets: string[] = [];
+      const args: (string | number)[] = [];
+      for (const [k, max] of Object.entries(fields)) {
+        if (body[k] !== undefined) {
+          sets.push(`${k} = ?`);
+          args.push(String(body[k] ?? "").trim().slice(0, max));
+        }
+      }
+      if (body.claimed !== undefined) {
+        sets.push("claimed = ?");
+        args.push(body.claimed ? 1 : 0);
+      }
+      if (sets.length === 0) {
+        return NextResponse.json({ error: "No fields to update" }, { status: 400 });
+      }
+      args.push(slug);
+      const res = await db.execute({
+        sql: `UPDATE attorneys SET ${sets.join(", ")} WHERE slug = ?`,
+        args,
+      });
+      if (res.rowsAffected === 0) {
+        return NextResponse.json({ error: "Attorney not found" }, { status: 404 });
+      }
+      return NextResponse.json({ ok: true });
+    }
+    if (action === "delete-attorney") {
+      const slug = String(body.slug || "").trim().toLowerCase().slice(0, 160);
+      if (!slug) {
+        return NextResponse.json({ error: "slug is required" }, { status: 400 });
+      }
+      await db.execute({ sql: "DELETE FROM reviews WHERE attorney_slug = ?", args: [slug] });
+      await db.execute({ sql: "DELETE FROM claim_requests WHERE attorney_slug = ?", args: [slug] });
+      const res = await db.execute({ sql: "DELETE FROM attorneys WHERE slug = ?", args: [slug] });
+      if (res.rowsAffected === 0) {
+        return NextResponse.json({ error: "Attorney not found" }, { status: 404 });
+      }
+      return NextResponse.json({ ok: true });
     }
     return NextResponse.json({ error: "Unknown action" }, { status: 400 });
   } catch (e) {
