@@ -4,7 +4,9 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function AdminLayout({
+export const dynamic = "force-dynamic";
+
+export default function AdminRootLayout({
   children,
 }: {
   children: React.ReactNode;

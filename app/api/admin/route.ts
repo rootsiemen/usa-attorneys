@@ -198,6 +198,63 @@ export async function POST(req: NextRequest) {
       }
       return NextResponse.json({ ok: true });
     }
+    if (action === "create-attorney") {
+      const name = String(body.name ?? "").trim().slice(0, 200);
+      const city = String(body.city ?? "").trim().slice(0, 100);
+      const state = String(body.state ?? "").trim().slice(0, 100);
+      if (!name || !city || !state) {
+        return NextResponse.json({ error: "Name, city and state are required" }, { status: 400 });
+      }
+      const firm = String(body.firm ?? "").trim().slice(0, 200);
+      const phone = String(body.phone ?? "").trim().slice(0, 40);
+      const website = String(body.website ?? "").trim().slice(0, 300);
+      const address = String(body.address ?? "").trim().slice(0, 300);
+      // Slug: name-city-state, lowercased, non-alnum -> hyphen; ensure unique
+      let base = `${name} ${city} ${state}`.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 150);
+      if (!base) base = "attorney";
+      let slug = base;
+      let n = 2;
+      for (;;) {
+        const exists = await db.execute({ sql: "SELECT 1 FROM attorneys WHERE slug = ? LIMIT 1", args: [slug] });
+        if (exists.rows.length === 0) break;
+        slug = `${base}-${n}`;
+        n += 1;
+        if (n > 100) {
+          return NextResponse.json({ error: "Could not generate a unique URL" }, { status: 500 });
+        }
+      }
+      await db.execute({
+        sql: `INSERT INTO attorneys (slug, name, firm, state, city, phone, website, address, practice_areas, claimed)
+              VALUES (?, ?, ?, ?, ?, ?, ?, ?, '[]', 1)`,
+        args: [slug, name, firm, state, city, phone, website, address],
+      });
+      return NextResponse.json({ ok: true, slug }, { status: 201 });
+    }
+    if (action === "change-password") {
+      const adminEmail = await getAdminSession();
+      if (!adminEmail) return unauthorized();
+      const currentPassword = String(body.currentPassword ?? "");
+      const newPassword = String(body.newPassword ?? "");
+      if (newPassword.length < 10 || newPassword.length > 128) {
+        return NextResponse.json({ error: "New password must be 10–128 characters" }, { status: 400 });
+      }
+      const row = await db.execute({
+        sql: "SELECT password_hash FROM admin_users WHERE email = ? LIMIT 1",
+        args: [adminEmail],
+      });
+      if (row.rows.length === 0) {
+        return NextResponse.json({ error: "Admin not found" }, { status: 404 });
+      }
+      const { verifyPassword, hashPassword } = await import("@/lib/admin-auth");
+      if (!(await verifyPassword(currentPassword, String(row.rows[0].password_hash)))) {
+        return NextResponse.json({ error: "Current password is incorrect" }, { status: 401 });
+      }
+      await db.execute({
+        sql: "UPDATE admin_users SET password_hash = ?, updated_at = datetime('now') WHERE email = ?",
+        args: [await hashPassword(newPassword), adminEmail],
+      });
+      return NextResponse.json({ ok: true });
+    }
     return NextResponse.json({ error: "Unknown action" }, { status: 400 });
   } catch (e) {
     console.error("POST /api/admin failed:", e);
