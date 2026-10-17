@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { timingSafeEqual } from "node:crypto";
 import { getDb, isDbConfigured } from "@/lib/db";
+import { getAdminSession } from "@/lib/admin-auth";
 
 export const dynamic = "force-dynamic";
 
@@ -8,18 +8,10 @@ function unauthorized(): NextResponse {
   return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 }
 
-/** Constant-time password comparison to resist timing attacks. */
-function checkAuth(req: NextRequest): boolean {
-  const expected = process.env.ADMIN_PASSWORD;
-  if (!expected) return false;
-  const provided =
-    req.headers.get("x-admin-password") || new URL(req.url).searchParams.get("pw") || "";
-  const a = Buffer.from(provided, "utf8");
-  const b = Buffer.from(expected, "utf8");
-  // timingSafeEqual throws on length mismatch — compare lengths first
-  // in a way that still runs in constant time for equal lengths.
-  if (a.length !== b.length) return false;
-  return timingSafeEqual(a, b);
+/** Admin session check: signed httpOnly cookie set at login. */
+async function checkAuth(): Promise<boolean> {
+  const email = await getAdminSession();
+  return email !== null;
 }
 
 /**
@@ -27,7 +19,7 @@ function checkAuth(req: NextRequest): boolean {
  * Header: x-admin-password: <ADMIN_PASSWORD>
  */
 export async function GET(req: NextRequest) {
-  if (!checkAuth(req)) return unauthorized();
+  if (!(await checkAuth())) return unauthorized();
   if (!isDbConfigured()) {
     return NextResponse.json({ error: "Database not configured" }, { status: 503 });
   }
@@ -72,7 +64,7 @@ export async function GET(req: NextRequest) {
  * Approving a claim also sets attorneys.claimed = 1 for that profile.
  */
 export async function POST(req: NextRequest) {
-  if (!checkAuth(req)) return unauthorized();
+  if (!(await checkAuth())) return unauthorized();
   if (!isDbConfigured()) {
     return NextResponse.json({ error: "Database not configured" }, { status: 503 });
   }
