@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL, ALL_STATES, PRACTICE_AREAS } from "@/lib/data";
+import { SITE_URL, ALL_STATES, PRACTICE_AREAS, ATTORNEYS } from "@/lib/data";
 import { getAllPosts } from "@/lib/posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -36,6 +36,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date("2026-10-16"),
       changeFrequency: "monthly",
       priority: 0.9,
+    });
+  }
+
+  for (const a of ATTORNEYS) {
+    urls.push({
+      url: `${SITE_URL}/attorney/${a.slug}`,
+      lastModified: new Date("2026-10-17"),
+      changeFrequency: "monthly",
+      priority: 0.8,
     });
   }
 

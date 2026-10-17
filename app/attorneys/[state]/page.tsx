@@ -9,6 +9,7 @@ import {
   STATE_FAQ_SETS,
   DISCLAIMER,
   getState,
+  getAttorneysByState,
 } from "@/lib/data";
 import { Faq } from "@/components/Faq";
 import { DevCta } from "@/components/DevCta";
@@ -47,6 +48,7 @@ export default function StatePage({ params }: { params: { state: string } }) {
   const stateIndex = ALL_STATES.findIndex((s) => s.slug === state.slug);
   const faqs = STATE_FAQ_SETS[stateIndex % STATE_FAQ_SETS.length](state.name);
   const url = `${SITE_URL}/attorneys/${state.slug}`;
+  const attorneys = getAttorneysByState(state.slug);
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -144,6 +146,53 @@ export default function StatePage({ params }: { params: { state: string } }) {
           </div>
         </div>
       </section>
+
+      {attorneys.length > 0 && (
+        <section className="section">
+          <div className="container">
+            <h2 style={{ textAlign: "center" }}>
+              Attorneys in {state.name}
+            </h2>
+            <p className="center" style={{ maxWidth: 640, margin: "0 auto 24px" }}>
+              {attorneys.length} {attorneys.length === 1 ? "attorney" : "attorneys"} listed
+              in {state.name}. Click a profile for contact details and practice areas.
+            </p>
+            <div className="grid-3">
+              {attorneys.map((a) => (
+                <Link
+                  key={a.slug}
+                  href={`/attorney/${a.slug}`}
+                  className="attorney-card"
+                >
+                  <div className="attorney-avatar" aria-hidden="true">
+                    {a.name
+                      .split(" ")
+                      .filter(Boolean)
+                      .slice(0, 2)
+                      .map((w) => w[0]?.toUpperCase() ?? "")
+                      .join("")}
+                  </div>
+                  <div>
+                    <h3>{a.name}</h3>
+                    <p className="firm">
+                      {a.firm} · {a.city}
+                    </p>
+                    <p className="meta">
+                      <span className="phone">{a.phone}</span>
+                      {a.claimed ? (
+                        <span className="badge-claimed">✓ Claimed</span>
+                      ) : (
+                        <span className="badge-unclaimed">Unclaimed</span>
+                      )}
+                    </p>
+                    <span className="card-link">View Profile →</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="section alt">
         <div className="container prose">
