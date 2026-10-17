@@ -114,6 +114,15 @@ export default function StatePage({ params }: { params: { state: string } }) {
           <h2>What Attorneys Cost in {state.name}</h2>
           <p>{state.fees}</p>
 
+          <h2>Legal Aid & Free Help in {state.name}</h2>
+          <p>{state.legalAid}</p>
+
+          <h2>How the {state.name} Court System Works</h2>
+          <p>{state.courtSystem}</p>
+
+          <h2>Notable {state.name} Laws to Know</h2>
+          <p>{state.notableLaws}</p>
+
           <h2>{state.name} Attorneys by Practice Area</h2>
           <p>
             Select the legal issue closest to yours. Every guide below covers

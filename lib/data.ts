@@ -11,6 +11,12 @@ export interface StateInfo {
   finding: string;
   /** Fee landscape paragraph (~70 words). */
   fees: string;
+  /** State-specific legal aid resources (~90 words). */
+  legalAid: string;
+  /** State court system overview (~90 words). */
+  courtSystem: string;
+  /** Notable state laws affecting attorney choice (~90 words). */
+  notableLaws: string;
 }
 
 export const STATES: StateInfo[] = [
@@ -26,6 +32,12 @@ export const STATES: StateInfo[] = [
       "Start with the Alabama State Bar's lawyer referral service to confirm any attorney is licensed and in good standing. For injury cases, most Birmingham and Mobile firms offer free consultations and work on contingency. Ask how many cases like yours the lawyer has taken to trial in Alabama courts — the contributory negligence rule rewards attorneys who prepare every case as if it will be tried.",
     fees:
       "Personal injury lawyers in Alabama typically charge a contingency fee around one-third of the recovery. Criminal defense and family lawyers usually bill hourly ($200–$400) or flat fees for routine matters. Business and real estate work in Huntsville's growth market often runs flat-fee for formations and closings.",
+    legalAid:
+      "If you can't afford a lawyer, Legal Services Alabama (LSA) is the statewide lifeline, with offices from Huntsville to Mobile handling housing, family, consumer, and benefits cases for low-income residents. The Alabama State Bar's Volunteer Lawyers Program matches qualifying clients with private attorneys who take cases pro bono, and its Lawyer Referral Service offers a low-cost initial consultation. Law school clinics add another option: the University of Alabama School of Law runs civil, criminal, and domestic violence clinics, while Cumberland School of Law in Birmingham operates community clinics. For seniors, the Alabama Legal Answer Line gives brief phone advice.",
+    courtSystem:
+      "Alabama's trial courts are the Circuit Courts, which hear felonies, major civil cases, and family matters, while District Courts handle misdemeanors, small claims, and preliminary hearings. Appeals go to two specialized courts — the Court of Civil Appeals and the Court of Criminal Appeals — before reaching the Supreme Court of Alabama. One Alabama distinctive: judges at every level are chosen in partisan elections, so the judge hearing your case campaigned for the job. That makes local knowledge valuable — an attorney who practices regularly before your county's elected judges understands their tendencies in a way an outsider can't.",
+    notableLaws:
+      "Three Alabama rules reshape injury cases. First, wrongful death damages here are exclusively punitive — Alabama is the only state that bars compensatory damages in wrongful death suits, so these cases hinge entirely on punishment evidence. Second, tort reform abolished joint and several liability: each defendant pays only its own share of fault, which matters when multiple parties caused your injury. Third, punitive damages are capped at three times compensatory damages or $1.5 million, whichever is greater. Ask any personal injury lawyer how these three rules affect your case's value before you sign a fee agreement.",
   },
   {
     name: "Alaska",
@@ -39,6 +51,12 @@ export const STATES: StateInfo[] = [
       "Use the Alaska Bar Association's lawyer referral service to find attorneys by practice area and location. Because many lawyers serve the whole state remotely, don't limit yourself to your city — but do confirm the attorney has actually appeared in the court where your case will be heard. Free consultations are common for injury and criminal cases.",
     fees:
       "Contingency fees dominate personal injury work in Alaska, typically around one-third. Hourly rates in Anchorage run $250–$450 for family, criminal, and business matters. Given travel costs in rural cases, ask upfront how the firm handles expenses for hearings outside its home city.",
+    legalAid:
+      "Alaska Legal Services Corporation (ALSC) is the primary free legal help provider, with offices in Anchorage, Fairbanks, Juneau, and rural hubs serving Native communities. The Alaska Bar Association's Lawyer Referral Service connects callers with attorneys for a modest initial consultation fee. Because Alaska has no in-state law school, clinics are thinner than elsewhere — but the Alaska Pro Bono Partnership and volunteer attorney programs fill gaps, especially for domestic violence and housing cases. For remote villages, ALSC and court self-help centers increasingly handle intake by phone and video, which matters when the nearest lawyer is a plane ride away.",
+    courtSystem:
+      "Alaska runs a unified court system: the Superior Court is the main trial court for felonies, major civil cases, and family law, while the District Court handles misdemeanors and smaller civil matters. Appeals go to the Court of Appeals for criminal cases and directly to the Supreme Court of Alaska for civil matters. Judges aren't elected in contested races — they're appointed by the governor from a nominating commission's list and then face periodic retention elections. The practical upshot: Alaska judges tend toward the deliberative, and attorneys who know the small, close-knit bench have an edge.",
+    notableLaws:
+      "Alaska's Rule 82 is the rule most newcomers miss: the losing side in a civil case generally pays a portion of the winner's attorney fees. That fee-shifting risk changes settlement math — ask your lawyer to model best- and worst-case fee exposure before filing. Second, Alaska follows pure comparative negligence, so you can recover damages even if you were mostly at fault (your award is just reduced by your share). Third, tribal courts operate alongside state courts in much of rural Alaska, and jurisdictional fights over which court hears your case are common — hire someone who has actually litigated the tribal-state boundary.",
   },
   {
     name: "Arizona",
@@ -52,6 +70,12 @@ export const STATES: StateInfo[] = [
       "The State Bar of Arizona offers a lawyer referral service and public records of attorney discipline — check both. Maricopa County's size means many Phoenix firms never leave the metro; if your case is in Tucson or northern Arizona, hire someone who knows those courts. Most injury firms offer free consultations.",
     fees:
       "Arizona personal injury lawyers work on contingency (about 33%). Family law attorneys typically charge $250–$450 per hour with retainers. Estate planning packages in retirement-heavy areas often run flat-fee, from a few hundred dollars for a simple will to several thousand for a trust-based plan.",
+    legalAid:
+      "Three organizations anchor Arizona's legal aid: Community Legal Services serves Maricopa County, Southern Arizona Legal Aid (SALA) covers the south, and DNA People's Legal Services — one of the largest Native American legal aid programs in the country — serves the Navajo Nation and Hopi communities. The State Bar of Arizona's Lawyer Referral Service and its Modest Means program connect middle-income callers with reduced-fee attorneys. Both Arizona law schools run clinics: ASU's Sandra Day O'Connor College of Law and the University of Arizona's Rogers College operate immigration, innocence, and civil justice clinics open to qualifying residents.",
+    courtSystem:
+      "Every Arizona county has a Superior Court — the trial court for felonies, major civil cases, divorces, and probate. Below it, Justice Courts and municipal courts handle misdemeanors, small claims, and traffic. Appeals go to the Court of Appeals, which sits in two divisions (Phoenix and Tucson), then the Supreme Court of Arizona. Judicial selection is split: appellate judges and those in Maricopa, Pima, and Pinal counties are merit-selected and face retention elections, while rural counties still elect judges. In Phoenix's massive Maricopa County Superior Court, courthouse-specific experience genuinely matters.",
+    notableLaws:
+      "Arizona's anti-deficiency statutes are a big deal for homeowners: after a foreclosure on most residential properties, the lender generally cannot chase you for the remaining loan balance. If you're facing foreclosure, hire a real estate attorney who litigates these protections — they change leverage completely. Second, Arizona follows pure comparative negligence, so an injured person even 90% at fault can still recover 10%. Third, Arizona imposes strict liability for dog bites — the owner is liable even if the dog never showed aggression before. Each rule rewards lawyers who specialize rather than generalize.",
   },
   {
     name: "Arkansas",
@@ -65,6 +89,12 @@ export const STATES: StateInfo[] = [
       "The Arkansas Bar Association's referral service is a solid starting point, and the state's relatively small legal community means word-of-mouth carries weight. In northwest Arkansas, look for attorneys experienced with corporate and vendor matters; in Little Rock, litigators with real trial experience in Pulaski County courts.",
     fees:
       "Contingency fees (around one-third) are standard for injury cases across Arkansas. Hourly rates in Little Rock typically run $200–$350; northwest Arkansas corporate work can run higher. Simple estate plans and uncontested divorces are often flat-fee.",
+    legalAid:
+      "Two organizations split Arkansas: Legal Aid of Arkansas serves the north and west, while the Center for Arkansas Legal Services covers the east and south — together they handle housing, family, consumer, and public benefits cases statewide. The Arkansas Bar Association's Lawyer Referral Service offers an initial consultation at a reduced fee. Law school clinics at the UA Little Rock Bowen School of Law (including its tax and mediation clinics) and the University of Arkansas School of Law in Fayetteville take qualifying cases. In the Delta's rural counties, where private attorneys are scarce, legal aid offices are often the only option.",
+    courtSystem:
+      "Arkansas Circuit Courts are the trial courts of general jurisdiction — felonies, major civil disputes, divorces, and juvenile matters all start there. District Courts handle misdemeanors, small claims, and traffic. Appeals go to the Arkansas Court of Appeals, with the Supreme Court of Arkansas taking the most significant cases. Arkansas judges are chosen in nonpartisan elections, a system meant to keep party politics out of the courtroom. Because dockets in Pulaski County (Little Rock) move very differently from rural circuits, ask prospective lawyers where they actually try cases.",
+    notableLaws:
+      "Arkansas's Deceptive Trade Practices Act is unusually consumer-friendly: if a business deceived you, the statute can award actual damages plus attorney's fees to the winning consumer — which is why consumer lawyers take cases here they might decline elsewhere. Second, Arkansas gives you three years to file most personal injury suits, a full year longer than many neighboring states, but don't treat that as breathing room since evidence fades. Third, Arkansas abolished joint and several liability, so each at-fault party pays only its percentage — making the choice of which defendants to sue a strategic decision your lawyer must get right.",
   },
   {
     name: "California",
@@ -78,6 +108,12 @@ export const STATES: StateInfo[] = [
       "With over 190,000 licensed attorneys, California demands careful filtering — use the State Bar of California's website to verify licensing and check discipline history. The bar also runs certified lawyer referral services by county. For high-stakes matters, prioritize attorneys who practice daily in the specific courthouse where your case will be filed.",
     fees:
       "California personal injury contingency fees run 33–40%. Hourly rates in LA and the Bay Area ($350–$700+) are among the nation's highest; inland areas run lower. Employment and consumer attorneys often take cases on contingency or hybrid arrangements given the state's fee-shifting statutes.",
+    legalAid:
+      "California's legal aid network is the nation's largest. Standouts include the Legal Aid Foundation of Los Angeles (LAFLA), Bay Area Legal Aid, and Legal Services of Northern California, each handling housing, immigration, domestic violence, and benefits cases. The State Bar of California certifies lawyer referral services in every county, and its website lets you verify any attorney's license and discipline record free. Law school clinics are everywhere — Stanford, Berkeley, UCLA, and USC all run clinics open to the public. For workers, the California Rural Legal Assistance program serves agricultural communities across the Central Valley.",
+    courtSystem:
+      "California's trial courts are the Superior Courts — one in each of the state's 58 counties, from tiny Alpine to massive Los Angeles. Felonies, major civil cases, family law, and probate all start there. Appeals go to the Courts of Appeal, divided into six districts, then the Supreme Court of California. Judges are appointed by the governor and later face retention elections, though Superior Court judges can also be challenged in nonpartisan elections. With 58 separate trial courts, each with local rules and cultures, hiring a lawyer who practices daily in your specific courthouse is more important here than anywhere.",
+    notableLaws:
+      "Three California rules dominate hiring decisions. First, the revised MICRA law caps non-economic damages in medical malpractice cases (currently $350,000, rising annually, higher for wrongful death) — ask any med-mal lawyer to explain exactly how the cap affects your case's economics. Second, California's anti-SLAPP statute is the strongest in America: if you're sued for speaking out on a public issue, a specialized motion can kill the case early and award you attorney's fees. Third, Proposition 51 makes each defendant pay non-economic damages only in proportion to fault — so identifying every responsible party matters enormously.",
   },
   {
     name: "Colorado",
@@ -91,6 +127,12 @@ export const STATES: StateInfo[] = [
       "The Colorado Bar Association's referral resources and the state judicial branch's attorney search help verify credentials. Denver's market is competitive, so compare two or three firms; in mountain towns, prioritize lawyers who actually live and practice there rather than commuting from the Front Range.",
     fees:
       "Injury contingency fees hover around one-third in Colorado. Family and criminal hourly rates in Denver run $250–$450. Cannabis and business regulatory work is often hourly or project-based given its complexity.",
+    legalAid:
+      "Colorado Legal Services (CLS) is the statewide provider, with offices from Denver to Durango handling evictions, family law, consumer cases, and benefits appeals for eligible residents. The Colorado Bar Association's Lawyer Referral Service connects callers with attorneys for a low-cost first consultation. Both Colorado law schools run public clinics: the University of Colorado Boulder's clinical programs and the University of Denver Sturm College of Law's clinics cover immigration, civil rights, and criminal defense. In mountain resort towns where legal aid offices are thin, Colorado's virtual self-help resources and pro bono panels matter more than in the metro.",
+    courtSystem:
+      "Colorado District Courts are the trial courts for felonies, major civil cases, divorces, and juvenile matters, while County Courts handle misdemeanors, small claims, and traffic. Appeals go to the Colorado Court of Appeals, then the Supreme Court of Colorado. The state uses merit selection: a nominating commission screens applicants, the governor appoints, and judges later face retention elections rather than opponents. Colorado's courts are known for comparatively efficient dockets, and its e-filing system is statewide — but local practice still varies enough that Front Range experience doesn't automatically translate to mountain jurisdictions.",
+    notableLaws:
+      "Colorado caps non-economic damages in injury cases (pain and suffering), a figure adjusted for inflation that now exceeds half a million dollars — your lawyer should calculate how the cap constrains your specific claim. Second, the Colorado Ski Safety Act sharply limits lawsuits over skiing injuries by treating inherent risks of the sport as assumed by the skier; ski-accident cases turn on whether the resort violated its specific statutory duties, a niche specialty. Third, Colorado's premises liability statute sorts visitors into categories with different duty levels — where you stood legally when injured can decide the whole case.",
   },
   {
     name: "Connecticut",
@@ -104,6 +146,12 @@ export const STATES: StateInfo[] = [
       "Check the Connecticut Judicial Branch's attorney grievance records alongside the Connecticut Bar Association's referral service. For Fairfield County matters involving significant assets, look for attorneys with specific high-net-worth divorce or estate experience rather than generalists.",
     fees:
       "Connecticut hourly rates ($300–$500 in Fairfield County, less elsewhere) reflect the New York metro spillover. Personal injury remains contingency-based. Estate planning for the state's affluent retirees is commonly flat-fee.",
+    legalAid:
+      "Connecticut Legal Services operates statewide, with Greater Hartford Legal Aid and the New Haven Legal Assistance Association anchoring the two biggest cities. Together they cover housing, family, immigration, and benefits cases for low-income residents. The Connecticut Bar Association's Lawyer Referral Service offers reduced-fee initial consultations, and the state funds a foreclosure mediation program that has kept thousands of homeowners in their homes. Law school clinics at Yale, UConn, and Quinnipiac take on civil rights, immigration, and criminal justice cases — Yale's clinics in particular handle high-impact litigation with national reach.",
+    courtSystem:
+      "Connecticut is unusual: it has a single statewide Superior Court rather than separate county trial courts. The Superior Court is divided into judicial districts plus specialized dockets for housing, family, and complex litigation. Appeals go to the Connecticut Appellate Court, then the Supreme Court. Judges are nominated by the governor and confirmed by the General Assembly — no popular elections — and serve eight-year terms. The system leans heavily on mediation and alternative dispute resolution, so Connecticut rewards lawyers who negotiate brilliantly, not just those who try cases well.",
+    notableLaws:
+      "Connecticut's comparative fault rule is slightly friendlier than most: you can recover damages as long as your share of fault doesn't exceed 50%, with your award reduced proportionally. Second, Connecticut imposes strict liability on dog owners for bites — no 'one free bite' defense, which simplifies these cases considerably. Third, medical malpractice suits require a certificate of merit: a qualified physician must attest the case has merit before you can even file. That front-loaded requirement means experienced med-mal lawyers screen cases rigorously — if a firm takes yours, that's itself a signal.",
   },
   {
     name: "Delaware",
@@ -117,6 +165,12 @@ export const STATES: StateInfo[] = [
       "The Delaware State Bar Association maintains lawyer referral and disciplinary records. If your matter touches corporate governance, shareholder rights, or business formation, prioritize Wilmington attorneys with actual Chancery Court experience — it's a distinct skill set. For personal matters, county-level experience matters more.",
     fees:
       "Corporate and Chancery work in Delaware commands premium hourly rates ($400–$800+). Consumer-side work follows national norms: contingency for injury, hourly ($250–$400) for family and criminal defense, flat fees for residential closings.",
+    legalAid:
+      "Delaware's small size concentrates its legal aid: Community Legal Aid Society, Inc. (CLASI) handles civil cases statewide from offices in Wilmington, Dover, and Georgetown, while Delaware Volunteer Legal Services (DVLS) recruits private attorneys for pro bono cases. The Delaware State Bar Association's Lawyer Referral Service offers a low-cost initial consultation. Widener University Delaware Law School's clinics — including its veterans and environmental clinics — serve qualifying residents. Because the state is so compact, most legal aid attorneys practice statewide, which is an advantage if your matter crosses county lines.",
+    courtSystem:
+      "Delaware's court structure is one of a kind. The Court of Chancery — a court of equity with no juries — decides corporate and fiduciary disputes and is the most influential business court in America. The Superior Court is the main trial court for criminal and major civil cases, with the Court of Common Pleas below it for lesser matters and a separate Family Court. Appeals go to the Supreme Court of Delaware. Uniquely, Delaware's constitution requires partisan balance on the bench, and judges are appointed by the governor and confirmed by the senate — no elections, which insulates the judiciary from campaign politics.",
+    notableLaws:
+      "Delaware's LLC Act is the most flexible in the country — operating agreements can waive fiduciary duties in ways most states forbid, which is why business formation here demands a lawyer who drafts with that freedom (and its traps) in mind. Second, Delaware is one of the few states with no dram shop law: bars generally can't be sued for overserving a patron who later causes injury, a sharp contrast with neighboring states. Third, Delaware follows modified comparative negligence with a 50% bar — recover nothing if you're half or more at fault — so early fault analysis by your attorney is critical.",
   },
   {
     name: "Florida",
@@ -130,6 +184,12 @@ export const STATES: StateInfo[] = [
       "The Florida Bar's lawyer referral service covers every county, and its website lets you verify licensing and discipline. Given the volume of advertising by high-volume firms in Miami and Orlando, look past the billboards: ask who will actually handle your case and how many similar cases the firm tried last year.",
     fees:
       "Florida regulates contingency fees on a sliding scale set by the state bar — typically 33% pre-suit, higher if litigation is filed. Hourly rates in Miami ($300–$550) exceed those in smaller markets. Hurricane claim lawyers often work on contingency too.",
+    legalAid:
+      "Florida's legal aid is county-anchored: Bay Area Legal Services (Tampa), Legal Services of Greater Miami, the Legal Aid Society of the Orange County Bar Association, and Jacksonville Area Legal Aid are among the largest, handling housing, family, consumer, and disaster-recovery cases. Florida Legal Services provides statewide support and migrant farmworker advocacy. The Florida Bar's Lawyer Referral Service covers every county with a low-cost initial consultation. After hurricanes, legal aid offices routinely run disaster clinics for FEMA appeals and contractor disputes — a Florida-specific service worth knowing about before storm season.",
+    courtSystem:
+      "Florida's trial courts are the Circuit Courts — 20 judicial circuits covering felonies, major civil cases, family law, and probate — with County Courts beneath them for misdemeanors, small claims, and traffic. Appeals go to six District Courts of Appeal (the Sixth District was created in 2023), then the Supreme Court of Florida. Circuit and county judges are elected in nonpartisan elections; appellate judges are merit-appointed and face retention votes. Florida's dockets are among the nation's busiest, and hurricane seasons periodically flood civil courts with insurance cases — ask your lawyer about current backlogs.",
+    notableLaws:
+      "Florida's 2023 tort reform rewrote the rules: the state switched from pure to modified comparative negligence (you now recover nothing if more than 50% at fault) and cut the negligence filing deadline from four years to two — if your accident predates the change, which rule applies is itself a legal question. The reform also ended one-way attorney's fees against insurers, so policyholders now often pay their own lawyers in coverage fights. Third, Florida's dangerous instrumentality doctrine makes vehicle owners liable when someone else drives their car with permission — a rule found almost nowhere else that reshapes every auto case.",
   },
   {
     name: "Georgia",
@@ -143,6 +203,12 @@ export const STATES: StateInfo[] = [
       "The State Bar of Georgia's directory and the Atlanta Bar Association's referral service are good starting points. In metro Atlanta's crowded market, seek attorneys with verifiable results in your specific matter type rather than general practitioners. Outside Atlanta, county-court familiarity matters most.",
     fees:
       "Georgia injury lawyers charge contingency fees around one-third. Atlanta hourly rates run $250–$500 for family, criminal, and business work; smaller cities run 20–30% less. The film industry's presence has created flat-fee niches for entertainment contracts.",
+    legalAid:
+      "Georgia Legal Services Program (GLSP) serves low-income residents outside metro Atlanta, while the Atlanta Legal Aid Society covers the five-county metro — together they handle housing, family, consumer, and benefits cases statewide. The State Bar of Georgia's Lawyer Referral Service offers reduced-fee initial consultations. Law school clinics add capacity: the University of Georgia, Georgia State, Emory, and Mercer all run clinics, with Georgia State's HeLP clinic (a medical-legal partnership) and UGA's veterans clinic among the standouts. For rural Georgians far from any office, GLSP's phone intake is often the front door.",
+    courtSystem:
+      "Georgia Superior Courts — organized into 49 judicial circuits — are the trial courts for felonies, major civil cases, divorces, and land disputes. Below them, State Courts (in counties that have them), Probate Courts, and Magistrate Courts handle misdemeanors, small claims, and preliminary matters. Appeals go to the Court of Appeals of Georgia, then the Supreme Court of Georgia. Judges are chosen in nonpartisan elections, and Georgia's courts are known for moving cases relatively quickly. Because superior and state court jurisdiction overlaps in confusing ways, confirm your lawyer files in the right court — it affects everything downstream.",
+    notableLaws:
+      "Georgia caps punitive damages at $250,000 in most cases — a critical number your injury lawyer must factor into settlement strategy from day one. Second, claims against the government require ante litem notice: as little as six months for cities and counties, twelve for the state — miss the deadline and your case dies regardless of merit, so mention any government defendant in your first meeting. Third, Georgia's offer-of-settlement statute can shift attorney's fees to whichever side unreasonably rejects a fair offer, which means settlement negotiations carry real financial stakes beyond the headline number.",
   },
   {
     name: "Hawaii",
@@ -156,6 +222,12 @@ export const STATES: StateInfo[] = [
       "The Hawaii State Bar Association offers referral services and discipline records. Because the bar is small, personal recommendations carry real weight — but still verify licensing independently. For visitor injuries, look for firms experienced with the interplay between travel insurance, resort liability, and Hawaii's no-fault rules.",
     fees:
       "Hawaii personal injury contingency fees run about one-third. Hourly rates in Honolulu ($250–$450) reflect the high cost of doing business in the islands. Given travel between islands for hearings, clarify how the firm bills for inter-island travel.",
+    legalAid:
+      "The Legal Aid Society of Hawaii (legalaidhawaii.org) is the state's primary free civil legal provider, with offices on Oahu and intake lines serving the neighbor islands. The Hawaii State Bar Association runs a Lawyer Referral and Information Service for reduced-fee initial consultations. The University of Hawaii's William S. Richardson School of Law operates clinics handling real cases under faculty supervision, and the Hawaii Innocence Project takes on wrongful-conviction claims. Because Hawaii's bar is small, these programs are well-connected to private practitioners for referrals.",
+    courtSystem:
+      "Hawaii's trial courts are the Circuit Courts, organized into four circuits covering Oahu, Maui, Hawaii Island, and Kauai. Above them sits the Intermediate Court of Appeals, and at the top the Supreme Court of Hawaii. Unusually, Hawaii judges are not elected — they are appointed through merit selection by a Judicial Selection Commission and confirmed by the state senate for set terms. Specialized courts include the Land Court, which handles registered (Torrens) land titles, plus a Tax Appeal Court — systems most mainland attorneys never encounter in practice.",
+    notableLaws:
+      "First, Hawaii's condominium statute (HRS Chapter 514B) governs daily life for a huge share of residents — HOA fee disputes, special assessments, and board governance are the state's most common civil conflicts, so look for attorneys with specific 514B experience. Second, Hawaii recognizes the assumption of risk for outdoor recreational activities by statute, which shapes how tour-operator and ocean-injury cases are litigated. Third, the state's Land Court Torrens system means some property has state-guaranteed title — a concept foreign to mainland practice that demands a locally experienced real estate attorney.",
   },
   {
     name: "Idaho",
@@ -169,6 +241,12 @@ export const STATES: StateInfo[] = [
       "The Idaho State Bar's lawyer referral service covers the state's far-flung counties. In Boise's hot market, prioritize real estate attorneys with current local-closing experience — rules and customs vary by county. For rural matters, confirm the attorney will travel to your county's courthouse.",
     fees:
       "Idaho rates remain moderate by national standards: injury contingency around one-third, hourly $200–$350 for family and criminal work in Boise, less in rural areas. Water-rights and agricultural work is often hourly given its technical complexity.",
+    legalAid:
+      "Idaho Legal Aid Services (idaholegalaid.org) is the statewide nonprofit provider, with offices in Boise, Coeur d'Alene, Idaho Falls, Lewiston, Nampa, Pocatello, and Twin Falls, plus a dedicated unit for migrant and seasonal farmworkers. The Idaho Volunteer Lawyers Program places qualifying cases with private attorneys donating their time. The University of Idaho College of Law runs clinics in Moscow and Boise handling real client matters. Idaho's rural geography makes these programs essential — many counties have only a handful of private practitioners.",
+    courtSystem:
+      "Idaho's trial courts are the District Courts, divided into seven judicial districts, each with a Magistrate Division handling misdemeanors, small claims, and preliminary matters. Appeals go to the Idaho Court of Appeals and then the Idaho Supreme Court. Idaho judges are chosen in nonpartisan elections rather than through merit commissions, which means judicial philosophy can shift with election cycles. The system's reputation for moving dockets efficiently is real — criminal and civil calendars turn over faster than in many neighboring states.",
+    notableLaws:
+      "First, Idaho is one of only nine community property states, which fundamentally changes divorce and estate planning — property acquired during marriage belongs equally to both spouses regardless of whose name is on it, so hire attorneys fluent in community property rules. Second, Idaho's open range law means livestock may legally roam in designated areas, and drivers who hit cattle there often have no claim — a shock to newcomers involved in rural collisions. Third, Idaho enforces a statutory cap on noneconomic damages in personal injury cases, which directly limits what pain-and-suffering awards are possible.",
   },
   {
     name: "Illinois",
@@ -182,6 +260,12 @@ export const STATES: StateInfo[] = [
       "The Illinois State Bar Association and Chicago Bar Association both run referral services; the ARDC website lets you check any attorney's disciplinary record — use it. In Cook County, courthouse-specific experience matters enormously given the system's scale and pace.",
     fees:
       "Illinois caps contingency fees in medical malpractice cases by statute; standard injury contingency is around one-third. Chicago hourly rates ($300–$550) exceed downstate rates significantly. Many Chicago firms offer free injury consultations.",
+    legalAid:
+      "Legal Aid Chicago (legalaidchicago.org), formerly LAF, is the largest provider in Cook County with more than 50 years of service and roughly 30,000 clients helped annually across housing, family, and consumer cases. Chicago Volunteer Legal Services (cvls.org), founded in 1964, coordinates pro bono work from private firms for those who qualify. Downstate, Land of Lincoln Legal Aid and Prairie State Legal Services cover central and southern counties. The Illinois State Bar Association's IllinoisLawyerFinder offers reduced-fee referrals, and the ARDC website lets anyone verify an attorney's disciplinary history before hiring.",
+    courtSystem:
+      "Illinois trial courts are the Circuit Courts — 25 circuits statewide, with Cook County operating as the single largest unified court system in the country. Appeals go to the Illinois Appellate Court (five districts) and then the Supreme Court of Illinois (seven justices). Circuit judges are chosen in partisan elections, while appellate and supreme court justices face retention votes. Cook County's sheer scale means courthouse-specific experience matters enormously — procedures and unwritten customs vary between the Daley Center, Skokie, Rolling Meadows, and other divisions.",
+    notableLaws:
+      "First, the Illinois Biometric Information Privacy Act (BIPA) gives individuals a private right of action over fingerprint, face-scan, and other biometric collection — with damages of $1,000 to $5,000 per violation, it has generated some of the nation's largest privacy settlements, so employment and consumer cases need BIPA-aware counsel. Second, Illinois' workers' compensation system is among the most employee-friendly in the country, with no cap on wage-differential awards. Third, Illinois requires specific statutory notices and procedures in eviction cases that Chicago landlords frequently get wrong.",
   },
   {
     name: "Indiana",
@@ -195,6 +279,12 @@ export const STATES: StateInfo[] = [
       "The Indiana State Bar Association's referral program and the Roll of Attorneys (for discipline checks) are the key public resources. Indianapolis has deep benches in most specialties; in smaller cities, look for attorneys who regularly appear before your county's judges.",
     fees:
       "Indiana injury contingency fees run about one-third. Indianapolis hourly rates ($225–$400) are reasonable by national standards; smaller markets run lower. Business formation packages are commonly flat-fee.",
+    legalAid:
+      "Indiana Legal Services is the statewide civil legal aid provider with regional offices across Indiana handling housing, family, consumer, and public benefits cases for eligible low-income residents. The Indianapolis Legal Aid Society (indylas.org) serves Marion County, while the Neighborhood Christian Legal Clinic handles re-entry, immigration, housing, and tax controversies for low-income clients. The Heartland Pro Bono Council recruits private attorneys for free civil representation. Indiana University's law schools in Indianapolis and Bloomington run clinics taking community cases under faculty supervision.",
+    courtSystem:
+      "Indiana's trial courts are the Circuit and Superior Courts, organized by county. Appeals go to the Court of Appeals of Indiana and then the Indiana Supreme Court. Indiana also has a specialized Indiana Tax Court — one of few in the nation — handling state tax disputes exclusively. Appellate judges are chosen through merit selection with retention elections, while many trial judges are elected at the county level. The system is known for business-friendly efficiency, and e-filing is mandatory statewide.",
+    notableLaws:
+      "First, Indiana's Medical Malpractice Act requires most claims to pass through a Medical Review Panel before reaching court, and caps total recovery (currently $1.8 million, with the Patient's Compensation Fund covering amounts above the provider's share) — any med-mal attorney must know this process cold. Second, Indiana's Motor Vehicle Protection Act (the 'lemon law') gives buyers of defective new vehicles specific refund-or-replace rights with strict timelines. Third, Indiana's landlord-tenant statutes are relatively landlord-friendly compared to Illinois, which changes the calculus in housing disputes.",
   },
   {
     name: "Iowa",
@@ -208,6 +298,12 @@ export const STATES: StateInfo[] = [
       "Iowa State Bar Association's Find-A-Lawyer service covers all 99 counties. For farm-related matters, seek attorneys who actually understand agricultural operations — not just general estate planners. Des Moines offers the deepest bench for insurance and corporate work.",
     fees:
       "Iowa legal fees are among the Midwest's most reasonable: injury contingency around one-third, hourly $175–$300 outside Des Moines. Farm succession plans are often flat-fee given their standardized structure.",
+    legalAid:
+      "Iowa Legal Aid (iowalegalaid.org) is the statewide nonprofit law firm serving all 99 counties through ten regional offices, handling housing, family, benefits, and consumer cases for income-eligible Iowans. The Legal Hotline for Older Iowans (1-800-992-8161) serves residents 60 and older. The Polk County Bar Association runs one of the country's most active Volunteer Lawyers Projects, and both the Drake Legal Clinic in Des Moines and the University of Iowa College of Law clinics in Iowa City take community cases. Iowa Free Legal Answers provides online Q&A with volunteer attorneys.",
+    courtSystem:
+      "Iowa's trial courts are the District Courts, organized into eight judicial districts covering all 99 counties. Appeals go to the Iowa Court of Appeals and then the Iowa Supreme Court. Iowa pioneered the merit-selection system (the 'Missouri Plan' model): a nominating commission screens candidates, the governor appoints, and judges face retention elections. This tends to produce a well-regarded, less politicized judiciary. The system is known for collegiality — Iowa lawyers famously resolve many disputes through negotiation rather than scorched-earth litigation.",
+    notableLaws:
+      "First, Iowa's partition fence law (Iowa Code Chapter 359A) requires adjoining rural landowners to share the cost of boundary fences — a frequent source of neighbor disputes that general practice attorneys may not know. Second, Iowa's workers' compensation law has specific provisions for agricultural workers that differ from standard coverage. Third, Iowa's implied warranty of habitability and its specific notice requirements in farm tenancy terminations (leases must be terminated by September 1 for the following March) catch newcomers off guard — farm lease work belongs with attorneys who know agricultural law.",
   },
   {
     name: "Kansas",
@@ -221,6 +317,12 @@ export const STATES: StateInfo[] = [
       "The Kansas Bar Association's lawyer referral service is the starting point; the state's disciplinary records are public. In the Kansas City metro, make sure your attorney is licensed on the correct side of the state line — or both. Aviation matters belong with Wichita specialists.",
     fees:
       "Kansas contingency fees run about one-third for injury cases. Hourly rates in Wichita and Kansas City ($200–$350) are moderate; rural rates run lower. Aviation and agricultural specialty work may command premiums.",
+    legalAid:
+      "Kansas Legal Services (kansaslegalservices.org) is the main statewide civil legal aid provider, with field offices across Kansas and an online intake system plus free interactive court forms for eviction, divorce, custody, and protection orders. The Kansas Bar Association's Lawyer Referral Service connects residents with private attorneys for low-cost initial consultations. Kansas also has county-level pro bono panels coordinated through local bar associations. KLS explicitly does not handle criminal defense or business disputes, so those callers are routed to referral services instead.",
+    courtSystem:
+      "Kansas trial courts are the District Courts, organized into 31 judicial districts. Appeals go to the Kansas Court of Appeals and then the Kansas Supreme Court. Judicial selection is a hybrid: Supreme Court justices are appointed through merit selection (nominating commission plus gubernatorial appointment, then retention elections), but district judge selection varies by district — some use partisan elections, others use merit selection. In the Kansas City metro, which straddles the Kansas-Missouri line, attorneys must be licensed in the correct state, as the two states' procedures differ significantly.",
+    notableLaws:
+      "First, Kansas is a no-fault auto insurance state — every policy must include Personal Injury Protection ($4,500 medical, $900/month wage loss), and you can only sue for pain and suffering if medical bills exceed $2,000 or injuries meet statutory severity thresholds, so car-accident attorneys must understand PIP coordination. Second, Kansas' 50% comparative fault bar is stricter than the 51% rule in neighboring states — being exactly half at fault still bars recovery. Third, the Kansas Tort Claims Act sets special notice requirements and damage caps for claims against government entities.",
   },
   {
     name: "Kentucky",
@@ -234,6 +336,12 @@ export const STATES: StateInfo[] = [
       "The Kentucky Bar Association offers referral services and public discipline records. Because Kentucky's no-fault choice affects every auto case, prioritize personal injury attorneys who can clearly explain which system applies to you — it's the single most important question in a Kentucky crash case.",
     fees:
       "Kentucky injury lawyers work on contingency (about one-third). Louisville hourly rates ($225–$375) lead the state. Equine and bourbon-industry specialty work is typically hourly or project-based.",
+    legalAid:
+      "The Legal Aid Society (yourlegalaid.org) serves 15 counties around Louisville, pursuing justice for people in poverty across housing, family, and consumer cases. Legal Aid of the Bluegrass (lablaw.org) covers 33 counties in northern and eastern Kentucky. AppalReD Legal Aid serves the Appalachian counties of eastern and south-central Kentucky. The Kentucky Bar Association's Lawyer Referral Service connects callers statewide, and Access Justice runs pro bono clinics in the Louisville area. Kentucky's four legal aid programs divide the state by region, so eligibility depends on where you live.",
+    courtSystem:
+      "Kentucky has a unified Court of Justice: Circuit Courts handle major civil and criminal trials, District Courts handle misdemeanors and smaller civil matters, and Family Court divisions operate in many counties. Appeals go to the Kentucky Court of Appeals and then the Supreme Court of Kentucky. All Kentucky judges are chosen in nonpartisan elections — a distinctive feature that keeps party labels off the ballot but makes judicial races heavily dependent on name recognition. The state has 120 counties, each with its own circuit court clerk and local practices.",
+    notableLaws:
+      "First, Kentucky is a pure comparative fault state — unlike most neighbors, you can recover damages even if you are 99% at fault (reduced by your share), which fundamentally changes settlement strategy in injury cases. Second, Kentucky's equine activity liability statute (KRS 247.401) limits liability for horse-related injuries under defined conditions, directly affecting the Lexington racing and breeding industry. Third, Kentucky's 'choice no-fault' auto insurance system lets drivers choose between no-fault and traditional tort coverage at purchase — the single most important detail in any Kentucky crash case, and one many accident victims don't realize they chose.",
   },
   {
     name: "Louisiana",
@@ -247,6 +355,12 @@ export const STATES: StateInfo[] = [
       "The Louisiana State Bar Association's referral service is essential — and verify that any attorney you consider actually practices Louisiana civil law, not just common-law transplants. Maritime cases in New Orleans belong with lawyers experienced in federal admiralty courts.",
     fees:
       "Louisiana contingency fees run about one-third for injury and maritime cases. New Orleans hourly rates ($250–$450) reflect the metro market. Successions (probate) work is commonly flat-fee or statutory-percentage based.",
+    legalAid:
+      "Southeast Louisiana Legal Services (slls.org) provides free civil legal help across 22 parishes in the southeast, including New Orleans. The Pro Bono Project (probono-no.org) matches low-income clients with volunteer private attorneys in the New Orleans area. Acadiana Legal Service Corporation covers the Lafayette region, and Legal Aid of North Louisiana serves the northern parishes. Louisiana's law schools — LSU, Loyola New Orleans, Tulane, and Southern — all run clinics handling real cases. Given Louisiana's unique civil law system, these programs are especially valuable because out-of-state legal templates routinely fail here.",
+    courtSystem:
+      "Louisiana's trial courts are the District Courts, organized by parish (Louisiana's equivalent of counties). Appeals go to five Circuit Courts of Appeal and then the Supreme Court of Louisiana (seven justices). Distinctively, Louisiana judges are chosen in partisan elections — voters see party labels — which is increasingly rare nationally. Because Louisiana private law follows the civil law tradition rather than English common law, its courts use different concepts and terminology: what other states call probate is 'successions' here, and property doctrines like redhibition have no common-law equivalent.",
+    notableLaws:
+      "First, Louisiana's Direct Action Statute was overhauled in August 2024 (Act 275) — plaintiffs can no longer routinely sue a defendant's insurer directly; direct action now survives only in seven narrow circumstances such as the insured's bankruptcy or death, a seismic shift for injury litigation strategy. Second, the 'no pay, no play' law bars uninsured drivers from recovering the first $15,000 of bodily injury and $25,000 of property damage, which punishes uninsured motorists harshly. Third, redhibition under the Civil Code gives buyers broader warranty rights against hidden defects in homes and vehicles than common-law states allow.",
   },
   {
     name: "Maine",
@@ -260,6 +374,12 @@ export const STATES: StateInfo[] = [
       "The Maine State Bar Association's lawyer referral service covers the state's far-flung counties. For elder-law and estate matters — Maine's most common legal needs — look for attorneys with specific elder-law credentials, not just general estate planners. Portland offers the deepest bench overall.",
     fees:
       "Maine rates are moderate: injury contingency around one-third, hourly $200–$325 for family and criminal work. Estate planning packages are commonly flat-fee, with elder-law specialists charging for the added Medicaid-planning complexity.",
+    legalAid:
+      "Pine Tree Legal Assistance (ptla.org), founded in 1966, is Maine's oldest and largest civil legal aid provider, with six offices (Portland, Lewiston, Augusta, Bangor, Machias, Presque Isle) serving low-income residents statewide, including specialty units for farmworkers, Native Americans, and children. The Volunteer Lawyers Project matches eligible clients with private attorneys donating their time. The Cumberland Legal Aid Clinic at the University of Maine School of Law has students represent clients under faculty supervision. Legal Services for Maine Elders runs a statewide helpline for residents 60 and older.",
+    courtSystem:
+      "Maine is distinctive for having no intermediate appellate court — the Supreme Judicial Court, sitting as the Law Court, hears all appeals directly from the trial courts. Trial work happens in the Superior Court (major civil and criminal cases) and the District Court (family, smaller civil, and misdemeanor matters). Maine judges are appointed by the governor and confirmed by the state senate, not elected. The system strongly emphasizes mediation and alternative dispute resolution, and the small, collegial bar means cases often resolve faster than in busier states.",
+    notableLaws:
+      "First, Maine's lobster fishery operates under a limited-entry zone licensing system — licenses are scarce, valuable, and transferable only under strict rules, so fishing-business transactions demand attorneys who understand maritime licensing. Second, Maine requires mandatory foreclosure mediation, giving homeowners a structured chance to negotiate before losing their homes. Third, Maine's Human Rights Act covers more protected classes and applies to smaller employers than federal law, making employment disputes broader here — and its paid family and medical leave program, phasing in from 2026, is creating a new wave of compliance work.",
   },
   {
     name: "Maryland",
@@ -273,6 +393,12 @@ export const STATES: StateInfo[] = [
       "Use the Maryland State Bar Association's referral service and check the Attorney Grievance Commission records. Given the contributory negligence rule, ask any injury lawyer specifically how they handle fault disputes — vague answers are a red flag. For federal employment matters, seek DC-metro specialists.",
     fees:
       "Maryland injury contingency fees run about one-third, with the contributory negligence risk baked into case selection. Hourly rates in the DC suburbs ($350–$550) run well above Baltimore and rural rates. Security-clearance work is typically flat-fee.",
+    legalAid:
+      "Maryland Legal Aid (mdlab.org) is the state's largest free civil legal provider — a private nonprofit law firm serving Baltimore City and all 23 counties from 12 offices, helping over 100,000 people a year. The Maryland Volunteer Lawyers Service (mvlslaw.org) matches eligible clients with volunteer attorneys statewide. The Pro Bono Resource Center of Maryland coordinates volunteer efforts, and the Maryland Court Help Centers offer free walk-in and phone assistance (410-260-1392) for self-represented litigants. The People's Law Library of Maryland provides plain-language legal information online.",
+    courtSystem:
+      "Maryland's trial courts are the Circuit Courts, organized into eight judicial circuits. Appeals go to the Appellate Court of Maryland and then the Supreme Court of Maryland — both renamed in December 2022 by constitutional amendment (formerly the Court of Special Appeals and the Court of Appeals, so older documents use the old names). Circuit judges are elected in nonpartisan elections or appointed to fill vacancies; appellate judges go through merit-based appointment with senate confirmation. The courts are well-regarded for efficient case management, particularly in the Baltimore and DC-suburb corridors.",
+    notableLaws:
+      "First, Maryland's wiretapping and electronic surveillance statute requires all-party consent for recording conversations — stricter than federal one-party-consent law — which has major implications for employment disputes, divorce evidence, and workplace investigations. Second, Maryland abolished its feudal ground rent system but legacy ground rents still cloud some Baltimore-area titles, requiring specialized real estate counsel to clear. Third, Maryland's Consumer Protection Act provides strong remedies including attorney's fees for deceptive trade practices, making consumer cases more viable here than in many neighboring states.",
   },
   {
     name: "Massachusetts",
@@ -286,6 +412,12 @@ export const STATES: StateInfo[] = [
       "The Massachusetts Bar Association's lawyer referral service and the Board of Bar Overseers' public records are the key vetting tools. Boston's market is deep but expensive; for routine matters, experienced suburban practitioners often deliver equal quality at lower rates.",
     fees:
       "Massachusetts injury contingency fees run 33–40%. Boston hourly rates ($350–$600) are New England's highest. The state's fee-shifting consumer laws mean some consumer attorneys take cases on contingency even outside personal injury.",
+    legalAid:
+      "Massachusetts funds one of the country's densest legal-aid networks through the Massachusetts Legal Assistance Corporation (MLAC). Greater Boston Legal Services (GBLS) covers Boston and 31 surrounding cities; Community Legal Aid serves central and western Massachusetts from Worcester and Springfield; De Novo (formerly Community Legal Services and Counseling Center) handles Cambridge-area family and immigration cases; Northeast Legal Aid covers the Merrimack Valley; and South Coastal Counties Legal Services serves Fall River to Cape Cod. The Volunteer Lawyers Project of the Boston Bar Association places pro bono cases, and Harvard's Legal Aid Bureau and Legal Services Center take select matters.",
+    courtSystem:
+      "Massachusetts trial courts start with the Superior Court (general jurisdiction, jury trials), District Court and Boston Municipal Court (misdemeanors, smaller civil cases), plus specialized Housing Court, Land Court, Probate and Family Court, and Juvenile Court. Appeals go to the Massachusetts Appeals Court, then the Supreme Judicial Court — the oldest continuously operating appellate court in the Western Hemisphere, dating to 1692. Distinctively, Massachusetts judges are appointed by the governor with Governor's Council consent and serve to age 70; there are no judicial elections, so courtroom culture rewards preparation over politics.",
+    notableLaws:
+      "Three laws reshape hiring decisions here. First, the 2018 non-compete reform bans non-competes for hourly and most nonexempt workers and requires ‘garden leave’ pay for the rest — if you're hiring or leaving a job, get an employment lawyer before signing. Second, the Paid Family and Medical Leave program (2021) created a state-run paid leave system with job protections broader than federal FMLA, driving a wave of benefits disputes. Third, the $8,000 PIP threshold in the no-fault auto system controls when you can sue after a crash — a personal injury lawyer's first question will be whether your medical bills crossed it.",
   },
   {
     name: "Michigan",
@@ -299,6 +431,12 @@ export const STATES: StateInfo[] = [
       "The State Bar of Michigan's lawyer referral service and public discipline records are essential starting points. For any auto accident case, prioritize attorneys who can clearly explain how the 2019 reform affects your specific PIP selection — it's the hinge every Michigan crash case turns on.",
     fees:
       "Michigan injury contingency fees run about one-third. Detroit hourly rates ($250–$450) lead the state. No-fault benefit disputes are often handled on contingency as well.",
+    legalAid:
+      "Michigan divides the state among regional providers. The Legal Aid and Defender Association — founded in 1909, one of America's oldest — covers metro Detroit's three counties. Lakeshore Legal Aid serves the southeast; Legal Services of Eastern Michigan covers the Flint–Saginaw–Port Huron corridor; Legal Services of South Central Michigan handles Lansing and Ann Arbor; Legal Aid of Western Michigan covers Grand Rapids and the west; and Legal Services of Northern Michigan spans the Upper Peninsula. MichiganLegalHelp.org offers self-help tools statewide, and the State Bar's Modest Means Program connects qualifying clients with attorneys at $75 per hour.",
+    courtSystem:
+      "Michigan trial courts are the Circuit Courts (57 circuits, general jurisdiction including felonies and large civil cases), District Courts (misdemeanors, small claims, civil cases under $25,000), and Probate Courts (estates, guardianships). Appeals go to the Michigan Court of Appeals, then the seven-justice Michigan Supreme Court. All Michigan judges are elected in nonpartisan elections — including Supreme Court justices — so judicial philosophy can shift with election cycles. That matters because a case filed today may be decided years later by a different bench, something worth weighing when your dispute could turn on how a court reads a statute.",
+    notableLaws:
+      "First, Michigan legalized recreational marijuana in 2018, but employers can still enforce drug-free workplaces — a collision that generates employment and landlord-tenant disputes. Second, Michigan imposes strict liability on dog owners for bites, even on a first incident, which simplifies injury claims but makes homeowner-insurance coverage critical. Third, Michigan's dram shop law holds bars liable for serving visibly intoxicated patrons who cause injury — if a drunk driver hit you, an experienced attorney will investigate where they were drinking, not just who was driving.",
   },
   {
     name: "Minnesota",
@@ -312,6 +450,12 @@ export const STATES: StateInfo[] = [
       "The Minnesota State Bar Association's referral service covers the state, and the Lawyers Professional Responsibility Board publishes discipline records. In the Twin Cities' deep market, match the lawyer to the matter: corporate boutiques for business, high-volume litigators for injury cases.",
     fees:
       "Minnesota injury contingency fees run about one-third. Twin Cities hourly rates ($250–$450) are moderate for a major metro. Healthcare regulatory work commands premium rates given its complexity.",
+    legalAid:
+      "The Minnesota Legal Services Coalition coordinates seven regional programs. Mid-Minnesota Legal Aid covers the central 20 counties including Hennepin from Minneapolis, St. Cloud, and Willmar. Southern Minnesota Regional Legal Services (SMRLS) serves 33 southern counties from St. Paul, Rochester, Winona, and Worthington. Justice North covers the northeast from Duluth; Legal Services of Northwest Minnesota covers 22 northwestern counties. The Volunteer Lawyers Network runs statewide phone and walk-in clinics, Anishinabe Legal Services serves tribal communities, and the single intake line 1-877-MY-MN-LAW routes callers to the right office.",
+    courtSystem:
+      "Minnesota's trial courts are the District Courts, organized into 10 judicial districts with general jurisdiction over civil and criminal cases. Appeals go to the Minnesota Court of Appeals, then the seven-justice Minnesota Supreme Court. Two specialized courts stand out: the Tax Court and the Workers' Compensation Court of Appeals, which handle those technical areas exclusively. Judges are elected in nonpartisan elections but often first appointed by the governor to fill vacancies — and Minnesota's judiciary is known for actively steering cases into mediation and other alternative dispute resolution.",
+    notableLaws:
+      "First, Minnesota banned nearly all non-compete agreements in 2023 — if an employer asks you to sign one, it's likely unenforceable, but get advice before ignoring it. Second, the state's Earned Sick and Safe Time law (2024) guarantees paid sick leave statewide, broader than many employers realized, fueling wage-and-hour disputes. Third, Minnesota's DWI law sets the limit at 0.08 but treats 0.16 as an aggravating factor with harsher penalties — and the state runs intensive DWI courts, so a criminal defense lawyer's familiarity with local diversion and treatment programs can matter as much as trial skill.",
   },
   {
     name: "Mississippi",
@@ -325,6 +469,12 @@ export const STATES: StateInfo[] = [
       "The Mississippi Bar's lawyer referral service is the main public resource, and the state's small bar means reputations are well known — ask around. In Jackson, look for litigators with federal court experience; on the Gulf Coast, maritime and hospitality familiarity matters.",
     fees:
       "Mississippi contingency fees run about one-third. Hourly rates ($175–$300) are among the South's lowest, reflecting the cost of living. Tort reform has made the plaintiffs' bar selective about cases.",
+    legalAid:
+      "Two agencies split the state: the Mississippi Center for Legal Services covers 43 central and southern counties from Jackson, Hattiesburg, Gulfport, Meridian, and McComb, while North Mississippi Rural Legal Services covers 39 northern counties from Oxford, Tupelo, Clarksdale, Greenville, and West Point. A statewide hotline (1-800-498-1804) routes callers to the nearest office. The Mississippi Volunteer Lawyers Project matches low-income clients with private attorneys taking pro bono cases, the Mississippi Center for Justice handles impact litigation, and MS Free Legal Answers lets qualifying residents get brief advice online.",
+    courtSystem:
+      "Mississippi has two parallel trial courts: Circuit Courts handle felonies and general civil cases, while Chancery Courts — a distinctive feature — handle equity matters including divorce, child custody, estates, and land disputes. County Courts handle smaller matters in 19 counties. Appeals go to the Mississippi Court of Appeals, then the nine-justice Supreme Court of Mississippi. All judges are elected in nonpartisan elections. The chancery/circuit split matters when hiring: a divorce or boundary dispute belongs in chancery court, and you want a lawyer who practices there regularly.",
+    notableLaws:
+      "First, Mississippi's tort reforms cap non-economic damages (generally $1 million), which directly limits what injury cases are worth — ask any prospective lawyer how the caps affect your claim. Second, Mississippi has no state minimum wage or overtime law beyond the federal $7.25, so wage disputes turn entirely on federal law and require attorneys fluent in it. Third, the three-year personal injury statute of limitations is shorter than in many states, so waiting to find a lawyer can cost you the case outright.",
   },
 ];
 
@@ -341,6 +491,12 @@ export const STATES_2: StateInfo[] = [
       "The Missouri Bar's lawyer search and the state's public discipline records are the vetting essentials. In Kansas City, confirm licensure on the correct side of the state line. For product-liability matters, St. Louis firms with mass-tort experience are the natural starting point.",
     fees:
       "Missouri injury contingency fees run about one-third. St. Louis and Kansas City hourly rates ($250–$450) exceed rural rates. Mass-tort and pharmaceutical cases are almost always contingency-based.",
+    legalAid:
+      "Four regional programs cover Missouri: Legal Aid of Western Missouri (Kansas City, St. Joseph, Joplin, Warrensburg), Legal Services of Eastern Missouri (St. Louis, Clayton, Hannibal, Union), Legal Services of Southern Missouri (Springfield, Cape Girardeau, Sikeston, Rolla, West Plains), and Mid-Missouri Legal Services (Columbia, Jefferson City). ArchCity Defenders in St. Louis provides free defense against the criminalization of poverty, and the shared portal lsmo.org offers legal information statewide. Each program runs its own intake, so start with the one covering your county.",
+    courtSystem:
+      "Missouri's trial courts are the Circuit Courts (45 circuits, general jurisdiction). Appeals go to the Missouri Court of Appeals, split into Eastern, Western, and Southern districts, then the seven-judge Supreme Court of Missouri. The state's distinctive contribution to American law is the Missouri Plan: appellate judges are nominated by a merit commission, appointed by the governor, and then face periodic retention elections rather than contested races — a model copied nationwide. Trial judges in most circuits are elected, so local judicial temperament varies more at the trial level.",
+    notableLaws:
+      "First, the Missouri Merchandising Practices Act lets consumers recover attorney's fees in deception cases — which is why consumer lawyers take these cases on contingency; ask about it if a business misled you. Second, voters rejected right-to-work in 2018's Proposition A, keeping Missouri a strong union state, so labor and employment disputes here play out differently than across the river in Kansas. Third, Missouri's five-year personal injury statute of limitations is among the nation's longest, giving lawyers unusual room to build complex product-liability and mass-tort cases — a factor in St. Louis's national reputation for them.",
   },
   {
     name: "Montana",
@@ -354,6 +510,12 @@ export const STATES_2: StateInfo[] = [
       "The State Bar of Montana's lawyer referral service is the key resource in a state where the nearest specialist may be 200 miles away. For ranch, water, or public-lands matters, hire attorneys who actually work in those areas — generalists from the cities often lack the specialized knowledge.",
     fees:
       "Montana rates are moderate: injury contingency around one-third, hourly $200–$325. Water-rights and natural-resources work is typically hourly given its technical depth. Travel time policies matter — ask how the firm bills for long drives to rural courthouses.",
+    legalAid:
+      "The Montana Legal Services Association (MLSA) is the state's sole general civil legal aid provider, serving all of Montana with offices including Billings, Missoula, and Helena and a helpline at 1-800-666-6899. MontanaLawHelp.org offers self-help resources statewide. The Alexander Blewett III School of Law at the University of Montana runs clinics in family, Indian, and mediation law. The Montana Supreme Court's Appellate Pro Bono Program provides free appellate counsel to qualifying self-represented litigants, and Montana Attorneys for Montana Veterans (MAMV) helps veterans with disability claims and discharge upgrades.",
+    courtSystem:
+      "Montana's general-jurisdiction trial courts are the District Courts (22 judicial districts). Limited-jurisdiction matters go to Justice Courts and City Courts. Appeals go directly to the seven-justice Montana Supreme Court — there is no intermediate appellate court. Uniquely, Montana has a statewide Water Court that exclusively adjudicates water-rights claims, reflecting how central water is to the state's ranching economy. All judges are elected in nonpartisan elections, and Montana’s small, collegial bar means most practitioners know the judges and each other — which cuts both ways, fostering practical resolutions but making an outsider attorney’s local relationships worth asking about.",
+    notableLaws:
+      "First, Montana is the only state without at-will employment — the Wrongful Discharge from Employment Act requires ‘good cause’ for firing after probation, so employment disputes here favor workers more than anywhere else in America. Second, the Stream Access Law guarantees public recreational use of rivers and streams up to the high-water mark, generating constant property and trespass disputes that need lawyers versed in it. Third, Montana's lack of a general sales tax is offset by local option and resort taxes in tourist areas — a trap for new businesses that assume ‘no sales tax’ means no tax complexity.",
   },
   {
     name: "Nebraska",
@@ -367,6 +529,12 @@ export const STATES_2: StateInfo[] = [
       "The Nebraska State Bar Association's referral service and the Counsel for Discipline records are the public vetting tools. Omaha offers depth in corporate and finance law; for agricultural matters, seek attorneys with genuine farm-economy experience rather than city generalists.",
     fees:
       "Nebraska contingency fees run about one-third. Omaha hourly rates ($200–$350) are reasonable; rural rates run lower. Farm succession plans are often flat-fee.",
+    legalAid:
+      "Legal Aid of Nebraska is the statewide civil provider, serving all 93 counties with offices in Omaha, Lincoln, Grand Island, Norfolk, North Platte, Scottsbluff, and Bancroft; the statewide AccessLine is 1-877-250-2016, with a dedicated Elder AccessLine at 1-800-527-7249. Two law-school clinics take cases: Creighton's Milton R. Abrahams Legal Clinic in Omaha and the University of Nebraska Civil Law Clinic in Lincoln. The Volunteer Lawyers Project runs community clinics, Nebraska Free Legal Answers handles online questions, and the Immigration Legal Assistance Hotline (1-855-307-6730) serves immigrants statewide.",
+    courtSystem:
+      "Nebraska trial courts are the District Courts (12 districts, general jurisdiction) and County Courts (misdemeanors, small claims, probate, preliminary hearings). Appeals go to the Nebraska Court of Appeals, then the seven-judge Nebraska Supreme Court. Judges are chosen through merit selection — a nominating commission sends finalists to the governor — and then face retention elections, so campaigns are yes-or-no rather than contested. The system tends to produce a stable, professional judiciary with less election-cycle volatility than in states with contested judicial races.",
+    notableLaws:
+      "First, Nebraska is one of few states with a county-level inheritance tax, with rates depending on your relationship to the deceased — estate planning here genuinely requires local counsel, not a generic online will. Second, the 2024 repeal of the motorcycle helmet mandate changed the liability landscape for bike crashes overnight; injury lawyers are still litigating how it affects fault arguments. Third, Nebraska permits wage garnishment for most consumer debts (unlike some neighboring states), so debtor-creditor work here has sharper teeth — if you're being pursued, don't wait to get advice.",
   },
   {
     name: "Nevada",
@@ -380,6 +548,12 @@ export const STATES_2: StateInfo[] = [
       "The State Bar of Nevada's lawyer referral service and public discipline records are essential — the Las Vegas market has heavy advertising, so look past it. Gaming matters belong with licensed gaming-law specialists; tourist injuries need firms experienced with resort-company defense teams.",
     fees:
       "Nevada injury contingency fees run about one-third. Las Vegas hourly rates ($275–$500) reflect the metro market. Gaming licensing work is typically flat-fee or project-based given its regulatory complexity.",
+    legalAid:
+      "Three main providers divide Nevada: the Legal Aid Center of Southern Nevada (established 1958, Las Vegas) handles Clark County civil matters with free Ask-A-Lawyer sessions; Nevada Legal Services operates statewide from Las Vegas, Reno, and Elko; and Northern Nevada Legal Aid (formerly Washoe Legal Services) covers Reno and the north. The UNLV Boyd School of Law's Thomas & Mack Legal Clinic handles economic justice, immigration, and tenants' rights cases. Volunteer Attorneys for Rural Nevadans (VARN) serves low-income residents of the rural counties, and the Southern Nevada Senior Law Program provides free help to residents 60 and older.",
+    courtSystem:
+      "Nevada trial courts are the District Courts (11 judicial districts, general jurisdiction), Justice Courts (misdemeanors, small claims, evictions, preliminary hearings), and Municipal Courts (city ordinance violations). Appeals go to the Nevada Court of Appeals — created only in 2014, making it one of America's newest appellate courts — then the seven-justice Nevada Supreme Court. All judges are elected in nonpartisan elections. Gaming disputes follow a separate track through the Nevada Gaming Control Board and Gaming Commission, which is why casino-related matters need specialists, not general litigators.",
+    notableLaws:
+      "First, Nevada's two-year personal injury statute of limitations is among the shortest in the country — if you're hurt, the clock is brutally fast, so hire counsel immediately. Second, Nevada's HOA ‘super-priority’ lien law (upheld in the famous SFR Investments case) lets homeowners associations foreclose ahead of even first mortgages, creating a minefield for buyers that demands a real estate lawyer's review. Third, licensed brothels are legal in counties under 700,000 people — a regulatory framework generating unique licensing, employment, and criminal matters you won't find in any other state.",
   },
   {
     name: "New Hampshire",
@@ -393,6 +567,12 @@ export const STATES_2: StateInfo[] = [
       "The New Hampshire Bar Association's lawyer referral service covers the state. Because many firms serve both New Hampshire and Massachusetts clients, confirm where your attorney is actually licensed — the two states' laws differ significantly on taxes, family law, and liability rules.",
     fees:
       "New Hampshire rates are moderate: injury contingency around one-third, hourly $225–$375. Business formation is commonly flat-fee, reflecting the state's appeal to new companies.",
+    legalAid:
+      "New Hampshire Legal Assistance (NHLA) provides statewide civil aid from offices in Concord, Manchester, Portsmouth, Nashua, Claremont, Berlin, and Littleton. 603 Legal Aid — formed by merging the Bar's Pro Bono Program with the Legal Advice and Referral Center — handles intake at 1-800-639-5290. The UNH School of Law Civil Practice Clinic takes consumer, foreclosure, and tenant cases. The Bar's DOVE Project provides free representation to domestic violence survivors at restraining-order hearings, the Modest Means Program connects clients with reduced-rate attorneys, and LawLine offers free monthly phone consultations with volunteer lawyers.",
+    courtSystem:
+      "New Hampshire's trial courts are the Superior Court (general jurisdiction: felonies, large civil cases) and the Circuit Court, which consolidated the old district, probate, and family courts into one system with specialized divisions. Appeals go directly to the five-justice New Hampshire Supreme Court — there is no intermediate appellate court. Distinctively, judges are appointed by the governor with Executive Council confirmation and serve to age 70; New Hampshire has no judicial elections at all, which keeps the bench notably insulated from campaign politics.",
+    notableLaws:
+      "First, New Hampshire is the only state with no seatbelt or motorcycle helmet requirement for adults — which cuts both ways in injury cases, since defense lawyers argue comparative fault when restraints weren't used. Second, the state allows both no-fault and fault-based divorce grounds, so the grounds you file under can affect property division and strategy — a family lawyer's first advice point. Third, New Hampshire imposes strict liability on dog owners for bites regardless of the animal's history, making homeowner's and renter's insurance coverage a key question in any dog-bite claim.",
   },
   {
     name: "New Jersey",
@@ -406,6 +586,12 @@ export const STATES_2: StateInfo[] = [
       "The New Jersey State Bar Association's referral service and the state judiciary's attorney records are key resources. For auto cases, your first question should be which insurance option you selected — it determines your entire case. Prioritize attorneys who explain this clearly.",
     fees:
       "New Jersey injury contingency fees run 33–40%. Northern New Jersey hourly rates ($325–$550) reflect NYC-metro spillover. Pharmaceutical and corporate regulatory work commands premium rates.",
+    legalAid:
+      "Legal Services of New Jersey coordinates the statewide system, with regional programs including Essex County Legal Aid Association in Newark, South Jersey Legal Services, Central Jersey Legal Services in New Brunswick, and Union County Legal Services in Elizabeth. Volunteer Lawyers for Justice in Newark handles bankruptcy, consumer, and family cases pro bono. Rutgers Law School's Newark clinics — Urban Legal, Women's Rights Litigation, Child Advocacy, and Community Law among them — take select cases. The Education Law Center specializes in school-rights matters, and the Community Health Law Project serves clients with disabilities.",
+    courtSystem:
+      "New Jersey's trial court is the Superior Court, uniquely split into the Law Division (civil damages, criminal) and the Chancery Division (equity: family, foreclosure, injunctions), plus the Family Part and a separate Tax Court. Appeals go to the Appellate Division, then the seven-justice New Jersey Supreme Court. Municipal Courts handle traffic and minor offenses in each town. Judges are appointed by the governor with senate confirmation and serve initial seven-year terms — no judicial elections — producing a professionalized bench, though the appointment process itself is intensely political.",
+    notableLaws:
+      "First, the New Jersey Consumer Fraud Act allows treble damages plus attorney's fees for deceptive business practices — among the strongest consumer laws in America, and the reason consumer lawyers take these cases on contingency. Second, the Law Against Discrimination is broader than federal law, covering perceived disabilities and more protected classes, which shapes every employment case filed here. Third, the Conscientious Employee Protection Act gives whistleblowers powerful retaliation protections — if you were fired after reporting wrongdoing, this is the statute an employment lawyer will reach for first.",
   },
   {
     name: "New Mexico",
@@ -419,6 +605,12 @@ export const STATES_2: StateInfo[] = [
       "The State Bar of New Mexico's referral service is the starting point, and the Disciplinary Board's records are public. For matters touching tribal lands or federal installations, seek attorneys with specific experience — jurisdictional questions here are genuinely complex.",
     fees:
       "New Mexico contingency fees run about one-third. Albuquerque hourly rates ($200–$350) are moderate. Federal contracting and clearance work may be flat-fee or hourly depending on scope.",
+    legalAid:
+      "If cost is the barrier, New Mexico Legal Aid (NMLA) is the statewide backbone, with offices from Albuquerque to Las Cruces handling housing, family, and consumer cases for low-income residents. DNA-People's Legal Services focuses on Native American communities, a critical resource given the state's tribal lands. The UNM School of Law runs clinics — including business, immigration, and natural resources clinics — where supervised students take real cases. The State Bar's Volunteer Attorney Program matches modest-means clients with private lawyers at reduced rates, and Law Access New Mexico offers an online intake portal. For seniors, the Senior Citizens' Law Office in Albuquerque handles benefits and guardianship matters.",
+    courtSystem:
+      "New Mexico's trial work happens in district courts across 13 judicial districts, with the Bernalillo County Metropolitan Court handling misdemeanors and smaller civil cases in Albuquerque. Magistrate courts cover preliminary matters statewide, and each county has a probate court. Appeals go to the New Mexico Court of Appeals, with the five-justice Supreme Court of New Mexico at the top. Judges are first appointed through a merit-selection nominating process, then face retention elections — so they don't campaign against opponents. If your case is in Albuquerque, expect the metro court's high volume; rural districts move slower but with more individual attention.",
+    notableLaws:
+      "Three laws shape attorney choice here. First, New Mexico abolished the death penalty in 2009, so serious criminal cases turn entirely on sentencing strategy — pick a defense lawyer with deep sentencing-hearing experience. Second, the Medical Malpractice Act caps most malpractice recoveries, which means med-mal attorneys screen cases ruthlessly; bring complete records to the first meeting. Third, water rights follow prior appropriation and centuries-old acequia customs — a property dispute involving irrigation ditches needs a water-law specialist, not a general real estate lawyer. Tribal jurisdictional overlap adds a fourth wrinkle: confirm your lawyer knows whether state, federal, or tribal court has authority.",
   },
   {
     name: "New York",
@@ -432,6 +624,12 @@ export const STATES_2: StateInfo[] = [
       "New York's court system maintains public attorney registration and discipline records — always check them. The New York State Bar Association and county bar associations run referral services. In NYC, match the lawyer to the borough courthouse; for construction injuries, Labor Law 240 experience is non-negotiable.",
     fees:
       "New York injury contingency fees are regulated on a sliding scale (generally around one-third). NYC hourly rates ($400–$800+) are the nation's highest; upstate rates run far lower. Tenant and consumer cases often use contingency or fee-shifting arrangements.",
+    legalAid:
+      "The Legal Aid Society — the nation's oldest — handles criminal, civil, and juvenile cases across New York City, while Legal Services NYC and the New York Legal Assistance Group (NYLAG) cover housing, immigration, and consumer matters. Upstate, the Empire Justice Center and Legal Assistance of Western New York (LawNY) serve lower-income residents. Volunteer Lawyers for the Arts is a New York original, offering free counsel to artists and creatives. The New York State Bar's Lawyer Referral Service and county bars (including the NYC Bar's Monday Night Law clinic) connect callers with vetted attorneys, and many legal aid offices run dedicated hotlines for tenants facing eviction.",
+    courtSystem:
+      "New York's court names confuse everyone: the 'Supreme Court' is actually the main TRIAL court in each county, while the highest court is the Court of Appeals in Albany. Between them sits the Appellate Division, split into four departments. Specialized courts include Family Court, Surrogate's Court (which handles wills and estates — the name is a colonial holdover), the Court of Claims for suits against the state, and New York City's Civil and Criminal Courts. Most judges are elected, which is why judicial races appear on your ballot. The practical takeaway: confirm which specific court your case belongs in, because filing in the wrong one wastes months.",
+    notableLaws:
+      "First, New York's wrongful death statute is among the country's most restrictive — recovery is limited to pecuniary (financial) loss, with nothing for grief or loss of companionship. A lawyer who doesn't front-load economic-damage proof will leave money behind. Second, 'Lavern's Law' created a discovery rule for the statute of limitations in cancer misdiagnosis cases, so the clock may start at discovery rather than the error — timing questions here are genuinely technical. Third, CPLR Article 16 limits joint-and-several liability: defendants found 50% or less at fault generally pay only their share, which makes fault allocation the central battle in multi-defendant injury cases.",
   },
   {
     name: "North Carolina",
@@ -445,6 +643,12 @@ export const STATES_2: StateInfo[] = [
       "The North Carolina Bar Association's lawyer referral service and the State Bar's public discipline records are the vetting essentials. Ask any personal injury lawyer how they handle contributory negligence defenses — it's the defining question in North Carolina accident cases. Charlotte offers depth in finance law; the Triangle in tech and IP.",
     fees:
       "North Carolina injury contingency fees run about one-third, with case selection heavily influenced by the contributory negligence risk. Charlotte hourly rates ($275–$500) lead the state. Business formation is commonly flat-fee.",
+    legalAid:
+      "Legal Aid of North Carolina (LANC) operates offices statewide covering housing, domestic violence, consumer, and benefits cases. In the mountains, Pisgah Legal Services is the go-to for low-income residents across western NC. Law school clinics at Duke, UNC-Chapel Hill, and Wake Forest take cases in areas from immigration to entrepreneurship. The North Carolina Bar Association runs a lawyer referral service with a modest consultation fee, and the state's Guardian ad Litem program recruits volunteers for abused children's cases. For military families around Fort Bragg and Camp Lejeune, several aid offices run dedicated servicemember clinics.",
+    courtSystem:
+      "North Carolina's District Court handles misdemeanors, family law, and civil cases up to $25,000, while Superior Court — the general trial court — takes felonies and larger civil matters. What surprises outsiders: Superior Court judges rotate between districts every six months, so your judge may have just arrived from another county. Appeals go to the 15-judge Court of Appeals, then the seven-justice Supreme Court of North Carolina. The state also runs a specialized North Carolina Business Court for complex commercial disputes. Judges are elected, and the rotation system means local courthouse familiarity matters less than statewide litigation experience.",
+    notableLaws:
+      "North Carolina is one of the last states where you can still sue for alienation of affection and criminal conversation — essentially suing a third party for breaking up a marriage. These 'heart balm' cases require a family litigator with specific experience, as defenses are technical. Second, the state allows the 'seat belt defense': evidence that you weren't buckled up can reduce your injury recovery, so defense lawyers probe it early. Third, the personal injury statute of limitations is three years — more generous than many states — but waiting invites spoliation fights over surveillance video and black-box data, so prompt counsel still matters.",
   },
   {
     name: "North Dakota",
@@ -458,6 +662,12 @@ export const STATES_2: StateInfo[] = [
       "The State Bar Association of North Dakota's referral service is the main resource. For oil, gas, or mineral-rights matters, hire attorneys who actually work in the Bakken region — the technical and regulatory knowledge is specialized. Verify licensing for any out-of-state firm soliciting your case.",
     fees:
       "North Dakota rates are modest: injury contingency around one-third, hourly $175–$300. Oil and gas title work is often project-based given its volume-driven nature.",
+    legalAid:
+      "Legal Services of North Dakota is the statewide civil legal aid provider, with offices in Bismarck, Fargo, and Minot handling family, housing, and benefits cases. The High Plains Fair Housing Center tackles housing discrimination statewide. UND School of Law clinics give students supervised caseloads in areas like tribal and elder law. The State Bar Association of North Dakota operates a lawyer referral service, and its Volunteer Lawyer Program places pro bono cases with private attorneys. Given the Bakken's transient workforce, several programs run targeted outreach to oilfield workers on wage and injury issues.",
+    courtSystem:
+      "North Dakota's District Courts — organized into eight judicial districts — are the trial courts for almost everything. Above them sits the five-justice Supreme Court of North Dakota. Unusually, the state has no permanent intermediate appellate court: instead, a temporary Court of Appeals of three-judge panels is assigned cases by the Supreme Court when needed. Municipal courts handle city ordinance violations. Judges are elected in nonpartisan races. The practical effect of the temporary appeals court is a thinner body of published intermediate precedent, so experienced appellate lawyers lean heavily on Supreme Court decisions.",
+    notableLaws:
+      "First, workplace injuries go through Workforce Safety & Insurance (WSI), North Dakota's exclusive state-run workers' comp fund — you cannot sue your employer, and appeals follow an administrative track, so hire someone who practices in that system, not a general PI lawyer. Second, mineral rights law is its own world here: dormant mineral statutes can sever long-unused interests, and Bakken title chains are notoriously tangled — oil and gas matters demand a title specialist. Third, the state's agritourism immunity statute shields farm operators from certain visitor-injury suits, which changes the calculus of any rural recreational injury claim.",
   },
   {
     name: "Ohio",
@@ -471,6 +681,12 @@ export const STATES_2: StateInfo[] = [
       "The Ohio State Bar Association's referral service and the Supreme Court of Ohio's public attorney records are key vetting tools. Match the metro to the matter — Cleveland for medical and industrial cases, Columbus for regulatory work, Cincinnati for corporate matters.",
     fees:
       "Ohio injury contingency fees run about one-third. Major-metro hourly rates ($250–$450) exceed small-city rates. Trucking accident cases are almost always contingency-based given their complexity and value.",
+    legalAid:
+      "The Legal Aid Society of Cleveland and the Legal Aid Society of Columbus anchor the state's civil legal aid network, joined by Community Legal Aid in Akron, Legal Aid of Western Ohio, and Southeastern Ohio Legal Services. The Ohio State Legal Services Association coordinates statewide. Law clinics at Ohio State's Moritz College of Law and Case Western Reserve take on housing, immigration, and small-business cases. The Ohio State Bar Association's lawyer referral service connects callers with local attorneys, and many county bars run their own referral and reduced-fee panels for modest-means clients.",
+    courtSystem:
+      "Ohio is the only state with mayor's courts — small municipal courts run by mayors in villages and small cities, handling traffic and minor misdemeanors. Above them: municipal and county courts, then the Courts of Common Pleas (one per county, the main trial courts). Appeals go to one of 12 District Courts of Appeals, then the seven-justice Supreme Court of Ohio. Ohio judges are elected — partisan primaries followed by nonpartisan general-election ballots, a hybrid found almost nowhere else. If your matter starts in a mayor's court, hire a lawyer who actually practices in that village courtroom.",
+    notableLaws:
+      "Ohio's tort reform caps most noneconomic damages (roughly $250,000–$350,000 depending on the case), so a PI lawyer's real skill is maximizing economic damages and finding exceptions — ask how they've done it. Second, medical malpractice cases require a certificate of merit: an expert's affidavit filed with the complaint. Miss it and the case dies early, so your lawyer needs an expert network ready on day one. Third, Ohio's 'apology law' bars expressions of sympathy from being used as admissions in malpractice cases, which shapes how pre-suit negotiations play out.",
   },
   {
     name: "Oklahoma",
@@ -484,6 +700,12 @@ export const STATES_2: StateInfo[] = [
       "The Oklahoma Bar Association's referral service is the starting point. For any matter touching tribal lands or jurisdiction, prioritize attorneys with demonstrated experience in that area — it's genuinely specialized. Energy matters belong with Oklahoma City or Tulsa firms that live in the industry.",
     fees:
       "Oklahoma contingency fees run about one-third. Hourly rates ($200–$350) are moderate statewide. Oil and gas title examination is often volume-priced.",
+    legalAid:
+      "Legal Aid Services of Oklahoma serves low-income residents statewide from offices in Oklahoma City, Tulsa, and beyond. Oklahoma Indian Legal Services is a standout — it provides free civil legal help specifically to Native Americans, essential in a state with 39 tribal nations. Law clinics at OU, Oklahoma City University, and the University of Tulsa take cases in areas from tribal law to entrepreneurship. The Oklahoma Bar Association's lawyer referral service matches callers by county and practice area, and its Lawyers for Heroes program offers pro bono help to military members and veterans.",
+    courtSystem:
+      "Oklahoma is one of only two states with a bifurcated high court: the Supreme Court of Oklahoma is the last word on civil cases, while the Court of Criminal Appeals is the last word on criminal cases, with a Court of Civil Appeals in between for civil matters. Trial work happens in district courts across 26 districts. Appellate judges reach the bench through merit selection and then face retention elections. The split top courts mean civil and criminal appeals develop in separate silos — make sure your appellate lawyer practices in the right one.",
+    notableLaws:
+      "Since McGirt v. Oklahoma, criminal jurisdiction in much of eastern Oklahoma depends on whether the defendant or victim is tribal and where the crime occurred — state, federal, or tribal court could claim the case. A criminal defense lawyer without federal Indian-law fluency is a liability here. Second, Oklahoma's medical marijuana program (State Question 788) is among the nation's most permissive, but employment protections lag behind, creating a steady stream of workplace disputes that need cannabis-aware counsel. Third, workers' compensation runs through an administrative commission with no jury — a very different skill set from courtroom litigation.",
   },
   {
     name: "Oregon",
@@ -497,6 +719,12 @@ export const STATES_2: StateInfo[] = [
       "The Oregon State Bar's lawyer referral service and public discipline records are the vetting tools. Portland's market is deep; outside the metro, county-court familiarity matters more. For employment matters, Oregon's worker-friendly statutes make specialized counsel especially valuable.",
     fees:
       "Oregon injury contingency fees run about one-third. Portland hourly rates ($275–$475) reflect West Coast costs; rural rates run lower. Land-use and environmental work is typically hourly.",
+    legalAid:
+      "Legal Aid Services of Oregon (LASO) and the Oregon Law Center provide statewide civil legal aid, with regional offices from Portland to Ontario. St. Andrew Legal Clinic in Portland is a longtime fixture for low-cost family law help. Clinics at Lewis & Clark, the University of Oregon, and Willamette take on environmental, immigration, and small-business matters. The Oregon State Bar's Lawyer Referral Service offers a reduced-fee initial consultation, and its Modest Means Program connects qualifying clients with attorneys at capped rates. Several county bars run their own pro bono nights.",
+    courtSystem:
+      "Oregon's Circuit Courts — 27 judicial districts — handle nearly all trial work, from felonies to major civil cases. The state also has its own Tax Court, a specialized statewide court for tax disputes that few states maintain. Appeals go to the Court of Appeals, then the seven-justice Supreme Court of Oregon. Justice and municipal courts handle smaller matters. Judges are elected in nonpartisan races. The Tax Court's existence is the practical headline: property and business tax fights get a dedicated forum with judges who live in that subject matter, so tax controversies call for specialists.",
+    notableLaws:
+      "Oregon was the first state with a Death with Dignity Act, which adds end-of-life dimensions to estate planning — your estate lawyer should be comfortable with advance directives in this framework. Second, marijuana is fully legal, but employment law is still catching up: recent rules limit how employers can act on off-duty cannabis use, a fast-moving area where HR-side and employee-side counsel disagree sharply. Third, Oregon imposes strict liability for dog bites — the 'one free bite' rule doesn't exist here — so dog-attack cases are more straightforward for plaintiffs, though damages still need a lawyer who documents scarring and trauma properly.",
   },
   {
     name: "Pennsylvania",
@@ -510,6 +738,12 @@ export const STATES_2: StateInfo[] = [
       "The Pennsylvania Bar Association's referral service and the Disciplinary Board's public records are essential. Your first question for any auto accident lawyer should be about your tort option selection. In Philadelphia, prioritize litigators with actual jury-trial experience in the city's courts.",
     fees:
       "Pennsylvania injury contingency fees run 33–40%. Philadelphia hourly rates ($300–$550) exceed Pittsburgh and rural rates. Fracking and energy lease work is often project-based.",
+    legalAid:
+      "Philadelphia Legal Assistance and Community Legal Services anchor the state's largest legal aid market, with MidPenn Legal Services covering central Pennsylvania and Northwestern Legal Services the northwest. Legal Aid of Southeastern Pennsylvania serves the Philly suburbs. Law clinics at Penn, Temple, Pitt, and Villanova take cases from immigration to entrepreneurship. The Pennsylvania Bar Association's Lawyer Referral Service routes callers to county-level programs, and Philadelphia's Bar Association runs a well-known Lawyer Referral and Information Service with reduced-fee initial consultations. Many county bar associations also host free legal clinics on housing and family issues throughout the year.",
+    courtSystem:
+      "Pennsylvania's trial courts are the Courts of Common Pleas in each county, fed by Magisterial District Courts that handle small claims and preliminary hearings. Appeals split in a way few states match: the Superior Court hears most appeals, while the separate Commonwealth Court handles cases involving state government, agencies, and local government disputes. The seven-justice Supreme Court of Pennsylvania tops the system. All judges — including Supreme Court justices — are elected in partisan elections, making Pennsylvania's judiciary one of the most electorally accountable in the nation.",
+    notableLaws:
+      "Pennsylvania's 2011 'fair share' reform ended full joint-and-several liability for most defendants: anyone found less than 60% at fault generally pays only their share. That makes fault allocation — not just total damages — the decisive fight, and you want a litigator who builds the allocation case early. Second, medical malpractice plaintiffs must file a certificate of merit from a qualified expert, a gatekeeping step that kills unprepared cases. Third, the Tincher decision replaced the old Azzarello test for product defects with a risk-utility standard — product-liability counsel must be current on which test the courts are actually applying.",
   },
   {
     name: "Rhode Island",
@@ -523,6 +757,12 @@ export const STATES_2: StateInfo[] = [
       "The Rhode Island Bar Association's lawyer referral service covers the whole state easily. Given the bar's size, personal reputation is well known — ask for recommendations, then verify standing independently. Most matters can be handled by Providence-based attorneys regardless of where in the state you live.",
     fees:
       "Rhode Island contingency fees run about one-third. Hourly rates ($225–$375) are moderate for New England. The compact market keeps overhead — and fees — reasonable.",
+    legalAid:
+      "Rhode Island Legal Services is the statewide civil legal aid provider, handling housing, family, and benefits cases from Providence. Roger Williams University School of Law clinics take on immigration, criminal defense, and business matters. The Rhode Island Bar Association's Lawyer Referral Service includes reduced-fee panels for qualifying callers, and its Pro Bono Collaborative matches corporate attorneys with nonprofits. The Volunteer Lawyer Program places cases with private attorneys statewide, and several community organizations run legal clinics focused on the state's immigrant and refugee populations.",
+    courtSystem:
+      "Rhode Island's Superior Court is the main trial court, with District Court, Family Court, and a Workers' Compensation Court handling specialized dockets, plus a Traffic Tribunal for driving offenses. The five-justice Supreme Court of Rhode Island is the final word. Here's the rarity: Rhode Island judges are appointed by the governor with legislative confirmation and serve for LIFE — like federal judges, a practice shared with only one or two other states. That tenure shapes the bench's independence. Practically, the Traffic Tribunal means even routine driving cases get a dedicated forum with its own procedures.",
+    notableLaws:
+      "Rhode Island's wrongful death statute restricts who can sue — generally only a spouse, children, or parents — which is narrower than many states and can end a claim before it starts; confirm standing in the first meeting. Second, traffic offenses go to the separate Traffic Tribunal rather than regular criminal court, so a DUI or license matter needs a lawyer who actually practices there. Third, the state's old housing stock keeps lead-paint liability active: Providence enforces strict lead-safe rules, and landlords face real exposure — tenant-injury cases here reward attorneys who know the inspection and enforcement regime.",
   },
   {
     name: "South Carolina",
@@ -536,6 +776,12 @@ export const STATES_2: StateInfo[] = [
       "The South Carolina Bar's lawyer referral service is the main public resource. In the Upstate, look for attorneys experienced with manufacturing and commercial matters; in Charleston, tourism and real estate familiarity matters. Verify standing through the state bar's public records.",
     fees:
       "South Carolina injury contingency fees run about one-third. Charleston and Greenville hourly rates ($225–$400) lead the state. Construction-defect cases are often contingency or hybrid.",
+    legalAid:
+      "South Carolina Legal Services operates statewide with offices from Greenville to Charleston, covering housing, family, and consumer cases. Charleston Pro Bono Legal Services is a standout local program matching volunteer attorneys with low-income clients. The USC School of Law runs clinics in areas from domestic violence to nonprofit formation. The South Carolina Bar's Lawyer Referral Service connects callers with attorneys by county, and the Appleseed Legal Justice Center tackles systemic issues like predatory lending. Several Upstate programs focus on the manufacturing workforce's wage and injury concerns.",
+    courtSystem:
+      "South Carolina's Circuit Courts are the main trial courts, above magistrate and municipal courts, with Masters-in-Equity — a distinctive office — handling foreclosures and equity matters in many counties. Appeals go to the Court of Appeals, then the five-justice Supreme Court of South Carolina. The headline rarity: South Carolina judges are elected by the LEGISLATURE, not by voters — a practice shared only with Virginia. That makes judicial selection an insider process, and it means courthouse relationships and reputations carry unusual weight in how cases are perceived.",
+    notableLaws:
+      "South Carolina caps punitive damages (generally the greater of three times compensatory damages or $500,000), so skilled plaintiffs' lawyers build the compensatory case relentlessly — ask how a firm has maximized verdicts within the cap. Second, boating under the influence (BUI) is a serious criminal offense with civil overlap on the coast; Charleston's waterways generate cases that need counsel handling both tracks. Third, the eight-year statute of repose for construction defects sets a hard deadline that complements the state's busy construction-defect docket — if your building problem is aging, the clock may already be running.",
   },
   {
     name: "South Dakota",
@@ -549,6 +795,12 @@ export const STATES_2: StateInfo[] = [
       "The State Bar of South Dakota's referral resources cover the state. For trust and estate matters — the state's signature specialty — prioritize Sioux Falls attorneys with specific trust-administration experience. Rural clients should confirm the attorney will travel to their county.",
     fees:
       "South Dakota rates are modest: injury contingency around one-third, hourly $175–$300. Trust administration is often asset-based or hourly given the high stakes involved.",
+    legalAid:
+      "South Dakota's free legal help runs through three nonprofits coordinated by the SD Law Help portal, where one application is routed to the right program. East River Legal Services in Sioux Falls covers 33 eastern counties with family, housing, and benefits cases. Dakota Plains Legal Services, headquartered in Mission, serves western counties and nine tribal nations with deep experience in Indian Child Welfare Act matters. The University of South Dakota Knudson School of Law in Vermillion also runs clinics that take select civil cases, a useful option in a state with so few lawyers per square mile.",
+    courtSystem:
+      "South Dakota has no intermediate appellate court, which shapes litigation strategy: appeals from the trial-level Circuit Courts (organized into seven judicial circuits covering the whole state) go directly to the South Dakota Supreme Court in Pierre. Magistrate Courts handle misdemeanors, small claims, and preliminary hearings. All judges are chosen in nonpartisan elections, so judicial philosophy can shift with the electorate — attorneys who practice regularly before a particular circuit's judges know their tendencies, which matters when your appeal has only one shot.",
+    notableLaws:
+      "Three South Dakota laws change who you should hire. First, the state has no personal or corporate income tax, so business and estate attorneys here structure deals differently than in tax-heavy states — confirm yours understands multi-state tax exposure. Second, voters legalized medical cannabis in 2020, creating ongoing employment and landlord-tenant disputes as workplaces adapt. Third, South Dakota's minimum wage ($11.20 in 2025, indexed annually) sits well above the federal floor, so wage-and-hour attorneys see real cases here — ask about their track record with state Department of Labor claims.",
   },
   {
     name: "Tennessee",
@@ -562,6 +814,12 @@ export const STATES_2: StateInfo[] = [
       "The Tennessee Bar Association's referral service and the Board of Professional Responsibility's public records are the vetting tools. In Nashville, match healthcare or entertainment specialists to those matters; in Memphis, transportation and logistics familiarity matters. Ask about damage-cap implications early in injury cases.",
     fees:
       "Tennessee injury contingency fees run about one-third, with tort-reform caps affecting case valuation. Nashville hourly rates ($250–$450) lead the state. Entertainment contracts are often flat-fee or percentage-based.",
+    legalAid:
+      "Tennessee divides free civil legal help by region, and knowing which office covers you saves time. The Legal Aid Society of Middle Tennessee and the Cumberlands (Nashville) serves 48 counties, Legal Aid of East Tennessee covers Knoxville and Chattanooga, West Tennessee Legal Services handles the Jackson area, and Memphis Area Legal Services covers Shelby County. The Tennessee Alliance for Legal Services coordinates statewide, and both Vanderbilt and the University of Tennessee law schools run clinics — the UT clinic is especially active in Knoxville-area housing and consumer cases.",
+    courtSystem:
+      "Tennessee's trial courts come in three flavors: Circuit Courts (civil jury trials), Chancery Courts (equity, business, and family matters without juries), and Criminal Courts — knowing which one hears your case type determines the procedure your lawyer must master. Appeals go to the Court of Appeals or Court of Criminal Appeals, then the five-justice Tennessee Supreme Court. Under the 'Tennessee Plan,' the governor appoints appellate judges from a nominating commission's list, and voters then decide in retention elections whether they stay.",
+    notableLaws:
+      "Tennessee's 2011 Civil Justice Act caps noneconomic damages at $750,000 ($1 million for catastrophic injuries like paralysis or disfigurement), so injury attorneys must value cases within those ceilings — ask how caps affect your specific claim. The 2013 workers' compensation overhaul moved disputes into the administrative Court of Workers' Compensation Claims, meaning comp cases need specialists in that forum, not general litigators. And with the Hall income tax fully repealed in 2021, Tennessee now has no wage income tax at all, which reshaped estate planning — make sure your planner updated strategies post-repeal.",
   },
   {
     name: "Texas",
@@ -575,6 +833,12 @@ export const STATES_2: StateInfo[] = [
       "The State Bar of Texas (the nation's largest mandatory bar) offers referral services and public discipline records — use both. Texas's size demands metro-specific counsel: Houston for energy, Dallas for corporate, Austin for tech, San Antonio for military and healthcare. Verify the attorney practices regularly in your county's courts.",
     fees:
       "Texas injury contingency fees run 33–40%, with tort-reform caps shaping case selection. Major-metro hourly rates ($300–$600) reflect the market's scale; smaller cities run lower. Energy and oilfield work often uses hybrid arrangements.",
+    legalAid:
+      "Texas has three giant Legal Services Corporation-funded programs, each covering a territory the size of a midwestern state: Lone Star Legal Aid (Houston, 72 eastern and Gulf Coast counties), Legal Aid of NorthWest Texas (Fort Worth, 114 northern and western counties), and Texas RioGrande Legal Aid (68 southern and western counties, strong in border communities). TexasLawHelp.org is the statewide directory and forms library. For veterans, the Texas Lawyers for Texas Veterans program runs free advice clinics statewide, and metro pro bono groups like Houston Volunteer Lawyers and the Dallas Volunteer Attorney Program match clients with volunteer attorneys.",
+    courtSystem:
+      "Texas is one of only two states with bifurcated courts of last resort: the nine-justice Texas Supreme Court decides civil cases while the nine-judge Court of Criminal Appeals has the final word on criminal matters — so a criminal appeal and a civil appeal follow entirely different tracks at the top. Below them sit 14 intermediate Courts of Appeals and roughly 470 District Courts as the main trial courts. Every Texas judge, from JP courts to the high courts, is chosen in partisan elections, which is why judicial races here draw national money and attention.",
+    notableLaws:
+      "Texas tort reform shapes hiring more than in any other large state. The 2003 reforms cap noneconomic damages in medical malpractice cases ($250,000 per institution), so med-mal attorneys screen cases ruthlessly — ask about their recent med-mal verdicts, not just settlements. Texas also has America's strongest homestead protection: the homestead exemption has no dollar cap, which makes the state a magnet for asset-protection planning and changes bankruptcy strategy entirely. And Texas Rule of Civil Procedure 167 creates a 'loser pays' offer-of-settlement mechanism — rejecting a reasonable settlement offer can stick you with the other side's fees, so you want a litigator with real trial experience, not a settler.",
   },
   {
     name: "Utah",
@@ -588,6 +852,12 @@ export const STATES_2: StateInfo[] = [
       "The Utah State Bar's lawyer referral service and public discipline records are the starting points. In Salt Lake City's competitive market, match specialists to matters — tech startups to business boutiques, injury cases to high-volume litigators. Ask about the no-fault threshold's effect on your auto case.",
     fees:
       "Utah injury contingency fees run about one-third. Salt Lake City hourly rates ($250–$425) are moderate for a growth market. Startup packages (formation + basic contracts) are commonly flat-fee.",
+    legalAid:
+      "Utah Legal Services has provided free civil help statewide since 1976, with offices from Logan to St. George handling housing, family, consumer, and benefits cases. The Legal Aid Society of Salt Lake focuses on the Wasatch Front's family and domestic-violence docket, while the Disability Law Center protects the rights of Utahns with disabilities. Both the University of Utah's S.J. Quinney College of Law and BYU Law run clinics — Quinney's clinics are particularly active in immigration and environmental matters, reflecting the school's strengths.",
+    courtSystem:
+      "Utah's trial courts are the District Courts, organized into eight judicial districts, with separate Juvenile Courts handling youth and family matters. Appeals go first to the Utah Court of Appeals and then to the five-justice Utah Supreme Court. Judges are chosen through merit selection — a nominating commission screens candidates and the governor appoints — followed by nonpartisan retention elections where voters decide whether each judge keeps the job. The system is designed to insulate judges from campaign politics, producing a notably stable and professional bench.",
+    notableLaws:
+      "Utah is a trust-deed state, meaning most home loans allow nonjudicial foreclosure — lenders can foreclose without going to court, so distressed homeowners need real estate attorneys who know how to challenge wrongful foreclosures administratively. Utah's liquor laws remain among the nation's strictest, with the state-run Department of Alcoholic Beverage Services controlling sales; hospitality businesses need licensing counsel who navigates that system regularly. And Utah's 2024 Minor Protection in Social Media Act imposes age-verification duties on platforms, creating new compliance work for the Silicon Slopes tech companies your attorney may advise or oppose.",
   },
   {
     name: "Vermont",
@@ -601,6 +871,12 @@ export const STATES_2: StateInfo[] = [
       "The Vermont Bar Association's lawyer referral service covers the state. Given the small bar, attorney reputation is widely known — but verify standing independently. For agricultural or land-use matters, hire lawyers who understand Vermont's Act 250 development-review process.",
     fees:
       "Vermont rates are moderate: injury contingency around one-third, hourly $200–$325. Land-use and Act 250 work is typically hourly given its regulatory complexity.",
+    legalAid:
+      "Vermont Legal Aid, a nonprofit law firm founded in 1968 and based in Burlington, runs 11 projects covering disability rights, elder law, housing discrimination, health care advocacy, and poverty law — all free. Its partner, Legal Services Vermont, shares intake through VTLawHelp.org, so one application reaches both organizations. Law Line of Vermont offers phone advice, and Vermont Free Legal Answers is a virtual clinic where income-eligible users get volunteer attorneys' answers online. Vermont Law and Graduate School in South Royalton also operates clinics serving the Upper Valley.",
+    courtSystem:
+      "Vermont has no intermediate appellate court: the Superior Court — uniquely organized into five divisions (Civil, Criminal, Family, Probate, and Environmental, the last being rare nationally) — tries cases, and appeals go straight to the five-justice Vermont Supreme Court. Judges are appointed by the governor and then face retention votes by the General Assembly, a legislative-retention model used by almost no other state. The Environmental Division's specialized judges hear Act 250 land-use appeals, so development disputes get genuinely expert adjudication.",
+    notableLaws:
+      "Vermont's Act 250 (1970) subjects most commercial development to a 10-criterion state review covering everything from water quality to scenic impact — land-use attorneys who have actually argued Act 250 cases are essential for any project, and the existing state page only scratches the surface. Vermont's 2018 data-broker law was the first in the nation to require data brokers to register with the state, creating privacy compliance work. And since retail cannabis sales began in 2022, a new licensing bar has emerged around the Cannabis Control Board's rules — ask prospective business attorneys how many license applications they have actually filed.",
   },
   {
     name: "Virginia",
@@ -614,6 +890,12 @@ export const STATES_2: StateInfo[] = [
       "The Virginia State Bar's referral service and public discipline records are essential. Given the contributory negligence rule, grill any injury lawyer on how they defeat fault defenses — it's the whole ballgame in Virginia. Military families should seek attorneys experienced with SCRA protections and military divorce rules.",
     fees:
       "Virginia injury contingency fees run about one-third, with the contributory negligence risk heavily influencing case selection. Northern Virginia hourly rates ($350–$550) reflect DC-metro costs. Security-clearance work is typically flat-fee.",
+    legalAid:
+      "Virginia's legal aid map is regional: the Legal Aid Justice Center (Charlottesville) combines direct services with high-impact litigation, the Virginia Legal Aid Society covers central Virginia from Lynchburg, Legal Services of Northern Virginia serves the DC suburbs, the Legal Aid Society of Eastern Virginia covers Hampton Roads, and the Central Virginia and Southwest Virginia societies cover Richmond and Appalachia respectively. The Virginia Lawyer Referral Service offers a 30-minute consultation for $35. Law school clinics at UVA, William & Mary, and George Mason take select cases, particularly in their specialty areas.",
+    courtSystem:
+      "Virginia's trial courts are the Circuit Courts (120 across the state, the courts of record with jury trials), backed by General District Courts for misdemeanors and smaller civil claims. A landmark 2021 reform gave the Court of Appeals of Virginia jurisdiction over appeals as of right in every case — before that, most criminal and civil appeals were discretionary, a quirk that made Virginia an outlier. At the top sits the seven-justice Supreme Court of Virginia. Uniquely, Virginia judges are elected by the General Assembly itself, not by voters or the governor.",
+    notableLaws:
+      "Virginia legalized marijuana possession in 2021 but the retail market never launched amid legislative deadlock, leaving a legal gray zone — criminal defense and employment attorneys navigate conflicting rules daily, so ask how current their advice is. The Virginia Consumer Data Protection Act (2023) gives residents opt-out rights over targeted advertising and profiling, generating new privacy work for tech-sector counsel. And Virginia is a right-to-work, at-will employment state with few exceptions, which means wrongful-termination cases face steep odds — employment lawyers here should be candid about that before taking your retainer.",
   },
   {
     name: "Washington",
@@ -627,6 +909,12 @@ export const STATES_2: StateInfo[] = [
       "The Washington State Bar Association's referral service and public discipline records are the vetting tools. Seattle's market is deep but pricey; match tech-employment specialists to those matters and high-asset family lawyers to complex divorces. Eastern Washington matters need attorneys who know those courts.",
     fees:
       "Washington injury contingency fees run 33–40%. Seattle hourly rates ($350–$600) are West Coast-level; Spokane and Tacoma run lower. The consumer protection act's fee-shifting means some consumer lawyers work on contingency.",
+    legalAid:
+      "The Northwest Justice Project is Washington's largest civil legal aid provider, with offices statewide handling housing, family safety, and benefits cases. Columbia Legal Services focuses on systemic impact litigation for low-income communities. In King County, the Bar Association's Pro Bono Services program fields over 1,400 volunteer lawyers, paralegals, and law students. The state-funded Office of Civil Legal Aid coordinates the system. Law school clinics at the University of Washington, Seattle University, and Gonzaga take cases in their specialty areas, from immigration to tribal law.",
+    courtSystem:
+      "Washington's Superior Courts — one for each of the 39 counties — are the trial courts of general jurisdiction handling felonies, major civil cases, and family law. Appeals go to the Court of Appeals, organized into three geographic divisions, and then to the nine-justice Washington Supreme Court in Olympia. All judges are chosen in nonpartisan elections, and Washington is known for an independent-minded judiciary whose rulings on privacy and consumer protection frequently lead the nation and get cited elsewhere by other courts.",
+    notableLaws:
+      "Washington's My Health My Data Act (2024) is the broadest health-privacy law in America, covering far more than HIPAA — tech and health-care businesses need attorneys who understand its private right of action. The state's 7% capital gains tax (2021) on high earners reshaped estate and business planning despite having no income tax otherwise. And the WA Cares program imposes a 0.58% payroll tax for long-term care, with opt-out rules that tripped up thousands of workers — employment attorneys field constant questions about exemptions and refunds.",
   },
   {
     name: "West Virginia",
@@ -640,6 +928,12 @@ export const STATES_2: StateInfo[] = [
       "The West Virginia State Bar's referral service is the main resource. For energy, mineral-rights, or workplace-injury matters, prioritize Charleston attorneys with genuine industry experience. Pharmaceutical and mass-tort cases belong with firms that have handled them before.",
     fees:
       "West Virginia contingency fees run about one-third. Hourly rates ($200–$325) are modest. Mineral-rights title work is often volume-priced; mass-tort cases are contingency-based.",
+    legalAid:
+      "Legal Aid of West Virginia is the statewide provider, with a dozen offices from Martinsburg to Huntington covering family, housing, benefits, and consumer cases. West Virginia Senior Legal Aid in Charleston focuses specifically on the legal needs of residents 60 and older, including elder exploitation. The West Virginia University College of Law in Morgantown runs clinics — its general practice and entrepreneurship clinics take real client matters — giving the state's northern counties an extra resource beyond the Charleston-centered bar.",
+    courtSystem:
+      "West Virginia's trial courts are the Circuit Courts, which handle felonies, major civil cases, and family matters. In a major 2021 reform, the state created an Intermediate Court of Appeals, which began hearing cases in 2022 — ending West Virginia's long run as one of the few states where every appeal went straight to the top court. The five-justice Supreme Court of Appeals of West Virginia remains the court of last resort. Since 2016, judges have been chosen in nonpartisan elections rather than partisan ones.",
+    notableLaws:
+      "West Virginia's 'deliberate intent' statute (W.Va. Code 23-4-2) lets injured workers sue employers outside workers' compensation in narrow cases where the employer acted with conscious, deliberate intent — a rare exception to comp exclusivity that makes workplace-injury attorney selection critical here. The state's courts have developed a distinctive body of law interpreting broad-form mineral deeds, so anyone with coal, gas, or timber interests needs counsel steeped in that case law. And as the epicenter of the opioid crisis, West Virginia generated the nation's largest pharmaceutical settlements, sustaining a specialized mass-tort bar worth seeking out for complex injury claims.",
   },
   {
     name: "Wisconsin",
@@ -653,6 +947,12 @@ export const STATES_2: StateInfo[] = [
       "The State Bar of Wisconsin's lawyer referral service and public discipline records are the starting points. Because Wisconsin's marital property system differs from most states' equitable distribution, divorce attorneys here need specific local expertise — confirm it directly.",
     fees:
       "Wisconsin injury contingency fees run about one-third. Milwaukee hourly rates ($225–$400) lead the state; Madison is close behind. Dairy and agricultural business work is often flat-fee or project-based.",
+    legalAid:
+      "Wisconsin splits free civil help geographically: Legal Action of Wisconsin (Milwaukee) covers the southern 39 counties with housing, family, and consumer work, while Wisconsin Judicare (Wausau) covers the northern 33 counties. The Legal Aid Society of Milwaukee handles the city's highest-need cases. Both the University of Wisconsin Law School in Madison and Marquette Law School in Milwaukee run clinics — Marquette's are especially active in Milwaukee County criminal and civil matters, while UW's clinics serve the Dane County area extensively.",
+    courtSystem:
+      "Wisconsin's trial courts are the Circuit Courts — 69 circuits covering all 72 counties — which hear everything from felonies to divorces to civil jury trials. Appeals go to the Court of Appeals, organized into four districts, and then to the seven-justice Wisconsin Supreme Court. Justices are chosen in nonpartisan elections, but Wisconsin's Supreme Court races have become famously expensive national battlegrounds — the 2023 contest drew tens of millions in spending — so the court's composition and direction can shift dramatically with a single election.",
+    notableLaws:
+      "Wisconsin's Lemon Law is among the nation's strongest, covering new vehicles for a year or 18,000 miles and awarding attorney's fees to prevailing consumers — which is why consumer attorneys here take these cases on contingency. The state's OWI (DUI) regime is unusually strict: absolute sobriety is required for drivers under 21, ignition interlock devices are mandatory for many offenders, and a fourth offense is a felony — ask any criminal defense lawyer about their specific OWI trial record. And Wisconsin Statute 103.465 voids noncompete agreements that aren't 'reasonably necessary,' a fact-specific test that makes employment attorneys' local case knowledge decisive.",
   },
   {
     name: "Wyoming",
@@ -666,6 +966,12 @@ export const STATES_2: StateInfo[] = [
       "The Wyoming State Bar's referral service covers the state. For business formations, Cheyenne specialists handle out-of-state filings routinely — but understand what Wyoming formation does and doesn't do for your tax situation. Rural matters need attorneys willing to travel Wyoming's long distances.",
     fees:
       "Wyoming rates are modest: injury contingency around one-third, hourly $200–$325. LLC formation packages are commonly flat-fee and inexpensive — the state's main selling point.",
+    legalAid:
+      "Legal Aid of Wyoming provides free civil legal help statewide from offices in Cheyenne, Casper, and Lander, covering family, housing, and consumer matters across the state's vast distances. The University of Wyoming College of Law in Laramie — the state's only law school — operates clinics including a Civil Legal Services Clinic that takes real cases, an important resource given Wyoming's tiny bar. Because the state is so sparsely populated, many legal aid attorneys serve clients by phone and video, a practice Wyoming courts have embraced.",
+    courtSystem:
+      "Wyoming's trial courts of general jurisdiction are the nine District Courts, with Circuit Courts handling misdemeanors, small claims, and preliminary matters below them. There is no intermediate appellate court — appeals go directly to the five-justice Wyoming Supreme Court in Cheyenne. Judges are chosen through merit selection: a Judicial Nominating Commission screens applicants, the governor appoints, and voters then decide in retention elections whether each judge stays. The small docket means the Supreme Court often decides cases quickly and thoroughly.",
+    notableLaws:
+      "Wyoming is an open-range, 'fence-out' state: livestock owners are generally not liable when cattle roam onto unfenced land, which flips the liability assumptions outsiders bring to property-damage and auto-collision cases — hire attorneys who actually know range law. The state's LLC privacy protections (no public listing of members) plus strong charging-order protection are why Wyoming markets itself as the 'Delaware of the West' — but formation attorneys should explain what Wyoming law does and doesn't shield you from in your home state. And Wyoming's $1-per-megawatt-hour wind generation tax uniquely shapes energy deals here.",
   },
 ];
 
