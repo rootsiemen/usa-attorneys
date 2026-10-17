@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useSession, signIn } from "next-auth/react";
 
 interface Review {
   reviewerName: string;
@@ -25,12 +26,12 @@ export function Reviews({
   slug: string;
   attorneyName: string;
 }) {
+  const { data: session, status } = useSession();
   const [reviews, setReviews] = useState<Review[]>([]);
   const [average, setAverage] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
   const [dbDown, setDbDown] = useState(false);
 
-  const [name, setName] = useState("");
   const [rating, setRating] = useState(5);
   const [text, setText] = useState("");
   const [submitting, setSubmitting] = useState(false);
@@ -61,7 +62,6 @@ export function Reviews({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           attorneySlug: slug,
-          reviewerName: name,
           rating,
           text,
         }),
@@ -69,7 +69,6 @@ export function Reviews({
       const d = await r.json();
       if (r.ok) {
         setMsg({ ok: true, text: d.message });
-        setName("");
         setText("");
         setRating(5);
       } else {
@@ -81,6 +80,8 @@ export function Reviews({
       setSubmitting(false);
     }
   }
+
+  const loggedIn = status === "authenticated" && session?.user;
 
   return (
     <div>
@@ -127,60 +128,73 @@ export function Reviews({
       )}
 
       <h3 style={{ marginTop: 28 }}>Write a Review</h3>
-      <form onSubmit={submit} className="form-card" style={{ margin: 0 }}>
-        <label htmlFor="rv-name">Your name</label>
-        <input
-          id="rv-name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          maxLength={80}
-          required
-          placeholder="Jane D."
-        />
-        <label htmlFor="rv-rating">Rating</label>
-        <select
-          id="rv-rating"
-          value={rating}
-          onChange={(e) => setRating(Number(e.target.value))}
-        >
-          {[5, 4, 3, 2, 1].map((n) => (
-            <option key={n} value={n}>
-              {n} star{n === 1 ? "" : "s"}
-            </option>
-          ))}
-        </select>
-        <label htmlFor="rv-text">Your experience</label>
-        <textarea
-          id="rv-text"
-          value={text}
-          onChange={(e) => setText(e.target.value)}
-          maxLength={2000}
-          required
-          placeholder={`How was your experience with ${attorneyName}?`}
-        />
-        {msg && (
-          <p
-            className="notice"
-            style={
-              msg.ok
-                ? { borderColor: "green" }
-                : { borderColor: "var(--burgundy)" }
-            }
-          >
-            {msg.text}
+      {status === "loading" ? (
+        <p>Loading…</p>
+      ) : !loggedIn ? (
+        <div className="form-card" style={{ margin: 0 }}>
+          <p style={{ margin: "0 0 16px" }}>
+            Log in with Google to write a review for {attorneyName}. Your
+            Google name will appear with your review.
           </p>
-        )}
-        <button
-          type="submit"
-          className="btn btn-navy"
-          disabled={submitting || dbDown}
-        >
-          {submitting ? "Submitting…" : "Submit Review"}
-        </button>
-        <p style={{ fontSize: 13, color: "#666", marginTop: 12 }}>
-          Reviews are moderated and appear after approval.
-        </p>
-      </form>
+          <button
+            type="button"
+            className="btn btn-navy"
+            onClick={() => signIn("google")}
+          >
+            Continue with Google
+          </button>
+        </div>
+      ) : (
+        <form onSubmit={submit} className="form-card" style={{ margin: 0 }}>
+          <p style={{ margin: "0 0 4px", fontSize: 14, color: "var(--gray-600)" }}>
+            Reviewing as <strong>{session.user?.name}</strong>
+          </p>
+          <label htmlFor="rv-rating">Rating</label>
+          <select
+            id="rv-rating"
+            value={rating}
+            onChange={(e) => setRating(Number(e.target.value))}
+          >
+            {[5, 4, 3, 2, 1].map((n) => (
+              <option key={n} value={n}>
+                {n} star{n === 1 ? "" : "s"}
+              </option>
+            ))}
+          </select>
+          <label htmlFor="rv-text">Your experience</label>
+          <textarea
+            id="rv-text"
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            maxLength={2000}
+            required
+            placeholder={`How was your experience with ${attorneyName}?`}
+          />
+          {msg && (
+            <p
+              className="notice"
+              style={
+                msg.ok
+                  ? { borderColor: "green" }
+                  : { borderColor: "var(--burgundy)" }
+              }
+            >
+              {msg.text}
+            </p>
+          )}
+          <button
+            type="submit"
+            className="btn btn-navy"
+            disabled={submitting || dbDown}
+          >
+            {submitting ? "Submitting…" : "Submit Review"}
+          </button>
+          <p style={{ fontSize: 13, color: "#666", marginTop: 12 }}>
+            Reviews are moderated and appear after approval. One review per
+            account — submitting again updates your previous review.
+          </p>
+        </form>
+      )}
     </div>
   );
 }
