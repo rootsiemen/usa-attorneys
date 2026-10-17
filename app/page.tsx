@@ -72,7 +72,7 @@ export default function HomePage() {
           <StateSearch />
           <div className="hero-badges">
             <span className="hero-badge">50 States Covered</span>
-            <span className="hero-badge">10 Practice Areas</span>
+            <span className="hero-badge">16 Practice Areas</span>
             <span className="hero-badge">Free Directory</span>
           </div>
         </div>
