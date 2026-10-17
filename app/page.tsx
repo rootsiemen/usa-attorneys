@@ -73,7 +73,7 @@ export default async function HomePage() {
       />
 
       {/* ============ HERO ============ */}
-      <section className="hero-dark">
+      <section className="hero-light">
         <div className="container">
           <span className="eyebrow">Free U.S. Attorney Directory</span>
           <h1>
@@ -143,7 +143,7 @@ export default async function HomePage() {
       </div>
 
       {/* ============ PRACTICE AREAS ============ */}
-      <section className="section-dark">
+      <section className="section-light">
         <div className="container">
           <div className="section-head">
             <span className="eyebrow">Practice Areas</span>
@@ -170,7 +170,7 @@ export default async function HomePage() {
 
       {/* ============ FEATURED ATTORNEYS ============ */}
       {featured.length > 0 && (
-        <section className="section-dark alt">
+        <section className="section-light alt">
           <div className="container">
             <div className="section-head">
               <span className="eyebrow">Featured Attorneys</span>
@@ -214,13 +214,13 @@ export default async function HomePage() {
       )}
 
       {/* ============ HOW IT WORKS ============ */}
-      <section className="section-dark">
+      <section className="section-light">
         <div className="container">
           <div className="section-head">
             <span className="eyebrow">How It Works</span>
             <h2>Three Steps to the Right Lawyer</h2>
           </div>
-          <div className="steps steps-dark">
+          <div className="steps steps-light">
             <div className="step">
               <h3>Pick your state &amp; issue</h3>
               <p>
@@ -247,7 +247,7 @@ export default async function HomePage() {
       </section>
 
       {/* ============ BROWSE BY STATE ============ */}
-      <section className="section-dark alt">
+      <section className="section-light alt">
         <div className="container">
           <div className="section-head">
             <span className="eyebrow">Browse by State</span>
@@ -256,7 +256,7 @@ export default async function HomePage() {
               Attorney licensing and laws vary by state — start with yours.
             </p>
           </div>
-          <div className="center state-pills-dark">
+          <div className="center state-pills-light">
             {ALL_STATES.map((s) => (
               <Link
                 key={s.slug}
@@ -307,7 +307,7 @@ export default async function HomePage() {
       )}
 
       {/* ============ ATTORNEY CTA ============ */}
-      <section className="section-dark">
+      <section className="section-light">
         <div className="container">
           <div className="cta-gold">
             <span className="eyebrow">For Attorneys</span>
