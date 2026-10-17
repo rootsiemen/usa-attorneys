@@ -30,9 +30,12 @@ export async function generateMetadata({
   if (!attorney) return {};
   const url = `${SITE_URL}/attorney/${attorney.slug}`;
   const state = getState(attorney.state);
-  const description = `${attorney.name} — ${attorney.firm}, ${attorney.city}, ${state?.name ?? ""}. Phone, practice areas, and profile. Claim this listing free.`;
+  // Keep title <= 60 chars, description 120-160 chars (Ahrefs flags otherwise)
+  const shortFirm = attorney.firm.length > 28 ? attorney.firm.slice(0, 26).trimEnd() + "…" : attorney.firm;
+  const title = `${attorney.name} — ${shortFirm} (${attorney.city})`;
+  const description = `${attorney.name}, ${shortFirm} in ${attorney.city}, ${state?.name ?? ""}. Phone, practice areas & profile. Free attorney directory — claim this listing.`.slice(0, 158);
   return {
-    title: `${attorney.name} — ${attorney.firm} (${attorney.city})`,
+    title: title.length > 60 ? title.slice(0, 59).trimEnd() + "…" : title,
     description,
     alternates: { canonical: url },
     openGraph: {

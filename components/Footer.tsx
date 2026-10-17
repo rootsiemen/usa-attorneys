@@ -9,8 +9,9 @@ export function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
+            <span className="brand-mark">§</span>
             <h4>
-              USA <span style={{ color: "var(--gold)" }}>Attorneys</span>
+              USA <span style={{ color: "var(--gold-2)" }}>Attorneys</span>
             </h4>
             <p>
               Helping Americans find qualified attorneys in every state and
