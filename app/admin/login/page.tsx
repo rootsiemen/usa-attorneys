@@ -118,7 +118,7 @@ function AdminLoginInner() {
           </p>
 
           <p style={{ marginTop: 18, fontSize: 14, textAlign: "center" }}>
-            <Link href="/admin/reset">Forgot password? Reset it →</Link>
+            <Link href="/admin/forgot">Forgot password? Reset it →</Link>
           </p>
         </div>
       </div>

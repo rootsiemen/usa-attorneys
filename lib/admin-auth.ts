@@ -32,6 +32,15 @@ export async function ensureAdminTables(): Promise<void> {
       updated_at TEXT DEFAULT (datetime('now'))
     )
   `);
+  // Lazy migration: password-reset token columns (email flow)
+  const cols = await db.execute("PRAGMA table_info(admin_users)");
+  const names = new Set(cols.rows.map((r) => String(r.name)));
+  if (!names.has("reset_token")) {
+    await db.execute("ALTER TABLE admin_users ADD COLUMN reset_token TEXT");
+  }
+  if (!names.has("reset_expires_at")) {
+    await db.execute("ALTER TABLE admin_users ADD COLUMN reset_expires_at TEXT");
+  }
 }
 
 export async function adminUserCount(): Promise<number> {
