@@ -16,6 +16,14 @@ export const metadata: Metadata = {
     type: "website",
     siteName: SITE_NAME,
     url: SITE_URL,
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: `${SITE_NAME} — Find a Qualified Attorney Near You`,
+      },
+    ],
   },
   twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },

@@ -37,6 +37,14 @@ export function generateMetadata({
       description: post.description,
       url,
       type: "article",
+      images: [
+        {
+          url: "/opengraph-image",
+          width: 1200,
+          height: 630,
+          alt: "USA Attorneys",
+        },
+      ],
       publishedTime: post.date,
     },
   };

@@ -32,7 +32,13 @@ export async function generateMetadata({
     description,
     alternates: { canonical: url },
     robots: { index: false, follow: true },
-    openGraph: { title, description, url, type: "website" },
+    openGraph: {
+      title,
+      description,
+      url,
+      type: "website",
+      images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "USA Attorneys" }],
+    },
   };
 }
 

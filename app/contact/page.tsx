@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     description: "Get in touch with the USA Attorneys directory team.",
     url: `${SITE_URL}/contact`,
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "USA Attorneys",
+      },
+    ],
   },
 };
 

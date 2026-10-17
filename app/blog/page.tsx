@@ -15,6 +15,14 @@ export const metadata: Metadata = {
       "Practical legal guides — how to choose a lawyer, what attorneys cost, and what to do when legal trouble hits.",
     url: `${SITE_URL}/blog`,
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "USA Attorneys",
+      },
+    ],
   },
 };
 

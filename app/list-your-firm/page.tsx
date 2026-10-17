@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     description: "Free attorney listings — get found by clients in your state.",
     url: `${SITE_URL}/list-your-firm`,
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "USA Attorneys",
+      },
+    ],
   },
 };
 

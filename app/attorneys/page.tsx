@@ -20,6 +20,14 @@ export const metadata: Metadata = {
     description: "Browse attorneys in all 50 US states.",
     url: `${SITE_URL}/attorneys`,
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "USA Attorneys",
+      },
+    ],
   },
 };
 

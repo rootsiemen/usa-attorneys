@@ -17,6 +17,14 @@ export const metadata: Metadata = {
       "Browse attorneys by state and practice area. Free directory — attorneys can claim and list their firms.",
     url: SITE_URL,
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "USA Attorneys",
+      },
+    ],
   },
 };
 

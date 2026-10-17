@@ -40,6 +40,14 @@ export async function generateMetadata({
       description,
       url,
       type: "profile",
+      images: [
+        {
+          url: "/opengraph-image",
+          width: 1200,
+          height: 630,
+          alt: "USA Attorneys",
+        },
+      ],
     },
   };
 }
