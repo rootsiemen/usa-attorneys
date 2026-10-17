@@ -20,6 +20,9 @@ export function Header() {
           <Link href="/contact" className="hide-mobile">
             Contact
           </Link>
+          <Link href="/blog" className="hide-mobile">
+            Blog
+          </Link>
           <Link href="/list-your-firm" className="btn-burgundy">
             List Your Firm
           </Link>

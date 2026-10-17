@@ -4,6 +4,7 @@ import { SITE_URL, SITE_NAME, ALL_STATES, PRACTICE_AREAS } from "@/lib/data";
 import { StateSearch } from "@/components/StateSearch";
 import { DevCta } from "@/components/DevCta";
 import { JsonLd } from "@/components/JsonLd";
+import { getAllPosts, formatPostDate } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: `${SITE_NAME} — Find a Qualified Attorney Near You`,
@@ -42,6 +43,7 @@ export default function HomePage() {
   const insights = INSIGHT_SLUGS.map(
     (slug) => PRACTICE_AREAS.find((p) => p.slug === slug)!
   );
+  const latestPosts = getAllPosts().slice(0, 3);
 
   return (
     <>
@@ -190,6 +192,40 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {latestPosts.length > 0 && (
+        <section className="section">
+          <div className="container">
+            <h2>Latest from the Blog</h2>
+            <p className="lead">
+              Fresh legal guides — how to hire the right lawyer, what it
+              costs, and what to do when trouble hits.
+            </p>
+            <div className="grid-3">
+              {latestPosts.map((p) => (
+                <Link key={p.slug} href={`/blog/${p.slug}`} className="card">
+                  <span className="card-eyebrow">
+                    {p.practiceAreaTitle}
+                  </span>
+                  <h3>{p.title}</h3>
+                  <p>{p.description.slice(0, 140)}…</p>
+                  <div className="post-meta">
+                    <span>{formatPostDate(p.date)}</span>
+                    <span aria-hidden="true">·</span>
+                    <span>{p.readingMinutes} min read</span>
+                  </div>
+                  <span className="card-link">Read article →</span>
+                </Link>
+              ))}
+            </div>
+            <div className="center mt-2">
+              <Link href="/blog" className="btn btn-navy">
+                View All Articles
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="section alt">
         <div className="container">
