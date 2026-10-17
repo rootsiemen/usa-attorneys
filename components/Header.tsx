@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AuthButton } from "@/components/AuthButton";
 
 export function Header() {
   return (
@@ -35,6 +36,7 @@ export function Header() {
             <Link href="/contact" className="hide-mobile">
               Contact
             </Link>
+            <AuthButton />
             <Link href="/list-your-firm" className="btn-gold">
               List Your Firm — Free
             </Link>
