@@ -29,6 +29,21 @@ function cleanEmail(v: unknown): string {
   return String(v ?? "").trim().toLowerCase().slice(0, 160);
 }
 
+/** Lazy migration: adds reset_token + reset_expires_at columns if missing. */
+export async function ensureCustomerResetColumns(): Promise<void> {
+  if (!isDbConfigured()) return;
+  await ensureCustomersTable();
+  const db = getDb();
+  const cols = await db.execute({ sql: "PRAGMA table_info(customers)", args: [] });
+  const names = new Set(cols.rows.map((r) => String(r.name)));
+  if (!names.has("reset_token")) {
+    await db.execute({ sql: "ALTER TABLE customers ADD COLUMN reset_token TEXT", args: [] });
+  }
+  if (!names.has("reset_expires_at")) {
+    await db.execute({ sql: "ALTER TABLE customers ADD COLUMN reset_expires_at TEXT", args: [] });
+  }
+}
+
 export function validEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }

@@ -21,6 +21,36 @@ export function isEmailConfigured(): boolean {
   return Boolean(process.env.SMTP_USER && process.env.SMTP_PASS);
 }
 
+/** Fire-and-forget customer password reset email. Never throws. */
+export async function sendCustomerResetEmail(to: string, resetUrl: string): Promise<boolean> {
+  try {
+    const transport = getTransport();
+    if (!transport) {
+      console.log("customer reset email skipped: SMTP_USER/SMTP_PASS not set");
+      return false;
+    }
+    const from = process.env.SMTP_USER as string;
+    await transport.sendMail({
+      from: `USA Attorneys <${from}>`,
+      to,
+      subject: "Reset your USA Attorneys password",
+      text:
+        `You requested a password reset for your USA Attorneys account.\n\n` +
+        `Click the link below to set a new password (valid for 1 hour):\n${resetUrl}\n\n` +
+        `If you didn't request this, just ignore this email.`,
+      html:
+        `<p>You requested a password reset for your <strong>USA Attorneys</strong> account.</p>` +
+        `<p><a href="${resetUrl}" style="display:inline-block;background:#c9a227;color:#14305e;font-weight:700;padding:12px 24px;border-radius:8px;text-decoration:none;">Set a new password</a></p>` +
+        `<p style="color:#666;font-size:13px;">This link expires in 1 hour. If you didn't request this, just ignore this email.</p>` +
+        `<p style="color:#666;font-size:13px;">Or paste this URL into your browser:<br>${resetUrl}</p>`,
+    });
+    return true;
+  } catch (e) {
+    console.error("sendCustomerResetEmail failed:", e);
+    return false;
+  }
+}
+
 /** Fire-and-forget admin password reset email. Never throws. */
 export async function sendAdminResetEmail(to: string, resetUrl: string): Promise<boolean> {
   try {

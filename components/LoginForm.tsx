@@ -111,6 +111,11 @@ export function LoginForm() {
         {error && (
           <p style={{ color: "#b42318", fontWeight: 600, margin: "10px 0 0", fontSize: 14 }}>{error}</p>
         )}
+        {mode === "login" && (
+          <p style={{ margin: "10px 0 0", fontSize: 14, textAlign: "right" }}>
+            <a href="/forgot-password" style={{ color: "var(--navy)", fontWeight: 600 }}>Forgot password?</a>
+          </p>
+        )}
         <button type="submit" className="btn btn-navy" disabled={busy} style={{ width: "100%", marginTop: 14 }}>
           {busy ? "Please wait…" : mode === "login" ? "Log In with Email" : "Create Account"}
         </button>
