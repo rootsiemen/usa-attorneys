@@ -85,6 +85,132 @@ export default async function StatePage({ params }: { params: { state: string } 
     })),
   };
 
+  const initials = (name: string) =>
+    name
+      .split(" ")
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((w) => w[0]?.toUpperCase() ?? "")
+      .join("");
+
+  const practiceLabel = (slug?: string) => {
+    if (!slug) return undefined;
+    const p = PRACTICE_AREAS.find((x) => x.slug === slug);
+    return p ? p.shortTitle : undefined;
+  };
+
+  /** Right-hand column: the state guide / article content. */
+  const articleBody = (
+    <>
+      <div className="prose">
+        <h2>Finding a Lawyer in {state.name}</h2>
+        {state.intro.map((para, i) => (
+          <p key={i}>{para}</p>
+        ))}
+
+        <h2>How to Choose the Right {state.name} Attorney</h2>
+        <p>{state.finding}</p>
+
+        <h2>What Attorneys Cost in {state.name}</h2>
+        <p>{state.fees}</p>
+
+        <h2>Legal Aid &amp; Free Help in {state.name}</h2>
+        <p>{state.legalAid}</p>
+
+        <h2>How the {state.name} Court System Works</h2>
+        <p>{state.courtSystem}</p>
+
+        <h2>Notable {state.name} Laws to Know</h2>
+        <p>{state.notableLaws}</p>
+
+        <h2>{state.name} Attorneys by Practice Area</h2>
+        <p>
+          Select the legal issue closest to yours. Every guide below covers
+          what these lawyers do, typical fees, and frequently asked
+          questions.
+        </p>
+      </div>
+
+      <div className="state-practice-grid">
+        {PRACTICE_AREAS.map((p) => (
+          <Link key={p.slug} href={`/${p.slug}`} className="card">
+            <h3>
+              {state.name} {p.title}
+            </h3>
+            <p>{p.directAnswer}</p>
+            <span className="card-link">Learn more →</span>
+          </Link>
+        ))}
+      </div>
+
+      <div className="prose">
+        <h2>{state.name} Attorney FAQs</h2>
+        <Faq items={faqs} />
+        <div className="disclaimer">{DISCLAIMER}</div>
+      </div>
+
+      <DevCta />
+
+      <div className="cta-banner">
+        <h2>Are You a {state.name} Attorney?</h2>
+        <p>
+          Claim your free listing and get found by clients searching for
+          legal help in {state.name}.
+        </p>
+        <Link href="/list-your-firm" className="btn btn-navy">
+          List Your Firm — Free
+        </Link>
+      </div>
+      <p className="center">
+        <Link href="/attorneys">← Browse all 50 states</Link>
+      </p>
+    </>
+  );
+
+  /** Left-hand column: this state's attorney contacts as a compact list. */
+  const contactsSidebar = (
+    <aside className="state-contacts" aria-label={`Attorney contacts in ${state.name}`}>
+      <h2>{state.name} Attorney Contacts</h2>
+      <p className="contacts-sub">
+        {attorneys.length} {attorneys.length === 1 ? "attorney" : "attorneys"} listed
+        in {state.name}. Tap a name for the full profile.
+      </p>
+      <ul className="state-contact-list">
+        {attorneys.map((a) => (
+          <li key={a.slug}>
+            <Link href={`/attorney/${a.slug}`} className="state-contact">
+              <span className="attorney-avatar" aria-hidden="true">
+                {initials(a.name)}
+              </span>
+              <span className="sc-body">
+                <span className="sc-name">{a.name}</span>
+                <span className="sc-firm">
+                  {a.firm ? `${a.firm} · ` : ""}{a.city}
+                </span>
+                {practiceLabel(a.practiceAreas[0]) && (
+                  <span className="sc-practice">{practiceLabel(a.practiceAreas[0])}</span>
+                )}
+                {a.phone && <span className="sc-phone">{a.phone}</span>}
+                {a.claimed ? (
+                  <span className="sc-badge claimed">✓ Claimed</span>
+                ) : (
+                  <span className="sc-badge unclaimed">Unclaimed</span>
+                )}
+              </span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+      <div className="state-contacts-cta">
+        <h3>Are You a {state.name} Attorney?</h3>
+        <p>Claim your free listing and get found by clients in {state.name}.</p>
+        <Link href="/list-your-firm" className="btn btn-gold">
+          List Your Firm — Free
+        </Link>
+      </div>
+    </aside>
+  );
+
   return (
     <>
       <JsonLd data={breadcrumbLd} />
@@ -114,115 +240,15 @@ export default async function StatePage({ params }: { params: { state: string } 
       </section>
 
       <section className="section">
-        <div className="container prose">
-          <h2>Finding a Lawyer in {state.name}</h2>
-          {state.intro.map((para, i) => (
-            <p key={i}>{para}</p>
-          ))}
-
-          <h2>How to Choose the Right {state.name} Attorney</h2>
-          <p>{state.finding}</p>
-
-          <h2>What Attorneys Cost in {state.name}</h2>
-          <p>{state.fees}</p>
-
-          <h2>Legal Aid & Free Help in {state.name}</h2>
-          <p>{state.legalAid}</p>
-
-          <h2>How the {state.name} Court System Works</h2>
-          <p>{state.courtSystem}</p>
-
-          <h2>Notable {state.name} Laws to Know</h2>
-          <p>{state.notableLaws}</p>
-
-          <h2>{state.name} Attorneys by Practice Area</h2>
-          <p>
-            Select the legal issue closest to yours. Every guide below covers
-            what these lawyers do, typical fees, and frequently asked
-            questions.
-          </p>
-        </div>
         <div className="container">
-          <div className="grid-3">
-            {PRACTICE_AREAS.map((p) => (
-              <Link key={p.slug} href={`/${p.slug}`} className="card">
-                <h3>
-                  {state.name} {p.title}
-                </h3>
-                <p>{p.directAnswer}</p>
-                <span className="card-link">Learn more →</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {attorneys.length > 0 && (
-        <section className="section">
-          <div className="container">
-            <h2 style={{ textAlign: "center" }}>
-              Attorneys in {state.name}
-            </h2>
-            <p className="center" style={{ maxWidth: 640, margin: "0 auto 24px" }}>
-              {attorneys.length} {attorneys.length === 1 ? "attorney" : "attorneys"} listed
-              in {state.name}. Click a profile for contact details and practice areas.
-            </p>
-            <div className="grid-3">
-              {attorneys.map((a) => (
-                <Link
-                  key={a.slug}
-                  href={`/attorney/${a.slug}`}
-                  className="attorney-card"
-                >
-                  <div className="attorney-avatar" aria-hidden="true">
-                    {a.name
-                      .split(" ")
-                      .filter(Boolean)
-                      .slice(0, 2)
-                      .map((w) => w[0]?.toUpperCase() ?? "")
-                      .join("")}
-                  </div>
-                  <div>
-                    <h3>{a.name}</h3>
-                    <p className="firm">
-                      {a.firm} · {a.city}
-                    </p>
-                    <p className="meta">
-                      <span className="phone">{a.phone}</span>
-                      {a.claimed ? (
-                        <span className="badge-claimed">✓ Claimed</span>
-                      ) : (
-                        <span className="badge-unclaimed">Unclaimed</span>
-                      )}
-                    </p>
-                    <span className="card-link">View Profile →</span>
-                  </div>
-                </Link>
-              ))}
+          {attorneys.length > 0 ? (
+            <div className="state-layout">
+              <div className="state-main">{articleBody}</div>
+              {contactsSidebar}
             </div>
-          </div>
-        </section>
-      )}
-
-      <section className="section alt">
-        <div className="container prose">
-          <h2 style={{ textAlign: "center" }}>{state.name} Attorney FAQs</h2>
-          <Faq items={faqs} />
-          <div className="disclaimer">{DISCLAIMER}</div>
-          <DevCta />
-          <div className="cta-banner">
-            <h2>Are You a {state.name} Attorney?</h2>
-            <p>
-              Claim your free listing and get found by clients searching for
-              legal help in {state.name}.
-            </p>
-            <Link href="/list-your-firm" className="btn btn-navy">
-              List Your Firm — Free
-            </Link>
-          </div>
-          <p className="center">
-            <Link href="/attorneys">← Browse all 50 states</Link>
-          </p>
+          ) : (
+            <div className="state-main-single">{articleBody}</div>
+          )}
         </div>
       </section>
     </>
