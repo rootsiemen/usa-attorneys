@@ -48,7 +48,7 @@ Budget for these separately, because none of them appear in the hourly rate:
 
 - **Filing fees:** a Maryland circuit court civil or divorce filing generally runs about $150 to $185 depending on the county and case type; District Court filings are lower.
 - **Small claims reality check:** Maryland District Court handles small claims up to $5,000, with a filing fee that is a fraction of a lawyer's first hour. Below that threshold, most people represent themselves or pay for a single consultation instead of full representation — a math exercise similar to the one in our [small claims vs. hiring a lawyer analysis](/blog/small-claims-court-vs-hiring-lawyer-dollar-math).
-- **Real estate transfer costs:** Maryland's state transfer tax is 0.5% of the consideration (0.25% for qualifying first-time buyers), plus county transfer taxes and recordation taxes that vary by county — on a $500,000 purchase these government charges dwarf the settlement attorney's fee.
+- **Real estate transfer costs:** Maryland's state transfer tax is 0.5% of the consideration (0.25% for qualifying first-time buyers), plus county transfer taxes and recordation taxes that vary by county — on a $500,000 purchase these government charges dwarf the settlement attorney's fee. To see what that settlement fee itself should run, read our breakdown of [the cost of a real estate lawyer at closing](/blog/real-estate-attorney-fees-closing-cost-math).
 - **Expert and process costs:** medical experts in injury cases, custody evaluators in family cases, process servers and court reporters everywhere. Ask whether your fee agreement bills these at cost or with a markup.
 
 ## If these rates are out of reach: Maryland's low-cost routes

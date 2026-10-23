@@ -5,6 +5,7 @@ description: "Real estate attorney fees at closing: flat vs hourly pricing, whic
 date: "2026-10-19"
 practiceArea: "real-estate-attorney"
 keywords:
+  - "cost of real estate lawyer at closing"
   - "how much does a real estate attorney cost"
   - "real estate attorney fees at closing"
   - "real estate lawyer closing costs"
@@ -13,6 +14,20 @@ keywords:
 Nobody hires a real estate attorney because they want one. They hire one because a $400,000 asset is about to change hands through a 60-page stack of documents, and a single missed lien, boundary error, or deed restriction can turn that asset into a very expensive lesson. The question is not whether legal eyes on the transaction are worth it. The question is what they cost, how that cost is priced, and whether you are overpaying for the complexity of your deal.
 
 Here is the uncomfortable truth about real estate legal fees: unlike personal injury lawyers with their posted contingency percentages, real estate attorneys price however they want — flat fees, hourly rates, per-closing packages — and the range for the same service in the same market can swing 300%. This guide runs the actual numbers so you can read a closing-cost estimate the way a loan officer reads a rate sheet.
+
+## The cost of a real estate lawyer at closing: the direct answer
+
+The cost of a real estate lawyer at closing is typically **$800 to $2,500 for a standard residential purchase or sale** — most buyers and sellers pay a flat fee of $1,000 to $1,800 for full closing representation. Document-review-only help costs $400 to $750; complex deals, commercial property, and dispute work bill hourly at $150 to $450 and can pass $3,000. As a share of the deal, that is roughly 0.25% to 0.5% of the purchase price — one of the smallest, and most negotiable, line items in the entire closing-cost stack.
+
+| What you hire | Typical cost at closing |
+|---|---|
+| Document review only | $400 – $750 |
+| Flat-fee full closing representation | $1,000 – $1,800 |
+| Flat fee in attorney-required states (GA, MA, NC…) | $1,500 – $2,500 |
+| Hourly billing, routine closing (4–8 hrs) | $1,200 – $2,800 |
+| Premium package (negotiation + post-closing support) | $2,000 – $3,500 |
+
+Everything below explains how those numbers are built, when each pricing model wins, and how to tell whether your quote is the market rate or a markup.
 
 ## What a real estate attorney actually does at closing
 

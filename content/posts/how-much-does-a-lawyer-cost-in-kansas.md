@@ -24,7 +24,7 @@ Kansas also has two rules that change legal math in ways most residents never le
 - **Personal injury:** contingency at the customary one-third of the recovery (33⅓%), with no upfront fee in a standard engagement. Kansas follows modified comparative fault with a 51% bar: you recover only if you are less at fault than the party you are suing.
 - **Estate planning and probate:** wills $250 to $750, full estate packages with powers of attorney and health care directives $600 to $1,500, trust packages $1,500 to $3,000. Smaller Kansas estates may qualify for simplified procedures, which is one reason probate here tends to cost less than in statutory-fee states.
 - **Business and farm law:** $200 to $350 per hour in the KC metro, $150 to $275 elsewhere; entity formation, operating agreements, and farm succession documents are the bread-and-butter flat-fee items.
-- **Real estate:** Kansas does not require an attorney at closing. Sellers and buyers who hire one anyway pay $500 to $1,200 for a residential transaction package — and FSBO sellers in particular should read the [for-sale-by-owner attorney fee math](/blog/real-estate-attorney-fees-for-sale-by-owner) before deciding to skip it.
+- **Real estate:** Kansas does not require an attorney at closing. Sellers and buyers who hire one anyway pay $500 to $1,200 for a residential transaction package — and FSBO sellers in particular should read the [for-sale-by-owner attorney fee math](/blog/real-estate-attorney-fees-for-sale-by-owner) before deciding to skip it. For the national picture, see our guide to [what a real estate lawyer costs at closing](/blog/real-estate-attorney-fees-closing-cost-math).
 
 ## The Kansas workers comp rule: attorney fees capped at 25% by law
 
