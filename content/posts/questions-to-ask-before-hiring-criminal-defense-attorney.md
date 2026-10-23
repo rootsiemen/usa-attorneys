@@ -67,6 +67,8 @@ Nobody publishes a price list, but after talking to defense lawyers across the c
 | Federal charges | $25,000 – $100,000+ | Complexity, mandatory minimums, multi-defendant cases |
 | Homicide / serious sex offenses | $50,000 – $250,000+ | Months of investigation, forensics, weeks of trial |
 
+The DUI row alone has enough moving parts — DMV hearings, interlock costs, license reinstatement — that we break out [how much a DUI lawyer costs](/blog/how-much-does-dui-attorney-cost-2026) separately, line by line.
+
 Two things most people don't realize: **going to trial roughly doubles or triples the fee** versus a plea, because trial means weeks of preparation, motions, jury selection, and days in court. And **the cheapest lawyer is often the most expensive** — a $2,500 lawyer who pleads you out on day one to a charge carrying a 5-year collateral record can cost you hundreds of thousands in lifetime earnings. Price-shop, but price-shop among lawyers you'd actually trust with your freedom.
 
 Payment plans are standard in criminal defense precisely because arrests don't wait for payday. Most lawyers accept a down payment of 30–50% with monthly installments. Get the payment schedule in the written agreement — verbal "we'll work something out" deals are how fee disputes start.

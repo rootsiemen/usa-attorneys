@@ -67,7 +67,7 @@ Selling looks simpler, and the math is cleaner — but it's not free either. Sam
 
 Split 50/50: each spouse walks away with **~$66,562**.
 
-Compare that to the buyout: Spouse B got $82,500 in the buyout, but only $66,562 from a sale — a **$15,938 difference**. Why? Because selling costs ~$32,000 in commissions and closing costs that a buyout avoids. In other words, the couple collectively *saves* about $32,000 by doing a buyout instead of selling — which is exactly why buyouts are worth negotiating hard for, if either spouse can actually afford the refinance.
+Compare that to the buyout: Spouse B got $82,500 in the buyout, but only $66,562 from a sale — a **$15,938 difference**. Why? Because selling costs ~$32,000 in commissions and closing costs that a buyout avoids. (The attorney's slice of that closing bill is smaller than most sellers expect — the [cost of a real estate lawyer at closing](/blog/real-estate-attorney-fees-closing-cost-math) is its own line-by-line breakdown.) In other words, the couple collectively *saves* about $32,000 by doing a buyout instead of selling — which is exactly why buyouts are worth negotiating hard for, if either spouse can actually afford the refinance.
 
 Capital gains: if you've owned and lived in the house at least 2 of the last 5 years, the IRS excludes **$250,000 of gain per spouse** ($500,000 for a couple filing jointly). Most divorcing sellers owe zero capital-gains tax on the house. If your gain exceeds the exclusion, the excess is taxed — a [divorce attorney](/divorce-attorney) and a tax pro should run that number before you sign anything.
 

@@ -127,7 +127,7 @@ But get at least a one-hour consultation ($200–$400) before going DIY if any o
 
 Sometimes. In most states, each spouse pays their own lawyer — but courts can order one spouse to contribute to the other's fees when there's a big income gap, or when one spouse's misconduct (hiding assets, dragging out litigation, ignoring court orders) drove costs up. Judges in [New York](/attorneys/new-york), [California](/attorneys/california), and [Illinois](/attorneys/illinois) routinely award interim attorney's fees so the lower-earning spouse can afford representation during the case.
 
-Don't count on it, though. Fee awards are discretionary, they rarely cover the full bill, and they usually come at the end — you still need to fund your case upfront. If affording a lawyer is the barrier, ask about payment plans, limited-scope representation, or legal aid societies in your county, which handle qualifying low-income divorces at reduced cost or free.
+Don't count on it, though. Fee awards are discretionary, they rarely cover the full bill, and they usually come at the end — you still need to fund your case upfront. If affording a lawyer is the barrier, ask about payment plans, limited-scope representation, or legal aid societies in your county, which handle qualifying low-income divorces at reduced cost or free. In [Maryland](/attorneys/maryland), for example, courts weigh the same income-gap factors when deciding whether one spouse funds both sides of the case.
 
 ## Divorce lawyer cost: frequently asked questions
 

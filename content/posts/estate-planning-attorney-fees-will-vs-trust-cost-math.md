@@ -115,7 +115,7 @@ If you want the whole guide compressed into a decision tree:
 2. **Check your state's probate reality.** Expensive-probate state + homeowner = do the trust math seriously. Small estate + renter = a will package is probably fine.
 3. **Check your family complexity.** Blended family, special-needs child, business, property in two states — any one of these pushes you toward an attorney-drafted trust regardless of net worth.
 4. **Get two quotes.** Call two firms, ask for the flat fee for the full four-document package, and ask each one: "Given my assets and my state, will or trust — and show me the math." The one that actually shows you the math is the one to hire.
-5. **Fund the trust.** If you buy one, finish the job. Sign the deeds. Retitle the accounts. Update the beneficiaries. An unfunded trust is a donation to your attorney.
+5. **Fund the trust.** If you buy one, finish the job. Sign the deeds. Retitle the accounts. Update the beneficiaries. An unfunded trust is a donation to your attorney. (Retitling the house is itself a small closing, with its own deed and recording charges — the [cost of a real estate lawyer at closing](/blog/real-estate-attorney-fees-closing-cost-math) shows what that side of the paperwork runs.)
 
 Estate planning feels like paperwork about death. It is really paperwork about the living — the people who will be grieving, paying bills, and making decisions in the worst week of their lives. The price of the documents is the smallest number in the whole equation. The price of getting it wrong is the largest. Spend the smaller one deliberately.
 

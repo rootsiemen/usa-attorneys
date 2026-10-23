@@ -57,7 +57,7 @@ Now the part that doubles it. The executor — the person named in the will, or 
 
 If the executor is a family member, they can waive their commission, and many do. But if they don't — and they are not required to — the estate pays both fees. On a $1,000,000 California estate, the combined statutory total reaches $46,000. On a $2,000,000 estate, $66,000. The schedule is public, fixed, and non-negotiable in practice, which makes California the most predictable — and often the most expensive — probate state for mid-size estates.
 
-"Extraordinary fees" sit on top of the schedule. Property sales, will contests, tax return preparation, business appraisals, and litigation each generate additional court-approved fees, billed at the attorney's hourly rate. A contested California probate can easily run 2 to 3 times the statutory base.
+"Extraordinary fees" sit on top of the schedule. Property sales, will contests, tax return preparation, business appraisals, and litigation each generate additional court-approved fees, billed at the attorney's hourly rate. A contested California probate can easily run 2 to 3 times the statutory base. And when the estate sells a house, the sale carries its own closing bill on top of the probate fee — see [real estate attorney fees at closing](/blog/real-estate-attorney-fees-closing-cost-math) for how that side of the transaction is priced.
 
 ## Florida: the presumed-reasonable schedule, worked on the same $500,000 estate
 

@@ -53,7 +53,7 @@ The lesson: never compare lawyers on percentage alone. Compare them on the *net 
 
 Be suspicious of any lawyer who quotes you a big number in the first meeting. An honest attorney can't value your case before seeing your medical records, the police report, and the insurance policy limits — anyone who does is telling you what you want to hear.
 
-What you want instead is a lawyer who explains the *variables*: the severity and permanence of your injuries, how clear liability is, the at-fault driver's policy limits, and your state's fault rules. In [California](/attorneys/california) or [Texas](/attorneys/texas), comparative fault reduces your award by your share of blame; in contributory-negligence states like [Alabama](/attorneys/alabama) or [North Carolina](/attorneys/north-carolina), even 1% of fault can bar recovery entirely. A lawyer who explains the weaknesses in your case upfront is one you can trust with its strengths.
+What you want instead is a lawyer who explains the *variables*: the severity and permanence of your injuries, how clear liability is, the at-fault driver's policy limits, and your state's fault rules. In [California](/attorneys/california) or [Texas](/attorneys/texas), comparative fault reduces your award by your share of blame; in contributory-negligence states like [Alabama](/attorneys/alabama), [Maryland](/attorneys/maryland), or [North Carolina](/attorneys/north-carolina), even 1% of fault can bar recovery entirely. A lawyer who explains the weaknesses in your case upfront is one you can trust with its strengths.
 
 ## 5. "How long will my case take, and how will you keep me updated?"
 

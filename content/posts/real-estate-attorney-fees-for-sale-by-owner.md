@@ -48,7 +48,7 @@ Now the comparison that actually matters. An agent-assisted sale of the same hou
 
 ## States where FSBO sellers legally need an attorney — and where they just think they don't
 
-In a group of states — including Massachusetts, New York, Connecticut, South Carolina, Georgia, Delaware, Vermont, and West Virginia — an attorney must conduct or oversee the closing itself. A FSBO seller in those states is hiring a lawyer whether the marketing plan included one or not, and the fee is usually a flat closing package of $900 to $2,500. Price it before you list, not after you accept an offer.
+In a group of states — including Massachusetts, New York, Connecticut, [South Carolina](/attorneys/south-carolina), Georgia, Delaware, Vermont, and West Virginia — an attorney must conduct or oversee the closing itself. A FSBO seller in those states is hiring a lawyer whether the marketing plan included one or not, and the fee is usually a flat closing package of $900 to $2,500. Price it before you list, not after you accept an offer.
 
 Everywhere else the attorney is optional legally and strategic financially. Three state snapshots show how different the landscape is:
 

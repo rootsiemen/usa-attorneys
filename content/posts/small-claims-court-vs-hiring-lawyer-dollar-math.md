@@ -67,6 +67,7 @@ Verified limits for the states where most of these disputes arise:
 | New York | $10,000 (NYC); $5,000/$3,000 elsewhere | $15–$20 | allowed, rarely used |
 | Illinois | $10,000 | $20–$250 | allowed |
 | Florida | $8,000 | $55–$300 | allowed |
+| [Maryland](/attorneys/maryland) | $5,000 | varies by county | allowed |
 | Kentucky | $2,500 (lowest in the country) | varies | allowed |
 | Arizona | $3,500 | $15–$65 | allowed |
 
