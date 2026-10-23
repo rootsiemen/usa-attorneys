@@ -1,7 +1,7 @@
 ---
 title: "Workers' Compensation Settlements: How Your Payout Is Actually Calculated (2026)"
 slug: "workers-compensation-settlement-payout-math"
-description: "Workers' comp payouts aren't guesswork — they're formulas. See exactly how wage benefits, impairment ratings, and lump-sum settlements get calculated, with worked examples."
+description: "Workers' comp payouts are formulas, not guesswork. See how wage benefits, impairment ratings, and lump-sum settlements are calculated — with worked examples."
 date: "2026-10-18"
 practiceArea: "workers-compensation-attorney"
 keywords:

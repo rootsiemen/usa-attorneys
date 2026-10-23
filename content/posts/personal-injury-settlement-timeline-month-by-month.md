@@ -1,7 +1,7 @@
 ---
-title: "Personal Injury Settlement Timeline: What Happens Month by Month"
+title: "Personal Injury Settlement Timeline: How Long Until You're Paid? (2026)"
 slug: "personal-injury-settlement-timeline-month-by-month"
-description: "How long does a personal injury case take? A month-by-month timeline from accident day to settlement check, with real timeframes, costs, and what moves cases faster."
+description: "How long does a personal injury case take? A month-by-month timeline from accident day to settlement check, with real timeframes and what moves cases faster."
 date: "2026-10-21"
 practiceArea: "personal-injury-lawyer"
 keywords:

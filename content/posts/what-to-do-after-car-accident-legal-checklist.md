@@ -1,7 +1,7 @@
 ---
-title: "What to Do After a Car Accident: A Legal Checklist"
+title: "What to Do After a Car Accident: A Legal Checklist (2026)"
 slug: "what-to-do-after-car-accident-legal-checklist"
-description: "Just had a car accident? Follow this legal checklist — what to do at the scene, what to say (and not say), and how to protect your injury claim."
+description: "Just had a car accident? Follow this legal checklist: what to do at the scene, what to say (and never say), and the mistakes that can cut your settlement."
 date: "2026-10-16"
 practiceArea: "personal-injury-lawyer"
 keywords:

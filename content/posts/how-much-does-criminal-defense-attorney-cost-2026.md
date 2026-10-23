@@ -1,5 +1,5 @@
 ---
-title: "How Much Does a Criminal Defense Attorney Cost in 2026? Retainers, Flat Fees, and Trial Math"
+title: "How Much Does a Criminal Defense Attorney Cost? (2026 Fees)"
 slug: "how-much-does-criminal-defense-attorney-cost-2026"
 description: "Criminal defense attorneys charge $1,500–$25,000+ depending on the charge. See 2026 retainer vs flat-fee math, trial-day costs, and the real price of a conviction."
 date: "2026-10-21"

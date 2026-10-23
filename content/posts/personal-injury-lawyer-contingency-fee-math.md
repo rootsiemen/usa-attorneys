@@ -1,7 +1,7 @@
 ---
 title: "Personal Injury Contingency Fees: The Real Math Behind That 'No Fee Unless We Win' Sign"
 slug: "personal-injury-lawyer-contingency-fee-math"
-description: "Contingency fees decide how much of your settlement you actually keep. We break down real percentages, cost deductions, and worked math so you know your lawyer's number before you sign."
+description: "Contingency fees take 33-40% of your settlement. See the real math — percentages before vs. after trial, cost deductions, and worked payout examples."
 date: "2026-10-17"
 practiceArea: "personal-injury-lawyer"
 keywords:

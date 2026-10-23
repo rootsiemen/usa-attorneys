@@ -1,7 +1,7 @@
 ---
-title: "How Long Does a Divorce Take? A Month-by-Month Timeline"
+title: "How Long Does a Divorce Take? A Month-by-Month Timeline (2026)"
 slug: "how-long-does-divorce-take-timeline-month-by-month"
-description: "How long does divorce take? A month-by-month timeline from filing to final judgment, with state waiting periods, cost math, and what speeds up or drags out a divorce."
+description: "How long does divorce take — 2 months or 2 years? A month-by-month timeline from filing to judgment, with state waiting periods and what speeds it up."
 date: "2026-10-22"
 practiceArea: "divorce-attorney"
 keywords:

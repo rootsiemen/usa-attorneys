@@ -1,7 +1,7 @@
 ---
-title: "Probate Attorney Fees: The State-by-State Cost Math That Decides What an Estate Actually Pays"
+title: "Probate Attorney Fees by State: What a $500K Estate Pays (2026)"
 slug: "probate-attorney-fees-state-by-state-cost-math"
-description: "Probate attorney fees by state, with worked math: California's statutory 4-3-2-1 schedule, Florida's presumed-reasonable fee, Texas hourly reality, and what a $500K estate costs to probate in five states."
+description: "Probate attorney fees by state, with worked math: California's 4-3-2-1 statutory schedule, Florida and Texas rules, and what a $500K estate really pays."
 date: "2026-10-20"
 practiceArea: "estate-planning-attorney"
 keywords:

@@ -1,5 +1,5 @@
 ---
-title: "Estate Planning Attorney Fees 2026: The Will vs Trust Cost Math Nobody Shows You"
+title: "Estate Planning Attorney Fees: Will vs Trust Cost Math (2026)"
 slug: "estate-planning-attorney-fees-will-vs-trust-cost-math"
 description: "What an estate planning attorney charges for a will vs a trust, what probate really costs in your state, and the lifetime math that picks your plan — with real numbers."
 date: "2026-10-19"

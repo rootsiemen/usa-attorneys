@@ -1,7 +1,7 @@
 ---
-title: "How Much Does a DUI Attorney Cost in 2026? The Full Price Breakdown"
+title: "How Much Does a DUI Lawyer Cost in 2026? Fees & Total Cost"
 slug: "how-much-does-dui-attorney-cost-2026"
-description: "DUI attorney costs range from $1,500 to $15,000+. See 2026 fee ranges, flat vs. hourly billing, trial costs, and the real math of DUI vs. lawyer cost."
+description: "How much does a DUI lawyer cost in 2026? $1,500-$5,000 for a first offense. Full DUI lawyer cost breakdown: flat fees vs hourly, trial, fines & total cost."
 date: "2026-10-17"
 practiceArea: "dui-attorney"
 keywords:
@@ -11,11 +11,13 @@ keywords:
   - "dui lawyer flat fee vs hourly"
 ---
 
+**How much does a DUI lawyer cost in 2026?** For a first offense, most drivers pay **$1,500 to $5,000** in attorney fees — typically a flat fee. A second offense runs $5,000 to $10,000, and a case that goes to trial or involves an injury can reach $10,000 to $25,000+. The sections below break down the full DUI lawyer cost: the fee itself, how billing works, and the much larger bill a conviction sends you if nobody fights the charge.
+
 Ask anyone who has been through a DUI what hurt most and many won't say the lawyer's bill — they'll say the five years of car-insurance surcharges, the ignition interlock device humming on their dashboard, and the Uber receipts. A [DUI attorney](/dui-attorney) charges for the defense, but the real question is always the same: what does this whole thing cost, with and without a lawyer?
 
 This guide breaks down what DUI lawyers actually charge in 2026, how the billing works, when a trial changes the price, and — most usefully — the honest math comparing the attorney's fee against the cost of a conviction.
 
-## The quick answer: what DUI lawyers charge
+## How much does a DUI lawyer cost? The 2026 fee ladder
 
 Most first-offense DUI cases defended by a private attorney cost **$1,500 to $5,000** in total legal fees. Here's the typical fee ladder for 2026:
 
@@ -115,8 +117,49 @@ Most people don't have $3,000 lying around, and DUI attorneys know it. Common pa
 
 What about a public defender? If you genuinely can't afford a private attorney, public defenders are competent — but they carry heavy caseloads, can't take every case to trial, and are typically assigned at arraignment, weeks after the arrest when the DMV hearing deadline may already be passing. The cheapest private DUI consultation is free; take at least one before deciding.
 
+## What a second or third DUI costs
+
+Repeat offenses are where both the fee and the state's bill jump a tier. A **second DUI** within the lookback period (5–10 years in most states) typically costs **$5,000 to $10,000** in attorney fees, because mandatory minimum jail time, longer license revocations, and stricter plea policies make every step contested. A **third or felony DUI** usually starts at **$10,000** and goes up from there — felony cases involve grand-jury or preliminary-hearing stages, expert witnesses for toxicology challenges ($1,000–$3,500 each), and a realistic trial, which is where hourly billing at $250–$500/hour replaces flat fees.
+
+The non-attorney side escalates just as fast. Second-offense fines commonly run $1,000–$5,000, ignition interlock periods stretch to 1–3 years, and some states add vehicle forfeiture or mandatory inpatient treatment at your expense. If your first DUI taught you the insurance math, a second one multiplies it: expect SR-22 requirements of 3+ years and premium surcharges that can exceed $20,000 over the full period. This is why repeat-offense cases are the ones where defendants most often say the lawyer was the cheapest part of the outcome.
+
+## The total cost of a DUI: everything added up
+
+Put the attorney fee and the state's bill side by side for a typical first offense:
+
+| Cost item | Plead guilty, no lawyer | Hire a DUI lawyer (reduced charge) |
+|---|---|---|
+| Attorney fee | $0 | $2,500 – $4,000 |
+| Fines & court costs | $800 – $2,600 | $400 – $1,200 |
+| Ignition interlock (6–12 mo.) | $800 – $2,500 | Often avoided or shortened |
+| DUI school / classes | $200 – $500 | $200 – $500 |
+| Extra insurance (3–5 yrs) | $3,000 – $15,000+ | $1,000 – $4,000 |
+| **Estimated total** | **$4,800 – $20,600+** | **$4,100 – $9,700** |
+
+The lawyer's fee is the only line you can shop for. Everything below it is set by the court, the DMV, and your insurer — and a good defense outcome shrinks most of those lines at once.
+
+## DUI lawyer cost: frequently asked questions
+
+**How much does a DUI lawyer cost for a first offense?**
+Most first-offense DUI cases cost $1,500 to $5,000 in attorney fees, usually as a flat fee covering pre-trial work and the DMV hearing. Cases that go to trial cost more — typically $5,000 to $10,000 total.
+
+**How much does a DUI lawyer cost for a second offense?**
+Expect $5,000 to $10,000. Repeat offenses carry mandatory penalties and longer license revocations, so there is more to fight and fewer standard plea offers.
+
+**Is a DUI lawyer worth the cost?**
+For most drivers, yes. A reduced charge (such as reckless driving) can cut the insurance surcharge alone by $4,000 or more over five years — often more than the entire attorney fee — and can save your license and your job.
+
+**Do DUI lawyers charge flat fees or hourly?**
+Most charge a flat fee for first-offense cases. Hourly billing ($200–$500/hour) appears mainly in felony, injury, or trial cases. Always ask whether the flat fee includes a trial and the DMV hearing before you sign.
+
+**Can I pay a DUI lawyer in installments?**
+Usually. Most DUI firms accept a partial retainer up front with monthly installments, and nearly all take credit cards. Many offer a free first consultation — if cost is the obstacle, ask about the payment structure before you decide to go without a lawyer.
+
+**What does a DUI cost in total, including fines and insurance?**
+A first-offense DUI conviction typically costs $5,000 to $20,000+ over 3–5 years once fines, court costs, ignition interlock, DUI school, and higher insurance premiums are added — usually several times the attorney's fee.
+
 ## The bottom line
 
 A first-offense DUI defense costs $1,500–$5,000 in legal fees, but the *conviction* costs $5,000–$20,000+ in fines, interlock, and insurance over the years that follow. The attorney's fee is the one line item you can negotiate on day one — and it's the one most likely to shrink the rest of the bill.
 
-Browse [DUI attorneys in your state](/blog/questions-to-ask-before-hiring-criminal-defense-attorney) — or start with our guide to [questions to ask before hiring](/blog/questions-to-ask-before-hiring-criminal-defense-attorney) — and make the consultation call before the DMV deadline runs out.
+Browse [DUI attorneys](/dui-attorney) to compare lawyers in your area, or find one near you in the [state-by-state attorney directory](/attorneys) — and if you were just arrested, read the [72-hour DUI arrest checklist](/blog/what-to-do-after-dui-arrest-72-hour-checklist) before the DMV deadline runs out.

@@ -1,7 +1,7 @@
 ---
-title: "Truck Accident vs Car Accident Lawsuits: 7 Ways the Math Works Completely Differently"
+title: "Truck Accident vs Car Accident Lawsuits: 7 Key Differences (2026)"
 slug: "truck-accident-vs-car-accident-lawsuit-differences"
-description: "A truck crash isn't a big car crash. Federal insurance floors, FMCSA rules, and multiple liable companies change everything — we run the real numbers."
+description: "A truck crash isn't a big car crash: a $750K federal insurance minimum, FMCSA rules, and multiple liable companies. We run the numbers on 7 key differences."
 date: "2026-10-17"
 practiceArea: "personal-injury-lawyer"
 keywords:

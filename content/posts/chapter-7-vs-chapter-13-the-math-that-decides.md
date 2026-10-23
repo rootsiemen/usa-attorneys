@@ -1,7 +1,7 @@
 ---
-title: "Chapter 7 vs Chapter 13 Bankruptcy: The Math That Decides Which One Is Actually Yours"
+title: "Chapter 7 vs Chapter 13 Bankruptcy: The Math That Decides (2026)"
 slug: "chapter-7-vs-chapter-13-the-math-that-decides"
-description: "Chapter 7 wipes debt in months; Chapter 13 repays it over years. The means test, asset exemptions, and payment-plan math decide for you — we run the numbers."
+description: "Chapter 7 wipes debt in 3-6 months; Chapter 13 repays it over 3-5 years. See the means test, filing costs, and payment-plan math that decide which one is yours."
 date: "2026-10-18"
 practiceArea: "bankruptcy-attorney"
 keywords:

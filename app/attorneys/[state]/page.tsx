@@ -21,21 +21,29 @@ export function generateStaticParams() {
   return ALL_STATES.map((s) => ({ state: s.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
   params: { state: string };
-}): Metadata {
+}): Promise<Metadata> {
   const state = getState(params.state);
   if (!state) return {};
   const url = `${SITE_URL}/attorneys/${state.slug}`;
-  const description = `Find ${state.name} attorneys. Browse lawyers by practice area — injury, divorce, criminal defense & more. Free directory.`;
+  let count = 0;
+  try {
+    count = (await getAttorneysByState(state.slug)).length;
+  } catch {
+    count = 0;
+  }
+  const countHook = count > 0 ? `${count} listed lawyers, ` : "";
+  const description = `Attorneys in ${state.name}: compare ${countHook}see 2026 fees by practice area — injury, divorce, DUI & criminal defense. Free to browse.`;
+  const title = `${state.name} Attorneys: Find a Lawyer in ${state.name} — Fees & Costs (2026)`;
   return {
-    title: `${state.name} Attorney Guide — Find a Lawyer`,
+    title,
     description,
     alternates: { canonical: url },
     openGraph: {
-      title: `${state.name} Attorney Guide | ${SITE_NAME}`,
+      title: `${title} | ${SITE_NAME}`,
       description,
       url,
       type: "website",
