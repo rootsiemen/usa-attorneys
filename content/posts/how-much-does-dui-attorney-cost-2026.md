@@ -2,7 +2,7 @@
 title: "How Much Does a DUI Lawyer Cost in 2026? Fees & Total Cost"
 slug: "how-much-does-dui-attorney-cost-2026"
 description: "How much does a DUI lawyer cost in 2026? $1,500-$5,000 for a first offense. Full DUI lawyer cost breakdown: flat fees vs hourly, trial, fines & total cost."
-date: "2026-10-17"
+date: "2026-10-24"
 practiceArea: "dui-attorney"
 keywords:
   - "how much does a dui attorney cost"
@@ -30,6 +30,10 @@ Most first-offense DUI cases defended by a private attorney cost **$1,500 to $5,
 
 About 70–80% of first-offense DUI cases never go to trial, so most people land in that first row. The headline numbers look big until you compare them with what the state charges you — more on that below.
 
+**How published fee data compares.** The ranges above line up with what DUI-specific publishers report: 1-800-DUI-LAWS puts a first-offense flat fee at **$1,000 to $3,000**, and LegalClarity's fee data puts a first offense resolved by plea at **$1,500 to $5,000**, with trial pushing the total to **$5,000 to $10,000 and beyond**. LegalClarity also prices the full cost of a conviction — fines, insurance, programs, and lost privileges — at **$10,000 to $30,000 all-in**, which is the number the attorney fee should always be compared against.
+
+**A state example: Texas.** Texas calls it DWI, and published Texas firm data (McConathy Law) puts the cost of *fighting* a DWI at **$2,500 to $15,000** depending on the county, your record, and whether the case goes to trial — wider than the national band because Texas prosecutors in some counties rarely offer reductions. Your state will have its own band; the pattern (first offense cheapest, trial the multiplier) holds everywhere. Use the state table in our [DUI attorney directory](/attorneys) pages to compare lawyers where your case actually is.
+
 ## Flat fee vs. hourly: how DUI lawyers bill
 
 Unlike many lawyers who bill by the hour, most DUI attorneys charge a **flat fee** for the case. That fee typically covers the arraignment, pre-trial hearings, plea negotiations, and the DMV administrative hearing (the license-suspension fight that runs parallel to the criminal case).
@@ -43,6 +47,16 @@ Why flat fees dominate DUI work:
 Hourly billing shows up mainly for complicated cases — felony DUIs, accidents with injuries, or cases headed for a full jury trial. Hourly rates for DUI defense typically run **$200 to $500 per hour** depending on the market, and a trial can burn 20–60 hours of attorney time. That's exactly why trial fees jump so much.
 
 The catch to watch: some "flat fees" exclude the trial. A quote of "$2,500 flat fee" might cover everything *except* a trial, which then costs another $5,000+. Always ask what the flat fee includes before you sign — the first question on this list should be free of charge.
+
+What flat fees most often **exclude** — the items to ask about by name:
+
+- **Trial** (covered above — the biggest single exclusion)
+- **Suppression motions and evidentiary hearings** beyond the standard pre-trial motions
+- **Expert witnesses** — toxicology or breath-test experts bill $1,000–$3,500 each and are rarely inside a flat fee
+- **Appeals** — a conviction appeal is a separate engagement
+- **The DMV/license hearing** in the minority of firms that bill it separately
+
+None of these exclusions is improper. All of them should be in the written fee agreement, in plain language, before you pay anything.
 
 ## The hidden bill: what a DUI actually costs without a lawyer
 

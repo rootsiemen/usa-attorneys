@@ -2,7 +2,7 @@
 title: "How Much Does a Divorce Lawyer Cost in 2026? Fees, Retainers & Real Bills"
 slug: "how-much-does-divorce-attorney-cost-2026"
 description: "Divorce lawyer cost in 2026: $500 for simple uncontested cases to $50,000+ for custody fights. Average fees, retainer math, mediation comparison, and ways to pay less."
-date: "2026-10-15"
+date: "2026-10-24"
 practiceArea: "divorce-attorney"
 keywords:
   - "how much does a divorce lawyer cost"
@@ -31,6 +31,8 @@ More useful than the average is the range by divorce type:
 | High-conflict / custody battle | $20,000 – $50,000+ |
 
 Hourly rates for divorce attorneys in 2026 typically run **$250–$450 per hour** in most markets, $350–$600+ in expensive metros like New York City, San Francisco, or Washington, D.C. Most require an upfront **retainer** — often $3,000–$10,000 — which the lawyer bills against as work is done.
+
+**What the published rate data says.** Nationwide fee trackers put the going hourly band at **$200–$500**, with Clio's reported average for divorce lawyers at **$312–$344 per hour** — the middle of both ranges. Totals by case type tell the same story from the other side: an uncontested divorce where *both* spouses hire lawyers averages roughly **$4,100 combined**; a contested case that settles lands at **$10,000–$20,000**; one that goes to trial runs **$20,000–$30,000 and up**. And once the hidden stack is added — court filing fees, custody experts, QDRO preparation for retirement accounts — the full-scope average divorce comes to about **$11,300** per spouse, which is why the "average" always sounds higher than your neighbor's bill.
 
 ## Three real divorce bills: what the money actually bought
 
@@ -116,6 +118,17 @@ Mediation is not free of lawyers — most mediators recommend each spouse have t
 Geography matters. In major metros — New York City, Los Angeles, San Francisco, Chicago, Washington D.C. — hourly rates of $400–$650 are normal, and even straightforward contested divorces often cross $20,000 per spouse. In smaller markets across the Midwest and South ([Ohio](/attorneys/ohio), [Indiana](/attorneys/indiana), [Mississippi](/attorneys/mississippi)), experienced divorce attorneys charge $175–$300 per hour, and uncontested cases frequently wrap up under $3,000.
 
 Filing fees also differ: roughly $300–$400 in [California](/attorneys/california) and [Florida](/attorneys/florida), under $200 in states like [Wyoming](/attorneys/wyoming) and [North Dakota](/attorneys/north-dakota). Mandatory programs add up too — parenting classes ($50–$150), mediation sessions, and custody evaluations ($2,500–$10,000 where ordered) vary widely by county. When budgeting, ask local attorneys for a realistic total for cases like yours in your specific county, not a national average.
+
+### State spotlights: Florida and Texas
+
+Two of the highest-volume divorce states show how far published local pricing can sit from the national average:
+
+| State | Uncontested | Contested (settled) | Contested (trial) |
+|---|---|---|---|
+| [Florida](/attorneys/florida) | Flat fee $750 – $1,500 | $8,000 – $15,000 total | $25,000 – $50,000+ |
+| [Texas](/attorneys/texas) | $1,500 – $5,000 | $10,000 – $30,000 (cases with kids) | Higher — custody trials price like litigation |
+
+Florida's published figures (state divorce guides tracking local firm pricing) sit *below* the national bands for uncontested work — a competitive, high-volume market — while its trial numbers match the national top end. Texas runs the other way on uncontested cases, largely because cases with children are a bigger share of its filings. The lesson generalizes: your state's local market moves the total more than any national statistic does, which is why the quotes that matter come from [divorce attorneys in your own state](/divorce-attorney).
 
 ## Can you get divorced without a lawyer?
 

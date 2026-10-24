@@ -2,7 +2,7 @@
 title: "How Much Does an Immigration Attorney Cost in the U.S.? (2026 Guide)"
 slug: "how-much-does-immigration-attorney-cost-2026"
 description: "Immigration attorney fees range from $500 for simple filings to $15,000+ for deportation defense. See 2026 fee ranges, USCIS filing costs, and real bills."
-date: "2026-10-18"
+date: "2026-10-24"
 practiceArea: "immigration-attorney"
 keywords:
   - "how much does an immigration attorney cost"
@@ -33,6 +33,21 @@ Most immigration attorneys work on **flat fees** for predictable cases (visas, g
 | Immigration appeal (BIA) | $3,000 – $8,000 |
 
 Hourly rates for immigration attorneys typically run **$200–$400 per hour** in most markets, $350–$500+ in major metros like New York, Los Angeles, or Washington, D.C. The number on the right side of this table is the one people miss: attorney fees are only part of the bill. USCIS filing fees — which you pay no matter who does the work — can add **$500 to $5,000+** on top.
+
+## Fees by form: attorney fee and government fee side by side
+
+Immigration is priced per form, not per hour — so here is the same information the way it actually hits your wallet, with the attorney fee and the USCIS filing fee in one table (attorney ranges cross-checked against published per-form fee data; government fees are the current published USCIS amounts):
+
+| Form / filing | Attorney fee | USCIS filing fee | What it is |
+|---|---|---|---|
+| I-130 | $1,500 – $2,500 | $535 paper / $625 online | Petition for a spouse, parent, or sibling |
+| I-130 + I-485 package | $2,500 – $5,000 | ~$1,975 – $2,065 combined | Marriage-based green card filed together |
+| N-400 | $750 – $2,500 | $640 – $760 | Naturalization / citizenship |
+| I-751 (with waiver) | $2,250 – $4,000 | ~$750 | Removing conditions on a green card, incl. divorce/filing waivers |
+| I-601 / I-601A waiver | $2,200 – $5,500 | within the $715 – $1,950 waiver-fee band | Unlawful-presence and hardship waivers |
+| Removal defense (EOIR) | $5,000 – $15,000 | No filing fee to appear | Deportation defense in immigration court |
+
+Two sanity anchors from real published pricing: one Texas firm (Azhar & Azhar) publishes its flat fees openly — an I-130/I-485/EAD bundle at **$2,000**, an NIW petition at **$4,000**, and an H-1B at **$1,500** — all inside the ranges above. And the first conversation is cheap everywhere: initial consultations run **free to about $300** across published firm data, so there is no reason to sign anything before one.
 
 ## The other half of the bill: USCIS filing fees you can't avoid
 

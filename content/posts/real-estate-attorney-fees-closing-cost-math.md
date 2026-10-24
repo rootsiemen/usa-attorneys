@@ -2,7 +2,7 @@
 title: "Real Estate Attorney Fees: The Closing-Cost Math Buyers and Sellers Never See Until Closing Day"
 slug: "real-estate-attorney-fees-closing-cost-math"
 description: "Real estate attorney fees at closing: flat vs hourly pricing, which states require a lawyer, and worked math on $350K and $650K deals so you know exactly what legal help costs before you sign."
-date: "2026-10-19"
+date: "2026-10-24"
 practiceArea: "real-estate-attorney"
 keywords:
   - "cost of real estate lawyer at closing"
@@ -28,6 +28,16 @@ The cost of a real estate lawyer at closing is typically **$800 to $2,500 for a 
 | Premium package (negotiation + post-closing support) | $2,000 – $3,500 |
 
 Everything below explains how those numbers are built, when each pricing model wins, and how to tell whether your quote is the market rate or a markup.
+
+## How these ranges compare with published fee data
+
+Our ranges come from the quotes attorneys actually give; here is how they line up against the fee data other publishers have collected for 2026:
+
+- **iBuyer** puts a standard residential closing flat fee at **$500 to $1,500** — the low end of our table, reflecting simple deals in title-company states.
+- **ListWithClever** reports a full-closing range of **$750 to $1,250** and hourly billing of **$150 to $600** — the hourly top end matches the $450 figure above once big-metro markets are included.
+- Published firm pricing sits inside the same bands: one Rochester, New York firm publicly advertises a **$600 flat fee** for a standard residential closing. New York is a high-cost market, and a published price that low still fits — because a flat fee on a clean deal is mostly a few hours of experienced work.
+
+The takeaway: if your quote for a standard residential closing lands between $750 and $2,500, it is inside every published range we found. Below $500, ask what is being skipped. Above $3,000 on a routine deal, ask what is being added.
 
 ## What a real estate attorney actually does at closing
 
@@ -57,6 +67,25 @@ This is the pricing factor nobody can negotiate. A handful of states legally req
 - Several other states require an attorney to prepare deeds and certain transfer documents even when they do not run the closing itself.
 
 In required-attorney states, expect flat fees at the higher end of the national range — $1,500 to $2,500 for a standard residential purchase — because demand is structural, not optional. In title-company states like California, Texas, and Arizona, attorneys compete with title and escrow companies for the same closing work, and fees skew lower, often $800 to $1,500. If your closing-cost estimate in Georgia shows a $2,000 attorney line item, that is the market. If it shows $2,000 in Texas, get a second quote.
+
+### State-by-state: who must hire one, and who usually pays
+
+Industry listings count roughly 20 states where an attorney must be involved at some step of a residential closing — conducting it, preparing the deed, or certifying title. The strictest rules, and the usual payment customs, look like this:
+
+| State | Attorney required? | Who usually pays the attorney |
+|---|---|---|
+| Connecticut | Yes — attorney conducts/certifies the closing | Each side pays its own attorney |
+| Delaware | Yes — attorney supervises the closing | Each side pays its own attorney |
+| Georgia | Yes — attorney present, handles funds | Each side pays its own attorney |
+| Massachusetts | Yes — attorney conducts the closing | Buyer typically covers the lender's/closing attorney; each side pays its own counsel |
+| North Carolina | Yes — attorney conducts the closing | Each side pays its own attorney |
+| South Carolina | Yes — attorney supervises the closing | Each side pays its own attorney |
+| West Virginia | Yes — attorney involvement required | Each side pays its own attorney |
+| New York | Not by statute — near-universal by custom | Each side pays its own attorney; seller customarily covers deed/transfer paperwork |
+| Illinois / New Jersey | Not for the closing — attorney-review period is customary | Each side pays its own attorney |
+| California / Texas / Arizona | No — title/escrow companies run most closings | Whoever hires one pays; often nobody does |
+
+Two rules hold almost everywhere: each party pays for **their own** lawyer (your attorney protects you, not the deal), and everything on this table is negotiable in the purchase contract — in slow markets sellers routinely agree to cover part of the buyer's closing costs, attorney fee included. If your state is on this site's directory, you can compare [real estate attorneys by state](/attorneys) before your closing date is set.
 
 ## Worked example 1: a $350,000 purchase with a $1,200 flat fee
 
@@ -120,5 +149,22 @@ A real estate fee agreement should fit on a page and answer every question. Befo
 - **What is your turnaround time?** In hot markets with 21-day closes, an attorney who takes 5 business days to review a contract can cost you the deal. Ask for the review timeline up front.
 
 Red flags that should end the conversation: a fee quoted without asking about the transaction type, a flat fee far below the local market (sub-$500 closings usually mean the file is being processed, not reviewed), refusal to put the scope in writing, and — the classic — a lawyer who will "handle the closing" but wants you to sign the purchase agreement first. Sign nothing until counsel has read it. That is the entire point of counsel.
+
+## Real estate attorney fees at closing: frequently asked questions
+
+**How much does a real estate lawyer cost at closing?**
+Typically $800 to $2,500 for a standard residential purchase or sale, most often a flat fee of $1,000 to $1,800. Document-review-only help runs $400 to $750; published fee data (iBuyer, ListWithClever) puts simple closing flat fees as low as $500 to $1,500 in title-company states.
+
+**Who pays for the real estate attorney at closing — buyer or seller?**
+Usually each side pays for its own attorney. In attorney-required states (Georgia, Massachusetts, the Carolinas, Connecticut, Delaware, West Virginia) both parties normally have their own counsel. The split is negotiable in the purchase contract, and sellers sometimes cover part of the buyer's closing costs.
+
+**Is a real estate attorney legally required at closing?**
+In about 20 states an attorney must be involved at some step — conducting the closing, preparing the deed, or certifying title. In the rest, a title or escrow company can close the deal and an attorney is optional (but still the only party who can give you legal advice).
+
+**Can I skip the attorney and just use a title company?**
+On a clean, standard deal in a title-company state, yes — you will save roughly $500 to $1,000. On anything with an edge (estate sale, divorce sale, seller financing, title problems, a contract nobody's lawyer drafted), the attorney is the cheaper option the first time something goes wrong.
+
+**When do I pay the fee?**
+Almost always at closing, out of the settlement funds — the attorney fee appears as a line item on your closing disclosure rather than as an upfront payment. Document-review-only engagements are the exception and are usually paid when the review is delivered.
 
 To see how legal fees are structured in other practice areas, read our breakdown of [personal injury contingency fee math](/blog/personal-injury-lawyer-contingency-fee-math) and our [guide to choosing the right lawyer](/blog/how-to-choose-personal-injury-lawyer). If you are buying in a specific market, browse licensed attorneys by state starting with [Texas](/attorneys/texas) or [Florida](/attorneys/florida), and see the [real estate attorney practice page](/real-estate-attorney) for what these lawyers handle.
