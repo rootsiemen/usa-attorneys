@@ -53,7 +53,7 @@ Those are attorney fees **on top of** USCIS filing fees, which are separate and 
 
 Now the worked example that matters. Say a family green card case quotes you $3,500 from a licensed attorney, versus $600 from a notario:
 
-- **Attorney route:** $3,500 + ~$2,115 in USCIS fees (I-130 + I-485 + biometrics for one adult) = **~$5,615 total**, filed correctly, with RFEs handled in the fee and copies of everything in your hands.
+- **Attorney route:** $3,500 + about $2,115 in USCIS fees (I-130 + I-485 + biometrics for one adult) = **about $5,615 total**, filed correctly, with RFEs handled in the fee and copies of everything in your hands.
 - **Notario route:** $600 + the same $2,115 in government fees = $2,715 — then the form is filed in the wrong category or with a defective I-864 affidavit of support. USCIS denies or issues an RFE the notario cannot answer. Now you hire a real lawyer to fix it: a motion to reopen or refile runs $2,500–$4,000, plus new filing fees if the case must be re-filed, plus 6–12 months lost. **True cost: $7,500–$10,000+ and a year gone.**
 
 The cheap option is the most expensive option with extra steps. The math is not close.
