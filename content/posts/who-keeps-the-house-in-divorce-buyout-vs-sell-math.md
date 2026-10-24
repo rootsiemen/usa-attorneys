@@ -17,6 +17,9 @@ Yes. It's really that much.
 
 This guide does the math both ways for the same house, so you can see what a buyout actually costs, what selling actually nets, and the three traps that turn "keeping the house" into the most expensive decision of the divorce.
 
+
+![House with a driveway and green lawn — who keeps the house in a divorce](https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80&auto=format&fit=crop)
+
 ## The setup: one house, two numbers that matter
 
 Every house-buyout decision rests on two numbers:
@@ -87,6 +90,9 @@ This is the most common outcome in buyout negotiations: the spouse who wants the
 
 There's also a second, quieter trap: the departing spouse's credit. Until the refinance closes, both names are on the mortgage. Every late payment during the divorce dings both credit scores — and the spouse leaving the house has zero control over whether the payments get made. Push for a **deadline in the settlement agreement**: refinance within 90–180 days, or the house gets listed for sale. Without that clause, "I'll refinance soon" can drag on for years.
 
+
+![Family spending time together at home — who keeps the house in a divorce](https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&q=80&auto=format&fit=crop)
+
 ## Community property vs. equitable distribution: your state changes the split
 
 The 50/50 math above assumes a community-property state or an equitable-distribution state where the judge lands near 50/50. But the legal framework matters, especially for short marriages or houses bought before the wedding:
@@ -105,6 +111,9 @@ The most common reason anyone gives for keeping the house is the children: stabi
 **Sell and rent nearby:** each spouse rents a 3-bedroom in the same school zone. In many markets that's $2,200–$2,600/month — and there's no $11,000 refinance bill, no maintenance risk, and no 53% DTI.
 
 The honest question isn't "is stability worth something?" — it is. The question is "is it worth **$600–$1,000 more per month**, a doubled mortgage, and a DTI that leaves no room for anything to go wrong?" Sometimes the answer is still yes. But make it a priced decision, not a default. And note the middle path many families take: one spouse keeps the house **until the youngest graduates**, with a written agreement to sell then — stability now, clean math later. Courts approve these arrangements routinely when both sides agree.
+
+
+![U.S. dollar bills representing attorney fees — who keeps the house in a divorce](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80&auto=format&fit=crop)
 
 ## Your pre-meeting numbers checklist
 

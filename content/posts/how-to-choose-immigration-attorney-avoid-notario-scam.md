@@ -17,6 +17,9 @@ That is exactly what makes immigration the most scam-prone corner of American la
 
 This guide shows you how to tell a real immigration attorney from the lookalikes, what fair fees actually look like in 2026, and the exact questions that expose the fakes — before you sign anything.
 
+
+![Traveler planning a trip with a map — choosing an immigration attorney and avoiding notario scams](https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80&auto=format&fit=crop)
+
 ## 1. The three kinds of "helpers" — and only two are legal
 
 Before you hire anyone, understand who is allowed to do immigration legal work in the United States:
@@ -58,6 +61,9 @@ Now the worked example that matters. Say a family green card case quotes you $3,
 
 The cheap option is the most expensive option with extra steps. The math is not close.
 
+
+![Colleagues collaborating on a legal matter — choosing an immigration attorney and avoiding notario scams](https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80&auto=format&fit=crop)
+
 ## 4. Ten questions that separate real attorneys from everyone else
 
 Use these at the free or low-cost consultation most immigration firms offer:
@@ -81,6 +87,9 @@ Not every immigration matter requires full representation, and an honest attorne
 - **Hire counsel:** asylum, removal proceedings, any waiver (I-601/I-601A), any criminal history, prior denials or deportations, visa overstays, fraud or misrepresentation allegations, employment-based cases with a company involved. These are the cases where one wrong answer on a form creates a permanent bar.
 
 The rule of thumb: if your case has a **fact that makes an officer pause** — an arrest, a prior denial, an overstay, a gap in status — that pause is worth a lawyer. The consultation is usually free or cheap; the mistake is not.
+
+
+![Taking handwritten notes during a consultation — choosing an immigration attorney and avoiding notario scams](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80&auto=format&fit=crop)
 
 ## 6. How to verify credentials yourself in 15 minutes
 

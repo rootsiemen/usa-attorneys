@@ -17,6 +17,9 @@ The national picture: an uncontested divorce with no children and no property di
 
 This guide walks through the divorce process month by month, with the timeframes attorneys actually see, the state waiting periods that set a hard floor on how fast you can finish, and the math on what delays really cost. For the money side, see [How Much Does a Divorce Attorney Cost in 2026](/blog/how-much-does-divorce-attorney-cost-2026). For mediation vs. fighting it out, see [Divorce Mediation vs. Litigation: The Cost Math](/blog/divorce-mediation-vs-litigation-cost-math). For finding the right lawyer, see our [divorce attorney](/divorce-attorney) practice-area page.
 
+
+![Family spending time together at home — how long a divorce takes](https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&q=80&auto=format&fit=crop)
+
 ## The 30-Second Version
 
 Every divorce passes through the same sequence: **filing and service (month 1), response and temporary orders (months 1–3), discovery and valuations (months 3–6), mediation and negotiation (months 6–12), and trial prep/trial (months 12–24+)**. Roughly **95% of divorces settle before trial** — but "settling" in month 10 costs far more than "settling" in month 2. Every state also imposes a **minimum waiting period** between filing and final judgment — 6 months in California, 60 days in Texas, and in some states no minimum at all. The single biggest lever on your timeline is how many issues you and your spouse contest: each contested issue adds roughly **2 to 6 months** to the calendar.
@@ -70,6 +73,9 @@ A mediation session runs **4 to 8 hours**. Roughly **70 to 80%** of mediated div
 
 Once a settlement is reached, the attorneys draft a **marital settlement agreement** — typically **2 to 4 weeks** of back-and-forth on the fine print — and submit it to the court with a proposed judgment. The court reviews it (checking that support orders meet state guidelines and the disclosures were complete) and signs the judgment. In uncontested-friendly counties this takes **2 to 6 weeks**; in backlogged counties, **2 to 4 months**.
 
+
+![Calendar and planner used to track legal deadlines — how long a divorce takes](https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80&auto=format&fit=crop)
+
 ## Months 12–18+: Trial Prep and Trial — The Expensive Long Tail
 
 The roughly **5% of divorces** that do not settle enter trial prep. This phase is measured in months and priced in tens of thousands:
@@ -96,6 +102,9 @@ Waiting periods and docket speed vary enough that the same divorce on the same f
 Florida and Nevada illustrate the floor: with a 20-day waiting period (Florida) or no waiting period at all (Nevada), an uncontested divorce can legally finalize in **6 to 10 weeks**. California illustrates the ceiling: no matter how agreeable both spouses are, six months is the legal minimum. Note the second column for Texas — the 60-day waiting period is short, but the *typical* contested Texas divorce still takes **9 to 14 months**, because agreement takes longer than statutes allow.
 
 The jurisdiction rule behind all of this: **one spouse must meet the state's residency requirement** before filing — commonly **6 months in the state and 3 months in the county** (California), **6 months** (Texas), or as little as **6 weeks** (Nevada, the historical reason for "quickie" Reno divorces). Filing in the wrong state gets the case dismissed and the clock restarts at zero.
+
+
+![Reviewing paperwork at a desk — how long a divorce takes](https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1200&q=80&auto=format&fit=crop)
 
 ## What Speeds Up or Slows Down a Divorce
 

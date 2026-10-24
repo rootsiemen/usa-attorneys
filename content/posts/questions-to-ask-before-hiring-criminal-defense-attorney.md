@@ -15,6 +15,9 @@ Getting arrested or charged is one of the scariest moments of your life — and 
 
 Use this list at your free consultation. The answers separate experienced, genuinely prepared defense lawyers from everyone else.
 
+
+![Laptop showing charts during a cost review — questions to ask before hiring a criminal defense attorney](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80&auto=format&fit=crop)
+
 ## 1. "How much of your practice is criminal defense — and have you handled my specific charge?"
 
 Criminal law is a world of its own, with its own procedures, evidence rules, and prosecutors. A general practitioner who "also does criminal" is not the same as a lawyer whose entire practice is defending people accused of crimes.
@@ -90,6 +93,9 @@ This question reveals whether the lawyer thinks like a defender or a form-filler
 
 Weak answers sound like "I'll review your file and negotiate the best deal." That's not defense work — that's order-taking.
 
+
+![Historic government building with tall columns — questions to ask before hiring a criminal defense attorney](https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?w=1200&q=80&auto=format&fit=crop)
+
 ## 7. "How will we communicate, and how fast will you respond?"
 
 Criminal cases move on deadlines: arraignments, discovery cutoffs, motion filing dates. A lawyer you can't reach is a liability.
@@ -125,6 +131,9 @@ The statute language on your paperwork is deliberately confusing. A good lawyer 
 - The collateral consequences people forget: loss of a professional license, immigration consequences, gun rights, voting rights, background-check impact on employment
 
 This matters enormously for certain charges. A misdemeanor domestic-violence conviction, for example, can trigger federal firearm restrictions. An immigration attorney may need to be consulted alongside your criminal defense lawyer if you aren't a U.S. citizen — [immigration consequences](/immigration-attorney) of criminal charges can include deportation proceedings even for long-time residents.
+
+
+![Signing a legal agreement with a pen — questions to ask before hiring a criminal defense attorney](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80&auto=format&fit=crop)
 
 ## 10. "What will you do at my first court appearance?"
 

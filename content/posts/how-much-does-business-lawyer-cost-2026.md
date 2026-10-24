@@ -17,6 +17,9 @@ Every small business owner hits the same decision point: a vendor sends you a co
 
 The honest answer is that a business lawyer costs less than the mistake you're trying to avoid, and more than the online-template service that tempted you. This guide gives you 2026's real fee ranges, how the billing actually works, the math on when a retainer beats paying hourly, and a side-by-side comparison of DIY services vs. a local lawyer vs. a big firm.
 
+
+![Attorney shaking hands with a client — business lawyer costs](https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80&auto=format&fit=crop)
+
 ## How much does a business lawyer cost? The quick answer for 2026
 
 | Billing style | Typical 2026 range |
@@ -106,6 +109,9 @@ Numbers are more useful when they're attached to a real business. Here's the ann
 
 Notice the pattern: the growing business pays more in absolute terms but far less *per crisis*, because the retainer turns emergencies into included phone calls. Which brings us to the central calculation.
 
+
+![Calculator and forms used to estimate legal costs — business lawyer costs](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80&auto=format&fit=crop)
+
 ## The retainer math: when $2,000/month beats $300/hour
 
 Take a business that needs legal input roughly once a week — a contract question here, a vendor dispute there, an HR judgment call every month or two. That's about 6 hours of lawyer time per month.
@@ -144,6 +150,9 @@ Four things inflate legal bills far more than the hourly rate does:
 4. **The wrong lawyer for the job.** Paying a $600/hr litigator to review your employee handbook is like hiring a surgeon to give a flu shot. The fix: match the lawyer to the task. Transactional business lawyers do documents; litigators do fights.
 
 Three tactics that reliably keep costs down: **bundle work** (one monthly call covering five questions is cheaper than five separate calls), **do the first draft yourself** (bring your terms; let the lawyer fix them), and **ask "what would you do if this were your business?"** — the answer usually reveals whether you need the $5,000 solution or the $500 one.
+
+
+![Signing a legal agreement with a pen — business lawyer costs](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80&auto=format&fit=crop)
 
 ## Questions to ask before you hire (the engagement checklist)
 

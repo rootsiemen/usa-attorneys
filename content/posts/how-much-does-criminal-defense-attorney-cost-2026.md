@@ -15,6 +15,9 @@ A criminal charge is one of the few bills where the sticker price means nothing 
 
 This guide breaks down what criminal defense lawyers actually charge in 2026, the three billing structures they use, the real math of retainer versus flat fee versus hourly, and the comparison that actually matters — the cost of the lawyer against the cost of the conviction.
 
+
+![Rows of law books in a legal library — criminal defense attorney costs](https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1200&q=80&auto=format&fit=crop)
+
 ## The quick answer: what criminal defense lawyers charge
 
 Across the US in 2026, criminal defense fees cluster into predictable bands:
@@ -68,6 +71,9 @@ Five variables move a criminal defense fee more than anything else:
 
 **The evidence timeline.** Get arrested in January, hire a lawyer in January, and the lawyer can preserve surveillance footage, interview witnesses while memories are fresh, and file suppression motions early. Hire one in March after two continuances, and you're paying catch-up hours at full rate. Early hiring is the single cheapest thing you can do in a criminal case.
 
+
+![Calculator next to financial paperwork — criminal defense attorney costs](https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80&auto=format&fit=crop)
+
 ## The math that matters: lawyer fee vs. conviction cost
 
 People comparison-shop the lawyer's fee and ignore the other side of the ledger. Let's fix that with a worked example.
@@ -95,6 +101,9 @@ If you qualify financially, a public defender costs you nothing — and many are
 - **Who decides.** With a public defender, the office assigns your lawyer — you don't shop for one. With a private attorney, you choose. If you've never met your public defender before the first court date, that's normal; if it worries you, hire privately for the cases where the stakes are high.
 
 The rule of thumb: if the charge is minor and you're guilty-adjacent with a standard plea on the table, a public defender is often fine. If the charge threatens jail time, your license, your immigration status, or your record — hire the private attorney. The $5,000–$10,000 difference buys you *attention*, which is the actual scarce resource in criminal defense.
+
+
+![Team planning strategy with sticky notes — criminal defense attorney costs](https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80&auto=format&fit=crop)
 
 ## How to read a retainer agreement (5-minute checklist)
 

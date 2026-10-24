@@ -16,6 +16,9 @@ Real estate attorney fees for sale by owner deals are the most misunderstood num
 
 Here is the market context. In the National Association of Realtors' most recent profile of home buyers and sellers, for-sale-by-owner homes were about 6% of all sales, and the median FSBO home sold for $380,000 against $435,000 for agent-assisted sales. Some of that gap is property mix, not negotiating skill. But a pattern shows up in the data year after year: the sellers who lose money on FSBO rarely lose it on the listing price. They lose it on the paperwork — a botched disclosure, a dead earnest-money clause, a contract the buyer's lender rejects. That paperwork is exactly what the attorney fee buys. This guide prices it out, task by task, with real 2026 numbers.
 
+
+![Single-family home in a residential neighborhood — real estate attorney fees for a for-sale-by-owner sale](https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=80&auto=format&fit=crop)
+
 ## Why selling by owner changes the lawyer's job completely
 
 In an agent-assisted sale, three professionals quietly absorb legal risk without ever calling themselves lawyers. The listing agent drafts the purchase contract on state association forms. The agent manages the disclosure packet and its deadlines. The agent holds the transaction together when the appraisal, inspection, or title search surfaces a problem. None of that is legal advice, but all of it is legal work product — and when you sell by owner, every piece of it lands on your kitchen table.
@@ -46,6 +49,9 @@ Take a $425,000 single-family sale — close to the national median — sold by 
 
 Now the comparison that actually matters. An agent-assisted sale of the same house at a 5.5% total commission costs $23,375, of which the seller's side is roughly half to all of it depending on the agreement. Even if the FSBO seller offers a buyer's agent 2.5% ($10,625) to widen the buyer pool, the seller who pays $1,495 for a legal package keeps roughly **$11,000 to $21,000** of the commission savings. The attorney fee is not the risk in a FSBO sale. The attorney fee is 0.35% spent protecting the other 99.65%. For the buyer-side version of this math, see our breakdown of [real estate attorney fees and closing-cost math](/blog/real-estate-attorney-fees-closing-cost-math).
 
+
+![Taking handwritten notes during a consultation — real estate attorney fees for a for-sale-by-owner sale](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80&auto=format&fit=crop)
+
 ## States where FSBO sellers legally need an attorney — and where they just think they don't
 
 In a group of states — including Massachusetts, New York, Connecticut, [South Carolina](/attorneys/south-carolina), Georgia, Delaware, Vermont, and West Virginia — an attorney must conduct or oversee the closing itself. A FSBO seller in those states is hiring a lawyer whether the marketing plan included one or not, and the fee is usually a flat closing package of $900 to $2,500. Price it before you list, not after you accept an offer.
@@ -57,6 +63,9 @@ Everywhere else the attorney is optional legally and strategic financially. Thre
 - In [New Mexico](/attorneys/new-mexico), a community-property state, expect one quirk nobody warns FSBO sellers about: legal services carry the state's gross receipts tax, roughly 5% to 8.5% depending on locality, added on top of the quoted fee.
 
 Wherever you sell, the seller's disclosure obligation follows state statute, not your listing platform's template. If your state's disclosure form asks about water intrusion and you "forgot" the basement flood, no listing website indemnifies you. A $250 disclosure consult is the cheapest line in this entire guide relative to what it prevents.
+
+
+![Money plant growing from coins, symbolizing savings — real estate attorney fees for a for-sale-by-owner sale](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&q=80&auto=format&fit=crop)
 
 ## The three FSBO traps the fee actually prevents
 

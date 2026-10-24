@@ -13,6 +13,9 @@ keywords:
 
 Nobody at the warehouse sits around calculating their injury settlement the way they calculate their paycheck — until the injury happens, and then the first question is always the same: "So... how much do I actually get?" The answer frustrates people, because a [workers' compensation attorney](/workers-compensation-attorney) will tell you there is no single number. But that's not the same as saying there's no logic. Workers' comp runs on formulas, and once you see the formulas, the mystery number stops looking like a lottery ticket and starts looking like a math problem. A math problem you can actually check someone's work on.
 
+
+![Engineer wearing a hard hat at a work site — workers' compensation settlement payouts](https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&q=80&auto=format&fit=crop)
+
 ## The two-thirds rule: where every payout starts
 
 Almost every state builds its wage-replacement benefits on the same skeleton: if a workplace injury keeps you from working, temporary total disability (TTD) benefits pay roughly **two-thirds of your average weekly wage (AWW)** — 66⅔%, to be exact — until you hit your state's maximum or minimum weekly cap.
@@ -58,6 +61,9 @@ The tradeoff is stark and worth stating plainly:
 
 Neither choice is universally right. Workers with injuries that are genuinely stable and done healing often do better taking the money. Workers with hardware in their spine, progressive conditions, or a real chance of future surgery often regret closing. The deciding question isn't "how much" — it's "how finished is this injury, really?"
 
+
+![Coins and a chart showing rising costs — workers' compensation settlement payouts](https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1200&q=80&auto=format&fit=crop)
+
 ## Why workers' comp lawyers cost less than you think
 
 Here's a pricing fact that surprises people used to personal injury math: workers' comp attorney fees are **capped by statute** in most states, and the caps are low. Common caps run 10–20% of the recovery — 15% is typical in many states — and the fee usually has to be approved by a workers' comp judge. Compare that to the standard 33–40% contingency fee in a [personal injury](/personal-injury-lawyer) case (see the math on [how contingency fees actually work](/blog/personal-injury-lawyer-contingency-fee-math)), and comp representation is roughly half the price.
@@ -73,6 +79,9 @@ Strip away the anecdotes and nearly every settlement number traces back to five 
 3. **Future medical exposure.** A 35-year-old with a lumbar fusion faces decades of potential follow-up care. Insurers price that exposure into settlements; workers who can document it (future surgery recommendations, lifetime medication needs) price it higher.
 4. **Wage-loss duration.** Every additional week of documented disability is another week at the two-thirds rate. Gaps in treatment get weaponized here — more on that below.
 5. **State.** As shown above, the same injury in [California](/attorneys/california), [Florida](/attorneys/florida), and [Texas](/attorneys/texas) can produce wildly different numbers. Texas is the famous outlier: it's the only state where most private employers can legally opt out of workers' comp entirely ("non-subscribers"), which means an injured Texas worker at a non-subscribing employer may be outside the comp system altogether — and into a different kind of claim.
+
+
+![Doctor speaking with a patient — workers' compensation settlement payouts](https://images.unsplash.com/photo-1666214280557-f1b5022eb634?w=1200&q=80&auto=format&fit=crop)
 
 ## Typical settlement ranges by injury type (and what they hide)
 

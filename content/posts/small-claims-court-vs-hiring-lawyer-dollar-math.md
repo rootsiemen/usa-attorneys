@@ -14,6 +14,9 @@ Your contractor walked off the job with $6,800 of your deposit. Your former land
 
 Because here is the uncomfortable arithmetic of American civil justice: a lawyer who bills $300 an hour and spends 25 hours on your $6,800 dispute has just turned your winning case into a net loss. You can be completely right and still lose money. Small claims court exists precisely for this gap — but it has its own traps, limits, and arithmetic. This guide works the numbers so you can decide in an hour instead of learning them over six months of bills.
 
+
+![Rows of law books in a legal library — small claims court vs hiring a lawyer](https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1200&q=80&auto=format&fit=crop)
+
 ## 1. The break-even formula: when a lawyer costs more than the claim
 
 Strip away the jargon and every dispute reduces to one equation:
@@ -98,6 +101,9 @@ Small claims court is a machine built for simple, document-driven disputes: unpa
 
 For injury-related disputes specifically, the calculus differs because contingency fees change the math entirely — see our [personal injury lawyer contingency fee breakdown](/blog/personal-injury-lawyer-contingency-fee-math), and if the dispute started with a crash, the [after-accident legal checklist](/blog/what-to-do-after-car-accident-legal-checklist) covers the evidence that decides those cases.
 
+
+![Calculator next to financial paperwork — small claims court vs hiring a lawyer](https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80&auto=format&fit=crop)
+
 ## 5. The middle path: unbundled legal coaching for $300–$800
 
 The most underused option in American law is also the cheapest: **limited-scope (unbundled) representation.** Instead of hiring a lawyer for the whole case, you hire one for a slice — and small claims is where this model shines.
@@ -125,6 +131,9 @@ Before either path, run the cheapest play in the book. A formal written demand �
 Why it works is pure economics: the recipient does their own version of the Section 1 math. A $6,800 demand backed by a credible filing threat forces them to weigh $6,800 against their own $3,000–$5,000 defense cost plus a day in court. Rational defendants settle somewhere in the middle — which is why the demand should ask for the full amount; it gives you room to land at 70–80% and still beat both litigation paths on expected value.
 
 Document everything from this point forward. Every email, every text, every receipt goes in one folder. Small claims judges decide cases on paper in minutes — the party with the organized exhibit packet wins the credibility contest before anyone speaks. Photograph defective work, save the contract, export the text thread. This is the evidence work that no lawyer can do retroactively, which is why it matters whether you hire one or not.
+
+
+![Audience seated at a professional seminar — small claims court vs hiring a lawyer](https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=1200&q=80&auto=format&fit=crop)
 
 ## 7. The appeal and counterclaim traps
 

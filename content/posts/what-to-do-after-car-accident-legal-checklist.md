@@ -15,6 +15,9 @@ The minutes after a car crash are chaotic — you're shaken, traffic is piling u
 
 Print it, save it, or just remember the order: **safety, evidence, silence, medical care, lawyer.**
 
+
+![Yellow sports car on a street — what to do after a car accident](https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=1200&q=80&auto=format&fit=crop)
+
 ## At the scene: the first 30 minutes
 
 **1. Check for injuries and call 911.** Safety first, always. Even if the crash seems minor, call the police — a police report is the single most important document in most accident claims. In many states you're legally required to report crashes involving injuries or significant property damage.
@@ -57,6 +60,9 @@ Insurers don't pull settlement numbers from thin air — they use formulas, and 
 
 Now you see why the first offer is insulting: the adjuster might open at $12,000 — barely above your hard costs — hoping you don't know the formula. When you (or your lawyer) respond with the itemized $33,670 calculation, the conversation changes completely. You don't need to accept their math as gospel — lawyers argue for higher multipliers based on case specifics — but walking in with *a* math beats walking in with *a feeling*.
 
+
+![Writing in a notebook while reviewing documents — what to do after a car accident](https://images.unsplash.com/photo-1517842645767-c639042777db?w=1200&q=80&auto=format&fit=crop)
+
 ## Dealing with the adjuster: 5 tactics and how to counter them
 
 The at-fault driver's adjuster is professional, friendly, and paid to pay you as little as possible. Here are their five most common moves — and the counter for each.
@@ -78,6 +84,9 @@ The through-line: every adjuster tactic relies on you being uninformed, impatien
 Before you ever need it, understand three coverages on your own policy that matter enormously after a crash. **Personal Injury Protection (PIP)** — mandatory in no-fault states — pays your medical bills and some lost wages regardless of who caused the crash. **Medical Payments (MedPay)** is optional coverage that pays medical bills for you and your passengers, also regardless of fault, and it's cheap to add. **Uninsured/underinsured motorist (UM/UIM)** coverage protects you when the at-fault driver has no insurance or too little — roughly 1 in 8 U.S. drivers is uninsured, so this coverage saves claims every day.
 
 After a crash, these coverages determine how fast your bills get paid while the liability fight plays out. Tell your lawyer exactly what coverages you carry — the declarations page of your policy has the answers — because stacking available coverages is often the difference between a fully paid recovery and a shortfall.
+
+
+![Doctor using a tablet during a consultation — what to do after a car accident](https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80&auto=format&fit=crop)
 
 ## When to call a lawyer
 

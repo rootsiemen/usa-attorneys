@@ -13,6 +13,9 @@ keywords:
 
 Nobody budgets for a custody fight. Then your co-parent hires a lawyer, a Guardian ad Litem shows up in your inbox, and you discover that "fighting for your kids" has an hourly rate. Child custody law is priced like divorce law — same lawyers, same courthouses — but the cost curve is steeper, because the one variable that matters (your ex) is also the one you cannot control. This guide runs the real math: what custody lawyers actually charge, where the money goes, and the exact dollar difference between cooperating and going to war.
 
+
+![Parent and child together at home — child custody lawyer costs](https://images.unsplash.com/photo-1609220136736-443140cffec6?w=1200&q=80&auto=format&fit=crop)
+
 ## The national numbers, no sugar-coating
 
 Across the United States in 2026, child custody lawyers price on an hourly basis, with most cases billed between **$225 and $450 per hour**. Attorneys in major metros (New York, Los Angeles, Chicago, Miami) sit at the top of that band; rural and small-city lawyers often land between **$150 and $250 per hour**. But hourly rate is the least informative number in this entire guide. What matters is how many hours your case burns — and that ranges from about 10 hours for a signed agreement to 150+ hours for a trial.
@@ -67,6 +70,9 @@ A contested custody case doesn't jump from $3,000 to $35,000 in one leap. It cli
 
 None of these rungs is mandatory in an agreed case. Every one of them can appear in a contested one. The ladder explains the spread.
 
+
+![Historic government building with tall columns — child custody lawyer costs](https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?w=1200&q=80&auto=format&fit=crop)
+
 ## Worked example 2: the $34,000 custody fight
 
 Two parents, one disagreement over primary custody, and neither willing to compromise. Two-year case, resolved at trial. Both sides hired $325/hour attorneys.
@@ -94,6 +100,9 @@ Beyond the ladder, five costs ambush custody litigants every year:
 - **Appeals ($10,000–$25,000+).** Lose at trial and appeal, and you have bought a second case. Custody appeals rarely succeed — appellate courts defer to the trial judge's factual findings.
 - **Post-judgment modifications.** Custody orders get modified when life changes: relocation, remarriage, a child's needs. Each modification is a mini-case costing **$3,000–$10,000**. Budget for the possibility, not just the first order.
 - **Your own time.** Ten court appearances at half a day of missed work each. At $35/hour, that is **$1,400 in lost wages** nobody puts in the legal-bill spreadsheet.
+
+
+![Calculator and forms used to estimate legal costs — child custody lawyer costs](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80&auto=format&fit=crop)
 
 ## Can the other parent be ordered to pay your fees?
 

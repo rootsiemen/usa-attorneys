@@ -16,6 +16,9 @@ Nationally, a Chapter 7 bankruptcy attorney costs **$1,200–$2,500** (average a
 
 This guide breaks down what you're actually paying for, why fees swing by $1,000+ depending on your zip code and your facts, and how to run the numbers on whether a lawyer pays for itself in your case.
 
+
+![Money plant growing from coins, symbolizing savings — bankruptcy attorney costs](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&q=80&auto=format&fit=crop)
+
 ## Why Bankruptcy Fees Are Structurally Different From Other Legal Fees
 
 Most lawyers bill by the hour. Bankruptcy lawyers mostly don't — at least not for Chapter 7. Here's why:
@@ -94,6 +97,9 @@ Maria is a retail manager in Columbus, Ohio, earning $42,000/year. She has $31,0
 
 **The ROI math:** $38,000 discharged ÷ $1,788 cost = **21x return**. Put differently, she's paying 4.7 cents on the dollar to erase the debt. Even if she'd negotiated settlements at 40 cents on the dollar ($15,200), the bankruptcy costs one-eighth of that — before counting the tax bill on forgiven debt outside bankruptcy (cancelled debt is generally taxable income; debt discharged *in* bankruptcy is not — a difference worth thousands on a $38,000 write-down).
 
+
+![Legal documents and a laptop on a desk — bankruptcy attorney costs](https://images.unsplash.com/photo-1556155092-490a1ba16284?w=1200&q=80&auto=format&fit=crop)
+
 ## Worked Example 2: The Chapter 13 Payment-Plan Build (James, Behind on the Mortgage)
 
 James is a contractor in Tampa, Florida, earning $68,000/year. He's $14,000 behind on his mortgage, has $22,000 in credit card debt, and owes $9,000 on a truck. He wants to keep the house.
@@ -131,6 +137,9 @@ A middle path exists: **limited-scope ("unbundled") services**. Some attorneys w
 - **Legal aid:** If your income is low enough, legal aid societies handle consumer bankruptcies free. Law school clinics do too. Availability is limited and waitlists are real, but the price is unbeatable.
 
 **The delay-cost calculation** is the one most people skip. Suppose you owe $30,000 at an average 24% APR across cards. That's ~$600/month in interest alone. A three-month delay to save up a $1,500 fee costs you $1,800 in interest — more than the fee itself. If judgments are looming (wage garnishment can take 25% of disposable earnings in most states), delay is actively expensive. Run your own numbers before deciding to wait.
+
+
+![Gavel resting beside legal documents in a courtroom — bankruptcy attorney costs](https://images.unsplash.com/photo-1593115057322-e94b77572f20?w=1200&q=80&auto=format&fit=crop)
 
 ## Red Flags: Fee Quotes That Should Make You Walk Away
 

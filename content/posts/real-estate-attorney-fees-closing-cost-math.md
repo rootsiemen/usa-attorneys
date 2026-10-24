@@ -15,6 +15,9 @@ Nobody hires a real estate attorney because they want one. They hire one because
 
 Here is the uncomfortable truth about real estate legal fees: unlike personal injury lawyers with their posted contingency percentages, real estate attorneys price however they want — flat fees, hourly rates, per-closing packages — and the range for the same service in the same market can swing 300%. This guide runs the actual numbers so you can read a closing-cost estimate the way a loan officer reads a rate sheet.
 
+
+![Modern house exterior at dusk — real estate attorney fees at closing](https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80&auto=format&fit=crop)
+
 ## The cost of a real estate lawyer at closing: the direct answer
 
 The cost of a real estate lawyer at closing is typically **$800 to $2,500 for a standard residential purchase or sale** — most buyers and sellers pay a flat fee of $1,000 to $1,800 for full closing representation. Document-review-only help costs $400 to $750; complex deals, commercial property, and dispute work bill hourly at $150 to $450 and can pass $3,000. As a share of the deal, that is roughly 0.25% to 0.5% of the purchase price — one of the smallest, and most negotiable, line items in the entire closing-cost stack.
@@ -87,6 +90,9 @@ Industry listings count roughly 20 states where an attorney must be involved at 
 
 Two rules hold almost everywhere: each party pays for **their own** lawyer (your attorney protects you, not the deal), and everything on this table is negotiable in the purchase contract — in slow markets sellers routinely agree to cover part of the buyer's closing costs, attorney fee included. If your state is on this site's directory, you can compare [real estate attorneys by state](/attorneys) before your closing date is set.
 
+
+![Financial chart tracking expenses over time — real estate attorney fees at closing](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80&auto=format&fit=crop)
+
 ## Worked example 1: a $350,000 purchase with a $1,200 flat fee
 
 Buy side, first-time buyer, financed purchase in a title-company state. The attorney quoted a $1,200 flat fee for full closing representation. Here is where that fee sits inside the real closing-cost picture:
@@ -126,6 +132,9 @@ In states where either can run the closing, here is how the numbers line up:
 | **Total typical cost** | $500–$1,500 | $1,000–$2,500 |
 
 The title company wins on price by roughly $500 to $1,000 on a routine closing. The attorney wins on everything else: legal advice, contract negotiation, dispute resolution, and liability if something goes wrong. On a clean, simple, financed purchase with a standard contract, the title company is a defensible choice. On anything with an edge — estate sale, divorce sale, new construction, seller financing, commercial property, or any transaction where the contract was not written by a lawyer — the extra $500 to $1,000 is the cheapest insurance in the entire deal. One boundary dispute costs $5,000 to $15,000 to litigate. Do that math instead.
+
+
+![Writing notes with a fountain pen on paper — real estate attorney fees at closing](https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80&auto=format&fit=crop)
 
 ## The break-even test: when the attorney pays for itself
 

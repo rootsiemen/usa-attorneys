@@ -13,6 +13,9 @@ keywords:
 
 Of every type of lawyer in America, the workers' compensation attorney is the oddest one to price — because you don't really price them at all. Your state legislature already did. A [workers' compensation attorney](/workers-compensation-attorney) in San Diego and one in San Antonio do roughly the same job, but the California lawyer can take 9 to 15 percent of your award while the Texas lawyer can take 25 percent, and neither number was ever up for negotiation. A workers' compensation judge reviews the fee before it gets paid. If you're trying to figure out what this lawyer costs you, the answer is a math problem with your state's statute as the first input — and a second, sneakier question hiding behind it: will hiring one leave you with more money than going it alone? That's the part most fee guides skip. This one won't.
 
+
+![Worker inside an industrial facility — workers' compensation attorney costs](https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1200&q=80&auto=format&fit=crop)
+
 ## The one rule that makes workers' comp fees different from every other lawyer's
 
 Here's the setup that governs nearly every injured worker's case: there is no hourly bill, no retainer check, no invoice that lands on your kitchen table while your claim is pending. Workers' comp attorneys work on contingency — they get paid only as a percentage of the benefits they recover for you. Lose, and the fee is zero.
@@ -69,6 +72,9 @@ Two questions decide whether expenses sting you, and both belong in the fee agre
 
 Add expenses to the Florida example above: a $5,750 fee plus, say, $2,200 in records and one IME is **$7,950** off the $50,000 award. Still a bargain if the attorney created the award — which brings us to the real question.
 
+
+![Doctor wearing a stethoscope during an exam — workers' compensation attorney costs](https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=1200&q=80&auto=format&fit=crop)
+
 ## The net-payout test: does hiring one pay for itself?
 
 Forget "how much does it cost." The question that matters is **how much of the recovery exists because the attorney was there**. There are exactly two scenarios, and a reputable attorney will tell you which one you're in at the free consultation:
@@ -87,6 +93,9 @@ The attorney "cost" $11,000 and made you $24,000. That is the entire economics o
 One state flips the whole model. Under Massachusetts General Laws chapter 152, section 13A, when an employee prevails at a conference or hearing, the **insurer — not the worker — pays a fixed attorney fee**. The fee comes out of the insurer's pocket as a statutory cost of losing. Other states have milder versions of the same idea: fees assessed against insurers that unreasonably delay or deny benefits, paid on top of the award rather than out of it.
 
 If you're in Massachusetts and your case is heading to a hearing you expect to win, your fee math is close to zero — which also means you should be skeptical of any attorney quoting a contingency percentage against your benefits without explaining the 13A route first.
+
+
+![Money plant growing from coins, symbolizing savings — workers' compensation attorney costs](https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&q=80&auto=format&fit=crop)
 
 ## What to check in the fee agreement before you sign
 

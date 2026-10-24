@@ -15,6 +15,9 @@ After a car crash, a slip-and-fall, or any serious injury, one decision matters 
 
 But most people have never hired a lawyer before, and the billboards all say the same thing. Here's how to cut through the noise: ask these seven questions at every consultation, and watch closely for the red flags at the end.
 
+
+![Modern law office interior — choosing a personal injury lawyer](https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80&auto=format&fit=crop)
+
 ## 1. "How many cases like mine have you taken to trial?"
 
 This is the single most important question. Most personal injury cases settle — but *the threat of trial* is what drives settlement value. Insurance adjusters know which firms actually try cases and which ones always fold at the last minute.
@@ -61,6 +64,9 @@ Simple injury cases can settle in months; complex ones involving surgery, disput
 
 Ask: How often will I hear from you? Do you respond to email? Will I get copies of everything filed? Set the expectation now. A firm with a real client-communication system (regular status updates, a portal, a dedicated contact) is worth more than a slightly higher advertised settlement average.
 
+
+![Stone columns at a courthouse entrance — choosing a personal injury lawyer](https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1200&q=80&auto=format&fit=crop)
+
 ## 6. "Have you handled cases in the court where mine would be filed?"
 
 Personal injury law is intensely local. The judges, the jury pools, the defense firms, even the unwritten customs of a courthouse vary enormously — a lawyer who dominates in [Florida](/attorneys/florida)'s Miami-Dade courts may be a stranger in Orlando. Ask whether the attorney has actually appeared before the judges likely to hear your case.
@@ -86,6 +92,9 @@ Some firms run on volume: sign 1,000 cases a year, settle every one fast for wha
 **The settlement pattern.** Ask: "What percentage of your cases settle before filing a lawsuit?" Anything over 95% filed-to-settled without meaningful litigation is a red flag — it means the firm never applies pressure, and insurers price that in. Your herniated disc is worth whatever the adjuster's spreadsheet says, because the adjuster knows no jury will ever see it.
 
 None of this means every big advertiser is bad. Some large firms do excellent trial work. But the billboard tells you about their marketing budget, not their courtroom record. The seven questions above tell you the rest.
+
+
+![Telephone call with an attorney's office — choosing a personal injury lawyer](https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1200&q=80&auto=format&fit=crop)
 
 ## Red flags: when to walk away
 

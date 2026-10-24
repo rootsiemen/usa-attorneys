@@ -15,6 +15,9 @@ Your first meeting with a [divorce attorney](/divorce-attorney) usually runs one
 
 Both versions can cost you money. Only one earns it back.
 
+
+![Writing notes with a fountain pen on paper — documents to bring to a divorce attorney consultation](https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80&auto=format&fit=crop)
+
 ## The math that makes preparation a financial decision
 
 Divorce attorneys typically charge $200–$450 an hour (see our [divorce attorney cost guide](/blog/how-much-does-divorce-attorney-cost-2026) for the full breakdown). Even "free consultations" aren't really free — they're auditions where the lawyer decides whether your case is worth taking and how much retainer to ask for. A client who shows up organized signals a case that will be efficient to run, and lawyers price accordingly.
@@ -77,6 +80,9 @@ Why it matters: debts get divided too, and the interest rate math is unforgiving
 
 Why it matters: custody isn't decided by who loves the kids more — it's decided by documented caregiving patterns and the child's best interests as defined by your state. The parent who walks in with a 60-day care log and cost totals is negotiating from evidence. The one who walks in with "the kids should stay with me because I'm the better parent" is negotiating from billable hours.
 
+
+![Attorney shaking hands with a client — documents to bring to a divorce attorney consultation](https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80&auto=format&fit=crop)
+
 ## Folder 6: Existing legal documents
 
 23. **Prenuptial or postnuptial agreements** — the original, not your summary of it.
@@ -103,6 +109,9 @@ You don't need a filing cabinet. Here's the fastest method:
 5. **Flag the missing items.** Couldn't access your spouse's pay stubs? Write "spouse income: estimated $X from 2024 tax return" on a note in Folder 1. Lawyers would rather see an honest gap than a guess presented as fact.
 
 Do not spend a week perfecting this. A good attorney will tell you what else they need — the point of the consultation is strategy, and strategy needs roughly 80% of the picture, not 100%.
+
+
+![Family spending time together at home — documents to bring to a divorce attorney consultation](https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&q=80&auto=format&fit=crop)
 
 ## What NOT to bring (or do) before the meeting
 

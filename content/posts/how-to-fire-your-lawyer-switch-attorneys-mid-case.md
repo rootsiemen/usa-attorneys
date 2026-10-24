@@ -15,6 +15,9 @@ Every year, thousands of clients reach the same uncomfortable conclusion halfway
 
 The short answer: you can fire your lawyer at any time, for any reason, and the right to do so cannot be signed away in any [retainer agreement](/blog/retainer-agreement-clauses-to-read-before-signing). But the exit is a process, not a moment — and handled badly, it costs you weeks, a second retainer, and in rare cases a judge's refusal at the worst possible time. Handled well, it costs you almost nothing extra. This guide covers the switching math, the timing windows, and the exact sequence to follow.
 
+
+![Reviewing paperwork at a desk — switching attorneys in the middle of a case](https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1200&q=80&auto=format&fit=crop)
+
 ## 1. Your right to fire your lawyer — and the one real limit on it
 
 The attorney-client relationship is voluntary on both sides. You do not need your lawyer's permission to end it, you do not need to prove misconduct, and "I have lost confidence in this representation" is a complete reason. Your lawyer also cannot hold your case hostage: ethics rules in every state require a lawyer to take reasonable steps to protect your interests on withdrawal, including giving you notice and time to find new counsel.
@@ -71,6 +74,9 @@ That cost is why timing matters so much, and why the cheapest switch is the earl
 
 Ask the new lawyer directly: "How many hours will you need to get up to speed, and who pays for them?" On a contingency case, the answer should be that the learning time comes out of the new lawyer's share of the fee, not as an extra charge to you. On an hourly case, negotiate a cap — "no more than 12 hours of file review billed" — before you sign. And run the same [questions to ask before hiring](/blog/questions-to-ask-before-hiring-criminal-defense-attorney) any attorney, even if your case is not criminal: who does the work, what does it cost, and how will we communicate are universal questions.
 
+
+![Portrait of a professional attorney in a suit — switching attorneys in the middle of a case](https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200&q=80&auto=format&fit=crop)
+
 ## 5. The step-by-step switch, in order
 
 Do these in this exact sequence. Order is what prevents gaps, lost files, and missed deadlines.
@@ -94,6 +100,9 @@ Do these in this exact sequence. Order is what prevents gaps, lost files, and mi
 **The fee fight.** Old and new lawyers sometimes cannot agree on the split, and the dispute drags past settlement. Prevention: a written split agreement before the switch, and a clause in the new retainer stating the total fee percentage will not exceed your original agreement.
 
 **The duplicate-work bill.** The new lawyer re-does discovery the old lawyer already completed. Prevention: insist the file transfer is complete before the new lawyer bills file-review hours, and cap those hours in the new retainer.
+
+
+![Lady Justice statue holding the scales of justice — switching attorneys in the middle of a case](https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=1200&q=80&auto=format&fit=crop)
 
 ## 7. When you should NOT switch
 

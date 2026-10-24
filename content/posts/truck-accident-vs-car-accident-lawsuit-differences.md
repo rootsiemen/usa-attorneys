@@ -16,6 +16,9 @@ A car accident case is a state-law dispute between drivers and insurers. A truck
 
 This guide walks through the seven structural differences, with the actual numbers, so you understand what your case really is.
 
+
+![Sports car parked at sunset — truck accident vs car accident lawsuit differences](https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&q=80&auto=format&fit=crop)
+
 ## 1. The insurance floor: $25,000 vs $750,000
 
 Everything in a car accident case flows from one question: how much insurance is there? Most states let drivers carry shockingly little. Compare the minimums:
@@ -71,6 +74,9 @@ That is why truck accident lawyers send a **spoliation letter** (also called a p
 
 Meanwhile, major carriers deploy rapid-response teams — investigators and sometimes lawyers — to serious crash scenes within hours. Their job is to build the defense before you have even left the hospital. If you were in a truck crash and nobody has sent a preservation letter yet, the clock is the most expensive thing in your case.
 
+
+![Medical professional reviewing patient information — truck accident vs car accident lawsuit differences](https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80&auto=format&fit=crop)
+
 ## 5. The settlement math: same injuries, two price tags
 
 Here is where the differences become dollars. Take the same injury profile in two cases:
@@ -94,6 +100,9 @@ Punitive damages — money awarded to punish the defendant, not to compensate yo
 Truck cases cross that threshold far more often, because the evidence is corporate. A driver who falsified ELD logs to hide 16-hour days. A carrier that knew a driver's license was suspended and dispatched him anyway. A maintenance program that deferred brake work across a fleet to hit quarterly numbers. Those are not split-second mistakes — they are business decisions, documented in emails and spreadsheets, and juries punish business decisions.
 
 The amounts can be enormous, though many states cap them. Texas, for example, generally limits punitive damages to the greater of $200,000 or two times economic damages plus up to $750,000 in non-economic damages. Even with caps, a punitive award in a truck case can exceed the entire value of a comparable car case. When your lawyer evaluates your case, ask specifically whether the facts support a punitive-damages claim — it changes the settlement posture completely, because the carrier's exposure stops being "what the injuries cost" and becomes "what a jury does to companies that do this."
+
+
+![Scales of justice and law books in an attorney's office — truck accident vs car accident lawsuit differences](https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80&auto=format&fit=crop)
 
 ## 7. The case costs more to build — and takes longer
 

@@ -17,6 +17,9 @@ Kansas attorneys charge some of the most reasonable legal rates in the country �
 
 Kansas also has two rules that change legal math in ways most residents never learn until they are inside a case: a hard statutory cap on workers compensation attorney fees, and a $4,000 ceiling on small claims that routes thousands of disputes away from lawyers entirely. Both are covered below, with the numbers worked out.
 
+
+![Stone columns at a courthouse entrance — how much a lawyer costs in Kansas](https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1200&q=80&auto=format&fit=crop)
+
 ## What Kansas attorneys charge by practice area
 
 - **DUI and traffic defense:** Kansas first-offense [DUI representation](/dui-attorney) typically prices at $2,000 to $6,000 as a flat or staged fee, depending on whether the administrative license hearing and a jury trial are in play. Second and third offenses move to $5,000 to $12,000. Compare the national picture in our [DUI attorney cost guide](/blog/how-much-does-dui-attorney-cost-2026) — Kansas sits modestly below the national midpoint, but the collateral costs (fines, ignition interlock, insurance) exceed the legal fee in most first-offense cases, which is why the quality of the defense matters more than a $500 discount.
@@ -38,12 +41,18 @@ Kansas legal pricing splits along one line: the Kansas City metropolitan area ve
 
 Two practical consequences. First, document work travels: a Sedgwick County business owner forming an LLC or a Shawnee County couple writing wills can hire Salina or Manhattan counsel at a 20% to 30% discount without losing anything, because the work product is identical. Second, litigation does not travel: a case in Johnson County District Court wants a lawyer who appears there weekly, and Kansas has 31 judicial districts with genuinely local habits. Pay the metro rate when the courtroom is in the metro; save it when the work is paper.
 
+
+![Coins and a chart showing rising costs — how much a lawyer costs in Kansas](https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1200&q=80&auto=format&fit=crop)
+
 ## Kansas court quirks that change your bill before you hire anyone
 
 - **Small claims ceiling of $4,000.** Kansas small claims court handles claims up to $4,000, and lawyers are generally not required — the procedure is designed for self-representation, with filing fees that are a rounding error next to an attorney's retainer. Between $4,000 and roughly the cost of two billable hours, a paid consultation plus a lawyer-drafted demand letter is usually the economically correct product.
 - **No-fault auto insurance (PIP).** Kansas requires personal injury protection coverage with at least $4,500 in medical benefits, paid regardless of fault. After a crash, the first dollars of medical bills route through your own PIP — which is why a Kansas [personal injury consultation](/personal-injury-lawyer) starts with your policy declarations page, not the other driver's insurer.
 - **No attorney required at real estate closings.** Closings here are run by title companies and lenders. Optional does not mean useless — see the FSBO analysis linked above — but nobody in Kansas is legally forced to buy closing counsel the way buyers in attorney-closing states are.
 - **Comparative fault at 51%.** Kansas bars recovery if you are 51% or more at fault. Fee-wise, this is why Kansas injury lawyers investigate fault allocation before quoting anything beyond the standard contingency.
+
+
+![Legal team meeting around a table with laptops — how much a lawyer costs in Kansas](https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&q=80&auto=format&fit=crop)
 
 ## The retainer question: what Kansas firms ask for upfront, and what is refundable
 

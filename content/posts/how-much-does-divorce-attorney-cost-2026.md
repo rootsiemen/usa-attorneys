@@ -17,6 +17,9 @@ Ask ten divorced people what their [divorce attorney](/divorce-attorney) cost an
 
 So, how much does a divorce lawyer cost in 2026? This guide breaks down the divorce lawyer cost in full — what lawyers actually charge, what drives costs up or down, and how to keep your divorce as affordable as possible without getting a bad outcome.
 
+
+![Bright living room inside a family home — divorce attorney costs](https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80&auto=format&fit=crop)
+
 ## Divorce lawyer cost: the quick answer
 
 Nationally, the average total cost of a divorce with attorneys involved lands around **$11,000–$15,000 per spouse** — but the median is lower, roughly $7,000, because a large number of simple divorces pull the average down while a small number of brutal custody fights pull it way up.
@@ -99,6 +102,9 @@ Before paying two lawyers to negotiate against each other, price the alternative
 
 Mediation is not free of lawyers — most mediators recommend each spouse have their own attorney review the final agreement (a few hours of billing, not a full case). Even with that review added, a mediated divorce usually costs **60–80% less** than a litigated one. The catch: mediation only works if both spouses will disclose finances honestly and negotiate in good faith. Where there is hidden money, addiction, or coercion, the cheaper path stops being cheaper. Our full breakdown of [divorce mediation vs. litigation cost math](/blog/divorce-mediation-vs-litigation-cost-math) runs the numbers scenario by scenario.
 
+
+![U.S. dollar bills representing attorney fees — divorce attorney costs](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80&auto=format&fit=crop)
+
 ## 6 ways to keep your divorce affordable
 
 1. **Agree on as much as possible before hiring.** Every issue you and your spouse resolve yourselves is hours you don't pay a lawyer to negotiate. Write down what you agree on and bring it to the first meeting.
@@ -135,6 +141,9 @@ Florida's published figures (state divorce guides tracking local firm pricing) s
 Yes — and for simple cases, it's often fine. If your marriage was short, you have no kids, no real estate, and minimal shared debt, many states offer simplified or summary dissolution procedures with filing fees of a few hundred dollars. Online divorce services ($150–$500) handle the paperwork.
 
 But get at least a one-hour consultation ($200–$400) before going DIY if any of these apply: you have children, own a home, have retirement accounts to divide, suspect hidden assets, or there's any history of domestic violence. A single hour of advice can prevent mistakes that cost ten times more to fix.
+
+
+![Signing a legal agreement with a pen — divorce attorney costs](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80&auto=format&fit=crop)
 
 ## Can you make your spouse pay your attorney's fees?
 

@@ -17,6 +17,9 @@ Ask anyone who has been through a DUI what hurt most and many won't say the lawy
 
 This guide breaks down what DUI lawyers actually charge in 2026, how the billing works, when a trial changes the price, and — most usefully — the honest math comparing the attorney's fee against the cost of a conviction.
 
+
+![Driver holding a steering wheel on the road — DUI attorney costs](https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&q=80&auto=format&fit=crop)
+
 ## How much does a DUI lawyer cost? The 2026 fee ladder
 
 Most first-offense DUI cases defended by a private attorney cost **$1,500 to $5,000** in total legal fees. Here's the typical fee ladder for 2026:
@@ -109,6 +112,9 @@ Five factors move the fee more than anything else:
 
 Also note the DMV hearing. Most states run a **separate administrative hearing** for your license suspension, with a tight deadline (often 7–30 days after arrest). Many flat-fee quotes include this; some charge extra for it. Losing the DMV hearing means months of lost driving privileges regardless of what happens in criminal court — so confirm it's covered.
 
+
+![Scales of justice and law books in an attorney's office — DUI attorney costs](https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80&auto=format&fit=crop)
+
 ## Questions that save you money before you sign
 
 Five questions to ask any DUI attorney at the consultation (most offer free consultations — take advantage):
@@ -136,6 +142,9 @@ What about a public defender? If you genuinely can't afford a private attorney, 
 Repeat offenses are where both the fee and the state's bill jump a tier. A **second DUI** within the lookback period (5–10 years in most states) typically costs **$5,000 to $10,000** in attorney fees, because mandatory minimum jail time, longer license revocations, and stricter plea policies make every step contested. A **third or felony DUI** usually starts at **$10,000** and goes up from there — felony cases involve grand-jury or preliminary-hearing stages, expert witnesses for toxicology challenges ($1,000–$3,500 each), and a realistic trial, which is where hourly billing at $250–$500/hour replaces flat fees.
 
 The non-attorney side escalates just as fast. Second-offense fines commonly run $1,000–$5,000, ignition interlock periods stretch to 1–3 years, and some states add vehicle forfeiture or mandatory inpatient treatment at your expense. If your first DUI taught you the insurance math, a second one multiplies it: expect SR-22 requirements of 3+ years and premium surcharges that can exceed $20,000 over the full period. This is why repeat-offense cases are the ones where defendants most often say the lawyer was the cheapest part of the outcome.
+
+
+![Coins and a chart showing rising costs — DUI attorney costs](https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1200&q=80&auto=format&fit=crop)
 
 ## The total cost of a DUI: everything added up
 

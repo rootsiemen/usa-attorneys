@@ -13,6 +13,9 @@ keywords:
 
 Most people buy an estate plan the way they buy a smoke detector: they grab the cheapest option, feel protected, and never think about it again. The problem is that the cheapest option often creates the most expensive bill — just not for you. It lands on your family, years later, in probate court. An estate planning attorney is not selling paper. They are selling the difference between a $900 trust package today and a $23,000 probate bill your kids pay later. This guide runs that comparison with real numbers so you can see which side of the math you are on.
 
+
+![Taking handwritten notes during a consultation — estate planning attorney fees for wills and trusts](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80&auto=format&fit=crop)
+
 ## What an estate planning attorney actually charges in 2026
 
 Estate planning is one of the few legal services still sold mostly on flat fees, which is good news: you can know the price before you sit down. Here is what those flat fees look like across the country right now.
@@ -63,6 +66,9 @@ The example above uses California, which has some of the priciest statutory prob
 
 This is why the first question an ([estate planning attorney](/estate-planning-attorney)) should ask you is not "will or trust?" but "what do you own, and what state are you in?" If they pitch a $3,500 trust before asking those two questions, get a second opinion. Browse ([attorneys in your state](/attorneys/california)) to compare how firms frame the choice — the ones that lead with the state-specific math are the ones worth calling.
 
+
+![Bright living room inside a family home — estate planning attorney fees for wills and trusts](https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80&auto=format&fit=crop)
+
 ## The four documents that are actually in the package
 
 Whether you buy a will plan or a trust plan, the core package contains the same four documents, and three of them protect **you while you are alive** — which surprises most first-time clients.
@@ -94,6 +100,9 @@ The trap is that online templates cannot tell you which category you are in. The
 5. **You moved states** — wills are generally portable, but powers of attorney and healthcare documents vary by state, and community-property vs. common-law rules (looking at you, ([Texas](/attorneys/texas)) and ([California](/attorneys/california))) change what "mine" even means.
 
 Rule of thumb: if your net worth including your home is under ~$200,000 and your family tree has no branches, a reputable online will plus correctly named beneficiaries is defensible. Above that — or with any complexity — the attorney's fee is the cheapest insurance in the whole transaction.
+
+
+![U.S. dollar bills representing attorney fees — estate planning attorney fees for wills and trusts](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80&auto=format&fit=crop)
 
 ## Red flags when you are hiring
 

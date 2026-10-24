@@ -17,6 +17,9 @@ The price difference is staggering. Mediation typically costs a couple **$3,000�
 
 But cheaper isn't always better, and trial isn't always a waste. This guide does the math both ways so you can see exactly what each path costs, how long each takes, where mediation fails, and when paying for trial is the smart move.
 
+
+![Parent and child together at home — divorce mediation vs litigation costs](https://images.unsplash.com/photo-1609220136736-443140cffec6?w=1200&q=80&auto=format&fit=crop)
+
 ## The two paths, side by side
 
 Here's the honest comparison before we do the math:
@@ -88,6 +91,9 @@ Not every divorce should mediate. Here's where the math — and the law — poin
 
 **One narrow issue, big money, clear law.** Sometimes the dispute is a single clean question — is this $400,000 stock-option grant marital property? — where the law is clear and a judge's answer ends it. One motion can be cheaper than six mediation sessions circling the same question. Ask your attorney: *"Is this a question of fact we can negotiate, or a question of law we need answered?"*
 
+
+![Calculator next to financial paperwork — divorce mediation vs litigation costs](https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80&auto=format&fit=crop)
+
 ## The hybrid paths most people don't know about
 
 Mediation and trial aren't the only two settings. The spectrum between them is where smart divorces live:
@@ -115,6 +121,9 @@ You may not even get to choose trial first. The trend across the country is mand
 Court-connected mediation programs are often subsidized — some counties charge on a sliding scale as low as $50–$150 per session. Private mediators run $200–$500 per hour depending on market, split between the spouses. Even at the top of that range, four sessions cost less than one month of litigated discovery.
 
 The pattern is deliberate: legislatures and judges have seen the $64,000 bill for a $2,160-a-year difference too many times. The system now nudges — sometimes shoves — couples toward the table first.
+
+
+![Business handshake during a consultation meeting — divorce mediation vs litigation costs](https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80&auto=format&fit=crop)
 
 ## 7 questions to ask before you choose your path
 

@@ -16,6 +16,9 @@ You have just been charged, and two doors stand in front of you. One is free: a 
 
 The honest comparison is not free versus good. It is a math problem with three variables: how many cases your lawyer carries, how many hours your case actually gets, and how much investigation and expert money is available to spend on it. Run those three numbers, and the right choice for your specific charge usually becomes obvious.
 
+
+![Gavel resting beside legal documents in a courtroom — public defender vs private criminal defense costs](https://images.unsplash.com/photo-1593115057322-e94b77572f20?w=1200&q=80&auto=format&fit=crop)
+
 ## 1. The eligibility line: who actually gets a public defender
 
 A public defender is not available to everyone who wants one. A judge appoints one only after finding that you cannot afford private counsel, and the test varies by state and even by county. Most courts look at income, assets, household size, and the seriousness of the charge. Some use a multiple of the federal poverty guidelines; others use a looser "can you hire a lawyer without substantial hardship" standard.
@@ -76,6 +79,9 @@ This is where both sides oversell. Private firms advertise wins; defender office
 
 The practical takeaway: do not ask "which type of lawyer wins more?" Ask "what does MY case turn on?" If it turns on a standard negotiation, a public defender is a strong option. If it turns on finding a fact nobody has found yet, hours and experts matter, and you should weigh the cost seriously.
 
+
+![Reviewing a business plan and documents on a laptop — public defender vs private criminal defense costs](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80&auto=format&fit=crop)
+
 ## 5. The hidden difference: investigation and expert budgets
 
 A criminal case is often decided before anyone enters a courtroom, by whoever investigated better. Consider what investigation can mean in practice:
@@ -98,6 +104,9 @@ Private representation tends to pay for itself most clearly in these situations:
 5. **You were denied a public defender but still cannot comfortably afford a big fee.** A mid-priced attorney who takes fewer cases can beat both extremes: cheaper than the big firm, more available than an overloaded office.
 
 If none of these apply — a straightforward misdemeanor, a standard plea range, no collateral consequence — a public defender is often the rational choice, and spending $5,000 to get the same offer is money better kept.
+
+
+![Coins and a chart showing rising costs — public defender vs private criminal defense costs](https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=1200&q=80&auto=format&fit=crop)
 
 ## 7. When a public defender is the stronger choice
 

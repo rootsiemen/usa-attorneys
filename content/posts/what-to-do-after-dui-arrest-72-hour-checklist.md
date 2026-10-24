@@ -15,6 +15,9 @@ A DUI arrest doesn't end when the handcuffs come off. It starts a countdown — 
 
 The first 72 hours after a DUI arrest are the highest-leverage hours of your entire case. What you do (and refuse to do) in that window affects your bail, your driving privileges, your evidence, and the price your lawyer charges. This checklist walks you through it hour by hour.
 
+
+![Sedan driving through a city — what to do after a DUI arrest](https://images.unsplash.com/photo-1542362567-b07e54358753?w=1200&q=80&auto=format&fit=crop)
+
 ## Hours 0–6: at the jail — booking, tests, and your one phone call
 
 **1. Stay silent — politely.** You've already been arrested, so the roadside stage is over. From this point, say only what's needed to identify yourself and comply with booking. The booking process (fingerprints, photo, property inventory) is administrative, but anything you volunteer — "I only had two beers," "I'm sorry" — goes into the report. Officers write down exact quotes. You have the right to remain silent; use it like it matters, because it does.
@@ -71,6 +74,9 @@ Check the paperwork you were given at release — the deadline is printed on it.
 
 **The honest total: $7,000–$20,000+ for a first offense**, with insurance being the silent killer — a DUI can double or triple your premium for 3–5 years. This is why fighting the charge (or getting it reduced to reckless driving) pays for itself: the difference between a DUI conviction and a reduction is often $5,000–$10,000 in insurance alone.
 
+
+![Stone columns at a courthouse entrance — what to do after a DUI arrest](https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1200&q=80&auto=format&fit=crop)
+
 ## The two-track timeline: what the next 6–18 months actually look like
 
 **11. Learn the sequence so nothing blindsides you.** Here's the typical order of events after the first 72 hours:
@@ -92,6 +98,9 @@ Notice: the criminal case is a marathon, but the DMV case is a sprint. That's wh
 **14. Don't assume a first offense is "no big deal."** Even a first DUI can mean: up to 6 months in jail (usually suspended), 3–5 years of probation, a suspended license for 6 months to a year, mandatory alcohol classes, community service, and a criminal record that shows up on background checks. "First offense" means lighter than a second — it doesn't mean light.
 
 **15. Don't drive drunk again — obviously, but with math.** A second DUI within 10 years (the "lookback period" in most states) multiplies everything: mandatory jail time (often 10 days to 1 year), fines up to $5,000, license revocation for 1–2 years, and in some states a felony charge. The lookback clock starts at your arrest date. One bad night is a setback; two is a life-altering pattern in the eyes of the court.
+
+
+![Calendar and planner used to track legal deadlines — what to do after a DUI arrest](https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80&auto=format&fit=crop)
 
 ## Building your defense in week one: the evidence checklist
 

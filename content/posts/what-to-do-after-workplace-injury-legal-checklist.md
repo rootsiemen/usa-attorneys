@@ -15,6 +15,9 @@ A work injury sets two clocks running at once. The first clock is medical — ge
 
 Workers' compensation exists in all 50 states. The system pays for medical treatment and part of your lost wages when you're injured on the job, no lawsuit required. But "no lawsuit required" doesn't mean "automatic." Claims get denied every day — for late reporting, for gaps in medical treatment, for injuries described the wrong way on the wrong form. This checklist walks you through the first 30 days, day by day, so your claim survives the scrutiny it's going to get.
 
+
+![Construction workers reviewing plans on site — what to do after a workplace injury](https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80&auto=format&fit=crop)
+
 ## Day 0: the first 10 minutes — report it before anything else
 
 **1. Report the injury to your supervisor immediately — in writing.** This is the single most important step on this entire list. Every state has a reporting deadline, and the clock starts when the injury happens (or when you discover it, for gradual injuries like repetitive strain). In many states the deadline to notify your employer is **30 days or less**; a few are tighter, and waiting almost never helps your case.
@@ -49,6 +52,9 @@ Call your employer and ask: **"Has the First Report of Injury been filed, and wh
 
 **8. File the employee claim form yourself.** Several states (California's DWC-1, New York's C-3, Texas's DWC-041) have a form the *employee* fills out. If your state has one and your employer hasn't handed it to you, download it from your state workers' comp board's website and file it yourself. This form is what officially starts your claim in the eyes of the state — waiting for your employer to do it for you is optional patience you can't afford.
 
+
+![Medical specialist in a clinical setting — what to do after a workplace injury](https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1200&q=80&auto=format&fit=crop)
+
 ## The deadlines that kill claims: state reporting windows
 
 **9. Know your state's reporting deadline.** Miss it and the insurer gets a legal reason to deny, no matter how real the injury. The most common windows:
@@ -72,6 +78,9 @@ The trap: some states require notice to the employer in as little as **4–7 day
 There's also a **waiting period** (usually 3–7 days) before wage benefits start; if you're out long enough (often 14–21 days), the waiting period gets paid retroactively. Medical treatment itself is generally covered at 100% with no copay — which is why keeping every medical receipt and going to authorized providers matters so much.
 
 **11. Track every lost day and every mile.** Missed shifts, reduced hours, doctor visits, pharmacy runs, mileage to medical appointments (many states reimburse mileage at the IRS rate) — log it all with dates. When the insurer's accounting of your lost time doesn't match reality, your log is the correction. Spreadsheet, notebook, phone notes — the format doesn't matter, the dates do.
+
+
+![Legal documents and a laptop on a desk — what to do after a workplace injury](https://images.unsplash.com/photo-1556155092-490a1ba16284?w=1200&q=80&auto=format&fit=crop)
 
 ## Days 10–30: retaliation, light duty, and the denial letter
 

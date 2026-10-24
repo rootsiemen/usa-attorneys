@@ -12,6 +12,9 @@ keywords:
 
 Most people walk into a bankruptcy consultation believing the choice is theirs: wipe the slate clean with Chapter 7, or pay it back slowly with Chapter 13. The uncomfortable truth is that the choice is mostly made by arithmetic before you ever sit down. Your income, your assets, and the federal means test form a funnel, and only one chapter usually comes out the other end. This guide runs that funnel step by step, with real numbers, so you know which chapter you qualify for — and what each one will actually cost you — before you pay for an hour of anyone's time.
 
+
+![Calculator and forms used to estimate legal costs — Chapter 7 vs Chapter 13 bankruptcy](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80&auto=format&fit=crop)
+
 ## The one-sentence difference that matters
 
 Chapter 7 is liquidation bankruptcy: a trustee sells your non-exempt assets, pays creditors what little there is, and the court discharges your remaining unsecured debts in roughly 3 to 4 months. Most Chapter 7 filers keep everything they own because their assets fall inside exemption limits — which is why it is sometimes called a "fresh start" bankruptcy.
@@ -65,6 +68,9 @@ The structural differences, side by side:
 
 **Chapter 13's superpower is the cure.** If you are $18,000 behind on a mortgage, Chapter 7 does not fix that — the lender can still foreclose. Chapter 13 lets you spread that $18,000 over the life of the plan (about $300/month on a 60-month plan) while resuming regular payments. People choose Chapter 13 deliberately for this reason even when they qualify for Chapter 7.
 
+
+![Signing a legal agreement with a pen — Chapter 7 vs Chapter 13 bankruptcy](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80&auto=format&fit=crop)
+
 ## The true cost of filing: fees, classes, and attorney math
 
 Bankruptcy is not free, and the irony is real: the people who need it most must find several thousand dollars first.
@@ -101,6 +107,9 @@ The Patels pass the means test at Step 1. Their equity is exempt. Filing Chapter
 - Home equity: $65,000 — above his state's homestead exemption by about $25,000
 
 David cannot file Chapter 7 even if he wanted to — and he should not want to, because a Chapter 7 trustee could sell his house to capture that $25,000 of non-exempt equity. His Chapter 13 plan: $1,100/month for 60 months = **$66,000** through the plan. That covers the $21,000 arrears cure, his attorney's fee (paid through the plan), the trustee's commission, and a partial dividend to unsecured creditors — with the remainder discharged at the end. He keeps the house. The math picked his chapter, and the chapter saved his home.
+
+
+![Scales of justice and law books in an attorney's office — Chapter 7 vs Chapter 13 bankruptcy](https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80&auto=format&fit=crop)
 
 ## The debts neither chapter erases
 

@@ -12,6 +12,9 @@ keywords:
 
 You've seen the billboards. "No fee unless we win." It sounds like a free trial for legal help. It is not. A contingency fee is a financing arrangement, and like any financing arrangement, the fine print decides who actually walks away with the money — you or the law firm. This guide runs the real math so you can read a fee agreement the way a lender reads a loan.
 
+
+![Calculator and forms used to estimate legal costs — personal injury contingency fee math](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80&auto=format&fit=crop)
+
 ## What a contingency fee actually is
 
 A contingency fee means your lawyer's payment is contingent on a result. No settlement, no verdict, no fee. You pay nothing up front. In exchange, the lawyer takes a percentage of whatever you recover.
@@ -54,6 +57,9 @@ Same numbers, different order — the **gross fee** structure, which is still le
 
 Difference between the two: **$1,166** in your pocket. On this case it looks modest. Scale it up and it is not modest at all.
 
+
+![Portrait of a professional attorney at work — personal injury contingency fee math](https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1200&q=80&auto=format&fit=crop)
+
 ## Worked example 3: a $500,000 settlement with a 40% trial fee
 
 Trial was necessary. Costs ballooned to $28,000 (two experts, depositions, reconstruction). Medical liens of $40,000 sit on the settlement (the hospital and your health insurer get paid from the recovery before anyone else).
@@ -90,6 +96,9 @@ The logic: each stage costs the firm more labor and more risk. But notice the pe
 Ethics rules require the lawyer to follow your instruction on settlement. But when your lawyer's percentage jumps and yours barely moves, ask directly: "Show me the math on both paths." The table above lets you do that math yourself.
 
 One more number most clients never see: the firm's break-even. A firm with $2 million in annual overhead needs roughly 200 pre-suit settlements at $10,000 in fees each just to keep the lights on. That is why firms gravitate toward volume at the 33.3% tier and cherry-pick high-damage cases for trial — the economics push them toward fast settlements on ordinary cases and maximal aggression on catastrophic ones. Your case sits somewhere on that spectrum, and knowing which end tells you how much personal attention you are likely to get.
+
+
+![Writing in a notebook while reviewing documents — personal injury contingency fee math](https://images.unsplash.com/photo-1517842645767-c639042777db?w=1200&q=80&auto=format&fit=crop)
 
 ## Medical liens: the third deduction nobody explains
 

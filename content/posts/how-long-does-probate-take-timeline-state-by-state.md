@@ -18,6 +18,9 @@ The national picture: a simple, uncontested probate with a valid will and cooper
 
 This guide walks through probate month by month, with the state deadlines that set a hard floor on how fast you can finish, the math on what delays really cost, and the shortcuts that let some estates skip probate entirely. For the money side, see [Probate Attorney Fees, State by State](/blog/probate-attorney-fees-state-by-state-cost-math). For avoiding probate in the first place, see [Estate Planning Attorney Fees: Will vs. Trust](/blog/estate-planning-attorney-fees-will-vs-trust-cost-math). For finding the right lawyer, see our [estate planning attorney](/estate-planning-attorney) practice-area page.
 
+
+![Writing in a notebook while reviewing documents — how long probate takes](https://images.unsplash.com/photo-1517842645767-c639042777db?w=1200&q=80&auto=format&fit=crop)
+
 ## The 30-Second Version
 
 Every probate passes through the same sequence: **filing and executor appointment (months 0–1), inventory and appraisal (months 1–4), the creditor-claim window (months 2–6, depending on the state), paying debts and taxes (months 4–9), and distribution and closing (months 9–18)**. Roughly **90% of probates close without a trial** — but "closing" in month 16 costs far more than "closing" in month 7. Every state also imposes a minimum creditor-claim period — 4 months in California and Texas, 3 months in Florida, 7 months in New York, up to a year in Pennsylvania. No distribution to heirs can safely happen before that window closes, because a late creditor claim could claw the money back. The single biggest lever on your timeline is whether anyone contests the will or a creditor's claim: each contested issue adds roughly **3 to 12 months** to the calendar.
@@ -70,6 +73,9 @@ This is also the phase where disputes usually erupt, and each one has a price ta
 
 **The delay math nobody does until it is too late:** a $350,000 house with a $1,900 monthly mortgage payment, $400 a month in property taxes, and $150 a month in insurance costs the estate **$2,450 per month** just to sit empty. A 12-month delay in selling costs **$29,400** — money that comes directly out of the heirs' inheritance. A 6-month will contest on top of that pushes the carrying cost past **$44,000**. Speed is not just convenience in probate. It is money.
 
+
+![Calendar and planner used to track legal deadlines — how long probate takes](https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80&auto=format&fit=crop)
+
 ## Months 9–18: Distribution, the Final Accounting, and Closing
 
 When debts and taxes are paid, the executor prepares a **final accounting** — a report showing every dollar that came in and every dollar that went out — and asks the court to approve it and authorize distribution. Heirs sign receipts, the money and property go out, and the court closes the estate.
@@ -95,6 +101,9 @@ In a clean case, this phase takes **1 to 3 months**. It stretches when:
 | Pennsylvania | 1 year | 12–24 months | $50,000 |
 
 \*Small-estate thresholds change by legislation and usually exclude real estate or cap it separately — check the current statute for your state before relying on a shortcut. The pattern in the table is the point: states with short creditor windows and generous small-estate thresholds (Texas, Florida) close faster on average than states with long windows (New York, Pennsylvania), even for identical estates.
+
+
+![Handing over house keys at a real estate closing — how long probate takes](https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80&auto=format&fit=crop)
 
 ## When You Can Skip Probate Entirely
 

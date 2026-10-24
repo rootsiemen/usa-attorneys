@@ -16,6 +16,9 @@ If you're wondering what an [immigration attorney](/immigration-attorney) costs,
 
 This guide breaks down what immigration lawyers actually charge in 2026, the USCIS filing fees you'll pay on top of legal fees, and what three real immigration bills looked like line by line.
 
+
+![Airplane wing above the clouds during a flight — immigration attorney costs](https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80&auto=format&fit=crop)
+
 ## The quick answer: immigration attorney fee ranges by case type
 
 Most immigration attorneys work on **flat fees** for predictable cases (visas, green cards, citizenship) and **hourly rates** for unpredictable ones (deportation defense, appeals). Here's what 2026 pricing looks like:
@@ -73,6 +76,9 @@ The trap: a marriage-based green card looks like a $3,500 legal fee, but the ful
 
 The pattern: simple, predictable filings are flat-fee and affordable. Anything involving a judge, an RFE, or an appeal moves toward hourly billing and climbs fast.
 
+
+![Financial chart tracking expenses over time — immigration attorney costs](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80&auto=format&fit=crop)
+
 ## What drives the price up (and what keeps it down)
 
 **Your immigration history matters more than the case type.** Prior deportation orders, fraud findings, criminal convictions, or visa overstays turn a standard filing into a complex case. An attorney who'd charge $2,500 for a clean marriage-based green card may charge $6,000+ for the same green card when a 10-year unlawful-presence bar needs a waiver (I-601, which alone adds $1,950 in USCIS fees).
@@ -91,6 +97,9 @@ The pattern: simple, predictable filings are flat-fee and affordable. Anything i
 4. **Check your state's bar.** Verify any attorney's license on your state bar's website before paying a retainer. If you're not sure where to start, browse attorneys by location on this site — for example, [California immigration attorneys](/attorneys/california) or [Texas immigration attorneys](/attorneys/texas).
 5. **Ask about payment plans.** Many immigration attorneys split flat fees into 2–4 payments tied to filing milestones (half at signing, half when the case is filed). Get the schedule in the written agreement.
 6. **Compare three quotes.** Fees vary enormously for the same case. A $3,000 quote and a $5,500 quote for the same marriage-based green card usually reflect different experience levels and different levels of hands-on work — ask what the difference buys you.
+
+
+![Writing notes with a fountain pen on paper — immigration attorney costs](https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80&auto=format&fit=crop)
 
 ## When a flat fee is fair, and when it's a warning sign
 

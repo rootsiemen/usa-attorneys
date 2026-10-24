@@ -14,6 +14,9 @@ Every lawyer you've ever hired was legally working for free until one document w
 
 This is not a document you sign on trust. It is a document you negotiate. Below are the 14 clauses that matter most, what each one costs you in real dollars, and the exact lines that let you push back — before you owe anyone anything.
 
+
+![Reviewing paperwork at a desk — retainer agreement clauses to read before signing](https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1200&q=80&auto=format&fit=crop)
+
 ## 1. The scope of representation (what you are actually buying)
 
 The single most litigated sentence in any retainer is the one that says what the lawyer will do. Vague scope — "handle my business dispute" or "represent me in connection with the above matter" — is how $2,500 consultations metastasize into $18,000 bills. A good scope clause names the matter, the forum, and the limits.
@@ -77,6 +80,9 @@ Two more communication terms worth having in writing:
 - **Response-time expectations.** "The firm will respond to client communications within two business days" is reasonable and worth stating. Silence during a matter is how small problems become expensive ones.
 - **Copies of everything.** You are entitled to your file. The agreement should confirm you receive copies of all filings, correspondence, and substantive documents as they are generated — not at the end when the leverage is gone.
 
+
+![Discussing a case in front of a whiteboard — retainer agreement clauses to read before signing](https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80&auto=format&fit=crop)
+
 ## 8. The termination clause (your exit, and its price)
 
 You can fire your lawyer at any time — that right cannot be contracted away. But the agreement sets the price of exercising it. Read this clause before you need it:
@@ -106,6 +112,9 @@ This clause cuts both ways. If you dispute an invoice, say so in writing within 
 Every state bar runs a fee-arbitration or fee-dispute program, and many retainers require you to use it before going to court. Read the clause: does it mandate binding arbitration of fee disputes, or merely offer it? Binding arbitration is faster and cheaper than litigation, but you give up the right to a jury and, usually, the right to appeal.
 
 Note the practical reality: fee arbitration heavily favors clients who kept itemized invoices and questioned them in writing. The clients who lose fee disputes are the ones who paid silently for a year and objected only when the total crossed six figures. Monthly review of invoices — ten minutes with a highlighter — is the cheapest legal insurance you will ever buy.
+
+
+![Calculator and forms used to estimate legal costs — retainer agreement clauses to read before signing](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80&auto=format&fit=crop)
 
 ## 12. Confidentiality and conflicts (the fine print that protects you)
 

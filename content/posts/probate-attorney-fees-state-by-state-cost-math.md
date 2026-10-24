@@ -14,6 +14,9 @@ Probate is the one legal bill where the price is written into the law itself. In
 
 Most families discover all of this after the fact, staring at a $26,000 legal bill on a $500,000 estate that had almost no cash in it. This guide runs the math before you sign anything: how probate attorneys price their work, what the statutes say in the five biggest states, what the same estate costs in each, and the legal shortcuts that can skip probate entirely.
 
+
+![Suburban house exterior with a front lawn — probate attorney fees by state](https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80&auto=format&fit=crop)
+
 ## The three ways probate attorneys get paid
 
 Every probate engagement in America falls into one of three pricing structures. Which ones are available depends on your state.
@@ -99,6 +102,9 @@ On a $500,000 estate:
 
 Attorney fees, however, are not on a schedule at all. They must be "reasonable," and the Surrogate's Court reviews them — the attorney submits an affidavit of services and the court approves, reduces, or occasionally increases the fee. In practice, approved fees on an uncontested $500,000 estate commonly land between $15,000 and $25,000, often tracking near the executor's commission as an informal benchmark. The uncertainty is the point: in New York, the attorney's bill is negotiated twice — once with you, once with the court.
 
+
+![U.S. dollar bills representing attorney fees — probate attorney fees by state](https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80&auto=format&fit=crop)
+
 ## Texas and Illinois: no schedule, just the market
 
 Texas has no statutory probate fee schedule. Fees are set by agreement and must be reasonable, which means the market decides. The typical Texas uncontested probate — with a valid will and an independent administration, which Texas makes unusually streamlined — runs $3,500 to $8,000 flat, or $250 to $450 per hour for roughly 12 to 25 hours of work. Texas's independent administration procedure, which lets the executor act without constant court supervision, is genuinely one of the cheapest probate systems in the country. A simple Texas probate can close in 4 to 6 months for under $5,000 in legal fees.
@@ -132,6 +138,9 @@ Break-even: $6,000 ÷ $300/hour = **20 hours**.
 If the probate takes fewer than 20 attorney hours, the flat fee costs you more. If it takes more, the flat fee saves you money. An uncontested probate with a will, one property, and cooperative heirs typically takes 12 to 20 hours — right at the line. Add a property sale, a creditor dispute, a missing heir, or a second property, and hours climb past 25 fast.
 
 The practical rule: take the flat fee if the estate has any complication at all, because complications push hours up and the flat fee caps your exposure. Take hourly only for the cleanest possible estates — valid will, one bank account, no real estate, all heirs in agreement — and even then, get a written hour estimate and a cap in the engagement letter. And whichever you choose, make sure the letter defines what counts as "extraordinary" work that reverts to hourly, because that carve-out is where flat-fee surprises live.
+
+
+![Legal documents and a laptop on a desk — probate attorney fees by state](https://images.unsplash.com/photo-1556155092-490a1ba16284?w=1200&q=80&auto=format&fit=crop)
 
 ## The cheapest probate is the one you avoid: small-estate shortcuts
 

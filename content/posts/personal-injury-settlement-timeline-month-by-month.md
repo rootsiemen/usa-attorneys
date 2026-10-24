@@ -15,6 +15,9 @@ Ask ten people how long a personal injury case takes and you will get ten answer
 
 This guide walks through each phase month by month, with the timeframes attorneys actually see, the math on what delays cost, and what makes a case move faster or stall. For the money side — how contingency fees slice your settlement — see [Personal Injury Lawyer Contingency Fee Math](/blog/personal-injury-lawyer-contingency-fee-math). For choosing who runs this timeline for you, see [How to Choose a Personal Injury Lawyer](/blog/how-to-choose-personal-injury-lawyer).
 
+
+![Car driving on an open road — personal injury settlement timelines](https://images.unsplash.com/photo-1502877338535-766e1452684a?w=1200&q=80&auto=format&fit=crop)
+
 ## The 30-Second Version
 
 Most cases pass through five phases: **treatment (1–6 months), demand and negotiation (2–4 months), filing and discovery (6–18 months), mediation/trial prep (2–6 months), and payout (2–6 weeks)**. Only about 4–5% of filed personal injury lawsuits reach a trial; roughly 95% settle somewhere along the way. The single biggest lever on your timeline is medical treatment length — a claim generally cannot settle until treatment ends or reaches maximum medical improvement (MMI).
@@ -72,6 +75,9 @@ After filing, the discovery phase begins — both sides exchange documents, answ
 
 A case with surgery and disputed liability commonly looks like this: crash in January, surgery in June, demand in October (**$150,000**), negotiations stall at $60,000, lawsuit filed the following March, depositions through summer, settlement at mediation 16 months after filing for **$110,000**. Total: **~28 months**.
 
+
+![Calendar and planner used to track legal deadlines — personal injury settlement timelines](https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80&auto=format&fit=crop)
+
 ## Months 12–36: Mediation, Trial Prep, and the 5% That Go to Trial
 
 Before any trial, courts in most jurisdictions require **mediation** — a full-day (sometimes two-day) settlement conference with a neutral mediator. Mediation settles roughly **70–80%** of the cases that reach it. It typically happens **12–18 months** after filing.
@@ -92,6 +98,9 @@ The economics of going to trial explain why 95% of cases settle: a trial costs *
 Total payout phase: **30–60 days** from agreement to money in hand. Medicare liens are the slowest — a final demand letter from Medicare can take **60–120 days**, and settling without resolving a Medicare lien exposes you to federal penalties, so this step is never skipped.
 
 **Worked example (continued):** The $22,000 settlement from the whiplash case. Release signed week 1, check arrives week 4, clears by week 5. The health insurer paid $3,000 of your bills and asserts a lien; your attorney negotiates it to **$1,800** (a $1,200 savings to you). Case costs were $450 (records, postage, filing). Your final check: $22,000 − $7,260 (33% fee) − $1,800 (lien) − $450 (costs) = **$12,490**, received about **7 months** after the crash.
+
+
+![Calculator next to financial paperwork — personal injury settlement timelines](https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80&auto=format&fit=crop)
 
 ## What Speeds Cases Up — and What Slows Them Down
 

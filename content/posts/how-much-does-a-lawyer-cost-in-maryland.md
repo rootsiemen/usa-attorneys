@@ -17,6 +17,9 @@ Type "attorney maryland" into a search engine and you get what every directory g
 
 Maryland also has one legal rule that quietly reprices every injury case in the state — contributory negligence — and we will get to it, because it explains why Maryland injury lawyers screen cases the way they do and why the fee conversation here is different from almost every other state. First, the table the directories never show you.
 
+
+![Lady Justice statue holding the scales of justice — how much a lawyer costs in Maryland](https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=1200&q=80&auto=format&fit=crop)
+
 ## The 2026 Maryland fee table, practice area by practice area
 
 These are the working ranges Maryland clients actually paid in 2026, gathered the way fees really work — by billing model, not by advertising slogan:
@@ -42,6 +45,9 @@ Maryland is really three legal markets wearing one state bar. In **Montgomery Co
 
 The strategic implication is underused: for document-driven work — estate plans, entity formation, uncontested matters — a Maryland client in Bethesda can often hire excellent counsel in Frederick or Annapolis at two-thirds the rate, because the work never requires a courtroom. For litigation, the calculus flips: local counsel who knows the circuit court's scheduling habits and the local bench is worth a premium. Maryland has 24 circuit court jurisdictions, and they do not run alike.
 
+
+![Financial chart tracking expenses over time — how much a lawyer costs in Maryland](https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80&auto=format&fit=crop)
+
 ## The costs on top of the lawyer's fee
 
 Budget for these separately, because none of them appear in the hourly rate:
@@ -50,6 +56,9 @@ Budget for these separately, because none of them appear in the hourly rate:
 - **Small claims reality check:** Maryland District Court handles small claims up to $5,000, with a filing fee that is a fraction of a lawyer's first hour. Below that threshold, most people represent themselves or pay for a single consultation instead of full representation — a math exercise similar to the one in our [small claims vs. hiring a lawyer analysis](/blog/small-claims-court-vs-hiring-lawyer-dollar-math).
 - **Real estate transfer costs:** Maryland's state transfer tax is 0.5% of the consideration (0.25% for qualifying first-time buyers), plus county transfer taxes and recordation taxes that vary by county — on a $500,000 purchase these government charges dwarf the settlement attorney's fee. To see what that settlement fee itself should run, read our breakdown of [the cost of a real estate lawyer at closing](/blog/real-estate-attorney-fees-closing-cost-math).
 - **Expert and process costs:** medical experts in injury cases, custody evaluators in family cases, process servers and court reporters everywhere. Ask whether your fee agreement bills these at cost or with a markup.
+
+
+![Attorney presenting options in a meeting — how much a lawyer costs in Maryland](https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&q=80&auto=format&fit=crop)
 
 ## If these rates are out of reach: Maryland's low-cost routes
 
