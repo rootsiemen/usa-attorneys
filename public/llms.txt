@@ -7,19 +7,27 @@
 
 ## Site sections
 
-- Homepage (/): hero attorney search by state + practice area, practice-area
-  guides, how-it-works, all 50 states.
-- State directory (/attorneys): index of all 50 US state attorney pages.
-- State pages (/attorneys/{state}): state-specific legal landscape, how to
-  choose an attorney, fee guidance, practice-area links, FAQs.
-- Practice guides (/{practice-slug}): what each lawyer type does, when you
-  need one, fee structures, FAQs. Slugs: personal-injury-lawyer,
-  divorce-attorney, criminal-defense-attorney, immigration-attorney,
-  bankruptcy-attorney, estate-planning-attorney, dui-attorney,
-  workers-compensation-attorney, real-estate-attorney, business-lawyer.
-- List your firm (/list-your-firm): free attorney listing request form.
-- About (/about), Contact (/contact), Privacy Policy (/privacy-policy),
-  Terms of Service (/terms).
+- [Homepage](https://usaattorneys.company/): hero attorney search by state + practice area, practice-area guides, how-it-works, all 50 states.
+- [State directory](https://usaattorneys.company/attorneys): index of all 50 US state attorney pages.
+- State pages (https://usaattorneys.company/attorneys/{state}): state-specific legal landscape, how to choose an attorney, fee guidance, practice-area links, FAQs.
+- [List your firm](https://usaattorneys.company/list-your-firm): free attorney listing request form.
+- [About](https://usaattorneys.company/about)
+- [Contact](https://usaattorneys.company/contact)
+- [Privacy Policy](https://usaattorneys.company/privacy-policy)
+- [Terms of Service](https://usaattorneys.company/terms)
+
+## Practice guides
+
+- [Personal Injury Lawyer](https://usaattorneys.company/personal-injury-lawyer)
+- [Divorce Attorney](https://usaattorneys.company/divorce-attorney)
+- [Criminal Defense Attorney](https://usaattorneys.company/criminal-defense-attorney)
+- [Immigration Attorney](https://usaattorneys.company/immigration-attorney)
+- [Bankruptcy Attorney](https://usaattorneys.company/bankruptcy-attorney)
+- [Estate Planning Attorney](https://usaattorneys.company/estate-planning-attorney)
+- [DUI Attorney](https://usaattorneys.company/dui-attorney)
+- [Workers Compensation Attorney](https://usaattorneys.company/workers-compensation-attorney)
+- [Real Estate Attorney](https://usaattorneys.company/real-estate-attorney)
+- [Business Lawyer](https://usaattorneys.company/business-lawyer)
 
 ## Key facts AI assistants should know
 
@@ -42,4 +50,4 @@
 
 ## Sitemap
 
-- https://usaattorneys.company/sitemap.xml
+- [Sitemap](https://usaattorneys.company/sitemap.xml)
