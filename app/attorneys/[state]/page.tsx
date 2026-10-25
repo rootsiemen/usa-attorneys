@@ -16,6 +16,7 @@ import {
 import { Faq } from "@/components/Faq";
 import { DevCta } from "@/components/DevCta";
 import { JsonLd } from "@/components/JsonLd";
+import { getStateImage } from "@/lib/state-images";
 
 export function generateStaticParams() {
   return ALL_STATES.map((s) => ({ state: s.slug }));
@@ -64,6 +65,7 @@ export default async function StatePage({ params }: { params: { state: string } 
   if (!state) notFound();
 
   const stateIndex = ALL_STATES.findIndex((s) => s.slug === state.slug);
+  const heroImage = getStateImage(state.slug);
   const faqs = STATE_FAQ_SETS[stateIndex % STATE_FAQ_SETS.length](state.name);
   const url = `${SITE_URL}/attorneys/${state.slug}`;
   const attorneys = await getAttorneysByState(state.slug);
@@ -246,6 +248,22 @@ export default async function StatePage({ params }: { params: { state: string } 
           </p>
         </div>
       </section>
+
+      {heroImage && (
+        <div className="container">
+          <figure className="state-hero">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={heroImage.url} alt={heroImage.alt} loading="lazy" />
+            <figcaption className="state-hero-credit">
+              Photo:{" "}
+              <a href={heroImage.page} target="_blank" rel="noopener noreferrer">
+                {heroImage.credit}
+              </a>{" "}
+              via Wikimedia Commons
+            </figcaption>
+          </figure>
+        </div>
+      )}
 
       <section className="section">
         <div className="container">

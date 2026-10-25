@@ -175,6 +175,18 @@ a:hover { color: var(--burgundy); }
 .attorney-card .phone { font-weight: 700; color: var(--navy-light); }
 @media (max-width: 640px) { .hero h1 { font-size: 32px; } .hero { padding: 54px 0 46px; } }
 
+/* ---------- State page hero image ---------- */
+.state-hero { margin: 26px 0 0; }
+.state-hero img {
+  width: 100%; height: 300px; object-fit: cover;
+  border-radius: 14px; display: block;
+}
+.state-hero-credit {
+  font-size: 12px; color: var(--gray-400); margin-top: 6px; text-align: right;
+}
+.state-hero-credit a { color: inherit; text-decoration: underline; }
+@media (max-width: 640px) { .state-hero img { height: 200px; } }
+
 /* ---------- State page: contacts left / article right ---------- */
 .state-layout {
   display: grid;
