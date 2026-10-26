@@ -19,12 +19,12 @@ export function generateStaticParams() {
   return getAllPostSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const post = getPost(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const post = getPost((await params).slug);
   if (!post) return {};
   const url = `${SITE_URL}/blog/${post.slug}`;
   return {
@@ -50,12 +50,12 @@ export function generateMetadata({
   };
 }
 
-export default function BlogPostPage({
+export default async function BlogPostPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const post = getPost(params.slug);
+  const post = getPost((await params).slug);
   if (!post) notFound();
   const url = `${SITE_URL}/blog/${post.slug}`;
   const practice = getPractice(post.practiceArea);

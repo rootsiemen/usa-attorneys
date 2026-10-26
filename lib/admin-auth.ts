@@ -100,7 +100,7 @@ export function verifyAdminSessionValue(value: string | undefined): string | nul
 
 /** Server-side: returns the logged-in admin's email, or null. */
 export async function getAdminSession(): Promise<string | null> {
-  const value = cookies().get(COOKIE_NAME)?.value;
+  const value = (await cookies()).get(COOKIE_NAME)?.value;
   return verifyAdminSessionValue(value);
 }
 

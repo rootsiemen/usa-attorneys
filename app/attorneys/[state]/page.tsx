@@ -25,9 +25,9 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { state: string };
+  params: Promise<{ state: string }>;
 }): Promise<Metadata> {
-  const state = getState(params.state);
+  const state = getState((await params).state);
   if (!state) return {};
   const url = `${SITE_URL}/attorneys/${state.slug}`;
   let count = 0;
@@ -60,8 +60,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function StatePage({ params }: { params: { state: string } }) {
-  const state = getState(params.state);
+export default async function StatePage({ params }: { params: Promise<{ state: string }> }) {
+  const state = getState((await params).state);
   if (!state) notFound();
 
   const stateIndex = ALL_STATES.findIndex((s) => s.slug === state.slug);

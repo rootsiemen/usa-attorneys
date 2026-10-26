@@ -20,9 +20,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const attorney = await getAttorney(params.slug);
+  const attorney = await getAttorney((await params).slug);
   if (!attorney) return {};
   const url = `${SITE_URL}/claim/${attorney.slug}`;
   const title = `Claim Your Profile — ${attorney.name} | ${SITE_NAME}`;
@@ -42,8 +42,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function ClaimPage({ params }: { params: { slug: string } }) {
-  const attorney = await getAttorney(params.slug);
+export default async function ClaimPage({ params }: { params: Promise<{ slug: string }> }) {
+  const attorney = await getAttorney((await params).slug);
   if (!attorney) notFound();
   const state = getState(attorney.state);
 

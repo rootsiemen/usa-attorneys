@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { use, useState } from "react";
 import Link from "next/link";
 
-export default function AdminResetTokenPage({ params }: { params: { token: string } }) {
+export default function AdminResetTokenPage({ params }: { params: Promise<{ token: string }> }) {
+  const { token } = use(params);
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
   const [busy, setBusy] = useState(false);
@@ -22,7 +23,7 @@ export default function AdminResetTokenPage({ params }: { params: { token: strin
       const r = await fetch("/api/admin/reset-token", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ token: params.token, password }),
+        body: JSON.stringify({ token, password }),
       });
       const d = await r.json();
       if (r.ok) {

@@ -19,12 +19,12 @@ export function generateStaticParams() {
   return PRACTICE_AREAS.map((p) => ({ practice: p.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { practice: string };
-}): Metadata {
-  const p = getPractice(params.practice);
+  params: Promise<{ practice: string }>;
+}): Promise<Metadata> {
+  const p = getPractice((await params).practice);
   if (!p) return {};
   const url = `${SITE_URL}/${p.slug}`;
   return {
@@ -67,9 +67,9 @@ const TOP_STATES = [
 export default async function PracticePage({
   params,
 }: {
-  params: { practice: string };
+  params: Promise<{ practice: string }>;
 }) {
-  const p = getPractice(params.practice);
+  const p = getPractice((await params).practice);
   if (!p) notFound();
   const url = `${SITE_URL}/${p.slug}`;
   const attorneys = await getAttorneysByPractice(p.slug, 12);

@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import matter from "gray-matter";
+import { parse as parseYaml } from "yaml";
 import { marked } from "marked";
 import { PRACTICE_AREAS, ALL_STATES } from "@/lib/data";
 
@@ -20,10 +20,30 @@ export interface BlogPost {
 
 const POSTS_DIR = path.join(process.cwd(), "content", "posts");
 
+/**
+ * Minimal frontmatter parser (replaces gray-matter, which carries an
+ * unpatched arbitrary-code-injection advisory). Only parses the leading
+ * --- fenced YAML block; the body is returned untouched.
+ */
+function parseFrontmatter(raw: string): {
+  data: Record<string, unknown>;
+  content: string;
+} {
+  if (!raw.startsWith("---")) return { data: {}, content: raw };
+  const end = raw.indexOf("\n---", 3);
+  if (end === -1) return { data: {}, content: raw };
+  const block = raw.slice(3, end).trim();
+  const content = raw.slice(end + 4).replace(/^\r?\n/, "");
+  const data = (parseYaml(block) ?? {}) as Record<string, unknown>;
+  if (data.date instanceof Date)
+    data.date = data.date.toISOString().slice(0, 10);
+  return { data, content };
+}
+
 function parsePostFile(fileName: string): BlogPost | null {
   const fullPath = path.join(POSTS_DIR, fileName);
   const raw = fs.readFileSync(fullPath, "utf8");
-  const { data, content } = matter(raw);
+  const { data, content } = parseFrontmatter(raw);
 
   const slug =
     (data.slug as string) || fileName.replace(/\.md$/, "");
