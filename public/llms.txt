@@ -8,6 +8,7 @@
 ## Site sections
 
 - [Homepage](https://usaattorneys.company/): hero attorney search by state + practice area, practice-area guides, how-it-works, all 50 states.
+- [Full-text companion (llms-full.txt)](https://usaattorneys.company/llms-full.txt): the site's main content — homepage, how it works, FAQs, about, and practice-area overviews — in one plain-text file.
 - [State directory](https://usaattorneys.company/attorneys): index of all 50 US state attorney pages.
 - State pages (https://usaattorneys.company/attorneys/{state}): state-specific legal landscape, how to choose an attorney, fee guidance, practice-area links, FAQs.
 - [List your firm](https://usaattorneys.company/list-your-firm): free attorney listing request form.

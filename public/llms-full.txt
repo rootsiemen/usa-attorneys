@@ -1,0 +1,248 @@
+# USA Attorneys — Full Site Text (llms-full.txt)
+
+> This file contains the full text of the main pages of USA Attorneys
+> (https://usaattorneys.company), a free US attorney directory covering all
+> 50 states and 16 practice areas. General legal information only — not
+> legal advice. The short index version is at
+> https://usaattorneys.company/llms.txt
+
+================================================================
+HOMEPAGE
+================================================================
+
+Find the Right Attorney. Without the Guesswork.
+
+Browse qualified attorneys in all 50 states — personal injury, divorce,
+criminal defense, immigration, and more. Free to search, free to list.
+
+- Free for Everyone: Searching is always free — and attorneys can claim a
+  basic listing at no cost.
+- All 50 States Covered: Licensing, courts, and procedures differ by
+  state — start with yours.
+- No Fake Listings: We never invent attorney profiles. Firms claim and
+  verify their own listings.
+
+Coverage: 700+ attorneys listed, 50 states covered, 16 practice areas,
+$0 cost to search.
+
+What Kind of Lawyer Do You Need?
+
+Start with your legal issue — each guide explains what the attorney does,
+typical fees, and when to hire one. Practice areas: Personal Injury
+Lawyer, Divorce Attorney, Criminal Defense Attorney, Immigration
+Attorney, Bankruptcy Attorney, Estate Planning Attorney, DUI Attorney,
+Workers' Compensation Attorney, Real Estate Attorney, Business Lawyer,
+Truck Accident Attorney, Oil Rig Injury Lawyer, Offshore Accident
+Lawyer, Construction Accident Lawyer, Mesothelioma Attorney, Motorcycle
+Accident Lawyer.
+
+Three Steps to the Right Lawyer
+
+1. Pick your state & issue: Choose your state and the practice area that
+   matches your legal problem — from DUI to divorce to business law.
+2. Learn what to expect: Read plain-English guides on fees, timelines,
+   and the questions to ask before you hire anyone.
+3. Connect with a firm: Call the attorney directly — no middlemen, no
+   referral fees, no lead-selling.
+
+Frequently Asked Questions
+
+Q: How do I find a qualified attorney near me?
+A: Start by choosing your state and the practice area that matches your
+legal issue — personal injury after a car accident, divorce for a family
+matter, and so on. Compare each listed attorney's practice areas, office
+location, and contact details, then call the firm directly and ask about
+their experience with cases like yours. Searching USA Attorneys is
+always free, and you never need an account.
+
+Q: How much does a lawyer cost?
+A: Fees depend on the type of case. Personal injury and workers'
+compensation lawyers usually work on contingency — typically around 33%
+of the amount recovered, paid only if you win. Criminal defense,
+divorce, and business lawyers commonly charge hourly (often $200–$500+)
+or a flat fee for defined work. Whatever the arrangement, ask for the
+fee agreement in writing before you hire anyone.
+
+Q: How can I verify an attorney's license?
+A: Every attorney must be licensed by the bar of the state where they
+practice, and each state bar publishes a directory where you can confirm
+a lawyer's license status and discipline history. The American Bar
+Association (https://www.americanbar.org) links to each state's lawyer
+directory and referral programs. Search the attorney's full name and
+confirm the license is active before you share documents or pay any fee.
+
+Q: Do attorneys offer free consultations?
+A: Many do. Personal injury, workers' compensation, and bankruptcy
+attorneys commonly offer a free first consultation, while others charge
+a modest fee for an initial meeting — ask when you call so there are no
+surprises. If cost is a barrier, USA.gov's legal aid resources
+(https://www.usa.gov/legal-aid) can connect you with free or low-cost
+legal help and pro bono programs in your state.
+
+Q: What should I prepare before contacting an attorney?
+A: Write a short timeline of what happened, list the people involved,
+and gather your documents — contracts, police reports, court papers,
+letters, and bills. Note the outcome you want and the questions you want
+answered. If your matter involves a court, U.S. Courts
+(https://www.uscourts.gov) publishes official information about the
+federal courts and their forms. And if any document mentions a
+deadline, tell the attorney about it on the very first call.
+
+Disclaimer: This is general information, not legal advice. Reading this
+site does not create an attorney-client relationship. Laws vary by
+state — consult a licensed attorney in your state about your specific
+situation.
+
+Are You an Attorney?
+
+Claim your free listing on USA Attorneys and get found by clients
+searching in your state and practice area. Takes two minutes — no fees,
+no catch.
+
+================================================================
+ABOUT USA ATTORNEYS
+================================================================
+
+What We Do
+
+USA Attorneys (usaattorneys.company) is a legal directory covering all
+50 US states and the practice areas people search for most — personal
+injury, divorce, criminal defense, immigration, bankruptcy, estate
+planning, DUI, workers' compensation, real estate, and business law.
+
+Every guide on this site is written in plain English: what each type of
+lawyer does, when you actually need one, how fees work, and the
+questions to ask before you hire. No legal jargon, no paywalls.
+
+How Listings Work
+
+Attorneys can claim a free listing for their firm so potential clients
+can find them by state and practice area. We do not invent or publish
+attorney profiles — every listing is claimed and provided by the firm
+itself.
+
+Our Promise
+
+- Free for visitors, free for attorneys to list.
+- No fake reviews, no paid rankings, no invented profiles.
+- General legal information only — never a substitute for a lawyer.
+
+================================================================
+PRACTICE AREAS OVERVIEW
+================================================================
+
+Personal Injury Lawyer
+A personal injury lawyer helps people who were hurt because someone else
+was careless or negligent — car crashes, slip-and-falls, medical
+mistakes, defective products, and workplace accidents. Their job is to
+prove who was at fault, document your losses, and fight the insurance
+company for full and fair compensation.
+Fees: Most personal injury lawyers work on contingency: you pay nothing
+upfront, and the lawyer takes a percentage (often around one-third) of
+your settlement or court award. If you don't win, you generally owe no
+attorney's fee. Always get the fee agreement in writing before you sign.
+
+Divorce Attorney
+A divorce attorney guides you through legally ending a marriage —
+dividing property and debts, arranging child custody and support, and
+negotiating spousal support. Even in an amicable split, a lawyer
+protects you from signing away rights you didn't know you had.
+Fees: Divorce lawyers usually charge hourly ($200–$500+ depending on
+location and experience), plus a retainer paid upfront. Simple
+uncontested divorces may be handled for a flat fee. Contested divorces
+with custody fights cost the most because they take the most time. Ask
+for a written fee agreement and regular billing statements.
+
+Criminal Defense Attorney
+A criminal defense attorney protects the rights of people accused of
+crimes — from misdemeanors like petty theft to serious felonies. They
+challenge the prosecution's evidence, negotiate plea deals, and defend
+you at trial. If you've been arrested or are under investigation,
+getting a lawyer early can change the entire outcome.
+Fees: Criminal defense lawyers typically charge flat fees for
+misdemeanors and hourly or larger flat fees for felonies, plus a
+retainer. Costs vary widely by charge severity and location. If you
+cannot afford a lawyer, the court must appoint a public defender for
+criminal cases — never face charges alone.
+
+Immigration Attorney
+An immigration attorney helps people navigate U.S. immigration law —
+visas, green cards, citizenship, asylum, and deportation defense.
+Immigration rules are complex and mistakes can cause years of delay or
+permanent bars, so professional guidance is especially valuable here.
+Fees: Immigration lawyers often charge flat fees per service (for
+example, a set fee for a green card application or naturalization), plus
+government filing fees which are separate. Complex cases like
+deportation defense are usually billed hourly. Always ask what's
+included and get USCIS filing fees itemized separately.
+
+Bankruptcy Attorney
+A bankruptcy attorney helps people and businesses overwhelmed by debt
+get a fresh start through the federal bankruptcy system. They'll tell
+you honestly whether bankruptcy is your best option — and if it is,
+which chapter fits and how to protect as much of your property as
+possible.
+Fees: Chapter 7 cases are commonly handled for a flat fee (often
+$1,000–$2,500 plus court filing fees, varying by location). Chapter 13
+fees are higher and often built into the repayment plan. Most bankruptcy
+lawyers offer a free initial consultation — use it to understand your
+options before committing.
+
+Estate Planning Attorney
+An estate planning attorney helps you decide what happens to your
+property, your children, and your medical decisions if you become
+incapacitated or pass away. Wills, trusts, powers of attorney, and
+healthcare directives — done correctly now, they save your family
+enormous stress and expense later.
+Fees: Simple wills are often done for a flat fee (a few hundred
+dollars). Trust-based estate plans typically cost $1,500–$5,000+
+depending on complexity. Given what's at stake, this is one area where
+professional drafting pays for itself many times over compared to DIY
+templates.
+
+DUI Attorney
+A DUI attorney defends people charged with driving under the influence
+of alcohol or drugs. DUI cases involve two fights at once — the
+criminal charge and the administrative suspension of your driver's
+license — and strict deadlines apply to both. A lawyer who knows local
+DUI procedures can often reduce penalties dramatically.
+Fees: First-offense DUI defense commonly costs $1,500–$5,000 as a flat
+fee; complex or trial cases cost more. That doesn't include fines, court
+costs, or increased insurance. Given that a conviction affects
+employment, insurance rates, and your record for years, early legal help
+is usually worth far more than it costs.
+
+Workers' Compensation Attorney
+A workers' compensation attorney helps employees hurt on the job get the
+medical care and wage benefits they're entitled to. The system is
+supposed to work without lawyers — but when claims are denied, delayed,
+or cut short, an attorney levels the playing field against the insurer.
+Fees: Workers' comp lawyers almost always work on contingency, and fees
+are capped by state law (often 10–20% of your award). You pay nothing
+upfront. Because fees are regulated, hiring a lawyer costs you very
+little out of pocket — and represented workers consistently recover more.
+
+Real Estate Attorney
+A real estate attorney handles the legal side of property — purchases,
+sales, closings, title issues, zoning, and landlord-tenant disputes. In
+several states a lawyer is required at closing; everywhere else, one is
+cheap insurance on the biggest transaction of your life.
+Fees: Residential closings are often flat-fee ($500–$1,500). Hourly
+billing ($200–$400/hr) applies to disputes and commercial deals.
+Compared to the value of the property changing hands, legal review is
+one of the cheapest protections you can buy.
+
+Business Lawyer
+A business lawyer helps companies form, operate, and grow without legal
+landmines — entity formation, contracts, employment issues, compliance,
+and disputes. The cheapest lawsuit is the one your lawyer prevented with
+a good contract.
+Fees: Business lawyers bill hourly ($250–$600+), though formations and
+standard contracts are often flat-fee. Many offer monthly general-
+counsel plans for small businesses. Think of it as insurance: an hour
+of review now beats months of litigation later.
+
+Additional specialty practice areas with their own full guides on the
+site: Truck Accident Attorney, Oil Rig Injury Lawyer, Offshore Accident
+Lawyer, Construction Accident Lawyer, Mesothelioma Attorney, Motorcycle
+Accident Lawyer.

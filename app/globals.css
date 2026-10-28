@@ -442,7 +442,7 @@ a.card:hover .card-link { color: var(--burgundy-dark); }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 28px; margin-bottom: 30px; }
 @media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } }
-.site-footer h4 { color: var(--white); font-size: 15px; margin: 0 0 14px; text-transform: uppercase; letter-spacing: 0.6px; font-family: var(--sans); }
+.site-footer h3 { color: var(--white); font-size: 15px; margin: 0 0 14px; text-transform: uppercase; letter-spacing: 0.6px; font-family: var(--sans); }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin-bottom: 9px; }
 .site-footer a { color: #b9c6dc; text-decoration: none; font-size: 14.5px; }
@@ -684,7 +684,7 @@ a.card:hover .card-link { color: var(--burgundy-dark); }
 
 /* ---------- Footer refinements ---------- */
 .site-footer { border-top: 1px solid var(--line-gold); }
-.site-footer h4 { color: var(--gold-2); }
+.site-footer h3 { color: var(--gold-2); }
 .footer-brand .brand-mark {
   width: 38px; height: 38px; border-radius: 8px;
   background: var(--gold); color: var(--night);

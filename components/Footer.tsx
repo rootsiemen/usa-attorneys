@@ -10,9 +10,9 @@ export function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <span className="brand-mark">§</span>
-            <h4>
+            <h3>
               USA <span style={{ color: "var(--gold-2)" }}>Attorneys</span>
-            </h4>
+            </h3>
             <p>
               Helping Americans find qualified attorneys in every state and
               practice area. Free directory — attorneys can claim and list
@@ -20,7 +20,7 @@ export function Footer() {
             </p>
           </div>
           <div>
-            <h4>Practice Areas</h4>
+            <h3>Practice Areas</h3>
             <ul>
               {topPractices.map((p) => (
                 <li key={p.slug}>
@@ -30,7 +30,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4>Popular States</h4>
+            <h3>Popular States</h3>
             <ul>
               {topStates.map((s) => (
                 <li key={s.slug}>
@@ -42,7 +42,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4>Company</h4>
+            <h3>Company</h3>
             <ul>
               <li>
                 <Link href="/about">About Us</Link>

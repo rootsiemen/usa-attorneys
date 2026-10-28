@@ -1,6 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { SITE_URL, SITE_NAME, ALL_STATES, PRACTICE_AREAS } from "@/lib/data";
+import {
+  SITE_URL,
+  SITE_NAME,
+  ALL_STATES,
+  PRACTICE_AREAS,
+  DISCLAIMER,
+} from "@/lib/data";
 import { StateSearch } from "@/components/StateSearch";
 import { DevCta } from "@/components/DevCta";
 import { JsonLd } from "@/components/JsonLd";
@@ -52,6 +58,51 @@ function initials(name: string) {
     .toUpperCase();
 }
 
+type FaqSegment = string | { text: string; href: string };
+
+const HOME_FAQS: { q: string; a: FaqSegment[] }[] = [
+  {
+    q: "How do I find a qualified attorney near me?",
+    a: [
+      "Start by choosing your state and the practice area that matches your legal issue — personal injury after a car accident, divorce for a family matter, and so on. Compare each listed attorney's practice areas, office location, and contact details, then call the firm directly and ask about their experience with cases like yours. Searching USA Attorneys is always free, and you never need an account.",
+    ],
+  },
+  {
+    q: "How much does a lawyer cost?",
+    a: [
+      "Fees depend on the type of case. Personal injury and workers' compensation lawyers usually work on contingency — typically around 33% of the amount recovered, paid only if you win. Criminal defense, divorce, and business lawyers commonly charge hourly (often $200–$500+) or a flat fee for defined work. Whatever the arrangement, ask for the fee agreement in writing before you hire anyone.",
+    ],
+  },
+  {
+    q: "How can I verify an attorney's license?",
+    a: [
+      "Every attorney must be licensed by the bar of the state where they practice, and each state bar publishes a directory where you can confirm a lawyer's license status and discipline history. The ",
+      { text: "American Bar Association", href: "https://www.americanbar.org" },
+      " links to each state's lawyer directory and referral programs. Search the attorney's full name and confirm the license is active before you share documents or pay any fee.",
+    ],
+  },
+  {
+    q: "Do attorneys offer free consultations?",
+    a: [
+      "Many do. Personal injury, workers' compensation, and bankruptcy attorneys commonly offer a free first consultation, while others charge a modest fee for an initial meeting — ask when you call so there are no surprises. If cost is a barrier, ",
+      { text: "USA.gov's legal aid resources", href: "https://www.usa.gov/legal-aid" },
+      " can connect you with free or low-cost legal help and pro bono programs in your state.",
+    ],
+  },
+  {
+    q: "What should I prepare before contacting an attorney?",
+    a: [
+      "Write a short timeline of what happened, list the people involved, and gather your documents — contracts, police reports, court papers, letters, and bills. Note the outcome you want and the questions you want answered. If your matter involves a court, ",
+      { text: "U.S. Courts", href: "https://www.uscourts.gov" },
+      " publishes official information about the federal courts and their forms. And if any document mentions a deadline, tell the attorney about it on the very first call.",
+    ],
+  },
+];
+
+function faqPlain(a: FaqSegment[]): string {
+  return a.map((s) => (typeof s === "string" ? s : s.text)).join("");
+}
+
 export default async function HomePage() {
   const latestPosts = getAllPosts().slice(0, 3);
   const attorneyCount = await getAttorneyCount();
@@ -69,6 +120,17 @@ export default async function HomePage() {
           url: SITE_URL,
           description:
             "Directory of attorneys across all 50 US states and major practice areas.",
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: HOME_FAQS.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: faqPlain(f.a) },
+          })),
         }}
       />
 
@@ -305,6 +367,48 @@ export default async function HomePage() {
           </div>
         </section>
       )}
+
+      {/* ============ FAQ ============ */}
+      <section className="section-light alt">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow">Common Questions</span>
+            <h2>Frequently Asked Questions</h2>
+            <p>
+              Straight answers to the questions people ask most before
+              hiring a lawyer.
+            </p>
+          </div>
+          <div style={{ maxWidth: 860, margin: "0 auto" }}>
+            <div className="faq">
+              {HOME_FAQS.map((f, i) => (
+                <details key={i}>
+                  <summary>{f.q}</summary>
+                  <div className="faq-body">
+                    <p style={{ margin: 0 }}>
+                      {f.a.map((s, j) =>
+                        typeof s === "string" ? (
+                          <span key={j}>{s}</span>
+                        ) : (
+                          <a
+                            key={j}
+                            href={s.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {s.text}
+                          </a>
+                        )
+                      )}
+                    </p>
+                  </div>
+                </details>
+              ))}
+            </div>
+            <div className="disclaimer">{DISCLAIMER}</div>
+          </div>
+        </div>
+      </section>
 
       {/* ============ ATTORNEY CTA ============ */}
       <section className="section-light">
