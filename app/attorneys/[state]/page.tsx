@@ -121,7 +121,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
         <h2>How to Choose the Right {state.name} Attorney</h2>
         <p>{state.finding}</p>
 
-        <h2>What Attorneys Cost in {state.name}</h2>
+        <h2>{state.feesHeading ?? `What Attorneys Cost in ${state.name}`}</h2>
         <p>{state.fees}</p>
 
         <h2>Legal Aid &amp; Free Help in {state.name}</h2>
@@ -154,6 +154,29 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
       </div>
 
       <div className="prose">
+        <h2>Attorney Cost Guides</h2>
+        <p>
+          Before you hire, see what legal help typically costs — our guides
+          break down the real numbers:
+        </p>
+        <ul>
+          <li>
+            <Link href="/blog/how-much-does-business-lawyer-cost-2026">
+              how much does a business lawyer cost
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/real-estate-attorney-fees-closing-cost-math">
+              real estate attorney fees at closing
+            </Link>
+          </li>
+          <li>
+            <Link href="/blog/how-much-does-dui-attorney-cost-2026">
+              how much does a DUI attorney cost
+            </Link>
+          </li>
+        </ul>
+
         <h2>{state.name} Attorney FAQs</h2>
         <Faq items={faqs} />
         <div className="disclaimer">{DISCLAIMER}</div>

@@ -5,6 +5,8 @@ export interface StateInfo {
   name: string;
   slug: string;
   region: string;
+  /** Optional override for the fees-section H2 (defaults to "What Attorneys Cost in {name}"). */
+  feesHeading?: string;
   /** Two unique intro paragraphs (~170-200 words total). */
   intro: [string, string];
   /** How-to-find guidance paragraph (~90 words). */
@@ -366,8 +368,9 @@ export const STATES: StateInfo[] = [
     name: "Maine",
     slug: "maine",
     region: "New England",
+    feesHeading: "Attorneys in Maine: Fees & How to Hire",
     intro: [
-      "Maine's legal market serves the oldest median population of any state, which makes estate planning, elder law, and guardianship core practices from Portland to Bangor. The working waterfront — lobstering, fishing, and shipbuilding — adds maritime and commercial fishing matters, while tourism drives seasonal injury and hospitality work along the coast.",
+      "Attorneys in Maine serve the oldest median population of any state, which makes estate planning, elder law, and guardianship core practices from Portland to Bangor. The working waterfront — lobstering, fishing, and shipbuilding — adds maritime and commercial fishing matters, while tourism drives seasonal injury and hospitality work along the coast.",
       "Maine's courts emphasize mediation, and its small bar is notably collegial. Modified comparative negligence applies, and the state's relatively low litigation volume means cases often resolve faster than in busier jurisdictions.",
     ],
     finding:
@@ -1069,6 +1072,8 @@ export interface PracticeArea {
   whatTheyDo: string[];
   whenYouNeed: string[];
   fees: string;
+  /** Optional prominent link rendered right after the fees paragraph (used to point the cost section at the full blog cost guide). */
+  costGuideLink?: { href: string; anchor: string };
   faqs: Faq[];
 }
 
@@ -1483,7 +1488,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
     title: "Business Lawyer",
     shortTitle: "Business Law",
     metaDescription:
-      "Find a business lawyer near you. Formation, contracts, compliance and disputes — explained plainly.",
+      "Find and hire a business lawyer near you: compare local attorneys for formation, contracts, compliance and disputes — plus how to choose the right one.",
     directAnswer:
       "What does a business lawyer do? A business lawyer helps companies form, operate, and grow without legal landmines — choosing the right entity, drafting contracts, handling employment issues, and resolving disputes. The cheapest lawsuit is the one your lawyer prevented.",
     intro:
@@ -1503,7 +1508,11 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       "You're buying, selling, or raising money for the business.",
     ],
     fees:
-      "Business lawyers bill hourly ($250–$600+), though formations and standard contracts are often flat-fee. Many offer monthly general-counsel plans for small businesses. Think of it as insurance: an hour of review now beats months of litigation later.",
+      "Business lawyers most often bill hourly — roughly $150–$350/hr at solo and small firms, $250–$600+ at larger firms — while formations and standard contracts are commonly flat-fee, and ongoing counsel is often a monthly retainer (around $2,000/month for a small business). What you actually pay depends on the matter, the firm's size, and your state. For the full rate tables and retainer math, see our complete cost guide:",
+    costGuideLink: {
+      href: "/blog/how-much-does-business-lawyer-cost-2026",
+      anchor: "how much does a business lawyer cost — full 2026 guide",
+    },
     faqs: [
       {
         q: "LLC or corporation — which should I form?",
