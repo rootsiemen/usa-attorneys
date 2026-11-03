@@ -1,7 +1,7 @@
 ---
-title: "Real Estate Attorney Fees: The Closing-Cost Math Buyers and Sellers Never See Until Closing Day"
+title: "How Much Does a Real Estate Attorney Cost? $800-$2,500 at Closing, With the Math"
 slug: "real-estate-attorney-fees-closing-cost-math"
-description: "Real estate attorney fees at closing: flat vs hourly pricing, which states require a lawyer, and worked math on $350K and $650K deals so you know exactly what legal help costs before you sign."
+description: "How much does a real estate attorney cost at closing? Most buyers and sellers pay a flat fee of $1,000-$1,800 (full range $800-$2,500). See which states require one, plus worked math on $350K and $650K deals."
 date: "2026-10-24"
 practiceArea: "real-estate-attorney"
 keywords:

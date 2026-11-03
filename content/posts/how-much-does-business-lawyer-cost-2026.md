@@ -1,7 +1,7 @@
 ---
-title: "How Much Does a Business Lawyer Cost in 2026? Retainer, Hourly & Real Cost Math"
+title: "Small Business Lawyer Costs in 2026: Hourly Rates, Flat Fees & Retainer Math"
 slug: "how-much-does-business-lawyer-cost-2026"
-description: "Business lawyer costs in 2026: $150-$600/hour, flat fees from $500, retainers from $1,000/month. Real fee ranges, retainer math, and DIY vs. lawyer comparisons."
+description: "Small business lawyer costs in 2026: $150-$350/hr solo rates, LLC and contract flat fees, and retainer math showing when $2,000/month beats paying hourly."
 date: "2026-10-24"
 practiceArea: "business-lawyer"
 keywords:
@@ -13,14 +13,14 @@ keywords:
   - "LLC formation lawyer cost"
 ---
 
-Every small business owner hits the same decision point: a vendor sends you a contract you don't fully understand, a partner suggests "just splitting things 50/50," or an employee situation starts to smell like a lawsuit. That's the moment the [business lawyer](/business-lawyer) question stops being hypothetical — and the first thing everyone asks is what it costs. In other words: how much does a business lawyer cost, and what does the business lawyer cost actually buy you?
+Every small business owner hits the same decision point: a vendor sends you a contract you don't fully understand, a partner suggests "just splitting things 50/50," or an employee situation starts to smell like a lawsuit. That's the moment the [business lawyer](/business-lawyer) question stops being hypothetical — and the first thing everyone asks is what it costs. For the broad answer to [how much does a business lawyer cost](/business-lawyer) across every firm size and practice setting, start with our practice-area overview. This guide is narrower and more useful: it runs the small-business numbers.
 
-The honest answer is that a business lawyer costs less than the mistake you're trying to avoid, and more than the online-template service that tempted you. This guide gives you 2026's real fee ranges, how the billing actually works, the math on when a retainer beats paying hourly, and a side-by-side comparison of DIY services vs. a local lawyer vs. a big firm.
+The honest answer is that a small business lawyer costs less than the mistake you're trying to avoid, and more than the online-template service that tempted you. This guide gives you 2026's real fee ranges for small businesses, how the billing actually works, the math on when a retainer beats paying hourly, and a side-by-side comparison of DIY services vs. a local lawyer vs. a big firm.
 
 
 ![Attorney shaking hands with a client — business lawyer costs](https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80&auto=format&fit=crop)
 
-## How much does a business lawyer cost? The quick answer for 2026
+## What a small business lawyer costs: the quick answer for 2026
 
 | Billing style | Typical 2026 range |
 |---|---|
