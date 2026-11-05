@@ -18,7 +18,7 @@ export function Header() {
       <header className="site-header">
         <div className="header-inner">
           <Link href="/" className="brand">
-            <span className="brand-mark">§</span>
+            <img src="/icon.svg" alt="USA Attorneys" className="brand-mark-img" />
             <span className="brand-name">
               USA <span>Attorneys</span>
             </span>

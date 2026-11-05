@@ -49,7 +49,7 @@ export function Sidebar() {
   return (
     <aside className="admin-sidebar">
       <Link href="/admin/dashboard" className="admin-brand">
-        <span className="brand-mark">§</span>
+        <img src="/icon.svg" alt="USA Attorneys" className="brand-mark-img" />
         <span>
           USA <em>Attorneys</em>
         </span>

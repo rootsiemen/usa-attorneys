@@ -9,7 +9,7 @@ export function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <span className="brand-mark">§</span>
+            <img src="/icon.svg" alt="USA Attorneys" className="brand-mark-img" />
             <h4>
               USA <span style={{ color: "var(--gold-2)" }}>Attorneys</span>
             </h4>

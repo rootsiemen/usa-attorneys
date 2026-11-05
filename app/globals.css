@@ -82,6 +82,8 @@ a:hover { color: var(--burgundy); }
   font-weight: 900; font-size: 30px; font-family: var(--serif);
   line-height: 1; padding-bottom: 2px;
 }
+.brand-mark-img { width: 38px; height: 38px; border-radius: 8px; display: block; }
+.admin-brand .brand-mark-img { width: 34px; height: 34px; }
 .brand-name { font-weight: 800; font-size: 20px; letter-spacing: 0.2px; font-family: var(--serif); }
 .brand-name span { color: var(--burgundy); }
 .nav { display: flex; gap: 6px; align-items: center; }
