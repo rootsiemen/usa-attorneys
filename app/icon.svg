@@ -1,1 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#14305e"/><text x="32" y="52" font-size="58" text-anchor="middle" fill="#e8b923" font-family="Georgia, serif" font-weight="900">§</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg { fill: #14305e; }
+    .fg { fill: #e8b923; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #e8b923; }
+      .fg { fill: #14305e; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="14"/>
+  <g class="fg">
+    <!-- finial -->
+    <circle cx="32" cy="13.5" r="2.7"/>
+    <!-- beam -->
+    <rect x="13" y="17.6" width="38" height="3.6" rx="1.8"/>
+    <!-- beam end caps -->
+    <circle cx="15.5" cy="19.4" r="2.1"/>
+    <circle cx="48.5" cy="19.4" r="2.1"/>
+    <!-- center post -->
+    <rect x="30.3" y="21" width="3.4" height="23"/>
+    <!-- left hangers -->
+    <polygon points="15.5,21 9.2,33.5 11.4,33.5"/>
+    <polygon points="15.5,21 21.8,33.5 19.6,33.5"/>
+    <!-- right hangers -->
+    <polygon points="48.5,21 42.2,33.5 44.4,33.5"/>
+    <polygon points="48.5,21 54.8,33.5 52.6,33.5"/>
+    <!-- left pan -->
+    <path d="M7.5 33.5 H23.5 Q15.5 42.5 7.5 33.5 Z"/>
+    <!-- right pan -->
+    <path d="M40.5 33.5 H56.5 Q48.5 42.5 40.5 33.5 Z"/>
+    <!-- pedestal -->
+    <rect x="27.5" y="44" width="9" height="2.8"/>
+    <rect x="23.5" y="46.8" width="17" height="3.2" rx="1.6"/>
+  </g>
+</svg>
