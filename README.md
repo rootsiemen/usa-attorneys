@@ -3,6 +3,10 @@
 Free US attorney directory: 50 state pages + 10 practice-area guides, with
 attorney listing lead capture that doubles as a web-dev lead funnel.
 
+Live tools: [Free Legal Calculators & Tools](https://usaattorneys.company/tools)
+— 8 settlement calculators with the math shown, plus research & data pages
+(attorney density by state, settlement ranges by case type).
+
 ## Stack
 
 - Next.js 14 (App Router), React 18, TypeScript

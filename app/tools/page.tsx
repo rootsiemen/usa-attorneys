@@ -83,6 +83,20 @@ export default function ToolsHubPage() {
           </div>
 
           <div className="prose" style={{ marginTop: 48 }}>
+            <h2>Research &amp; Data Behind the Calculators</h2>
+            <p>
+              Two data pages show the numbers these tools are built on:{" "}
+              <Link href="/data/settlement-ranges">
+                settlement ranges by case type
+              </Link>{" "}
+              — worked example cases run through the same estimation engine,
+              step by step — and{" "}
+              <Link href="/data/attorney-density-by-state">
+                attorney density by state
+              </Link>{" "}
+              — where the 833 attorneys in our directory actually practice,
+              including the specialties that exist in only two or three states.
+            </p>
             <h2>How These Calculators Work</h2>
             <p>
               Injury settlements are built from two buckets:{" "}

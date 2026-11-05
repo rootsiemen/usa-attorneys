@@ -21,6 +21,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/list-your-firm",
     "/blog",
     "/tools",
+    "/data/attorney-density-by-state",
+    "/data/settlement-ranges",
   ];
 
   const urls: MetadataRoute.Sitemap = staticPages.map((p) => ({
