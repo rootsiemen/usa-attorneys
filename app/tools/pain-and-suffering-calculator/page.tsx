@@ -8,9 +8,9 @@ const tool = getTool("pain-and-suffering-calculator")!;
 const url = `${SITE_URL}/tools/${tool.slug}`;
 
 export const metadata: Metadata = {
-  title: "Pain and Suffering Calculator — Multiplier & Per Diem Methods",
+  title: "Pain and Suffering Calculator — 2 Methods",
   description:
-    "Free pain and suffering calculator that runs both standard methods — the severity multiplier on your economic damages and the per-diem daily-rate method — and combines them into one range, with your fault share applied and the math shown.",
+    "Pain and suffering is usually 1–5× economic damages — or a daily per-diem rate. Run both methods free and merge them into one range, math shown.",
   alternates: { canonical: url },
   openGraph: {
     title: `Pain and Suffering Calculator | ${SITE_NAME}`,

@@ -55,7 +55,7 @@ Same numbers, different order — the **gross fee** structure, which is still le
 - Attorney fee (33.3% of $100,000): **$33,333**
 - Minus case costs: $100,000 − $33,333 − $3,500 = **$63,167** to you
 
-Difference between the two: **$1,166** in your pocket. On this case it looks modest. Scale it up and it is not modest at all.
+Difference between the two: **$1,166** in your pocket. On this case it looks modest. Scale it up and it is not modest at all. Every calculator on this site runs this math for you — our free [personal injury settlement calculator](/tools/personal-injury-settlement-calculator) has a fee field that shows your net at whatever percentage your agreement uses.
 
 
 ![Portrait of a professional attorney at work — personal injury contingency fee math](https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1200&q=80&auto=format&fit=crop)

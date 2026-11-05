@@ -17,6 +17,18 @@
 - [Privacy Policy](https://usaattorneys.company/privacy-policy)
 - [Terms of Service](https://usaattorneys.company/terms)
 
+## Free legal tools
+
+- [Legal Tools hub](https://usaattorneys.company/tools): all 8 free settlement calculators in one place. Every result is a range with the methodology shown step by step. Estimates only — not legal advice.
+- [Car Accident Settlement Calculator](https://usaattorneys.company/tools/car-accident-settlement-calculator): estimates a car accident claim from medical bills, lost wages, and vehicle damage — with injury-severity multiplier, fault reduction, and policy-limit check.
+- [Personal Injury Settlement Calculator](https://usaattorneys.company/tools/personal-injury-settlement-calculator): general claim-value estimate for any negligence injury, using the standard multiplier method with a full step-by-step breakdown.
+- [Slip and Fall Settlement Calculator](https://usaattorneys.company/tools/slip-and-fall-settlement-calculator): premises-liability estimate that factors in how clear the property owner's responsibility is — not just the bills.
+- [Workers' Comp Settlement Calculator](https://usaattorneys.company/tools/workers-comp-settlement-calculator): the real workers' comp model — two-thirds wage replacement, impairment-rating weeks, future medical, and the attorney fee.
+- [Pain and Suffering Calculator](https://usaattorneys.company/tools/pain-and-suffering-calculator): both standard methods side by side — the multiplier method and the per-diem method — combined into one range.
+- [Lost Wages Calculator](https://usaattorneys.company/tools/lost-wages-calculator): documents the income an injury cost — missed weeks, overtime, benefits, reduced earning capacity, and lost bonuses.
+- [Wrongful Death Settlement Calculator](https://usaattorneys.company/tools/wrongful-death-settlement-calculator): fatal-case model for families — lost household support in today's dollars, funeral costs, and survivor damages.
+- [Medical Malpractice Settlement Calculator](https://usaattorneys.company/tools/medical-malpractice-settlement-calculator): the injury-claim model with the state's cap on non-economic damages applied openly, plus expert case costs and net after fees.
+
 ## Practice guides
 
 - [Personal Injury Lawyer](https://usaattorneys.company/personal-injury-lawyer)

@@ -8,9 +8,9 @@ const tool = getTool("personal-injury-settlement-calculator")!;
 const url = `${SITE_URL}/tools/${tool.slug}`;
 
 export const metadata: Metadata = {
-  title: "Personal Injury Settlement Calculator — Estimate Your Claim",
+  title: "Personal Injury Settlement Calculator — Free",
   description:
-    "Free personal injury settlement calculator for any negligence claim: medical bills, lost income, and future losses plus a severity-based pain-and-suffering multiplier, reduced by your fault share. Output is a range with the full methodology shown.",
+    "Injury claims are worth 1–5× your economic damages, minus your fault share. Enter bills and lost income for your range, the full method and net after fees.",
   alternates: { canonical: url },
   openGraph: {
     title: `Personal Injury Settlement Calculator | ${SITE_NAME}`,

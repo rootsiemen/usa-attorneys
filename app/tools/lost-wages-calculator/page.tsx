@@ -8,9 +8,9 @@ const tool = getTool("lost-wages-calculator")!;
 const url = `${SITE_URL}/tools/${tool.slug}`;
 
 export const metadata: Metadata = {
-  title: "Lost Wages Calculator — Calculate Lost Income After an Injury",
+  title: "Lost Wages Calculator — Free Injury Estimate",
   description:
-    "Free lost wages calculator for injury claims: missed weeks at your hourly or salary rate, overtime at 1.5×, lost benefits, bonuses and commissions, reduced future earning capacity, minus replacement income — with the full breakdown shown.",
+    "Lost wages = missed weeks × your pay, plus 1.5× overtime, benefits and bonuses missed. Enter your figures for an itemised total an insurer can verify.",
   alternates: { canonical: url },
   openGraph: {
     title: `Lost Wages Calculator | ${SITE_NAME}`,

@@ -96,7 +96,7 @@ Two cases with identical injuries can settle $200,000 apart. These five factors 
 
 ## What the first offer really means (and how to answer it)
 
-The first offer from a trucking insurer is almost never the real number. It is a test. Insurers know that many injured people are under financial pressure — medical bills arriving, paychecks stopped — and a fast $40,000 can look like rescue. Run the formula first.
+The first offer from a trucking insurer is almost never the real number. It is a test. Insurers know that many injured people are under financial pressure — medical bills arriving, paychecks stopped — and a fast $40,000 can look like rescue. Run the formula first — our free [car accident settlement calculator](/tools/car-accident-settlement-calculator) and [personal injury settlement calculator](/tools/personal-injury-settlement-calculator) run the same multiplier math on your own bills, lost wages, and fault share.
 
 Suppose your economic damages are $125,000 (the worked example above) and the insurer offers $150,000. That offer covers your bills and lost wages, plus $25,000 for everything else — months of pain, a totaled car, a job you may not return to at full capacity. At a 4x multiplier, the fair value is closer to $650,000. The gap between $150,000 and $650,000 is the entire negotiation.
 

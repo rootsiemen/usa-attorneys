@@ -8,9 +8,9 @@ const tool = getTool("car-accident-settlement-calculator")!;
 const url = `${SITE_URL}/tools/${tool.slug}`;
 
 export const metadata: Metadata = {
-  title: "Car Accident Settlement Calculator — Estimate Your Claim Value",
+  title: "Car Accident Settlement Calculator — Free",
   description:
-    "Free car accident settlement calculator: enter medical bills, lost wages, and vehicle damage to estimate your claim as a range — with injury-severity multiplier, fault reduction, policy-limit check, and the full methodology shown step by step.",
+    "Bills of $25,000 can support a $25,000–$125,000 claim at a 1–5× multiplier. Enter bills, lost wages and damage for your range — fault and policy limits shown.",
   alternates: { canonical: url },
   openGraph: {
     title: `Car Accident Settlement Calculator | ${SITE_NAME}`,

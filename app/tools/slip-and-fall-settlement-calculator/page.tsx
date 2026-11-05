@@ -8,9 +8,9 @@ const tool = getTool("slip-and-fall-settlement-calculator")!;
 const url = `${SITE_URL}/tools/${tool.slug}`;
 
 export const metadata: Metadata = {
-  title: "Slip and Fall Settlement Calculator — Premises Liability Estimate",
+  title: "Slip and Fall Settlement Calculator — Free",
   description:
-    "Free slip and fall settlement calculator that goes beyond your bills: it weighs how clear the property owner's responsibility is (notice of the hazard), your fault share, and policy limits — output as a range with the methodology shown.",
+    "Slip and fall value turns on proof the owner knew of the hazard. Enter bills and liability strength for a range — fault share and policy limits factored in.",
   alternates: { canonical: url },
   openGraph: {
     title: `Slip and Fall Settlement Calculator | ${SITE_NAME}`,

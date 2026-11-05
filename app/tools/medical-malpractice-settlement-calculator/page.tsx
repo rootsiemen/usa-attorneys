@@ -8,9 +8,9 @@ const tool = getTool("medical-malpractice-settlement-calculator")!;
 const url = `${SITE_URL}/tools/${tool.slug}`;
 
 export const metadata: Metadata = {
-  title: "Medical Malpractice Settlement Calculator — With State Cap Check",
+  title: "Medical Malpractice Settlement Calculator",
   description:
-    "Free medical malpractice settlement calculator: past and future medical costs, lost earnings, and pain and suffering — with your state's non-economic damage cap applied openly, expert case costs accounted for, and the net after contingency fees shown.",
+    "Medical malpractice value hinges on your state's cap on non-economic damages. Enter costs and lost earnings — the cap, expert costs and net after fees shown.",
   alternates: { canonical: url },
   openGraph: {
     title: `Medical Malpractice Settlement Calculator | ${SITE_NAME}`,

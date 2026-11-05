@@ -171,7 +171,7 @@ Borrowing from the same discipline we recommend in our guide on [questions to as
 
 **You can reasonably wait when:** you're a solo freelancer with no partners and simple client work (use a solid contract template and an accountant), you're renewing a familiar vendor agreement with unchanged terms, or the "legal question" is really an accounting question in disguise.
 
-The through-line of every number in this guide: business legal work is cheapest when it's preventive. The businesses that treat their lawyer like a quarterly checkup — not an emergency room — spend the least and sleep the best. If you're weighing formation costs against ongoing risk, our guide on [estate planning fees and will-vs-trust math](/blog/estate-planning-attorney-fees-will-vs-trust-cost-math) covers the other half of protecting what you've built.
+The through-line of every number in this guide: business legal work is cheapest when it's preventive. The businesses that treat their lawyer like a quarterly checkup — not an emergency room — spend the least and sleep the best. If you're weighing formation costs against ongoing risk, our guide on [estate planning fees and will-vs-trust math](/blog/estate-planning-attorney-fees-will-vs-trust-cost-math) covers the other half of protecting what you've built. And if the legal number on your desk is an injury claim rather than business work, our [free legal calculators](/tools) run the settlement math the same way this guide runs the fee math.
 
 ## Business lawyer cost: frequently asked questions
 

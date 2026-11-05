@@ -103,7 +103,7 @@ Most states give you a **limited window to appeal** — often 30 days from the d
 
 1. **Your claim was denied** and the appeal deadline is ticking
 2. **The insurer's doctor says you're fine; your doctor says you're not** — this dispute decides your benefits, and it needs a counterweight
-3. **You're offered a settlement** — lump-sum offers are often far below what the claim is worth; a lawyer who handles [settlement math](/workers-compensation-settlement-payout-math) knows what your case actually values
+3. **You're offered a settlement** — lump-sum offers are often far below what the claim is worth; a lawyer who handles [settlement math](/workers-compensation-settlement-payout-math) knows what your case actually values — and our free [workers' comp settlement calculator](/tools/workers-comp-settlement-calculator) gives you a first estimate from your wage and impairment rating before that conversation
 4. **You're fired or your hours are cut** after filing
 5. **Your injury is permanent** — permanent disability ratings involve complex schedules and future medical costs that shouldn't be negotiated by guesswork
 

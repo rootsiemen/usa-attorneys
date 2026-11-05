@@ -9,7 +9,7 @@ const url = `${SITE_URL}/tools`;
 export const metadata: Metadata = {
   title: "Free Legal Calculators & Tools",
   description:
-    "Free legal calculators from USA Attorneys: settlement calculators for car accidents, personal injury, slip and fall, workers' comp, wrongful death and medical malpractice — plus pain and suffering and lost wages tools. Ranges with the methodology shown, no sign-up.",
+    "8 free legal calculators: car accident, personal injury, workers' comp, wrongful death and more — ranges with the math shown. Estimates, not legal advice.",
   alternates: { canonical: url },
   openGraph: {
     title: `Free Legal Calculators & Tools | ${SITE_NAME}`,

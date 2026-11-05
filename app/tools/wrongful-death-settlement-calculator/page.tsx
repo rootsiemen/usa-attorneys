@@ -8,9 +8,9 @@ const tool = getTool("wrongful-death-settlement-calculator")!;
 const url = `${SITE_URL}/tools/${tool.slug}`;
 
 export const metadata: Metadata = {
-  title: "Wrongful Death Settlement Calculator — Estimate a Fatal Claim",
+  title: "Wrongful Death Settlement Calculator — Free",
   description:
-    "Free wrongful death settlement calculator for families: present value of lost household support, lost benefits and household services, funeral costs, and survivor damages — with fault, state caps, and collectible-insurance checks, and every step shown.",
+    "Wrongful death claims cover lost household support in today's dollars, funeral costs and survivor damages. Enter the figures for a range — state caps checked.",
   alternates: { canonical: url },
   openGraph: {
     title: `Wrongful Death Settlement Calculator | ${SITE_NAME}`,

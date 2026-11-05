@@ -58,7 +58,7 @@ Insurers don't pull settlement numbers from thin air — they use formulas, and 
 
 **Step 3: Total and adjust.** $9,620 + $24,050 = **$33,670** as a starting negotiation value. Then adjustments: clear liability (police report cites the other driver) pushes it up; any fault on your side pushes it down by your fault percentage; low policy limits cap it regardless of the math.
 
-Now you see why the first offer is insulting: the adjuster might open at $12,000 — barely above your hard costs — hoping you don't know the formula. When you (or your lawyer) respond with the itemized $33,670 calculation, the conversation changes completely. You don't need to accept their math as gospel — lawyers argue for higher multipliers based on case specifics — but walking in with *a* math beats walking in with *a feeling*.
+Now you see why the first offer is insulting: the adjuster might open at $12,000 — barely above your hard costs — hoping you don't know the formula. When you (or your lawyer) respond with the itemized $33,670 calculation, the conversation changes completely. You don't need to accept their math as gospel — lawyers argue for higher multipliers based on case specifics — but walking in with *a* math beats walking in with *a feeling*. Run your own numbers through our free [car accident settlement calculator](/tools/car-accident-settlement-calculator) — it applies the same multiplier method to your bills, lost wages, and fault share, and shows every step.
 
 
 ![Writing in a notebook while reviewing documents — what to do after a car accident](https://images.unsplash.com/photo-1517842645767-c639042777db?w=1200&q=80&auto=format&fit=crop)

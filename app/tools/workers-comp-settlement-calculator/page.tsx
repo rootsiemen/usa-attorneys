@@ -8,9 +8,9 @@ const tool = getTool("workers-comp-settlement-calculator")!;
 const url = `${SITE_URL}/tools/${tool.slug}`;
 
 export const metadata: Metadata = {
-  title: "Workers' Comp Settlement Calculator — Estimate Your Payout",
+  title: "Workers' Comp Settlement Calculator — Free",
   description:
-    "Free workers' compensation settlement calculator using the real comp model: average weekly wage × 2/3 benefit rate, weeks out of work, impairment rating × state schedule weeks, future medical, and attorney fee — with state cap handling and every step shown.",
+    "Workers' comp pays 2/3 of your weekly wage, plus impairment-rating weeks and future medical. Enter your wage and rating for your payout range, fees included.",
   alternates: { canonical: url },
   openGraph: {
     title: `Workers' Comp Settlement Calculator | ${SITE_NAME}`,

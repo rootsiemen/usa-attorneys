@@ -246,3 +246,92 @@ Additional specialty practice areas with their own full guides on the
 site: Truck Accident Attorney, Oil Rig Injury Lawyer, Offshore Accident
 Lawyer, Construction Accident Lawyer, Mesothelioma Attorney, Motorcycle
 Accident Lawyer.
+
+
+================================================================
+FREE LEGAL TOOLS
+================================================================
+
+Hub: https://usaattorneys.company/tools
+
+USA Attorneys publishes 8 free settlement calculators. All are free, need
+no sign-up, and return a range — never a single-point figure — with every
+step of the math shown. Every result is an estimate only, not legal
+advice.
+
+Shared settlement method (car accident, personal injury, slip and fall,
+wrongful death and medical malpractice tools): economic damages (medical
+bills, lost wages, property damage, future care) plus non-economic
+damages estimated with a 1–5x severity multiplier, then reduced by the
+claimant's percentage of fault under comparative-fault rules, capped at
+the at-fault party's policy limit where one is entered, with an optional
+contingency-fee view showing the net after an attorney's percentage and
+case costs.
+
+CAR ACCIDENT SETTLEMENT CALCULATOR
+URL: https://usaattorneys.company/tools/car-accident-settlement-calculator
+Estimates a car accident claim from medical bills, lost wages, and
+vehicle damage. Applies the 1–5x injury-severity multiplier to economic
+damages, reduces the total by the user's share of fault, flags when the
+other driver's policy limit caps the realistic recovery below the claim's
+paper value, and shows the net after a contingency fee. Minor soft-tissue
+claims often settle in the low five figures or less; most states bar
+recovery at 50–51% fault, while Alabama, Maryland, North Carolina,
+Virginia, and DC can bar it at any fault.
+
+PERSONAL INJURY SETTLEMENT CALCULATOR
+URL: https://usaattorneys.company/tools/personal-injury-settlement-calculator
+The general-purpose version of the settlement model, for any negligence
+injury: medical bills, lost income and future losses, plus a
+severity-based pain-and-suffering multiplier, reduced by the user's fault
+share. Output is a range with the full methodology and the net after
+contingency fees.
+
+SLIP AND FALL SETTLEMENT CALCULATOR
+URL: https://usaattorneys.company/tools/slip-and-fall-settlement-calculator
+Premises-liability estimate. Beyond the bills, it weighs how clear the
+property owner's responsibility is — in particular whether the owner knew
+(or should have known) about the hazard ("notice") — together with the
+claimant's fault share and policy limits. Liability strength is the input
+that moves slip and fall values most.
+
+WORKERS' COMP SETTLEMENT CALCULATOR
+URL: https://usaattorneys.company/tools/workers-comp-settlement-calculator
+Uses the real workers' compensation model, not the injury-claim model:
+average weekly wage x 2/3 benefit rate for time out of work, impairment
+rating x state schedule weeks, estimated future medical, minus the
+attorney fee, with state cap handling. Workers' comp does not pay pain
+and suffering — the calculator says so openly instead of inflating the
+estimate.
+
+PAIN AND SUFFERING CALCULATOR
+URL: https://usaattorneys.company/tools/pain-and-suffering-calculator
+Runs both standard valuation methods side by side: (1) the multiplier
+method — economic damages x 1–5 depending on injury severity; (2) the
+per-diem method — a daily rate for each day of recovery. Combines them
+into one range, applies the user's fault share, and shows the math for
+both.
+
+LOST WAGES CALCULATOR
+URL: https://usaattorneys.company/tools/lost-wages-calculator
+Itemises the income an injury actually cost: missed weeks at the hourly
+or salary rate, overtime at 1.5x, lost benefits, bonuses and commissions,
+reduced future earning capacity, minus any replacement income received.
+Produces the documented breakdown an insurer or attorney needs to credit
+a lost-income claim.
+
+WRONGFUL DEATH SETTLEMENT CALCULATOR
+URL: https://usaattorneys.company/tools/wrongful-death-settlement-calculator
+Fatal-case model for families: present value of lost household support
+(the deceased's expected lifetime contributions in today's dollars), lost
+benefits and household services, funeral and burial costs, and survivor
+damages — with fault reduction, state caps, and a collectible-insurance
+check. Note: Alabama wrongful death damages are punitive only, unlike
+every other state.
+
+MEDICAL MALPRACTICE SETTLEMENT CALCULATOR
+URL: https://usaattorneys.company/tools/medical-malpractice-settlement-calculator
+The injury-claim model plus the factor that decides med-mal cases: the
+user's state's statutory cap on non-economic damages, applied openly to
+the estimate. Also accounts for the high expert-witness case costs
+typical of malpractice claims and shows the net after contingency fees.
