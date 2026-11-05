@@ -269,7 +269,23 @@ export default async function PracticePage({
   const p = getPractice((await params).practice);
   if (!p) notFound();
   const url = `${SITE_URL}/${p.slug}`;
-  const attorneys = await getAttorneysByPractice(p.slug, 12);
+  // All attorneys in this practice area, ordered exactly like the state
+  // pages order theirs (claimed first, then A–Z) — no truncation.
+  const attorneys = await getAttorneysByPractice(p.slug);
+
+  const initials = (name: string) =>
+    name
+      .split(" ")
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((w) => w[0]?.toUpperCase() ?? "")
+      .join("");
+
+  const practiceLabel = (slug?: string) => {
+    if (!slug) return undefined;
+    const x = PRACTICE_AREAS.find((pa) => pa.slug === slug);
+    return x ? x.shortTitle : undefined;
+  };
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -313,51 +329,63 @@ export default async function PracticePage({
       {attorneys.length > 0 ? (
         <section className="section">
           <div className="container">
-            <h2 style={{ textAlign: "center" }}>
-              {p.shortTitle} Attorneys
-            </h2>
-            <p className="center" style={{ maxWidth: 640, margin: "0 auto 24px" }}>
-              Top-rated {p.shortTitle.toLowerCase()} attorneys in our directory.
-              Click a profile for contact details.
-            </p>
-            <div className="grid-3">
-              {attorneys.map((a) => (
-                <Link
-                  key={a.slug}
-                  href={`/attorney/${a.slug}`}
-                  className="attorney-card"
-                >
-                  <div className="attorney-avatar" aria-hidden="true">
-                    {a.name
-                      .split(" ")
-                      .filter(Boolean)
-                      .slice(0, 2)
-                      .map((w) => w[0]?.toUpperCase() ?? "")
-                      .join("")}
-                  </div>
-                  <div>
-                    <h3>{a.name}</h3>
-                    <p className="firm">
-                      {a.firm ? `${a.firm} · ` : ""}
-                      {a.city}
-                      {getState(a.state)?.name ? `, ${getState(a.state)!.name}` : ""}
-                    </p>
-                    <p className="meta">
-                      {a.phone && <span className="phone">{a.phone}</span>}
-                      {a.claimed ? (
-                        <span className="badge-claimed">✓ Claimed</span>
-                      ) : (
-                        <span className="badge-unclaimed">Unclaimed</span>
-                      )}
-                    </p>
-                    <span className="card-link">View Profile →</span>
-                  </div>
-                </Link>
-              ))}
+            {/* Same attorney contacts list as the state pages: same order
+                (claimed first, then A–Z), same compact rows, everyone listed. */}
+            <div className="practice-contacts-wrap">
+              <aside
+                className="state-contacts practice-contacts"
+                aria-label={`${p.shortTitle} attorney contacts`}
+              >
+                <h2>{p.shortTitle} Attorney Contacts</h2>
+                <p className="contacts-sub">
+                  {attorneys.length}{" "}
+                  {attorneys.length === 1 ? "attorney" : "attorneys"} listed.
+                  Tap a name for the full profile.
+                </p>
+                <ul className="state-contact-list">
+                  {attorneys.map((a) => (
+                    <li key={a.slug}>
+                      <Link href={`/attorney/${a.slug}`} className="state-contact">
+                        <span className="attorney-avatar" aria-hidden="true">
+                          {initials(a.name)}
+                        </span>
+                        <span className="sc-body">
+                          <span className="sc-name">{a.name}</span>
+                          <span className="sc-firm">
+                            {a.firm ? `${a.firm} · ` : ""}
+                            {a.city}
+                            {getState(a.state)?.name
+                              ? `, ${getState(a.state)!.name}`
+                              : ""}
+                          </span>
+                          {practiceLabel(a.practiceAreas[0]) && (
+                            <span className="sc-practice">
+                              {practiceLabel(a.practiceAreas[0])}
+                            </span>
+                          )}
+                          {a.phone && <span className="sc-phone">{a.phone}</span>}
+                          {a.claimed ? (
+                            <span className="sc-badge claimed">✓ Claimed</span>
+                          ) : (
+                            <span className="sc-badge unclaimed">Unclaimed</span>
+                          )}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <div className="state-contacts-cta">
+                  <h3>Are You a {p.title}?</h3>
+                  <p>
+                    Claim your free listing and get found by clients searching
+                    for legal help.
+                  </p>
+                  <Link href="/list-your-firm" className="btn btn-gold">
+                    List Your Firm — Free
+                  </Link>
+                </div>
+              </aside>
             </div>
-            <p className="center mt-2">
-              <Link href="/attorneys">View all attorneys →</Link>
-            </p>
           </div>
         </section>
       ) : (

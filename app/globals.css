@@ -258,6 +258,12 @@ a:hover { color: var(--burgundy); }
   .state-contact-list { max-height: none; overflow: visible; }
 }
 
+/* Practice pages: the same attorney contacts list as the state pages,
+   shown as main content — centered column, not sticky, full list. */
+.practice-contacts-wrap { max-width: 860px; margin: 0 auto; }
+.practice-contacts { position: static; }
+.practice-contacts .state-contact-list { max-height: none; overflow: visible; }
+
 /* ---------- Search box ---------- */
 .search-box {
   background: var(--white); border-radius: var(--radius);

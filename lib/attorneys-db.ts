@@ -71,16 +71,25 @@ export async function getAttorneyCount(): Promise<number> {
 /**
  * Attorneys for a practice area. practice_areas is a JSON array column;
  * match via json_each so '"slug"' doesn't false-positive on substrings.
+ *
+ * Ordering matches the state pages exactly (claimed first, then A–Z by
+ * name — same rule as getAttorneysByState). When `limit` is omitted, ALL
+ * attorneys in the practice area are returned (practice pages list
+ * everyone, like state pages do); pass a limit only for short featured
+ * strips such as the homepage.
  */
 export async function getAttorneysByPractice(
   practiceSlug: string,
-  limit: number = 12
+  limit?: number
 ): Promise<Attorney[]> {
   const db = getDb();
   const res = await db.execute({
     sql: `SELECT a.* FROM attorneys a, json_each(a.practice_areas) j
-          WHERE j.value = ? ORDER BY a.claimed DESC, a.name ASC LIMIT ?`,
-    args: [practiceSlug, limit],
+          WHERE j.value = ? ORDER BY a.claimed DESC, a.name ASC${
+            limit !== undefined ? " LIMIT ?" : ""
+          }`,
+    args:
+      limit !== undefined ? [practiceSlug, limit] : [practiceSlug],
   });
   return res.rows.map((r) => rowToAttorney(r as unknown as DbAttorney));
 }
