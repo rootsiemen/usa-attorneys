@@ -442,7 +442,7 @@ a.card:hover .card-link { color: var(--burgundy-dark); }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 28px; margin-bottom: 30px; }
 @media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } }
-.site-footer h3 { color: var(--white); font-size: 15px; margin: 0 0 14px; text-transform: uppercase; letter-spacing: 0.6px; font-family: var(--sans); }
+.site-footer h4 { color: var(--white); font-size: 15px; margin: 0 0 14px; text-transform: uppercase; letter-spacing: 0.6px; font-family: var(--sans); }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin-bottom: 9px; }
 .site-footer a { color: #b9c6dc; text-decoration: none; font-size: 14.5px; }
@@ -684,7 +684,7 @@ a.card:hover .card-link { color: var(--burgundy-dark); }
 
 /* ---------- Footer refinements ---------- */
 .site-footer { border-top: 1px solid var(--line-gold); }
-.site-footer h3 { color: var(--gold-2); }
+.site-footer h4 { color: var(--gold-2); }
 .footer-brand .brand-mark {
   width: 38px; height: 38px; border-radius: 8px;
   background: var(--gold); color: var(--night);
@@ -902,4 +902,35 @@ a.card:hover .card-link { color: var(--burgundy-dark); }
 @media (max-width: 860px) {
   .admin-sidebar { width: 200px; }
   .admin-main { padding: 28px 20px; }
+}
+
+/* ---------- Legal tools / calculators ---------- */
+.calc-field-help { font-size: 12.5px; color: var(--gray-600); margin-top: 4px; font-weight: 400; }
+.calc-result {
+  max-width: 640px; margin: 26px auto 0; background: var(--white);
+  border: 1px solid var(--gray-200); border-top: 4px solid var(--gold);
+  border-radius: 14px; padding: 28px 32px;
+}
+.calc-result .calc-range-label {
+  font-size: 13px; font-weight: 700; letter-spacing: 0.8px;
+  text-transform: uppercase; color: var(--gold-deep); margin: 0 0 6px;
+}
+.calc-result .calc-range {
+  font-family: var(--serif); font-size: 32px; color: var(--navy-dark);
+  margin: 0 0 4px; line-height: 1.2;
+}
+.calc-result .calc-sub { font-size: 14.5px; color: var(--gray-600); margin: 0 0 16px; }
+.calc-result table { width: 100%; border-collapse: collapse; font-size: 14.5px; margin: 10px 0 4px; }
+.calc-result table td { padding: 7px 0; border-bottom: 1px solid var(--gray-200); color: var(--ink); }
+.calc-result table td:last-child { text-align: right; font-weight: 700; color: var(--navy-dark); white-space: nowrap; }
+.calc-result table tr.total td { border-bottom: none; font-weight: 700; color: var(--navy-dark); }
+.calc-steps { margin: 18px 0 0; padding-left: 20px; }
+.calc-steps li { font-size: 14.5px; color: var(--gray-600); margin-bottom: 9px; line-height: 1.55; }
+.calc-warning {
+  background: #fdf3f3; border: 1px solid #ecc8cc; border-left: 4px solid var(--burgundy);
+  border-radius: 8px; padding: 12px 16px; font-size: 13.5px; color: #6e2430; margin-top: 14px;
+}
+.tool-disclaimer {
+  max-width: 640px; margin: 18px auto 0; font-size: 13px; color: var(--gray-600);
+  text-align: center; line-height: 1.55;
 }

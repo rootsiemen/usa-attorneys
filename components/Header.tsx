@@ -27,6 +27,9 @@ export function Header() {
             <Link href="/attorneys" className="hide-mobile">
               Browse by State
             </Link>
+            <Link href="/tools" className="hide-mobile">
+              Free Legal Tools
+            </Link>
             <Link href="/blog" className="hide-mobile">
               Legal Blog
             </Link>

@@ -8,6 +8,7 @@ import {
   getAllAttorneySlugs,
 } from "@/lib/attorneys-db";
 import { getAllPosts } from "@/lib/posts";
+import { TOOLS } from "@/lib/tools";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages = [
@@ -19,6 +20,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/terms",
     "/list-your-firm",
     "/blog",
+    "/tools",
   ];
 
   const urls: MetadataRoute.Sitemap = staticPages.map((p) => ({
@@ -41,6 +43,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     urls.push({
       url: `${SITE_URL}/${p.slug}`,
       lastModified: new Date("2026-10-16"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    });
+  }
+
+  for (const t of TOOLS) {
+    urls.push({
+      url: `${SITE_URL}/tools/${t.slug}`,
+      lastModified: new Date("2026-11-05"),
       changeFrequency: "monthly",
       priority: 0.9,
     });
