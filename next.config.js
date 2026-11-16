@@ -38,6 +38,18 @@ const securityHeaders = [
 
 const nextConfig = {
   reactStrictMode: true,
+  experimental: {
+    // Blog article pages read markdown files at runtime (ISR revalidation
+    // calls getPostMerged -> fs). Next's file tracer cannot follow the
+    // dynamic process.cwd()-based path, so without this the serverless
+    // function ships without content/posts and every /blog/[slug] page
+    // 404s after its first revalidation (regression from the 2026-11-16
+    // database-backed blog change, commit 0c6e9f00).
+    outputFileTracingIncludes: {
+      "/blog/[slug]": ["./content/posts/**/*"],
+      "/blog": ["./content/posts/**/*"],
+    },
+  },
   async headers() {
     return [
       {
