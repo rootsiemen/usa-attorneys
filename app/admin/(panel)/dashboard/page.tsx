@@ -37,8 +37,8 @@ async function getDashboardData() {
 export default async function DashboardPage() {
   const email = await requireAdmin();
   const data = await getDashboardData();
-  const { getAllPosts } = await import("@/lib/posts");
-  const postCount = getAllPosts().length;
+  const { getAllPostsMerged } = await import("@/lib/posts");
+  const postCount = (await getAllPostsMerged()).length;
 
   const cards = [
     { label: "Live Listings", value: data?.attorneys ?? "—" },

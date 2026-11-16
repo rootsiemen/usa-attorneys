@@ -100,6 +100,44 @@ export function getPost(slug: string): BlogPost | null {
   return parsePostFile(`${slug}.md`);
 }
 
+/**
+ * All posts — file-based plus admin-panel (database) posts, newest first.
+ * On a slug clash the database post wins. Falls back to file posts only
+ * when the database is not configured or unreachable, so public pages
+ * never break because of the DB.
+ */
+export async function getAllPostsMerged(): Promise<BlogPost[]> {
+  const filePosts = getAllPosts();
+  try {
+    const { isDbConfigured } = await import("@/lib/db");
+    if (!isDbConfigured()) return filePosts;
+    const { getDbBlogPosts } = await import("@/lib/blog-db");
+    const dbPosts = await getDbBlogPosts();
+    if (dbPosts.length === 0) return filePosts;
+    const dbSlugs = new Set(dbPosts.map((p) => p.slug));
+    return [...dbPosts, ...filePosts.filter((p) => !dbSlugs.has(p.slug))].sort(
+      (a, b) => (a.date < b.date ? 1 : -1)
+    );
+  } catch {
+    return filePosts;
+  }
+}
+
+/** Single post by slug — database first, then the file-based posts. */
+export async function getPostMerged(slug: string): Promise<BlogPost | null> {
+  try {
+    const { isDbConfigured } = await import("@/lib/db");
+    if (isDbConfigured()) {
+      const { getDbBlogPost } = await import("@/lib/blog-db");
+      const dbPost = await getDbBlogPost(slug);
+      if (dbPost) return dbPost;
+    }
+  } catch {
+    // fall through to the file-based post
+  }
+  return getPost(slug);
+}
+
 export function formatPostDate(iso: string): string {
   const d = new Date(iso + "T00:00:00");
   return d.toLocaleDateString("en-US", {

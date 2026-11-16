@@ -8,7 +8,12 @@ import {
   ALL_STATES,
   getPractice,
 } from "@/lib/data";
-import { getAllPostSlugs, getPost, getAllPosts, formatPostDate } from "@/lib/posts";
+import {
+  getAllPostSlugs,
+  getPostMerged,
+  getAllPostsMerged,
+  formatPostDate,
+} from "@/lib/posts";
 import { DevCta } from "@/components/DevCta";
 import { JsonLd } from "@/components/JsonLd";
 
@@ -19,12 +24,18 @@ export function generateStaticParams() {
   return getAllPostSlugs().map((slug) => ({ slug }));
 }
 
+// Admin-panel (database) articles are not known at build time; render
+// them on demand and refresh cached pages regularly so new articles
+// go live without a deploy.
+export const dynamicParams = true;
+export const revalidate = 60;
+
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }): Promise<Metadata> {
-  const post = getPost((await params).slug);
+  const post = await getPostMerged(params.slug);
   if (!post) return {};
   const url = `${SITE_URL}/blog/${post.slug}`;
   return {
@@ -53,9 +64,9 @@ export async function generateMetadata({
 export default async function BlogPostPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
-  const post = getPost((await params).slug);
+  const post = await getPostMerged(params.slug);
   if (!post) notFound();
   const url = `${SITE_URL}/blog/${post.slug}`;
   const practice = getPractice(post.practiceArea);
@@ -63,7 +74,8 @@ export default async function BlogPostPage({
     ? ALL_STATES.find((s) => s.slug === post.state)
     : undefined;
 
-  const related = getAllPosts()
+  const allPosts = await getAllPostsMerged();
+  const related = allPosts
     .filter(
       (p) => p.slug !== post.slug && p.practiceArea === post.practiceArea
     )
@@ -71,7 +83,7 @@ export default async function BlogPostPage({
   const relatedFallback =
     related.length > 0
       ? related
-      : getAllPosts().filter((p) => p.slug !== post.slug).slice(0, 3);
+      : allPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
 
   const breadcrumbLd = {
     "@context": "https://schema.org",

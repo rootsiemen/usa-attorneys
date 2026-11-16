@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getDb, isDbConfigured } from "@/lib/db";
 import { getAdminSession } from "@/lib/admin-auth";
+import { PRACTICE_AREAS, ALL_STATES } from "@/lib/data";
+import type { BlogPostInput } from "@/lib/blog-db";
 
 export const dynamic = "force-dynamic";
 
@@ -12,6 +14,60 @@ function unauthorized(): NextResponse {
 async function checkAuth(): Promise<boolean> {
   const email = await getAdminSession();
   return email !== null;
+}
+
+/** Validates + normalizes an admin blog-article payload. */
+function parseBlogPostInput(body: Record<string, unknown>): {
+  input?: BlogPostInput;
+  error?: string;
+} {
+  const title = String(body.title ?? "").trim().slice(0, 200);
+  const slug = String(body.slug ?? "").trim().toLowerCase().slice(0, 160);
+  const description = String(body.description ?? "").trim().slice(0, 300);
+  const date = String(body.date ?? "").trim();
+  const practiceArea = String(body.practiceArea ?? "").trim();
+  const state = String(body.state ?? "").trim();
+  const content = String(body.content ?? "");
+  const keywordsRaw = Array.isArray(body.keywords)
+    ? body.keywords
+    : String(body.keywords ?? "").split(",");
+  const keywords = keywordsRaw
+    .map((k) => String(k).trim().slice(0, 60))
+    .filter(Boolean)
+    .slice(0, 10);
+  if (!title) return { error: "Title is required" };
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
+    return {
+      error: "URL slug must be lowercase words separated by hyphens",
+    };
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    return { error: "Date must be YYYY-MM-DD" };
+  }
+  if (!PRACTICE_AREAS.some((p) => p.slug === practiceArea)) {
+    return { error: "Choose a valid practice area" };
+  }
+  if (state && !ALL_STATES.some((s) => s.slug === state)) {
+    return { error: "Invalid state" };
+  }
+  if (content.trim().length < 50) {
+    return { error: "Article body is too short (write at least a paragraph)" };
+  }
+  if (content.length > 200000) {
+    return { error: "Article body is too long" };
+  }
+  return {
+    input: {
+      slug,
+      title,
+      description,
+      date,
+      practiceArea,
+      state: state || undefined,
+      keywords,
+      content,
+    },
+  };
 }
 
 /**
@@ -106,6 +162,55 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
   }
   const action = String(body.action || "");
+  // Blog actions (create/update/delete article) are keyed by slug, not by
+  // numeric id, so they are handled before the id validation below.
+  if (
+    action === "create-post" ||
+    action === "update-post" ||
+    action === "delete-post"
+  ) {
+    try {
+      const {
+        createDbBlogPost,
+        updateDbBlogPost,
+        deleteDbBlogPost,
+        getDbBlogPost,
+      } = await import("@/lib/blog-db");
+      if (action === "delete-post") {
+        const slug = String(body.slug || "").trim().toLowerCase().slice(0, 160);
+        if (!slug) {
+          return NextResponse.json({ error: "slug is required" }, { status: 400 });
+        }
+        const removed = await deleteDbBlogPost(slug);
+        if (!removed) {
+          return NextResponse.json({ error: "Article not found" }, { status: 404 });
+        }
+        return NextResponse.json({ ok: true });
+      }
+      const { input, error } = parseBlogPostInput(body);
+      if (!input) {
+        return NextResponse.json({ error }, { status: 400 });
+      }
+      if (action === "create-post") {
+        if (await getDbBlogPost(input.slug)) {
+          return NextResponse.json(
+            { error: "An article with this URL slug already exists" },
+            { status: 409 }
+          );
+        }
+        await createDbBlogPost(input);
+        return NextResponse.json({ ok: true, slug: input.slug }, { status: 201 });
+      }
+      const updated = await updateDbBlogPost(input);
+      if (!updated) {
+        return NextResponse.json({ error: "Article not found" }, { status: 404 });
+      }
+      return NextResponse.json({ ok: true, slug: input.slug });
+    } catch (e) {
+      console.error("POST /api/admin blog action failed:", e);
+      return NextResponse.json({ error: "Database error" }, { status: 500 });
+    }
+  }
   const id = Number(body.id);
   if (!Number.isInteger(id) || id <= 0) {
     return NextResponse.json({ error: "Valid id is required" }, { status: 400 });

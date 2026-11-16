@@ -7,8 +7,10 @@ import {
 import {
   getAllAttorneySlugs,
 } from "@/lib/attorneys-db";
-import { getAllPosts } from "@/lib/posts";
+import { getAllPostsMerged } from "@/lib/posts";
 import { TOOLS } from "@/lib/tools";
+
+export const dynamic = "force-dynamic";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages = [
@@ -68,7 +70,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
   }
 
-  for (const post of getAllPosts()) {
+  for (const post of await getAllPostsMerged()) {
     urls.push({
       url: `${SITE_URL}/blog/${post.slug}`,
       lastModified: new Date(post.date),

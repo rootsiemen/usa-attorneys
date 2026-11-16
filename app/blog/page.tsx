@@ -1,8 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { SITE_URL, SITE_NAME } from "@/lib/data";
-import { getAllPosts, formatPostDate } from "@/lib/posts";
+import { getAllPostsMerged, formatPostDate } from "@/lib/posts";
 import { JsonLd } from "@/components/JsonLd";
+
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: `Legal Blog: Attorney Guides & FAQs`,
@@ -26,8 +28,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BlogIndexPage() {
-  const posts = getAllPosts();
+export default async function BlogIndexPage() {
+  const posts = await getAllPostsMerged();
   const url = `${SITE_URL}/blog`;
 
   const listLd = {
