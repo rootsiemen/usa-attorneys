@@ -9,10 +9,10 @@ export const dynamic = "force-dynamic";
 export default async function EditBlogPostPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
   await requireAdmin();
-  const initial = await getDbBlogPostInput(params.slug);
+  const initial = await getDbBlogPostInput((await params).slug);
   if (!initial) notFound();
   const today = new Date().toISOString().slice(0, 10);
   return (

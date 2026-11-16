@@ -33,9 +33,9 @@ export const revalidate = 60;
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const post = await getPostMerged(params.slug);
+  const post = await getPostMerged((await params).slug);
   if (!post) return {};
   const url = `${SITE_URL}/blog/${post.slug}`;
   return {
@@ -64,9 +64,9 @@ export async function generateMetadata({
 export default async function BlogPostPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const post = await getPostMerged(params.slug);
+  const post = await getPostMerged((await params).slug);
   if (!post) notFound();
   const url = `${SITE_URL}/blog/${post.slug}`;
   const practice = getPractice(post.practiceArea);
