@@ -1749,6 +1749,32 @@ export const STATES_2: StateInfo[] = [
       "Pennsylvania's trial courts are the Courts of Common Pleas in each county, fed by Magisterial District Courts that handle small claims and preliminary hearings. Appeals split in a way few states match: the Superior Court hears most appeals, while the separate Commonwealth Court handles cases involving state government, agencies, and local government disputes. The seven-justice Supreme Court of Pennsylvania tops the system. All judges — including Supreme Court justices — are elected in partisan elections, making Pennsylvania's judiciary one of the most electorally accountable in the nation.",
     notableLaws:
       "Pennsylvania's 2011 'fair share' reform ended full joint-and-several liability for most defendants: anyone found less than 60% at fault generally pays only their share. That makes fault allocation — not just total damages — the decisive fight, and you want a litigator who builds the allocation case early. Second, medical malpractice plaintiffs must file a certificate of merit from a qualified expert, a gatekeeping step that kills unprepared cases. Third, the Tincher decision replaced the old Azzarello test for product defects with a risk-utility standard — product-liability counsel must be current on which test the courts are actually applying.",
+    faqs: [
+      {
+        q: "How does Pennsylvania's three-tier DUI system work?",
+        a: "Pennsylvania grades DUI by BAC tier under 75 Pa.C.S. § 3802, and the tier drives the sentence. General impairment (0.08–0.099%): a first offense is an ungraded misdemeanor with a mandatory minimum of six months' probation, a $300 fine, and no license suspension. High rate (0.10–0.159%): 48 hours to six months in jail and a 12-month suspension. Highest rate (0.16%+, and all drug DUIs): 72 hours to six months and a 12-month suspension. Penalties scale with prior offenses inside a ten-year lookback.",
+      },
+      {
+        q: "What is ARD, and can it keep a first Pennsylvania DUI off my record?",
+        a: "ARD — Accelerated Rehabilitative Disposition — is Pennsylvania's first-offender diversion program. Admission is decided by the county District Attorney, not a judge. Complete the program (probation, highway safety school, and any treatment) and the charge is dismissed and can be expunged, with a license suspension measured in weeks instead of a year. One catch: an ARD admission still counts as a prior offense if you are arrested again within ten years.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Pennsylvania?",
+        a: "Refusing triggers a civil suspension from PennDOT under § 1547(b) — 12 months for a first refusal, 18 months for a second — imposed entirely separately from the criminal case, so it stands even if the DUI is dismissed. Your only challenge is a statutory appeal to the Court of Common Pleas filed within 30 days of the mailing date on PennDOT's notice (§ 1550). On the criminal side, a refusal is also graded at the highest BAC tier, so refusing is sentenced as if you had blown 0.16 or higher.",
+      },
+      {
+        q: "What is Pennsylvania's personal injury deadline, and what if I was partly at fault?",
+        a: "Two years from the date of injury (42 Pa.C.S. § 5524). Pennsylvania follows modified comparative negligence (75 Pa.C.S. § 7102): if your fault is greater than the defendant's, you recover nothing; at 50% or less, your award is reduced by your percentage of fault.",
+      },
+      {
+        q: "How much do Pennsylvania injury lawyers charge?",
+        a: "Pennsylvania injury contingency fees run 33–40%, and Philadelphia hourly rates ($300–$550) exceed Pittsburgh and rural rates. Pennsylvania requires contingency fee agreements in writing; fracking and energy lease work is often project-based rather than hourly. Ask how case costs are advanced before signing.",
+      },
+      {
+        q: "What is Pennsylvania's small claims limit, and how do I verify a lawyer?",
+        a: "Pennsylvania small claims are heard by Magisterial District Judges for claims up to $12,000, with informal procedures and a right to appeal to the Court of Common Pleas for a fresh trial. To verify a lawyer, use the Disciplinary Board of the Supreme Court of Pennsylvania's official online attorney directory, which shows every Pennsylvania attorney's license status and disciplinary history.",
+      },
+    ],
   },
   {
     name: "Rhode Island",
@@ -1768,6 +1794,32 @@ export const STATES_2: StateInfo[] = [
       "Rhode Island's Superior Court is the main trial court, with District Court, Family Court, and a Workers' Compensation Court handling specialized dockets, plus a Traffic Tribunal for driving offenses. The five-justice Supreme Court of Rhode Island is the final word. Here's the rarity: Rhode Island judges are appointed by the governor with legislative confirmation and serve for LIFE — like federal judges, a practice shared with only one or two other states. That tenure shapes the bench's independence. Practically, the Traffic Tribunal means even routine driving cases get a dedicated forum with its own procedures.",
     notableLaws:
       "Rhode Island's wrongful death statute restricts who can sue — generally only a spouse, children, or parents — which is narrower than many states and can end a claim before it starts; confirm standing in the first meeting. Second, traffic offenses go to the separate Traffic Tribunal rather than regular criminal court, so a DUI or license matter needs a lawyer who actually practices there. Third, the state's old housing stock keeps lead-paint liability active: Providence enforces strict lead-safe rules, and landlords face real exposure — tenant-injury cases here reward attorneys who know the inspection and enforcement regime.",
+    faqs: [
+      {
+        q: "Why does a Rhode Island DUI refusal go to a different court?",
+        a: "It splits into two cases in two different courts. The criminal DUI (§ 31-27-2) is prosecuted in District Court. But refusing the chemical test is a separate civil violation (§ 31-27-2.1) heard at the Rhode Island Traffic Tribunal in Cranston: a first refusal brings a $200–$500 fine, a $500 highway safety assessment, community service, and a license suspension of six months to one year. You have only 15 days from the notice of suspension to request the Traffic Tribunal hearing, and you can win the criminal case and still lose your license at the Tribunal — or the reverse.",
+      },
+      {
+        q: "How did Rhode Island's 2025 lookback change affect DUI penalties?",
+        a: "Rhode Island doubled its lookback period from five years to ten, effective July 1, 2025 — so DUIs and refusals from a decade ago now count as priors. A second DUI within ten years carries a mandatory minimum of 10 days in jail and a one- to two-year suspension; a third within ten years is a felony with one to five years in state prison. Repeat refusals escalate too: one to two years' suspension for a second refusal within ten years, and two to five years for a third.",
+      },
+      {
+        q: "What is Rhode Island's personal injury deadline, and what if I was mostly at fault?",
+        a: "Three years from the date of injury for most personal injury claims (§ 9-1-14). Rhode Island is a pure comparative negligence state (§ 9-20-4): your damages are reduced by your share of fault, but no percentage of fault bars recovery entirely.",
+      },
+      {
+        q: "How much do Rhode Island injury lawyers charge?",
+        a: "Rhode Island contingency fees run about one-third of the recovery, and hourly rates ($225–$375) are moderate for New England — the state's compact market keeps overhead, and fees, reasonable. Get the contingency agreement in writing and ask how litigation costs are handled.",
+      },
+      {
+        q: "What is Rhode Island's small claims limit, and how do I verify a lawyer?",
+        a: "Rhode Island small claims are heard in District Court for claims up to $2,500, with simplified procedures designed for self-represented litigants. To verify a lawyer, use the Rhode Island Judiciary's official attorney resources — Rhode Island attorneys are licensed by the Rhode Island Supreme Court, and the Rhode Island Bar Association's directory confirms membership and standing.",
+      },
+      {
+        q: "Can a Rhode Island DUI be expunged?",
+        a: "Generally no. A first-offense Rhode Island DUI can be expunged only after a five-year wait following completion of the sentence, and a second or subsequent DUI can never be expunged (§ 12-1.3-2). That permanence — together with the separate Traffic Tribunal refusal case — is why the first 15 days after an arrest matter so much in Rhode Island.",
+      },
+    ],
   },
   {
     name: "South Carolina",
@@ -1787,6 +1839,32 @@ export const STATES_2: StateInfo[] = [
       "South Carolina's Circuit Courts are the main trial courts, above magistrate and municipal courts, with Masters-in-Equity — a distinctive office — handling foreclosures and equity matters in many counties. Appeals go to the Court of Appeals, then the five-justice Supreme Court of South Carolina. The headline rarity: South Carolina judges are elected by the LEGISLATURE, not by voters — a practice shared only with Virginia. That makes judicial selection an insider process, and it means courthouse relationships and reputations carry unusual weight in how cases are perceived.",
     notableLaws:
       "South Carolina caps punitive damages (generally the greater of three times compensatory damages or $500,000), so skilled plaintiffs' lawyers build the compensatory case relentlessly — ask how a firm has maximized verdicts within the cap. Second, boating under the influence (BUI) is a serious criminal offense with civil overlap on the coast; Charleston's waterways generate cases that need counsel handling both tracks. Third, the eight-year statute of repose for construction defects sets a hard deadline that complements the state's busy construction-defect docket — if your building problem is aging, the clock may already be running.",
+    faqs: [
+      {
+        q: "Why does the police video matter so much in a South Carolina DUI?",
+        a: "South Carolina is one of the only states that requires DUI arrests to be video recorded (§ 56-5-2953). The recording must start when the blue lights come on and capture the field sobriety tests, the arrest and Miranda warnings, and the entire breath-test process, including the 20-minute pre-test observation period. If a required recording is missing without a statutory excuse — such as inoperable equipment documented by affidavit — the charge can be dismissed outright, which makes preserving and reviewing the video the first job in any South Carolina DUI defense.",
+      },
+      {
+        q: "When does a South Carolina DUI arrest suspend your license immediately?",
+        a: "Only if you refused or blew 0.15 or higher. Under § 56-5-2951, those two events trigger an immediate administrative suspension — six months for a first refusal, one month for a first 0.15+ result — while a cooperative driver at 0.08–0.14 faces no administrative suspension at all. You have 30 days from the notice of suspension to request a contested-case hearing with the Office of Motor Vehicle Hearings (the filing fee is $200 and cannot be waived) and to obtain a Temporary Alcohol License so you can keep driving meanwhile. Since May 2024, every DUI conviction also requires an ignition interlock.",
+      },
+      {
+        q: "What is South Carolina's personal injury deadline, and what if I was partly at fault?",
+        a: "Three years from the date of injury for most personal injury claims (§ 15-3-530). South Carolina follows modified comparative negligence (§ 15-38-15) with a 51% bar: you recover nothing if your fault is greater than the defendants' combined fault, and your award is reduced by your percentage below that line.",
+      },
+      {
+        q: "How much do South Carolina injury lawyers charge?",
+        a: "South Carolina injury contingency fees run about one-third of the recovery; Charleston and Greenville hourly rates ($225–$400) lead the state, and construction-defect cases are often contingency or hybrid. Ask for the written agreement and whether the percentage changes if the case is appealed.",
+      },
+      {
+        q: "What is South Carolina's small claims limit, and how do I verify a lawyer?",
+        a: "South Carolina small claims are heard in magistrates court for claims up to $7,500, with informal procedures and a jury trial available on demand in some cases. To verify a lawyer, use the South Carolina Bar's official member directory — it confirms admission and good standing for every South Carolina attorney.",
+      },
+      {
+        q: "Can a South Carolina DUI conviction be expunged?",
+        a: "No. A South Carolina DUI conviction can never be expunged, no matter how much time passes — unlike many other misdemeanors in the state. Combined with the mandatory ADSAP (Alcohol and Drug Safety Action Program) completion and three years of SR-22 insurance after a conviction, that permanence shapes how aggressively first offenses are defended.",
+      },
+    ],
   },
   {
     name: "South Dakota",
@@ -1806,6 +1884,32 @@ export const STATES_2: StateInfo[] = [
       "South Dakota has no intermediate appellate court, which shapes litigation strategy: appeals from the trial-level Circuit Courts (organized into seven judicial circuits covering the whole state) go directly to the South Dakota Supreme Court in Pierre. Magistrate Courts handle misdemeanors, small claims, and preliminary hearings. All judges are chosen in nonpartisan elections, so judicial philosophy can shift with the electorate — attorneys who practice regularly before a particular circuit's judges know their tendencies, which matters when your appeal has only one shot.",
     notableLaws:
       "Three South Dakota laws change who you should hire. First, the state has no personal or corporate income tax, so business and estate attorneys here structure deals differently than in tax-heavy states — confirm yours understands multi-state tax exposure. Second, voters legalized medical cannabis in 2020, creating ongoing employment and landlord-tenant disputes as workplaces adapt. Third, South Dakota's minimum wage ($11.20 in 2025, indexed annually) sits well above the federal floor, so wage-and-hour attorneys see real cases here — ask about their track record with state Department of Labor claims.",
+    faqs: [
+      {
+        q: "What is South Dakota's 'slight/gross' negligence rule?",
+        a: "South Dakota uses a rule found nowhere else in the country (SDCL 20-9-2): you can recover only if your negligence was 'slight' in comparison with the defendant's 'gross' negligence. There is no percentage formula — the comparison is qualitative — but South Dakota courts have treated fault around 30% as more than 'slight,' barring recovery entirely. It is far harsher than the percentage-based rules used in neighboring states.",
+      },
+      {
+        q: "What happens if I refuse a breath test in South Dakota?",
+        a: "Refusing a chemical test under South Dakota's implied consent law (SDCL 32-23-10) means a one-year license revocation, and the refusal is admissible as evidence against you at trial (SDCL 32-23-10.1). Unusually, you have a long window to fight it: the officer's notice serves as a temporary permit, and you have up to 120 days from the arrest to demand a hearing with the Department of Public Safety (SDCL 32-23-11) — the longest challenge window in the country.",
+      },
+      {
+        q: "What are the penalties for a first South Dakota DUI?",
+        a: "A first DUI (SDCL 32-23-1) is a Class 1 misdemeanor — up to a year in jail and a $2,000 fine — with a license revocation of at least 30 days on conviction; courts can grant a restricted permit for work and other essentials with proof of financial responsibility. A third DUI within ten years is a Class 6 felony. Courts also commonly impose the 24/7 Sobriety Program, requiring twice-daily breath tests or continuous alcohol monitoring.",
+      },
+      {
+        q: "What is South Dakota's personal injury deadline?",
+        a: "Three years from the date of injury for most personal injury claims (SDCL 15-2-14) — but the slight/gross fault rule, not the deadline, is what decides most contested South Dakota injury cases. Claims against the state and its subdivisions have additional notice requirements and shorter practical timelines.",
+      },
+      {
+        q: "How much do South Dakota lawyers charge?",
+        a: "South Dakota rates are modest: injury contingency around one-third of the recovery and hourly rates of $175–$300. Trust administration is often asset-based or hourly. Get the contingency agreement in writing, including how expert costs are advanced in a case that may turn entirely on the slight/gross fault comparison.",
+      },
+      {
+        q: "What is South Dakota's small claims limit, and how do I verify a lawyer?",
+        a: "South Dakota small claims court handles claims up to $12,000, with informal procedures in circuit court. To verify a lawyer, use the State Bar of South Dakota's official member directory, which lists every attorney licensed in South Dakota and their status.",
+      },
+    ],
   },
   {
     name: "Tennessee",
@@ -1825,6 +1929,32 @@ export const STATES_2: StateInfo[] = [
       "Tennessee's trial courts come in three flavors: Circuit Courts (civil jury trials), Chancery Courts (equity, business, and family matters without juries), and Criminal Courts — knowing which one hears your case type determines the procedure your lawyer must master. Appeals go to the Court of Appeals or Court of Criminal Appeals, then the five-justice Tennessee Supreme Court. Under the 'Tennessee Plan,' the governor appoints appellate judges from a nominating commission's list, and voters then decide in retention elections whether they stay.",
     notableLaws:
       "Tennessee's 2011 Civil Justice Act caps noneconomic damages at $750,000 ($1 million for catastrophic injuries like paralysis or disfigurement), so injury attorneys must value cases within those ceilings — ask how caps affect your specific claim. The 2013 workers' compensation overhaul moved disputes into the administrative Court of Workers' Compensation Claims, meaning comp cases need specialists in that forum, not general litigators. And with the Hall income tax fully repealed in 2021, Tennessee now has no wage income tax at all, which reshaped estate planning — make sure your planner updated strategies post-repeal.",
+    faqs: [
+      {
+        q: "Will I actually serve jail time for a first Tennessee DUI?",
+        a: "Almost always, yes. A first-offense DUI (§ 55-10-401) is a Class A misdemeanor with a mandatory minimum of 48 consecutive hours in jail that a judge cannot suspend or reduce — and the minimum jumps to seven consecutive days if your BAC was 0.20 or higher. The maximum is 11 months and 29 days, the fine is $350–$1,500, and your license is revoked for one year. Some counties let part of the sentence be served through supervised community service or litter-removal programs, but the 48-hour floor itself is non-negotiable.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Tennessee?",
+        a: "Refusing is a separate implied-consent violation (§ 55-10-406) with its own license revocation, decided on a civil track apart from the criminal case: one year for a first refusal — and under Tennessee's implied-consent overhaul effective January 1, 2026, a first refusal of a blood test now carries an 18-month suspension. You have only 10 days from the arrest to request an administrative hearing with the Department of Safety and Homeland Security to contest the revocation, and the refusal can be used as evidence in the DUI case.",
+      },
+      {
+        q: "What is Tennessee's personal injury deadline? It's very short.",
+        a: "One year from the date of injury (§ 28-3-104) — tied with Kentucky for the shortest in the nation, and it applies to most personal injury claims. Tennessee also caps non-economic damages in most civil cases at $750,000 ($1,000,000 for catastrophic injuries) under its 2011 tort reform, which shapes case valuation from the start.",
+      },
+      {
+        q: "Can I recover in Tennessee if I was partly at fault?",
+        a: "Only if your fault was less than the defendant's. Tennessee adopted modified comparative fault in McIntyre v. Balentine: a plaintiff whose fault equals or exceeds the defendant's (a 50% bar) recovers nothing, and below that line the award is reduced by your percentage of fault.",
+      },
+      {
+        q: "How much do Tennessee injury lawyers charge?",
+        a: "Tennessee injury contingency fees run about one-third of the recovery, with Nashville hourly rates ($250–$450) leading the state and entertainment contracts often flat-fee or percentage-based. Because Tennessee's damages caps affect case value, ask how the firm evaluates capped cases before signing the written fee agreement.",
+      },
+      {
+        q: "What is Tennessee's small claims limit, and how do I verify a lawyer?",
+        a: "Tennessee General Sessions Court handles civil claims up to $25,000 — one of the highest small-claims-style limits in the country — with informal procedures. To verify a lawyer, use the Tennessee Board of Professional Responsibility's official attorney search, which shows licensure status and any public discipline for every Tennessee attorney.",
+      },
+    ],
   },
   {
     name: "Texas",
@@ -1844,6 +1974,32 @@ export const STATES_2: StateInfo[] = [
       "Texas is one of only two states with bifurcated courts of last resort: the nine-justice Texas Supreme Court decides civil cases while the nine-judge Court of Criminal Appeals has the final word on criminal matters — so a criminal appeal and a civil appeal follow entirely different tracks at the top. Below them sit 14 intermediate Courts of Appeals and roughly 470 District Courts as the main trial courts. Every Texas judge, from JP courts to the high courts, is chosen in partisan elections, which is why judicial races here draw national money and attention.",
     notableLaws:
       "Texas tort reform shapes hiring more than in any other large state. The 2003 reforms cap noneconomic damages in medical malpractice cases ($250,000 per institution), so med-mal attorneys screen cases ruthlessly — ask about their recent med-mal verdicts, not just settlements. Texas also has America's strongest homestead protection: the homestead exemption has no dollar cap, which makes the state a magnet for asset-protection planning and changes bankruptcy strategy entirely. And Texas Rule of Civil Procedure 167 creates a 'loser pays' offer-of-settlement mechanism — rejecting a reasonable settlement offer can stick you with the other side's fees, so you want a litigator with real trial experience, not a settler.",
+    faqs: [
+      {
+        q: "What is the 15-day ALR deadline after a Texas DWI arrest?",
+        a: "You have 15 days from the day you are served the notice of suspension — usually the arrest day — to request an Administrative License Revocation (ALR) hearing with DPS; the hearing is held before a State Office of Administrative Hearings judge. Request it in time and the suspension is stayed until the judge rules. Miss it, and the suspension takes effect on the 40th day after notice. A first failed test means 90 days; a first refusal means 180 days — doubling to one and two years respectively with a prior alcohol-related contact in the past ten years.",
+      },
+      {
+        q: "Can I keep driving during a Texas DWI suspension?",
+        a: "Often, yes. An occupational driver's license is a court-issued restricted license that lets you drive for essential needs — work, school, medical care, and household duties — during a suspension, usually with set hours and, for longer suspensions, an ignition interlock. It is granted by a judge on petition, not by DPS, and it is the standard way Texas drivers stay legal on the road while an ALR or conviction suspension runs.",
+      },
+      {
+        q: "What is Texas's personal injury deadline, and what if I was partly at fault?",
+        a: "Two years from the date of injury for most personal injury claims (Tex. Civ. Prac. & Rem. Code § 16.003). Texas follows proportionate responsibility (§ 33.001) with a 51% bar: if your fault is greater than 50%, you recover nothing; below that, your award is reduced by your percentage, and each defendant generally pays only its own share.",
+      },
+      {
+        q: "How much do Texas injury lawyers charge?",
+        a: "Texas injury contingency fees run 33–40%, with tort-reform caps shaping which cases firms accept — medical malpractice non-economic damages are capped by statute, for example. Major-metro hourly rates run $300–$600. Texas requires contingency agreements in writing; confirm whether the percentage is calculated before or after expenses.",
+      },
+      {
+        q: "What is Texas's small claims limit, and how do I verify a lawyer?",
+        a: "Texas justice courts handle small claims up to $20,000, with simplified procedures designed for self-represented parties. To verify a lawyer, use the State Bar of Texas's official Find a Lawyer directory, which shows licensure status and any public discipline for every Texas attorney.",
+      },
+      {
+        q: "When is a Texas DWI a felony?",
+        a: "Yes — DWI with a child passenger under 15 is a state jail felony in Texas (Penal Code § 49.045), even for a first offense with no other aggravating facts. A third DWI is a third-degree felony, and intoxication manslaughter is a second-degree felony. The criminal charge (Penal Code § 49.04) and the ALR license case run on entirely separate tracks.",
+      },
+    ],
   },
   {
     name: "Utah",
@@ -1863,6 +2019,32 @@ export const STATES_2: StateInfo[] = [
       "Utah's trial courts are the District Courts, organized into eight judicial districts, with separate Juvenile Courts handling youth and family matters. Appeals go first to the Utah Court of Appeals and then to the five-justice Utah Supreme Court. Judges are chosen through merit selection — a nominating commission screens candidates and the governor appoints — followed by nonpartisan retention elections where voters decide whether each judge keeps the job. The system is designed to insulate judges from campaign politics, producing a notably stable and professional bench.",
     notableLaws:
       "Utah is a trust-deed state, meaning most home loans allow nonjudicial foreclosure — lenders can foreclose without going to court, so distressed homeowners need real estate attorneys who know how to challenge wrongful foreclosures administratively. Utah's liquor laws remain among the nation's strictest, with the state-run Department of Alcoholic Beverage Services controlling sales; hospitality businesses need licensing counsel who navigates that system regularly. And Utah's 2024 Minor Protection in Social Media Act imposes age-verification duties on platforms, creating new compliance work for the Silicon Slopes tech companies your attorney may advise or oppose.",
+    faqs: [
+      {
+        q: "What is Utah's BAC limit? It's lower than every other state.",
+        a: "0.05%. Utah was the first state in the nation to lower its per se limit from 0.08 to 0.05, effective December 30, 2018 (Utah Code § 41-6a-502), and it remains the only state at that level — a level many adults reach after roughly two drinks. Drivers under 21 are held to Utah's 'Not a Drop' law: any detectable alcohol can cost them their license.",
+      },
+      {
+        q: "How long do I have to save my license after a Utah DUI arrest?",
+        a: "You have 10 calendar days from the arrest to request a hearing with the Driver License Division, or the suspension is automatic. A first failed test means a 120-day suspension; refusing a test under Utah's implied consent law (§ 41-6a-520) means an 18-month suspension. The officer's citation doubles as a temporary permit, and the DLD case runs entirely separately from the criminal case.",
+      },
+      {
+        q: "What is Utah's 'interdicted person' alcohol-purchase ban?",
+        a: "Since January 1, 2026, an 'extreme DUI' conviction — a BAC of 0.16 or higher — makes the driver an 'interdicted person' under HB 437: their state ID is marked 'No Alcohol Sale,' and it becomes illegal for them to purchase alcohol in Utah. It is one of the most distinctive DUI consequences in the country, layered on top of the usual fines, jail exposure, and license sanctions.",
+      },
+      {
+        q: "What is Utah's personal injury deadline, and what if I was partly at fault?",
+        a: "Four years from the date of injury for most personal injury claims (§ 78B-2-307). Utah follows modified comparative negligence (§ 78B-5-818) with a 50% bar: if your fault is not less than the combined fault of the defendants, you recover nothing; below that line, your damages are reduced by your percentage.",
+      },
+      {
+        q: "How much do Utah injury lawyers charge?",
+        a: "Utah injury contingency fees run about one-third of the recovery; Salt Lake City hourly rates ($250–$425) are moderate for a growth market, and startup packages are commonly flat-fee. Utah requires contingency agreements in writing — ask how costs are advanced and whether the percentage changes after suit is filed.",
+      },
+      {
+        q: "What is Utah's small claims limit, and how do I verify a lawyer?",
+        a: "Utah small claims court handles claims up to $20,000 — the limit took effect January 1, 2025, and rises to $25,000 in 2030. To verify a lawyer, use the Utah State Bar's official member directory, which confirms licensure and standing for every Utah attorney.",
+      },
+    ],
   },
   {
     name: "Vermont",
@@ -1882,6 +2064,32 @@ export const STATES_2: StateInfo[] = [
       "Vermont has no intermediate appellate court: the Superior Court — uniquely organized into five divisions (Civil, Criminal, Family, Probate, and Environmental, the last being rare nationally) — tries cases, and appeals go straight to the five-justice Vermont Supreme Court. Judges are appointed by the governor and then face retention votes by the General Assembly, a legislative-retention model used by almost no other state. The Environmental Division's specialized judges hear Act 250 land-use appeals, so development disputes get genuinely expert adjudication.",
     notableLaws:
       "Vermont's Act 250 (1970) subjects most commercial development to a 10-criterion state review covering everything from water quality to scenic impact — land-use attorneys who have actually argued Act 250 cases are essential for any project, and the existing state page only scratches the surface. Vermont's 2018 data-broker law was the first in the nation to require data brokers to register with the state, creating privacy compliance work. And since retail cannabis sales began in 2022, a new licensing bar has emerged around the Cannabis Control Board's rules — ask prospective business attorneys how many license applications they have actually filed.",
+    faqs: [
+      {
+        q: "How does Vermont's civil license suspension work after a DUI?",
+        a: "Vermont runs the license case as a separate civil suspension proceeding (23 V.S.A. § 1205) in the Criminal Division of the Superior Court — not at the DMV. When the officer hands you the Notice of Intention to Suspend, you have just seven days to request a hearing; a preliminary hearing follows within 21 days of the offense and a final hearing within 42 days. Miss the seven days and the suspension takes effect automatically, win or lose in the criminal case.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Vermont?",
+        a: "A first failed test means a 90-day civil suspension; refusing the evidentiary breath test means six months (§§ 1202, 1205), and the refusal can be used as evidence of guilt at trial. A refusal can also be charged as a separate crime if you have a prior DUI or the stop involved a crash causing serious bodily injury or death. Many drivers can keep driving during the suspension on an ignition interlock restricted license (§ 1213).",
+      },
+      {
+        q: "What is Vermont's personal injury deadline, and what if I was partly at fault?",
+        a: "Three years from the date of injury for most personal injury claims (12 V.S.A. § 512). Vermont follows modified comparative negligence (12 V.S.A. § 1036) with a 51% bar: if your negligence is greater than the defendants' combined negligence, you recover nothing; otherwise your award is reduced by your percentage of fault.",
+      },
+      {
+        q: "How much do Vermont lawyers charge?",
+        a: "Vermont rates are moderate: injury contingency around one-third of the recovery and hourly rates of $200–$325. Land-use and Act 250 work is typically hourly given its regulatory complexity. Confirm the contingency terms in writing, including how costs are handled on smaller rural cases.",
+      },
+      {
+        q: "What is Vermont's small claims limit, and how do I verify a lawyer?",
+        a: "Vermont small claims court handles claims up to $5,000, with streamlined procedures and no jury. To verify a lawyer, use the Vermont Judiciary's attorney licensing records — Vermont attorneys are licensed through the Judiciary — or the Vermont Bar Association's member directory.",
+      },
+      {
+        q: "How fast do Vermont DUI license penalties escalate?",
+        a: "Quickly — and permanently. Vermont's civil suspension periods escalate steeply: 90 days for a first failed test (six months for a first refusal), 18 months for a second suspension, and lifetime revocation for a third. On the criminal side, a second DUI within the lookback period carries up to two years in prison and substantially higher fines. The seven-day hearing deadline after the first arrest is the moment to get counsel involved, before the escalation ladder starts.",
+      },
+    ],
   },
   {
     name: "Virginia",
@@ -1901,6 +2109,32 @@ export const STATES_2: StateInfo[] = [
       "Virginia's trial courts are the Circuit Courts (120 across the state, the courts of record with jury trials), backed by General District Courts for misdemeanors and smaller civil claims. A landmark 2021 reform gave the Court of Appeals of Virginia jurisdiction over appeals as of right in every case — before that, most criminal and civil appeals were discretionary, a quirk that made Virginia an outlier. At the top sits the seven-justice Supreme Court of Virginia. Uniquely, Virginia judges are elected by the General Assembly itself, not by voters or the governor.",
     notableLaws:
       "Virginia legalized marijuana possession in 2021 but the retail market never launched amid legislative deadlock, leaving a legal gray zone — criminal defense and employment attorneys navigate conflicting rules daily, so ask how current their advice is. The Virginia Consumer Data Protection Act (2023) gives residents opt-out rights over targeted advertising and profiling, generating new privacy work for tech-sector counsel. And Virginia is a right-to-work, at-will employment state with few exceptions, which means wrongful-termination cases face steep odds — employment lawyers here should be candid about that before taking your retainer.",
+    faqs: [
+      {
+        q: "How long is Virginia's administrative license suspension after a DUI arrest?",
+        a: "Your license is suspended administratively the moment you are arrested on a 0.08+ test or a refusal (§ 46.2-391.2) — but for a first offense that suspension is only seven days, with no driving at all and no restricted license available during it. A second offense means 60 days or until trial, and a third means suspension until trial. The clerk returns a first offender's license when the seven days expire; the longer consequences come from the refusal charge and any conviction, not the administrative suspension itself.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Virginia?",
+        a: "A first refusal is a civil offense carrying a one-year license suspension with no restricted license for the first 30 days (§ 18.2-268.3) — and that year runs on top of the seven-day administrative suspension. A second refusal within ten years is a criminal misdemeanor with a three-year revocation. A first-offense DUI conviction itself is a Class 1 misdemeanor with a minimum $250 fine, a one-year license loss, and typically completion of the Virginia Alcohol Safety Action Program (VASAP), with a restricted license available for essential driving.",
+      },
+      {
+        q: "What is Virginia's personal injury deadline, and what if I was slightly at fault?",
+        a: "Two years from the date of injury for most personal injury claims (§ 8.01-243). Virginia is one of the last pure contributory negligence jurisdictions: if you were even slightly at fault, you recover nothing at all. Virginia also has no general discovery-rule softness for adults — the clock usually runs from the injury, not from when you understood its full extent.",
+      },
+      {
+        q: "How much do Virginia injury lawyers charge?",
+        a: "Virginia injury contingency fees run about one-third of the recovery, with the contributory negligence risk heavily influencing which cases firms will take; Northern Virginia hourly rates ($350–$550) reflect DC-metro costs, and security-clearance work is typically flat-fee. Expect careful fault screening before any firm commits to a contingency case.",
+      },
+      {
+        q: "What is Virginia's small claims limit, and how do I verify a lawyer?",
+        a: "Virginia's small claims court, a division of general district court, handles claims up to $5,000 with informal procedures and no attorneys required. To verify a lawyer, use the Virginia State Bar's official member directory — every Virginia lawyer must be a State Bar member, and the directory shows admission status and any public discipline.",
+      },
+      {
+        q: "Why do lawyers call Virginia defense-friendly for injury cases?",
+        a: "Two doctrines combine to make Virginia tough for plaintiffs. First, contributory negligence: any fault of your own bars recovery completely, softened only by the narrow last-clear-chance doctrine. Second, Virginia follows the collateral source rule in the plaintiff's favor on damages — the defendant gets no credit for your insurance payments — but there is no cap on compensatory damages in ordinary injury cases to balance the fault rule (medical malpractice has a separate statutory total cap). Early, meticulous fault investigation matters more in Virginia than in almost any other state.",
+      },
+    ],
   },
   {
     name: "Washington",
