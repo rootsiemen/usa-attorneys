@@ -86,6 +86,10 @@ Run the Florida numbers on a $1,000,000 settlement: 30% of $250,000 is $75,000, 
 
 If your state is not on this list, there is no statutory cap, and the fee is whatever the market and your negotiation produce. That is when the 33%-vs-40% question matters most. State directory pages like [Pennsylvania attorneys](/attorneys/pennsylvania) can help you find firms that publish their fee structure upfront — the ones that do are usually the ones worth calling first.
 
+## If the Doctor Was a Federal Employee: The FTCA Fee Caps
+
+One class of cases ignores the state table entirely. If your doctor was a federal employee — treating you at a VA hospital or a military facility — your claim falls under the **Federal Tort Claims Act**, and federal law sets the lawyer's fee: **20% of any award resolved at the administrative level before a lawsuit is filed, and 25% of any judgment or litigation settlement** (28 U.S.C. § 2678). Those caps are far tighter than any state's, and an attorney who charges more than the cap faces criminal penalties. Federal claims also run through an administrative claim process before any lawsuit, so the fee stage you are in — administrative or litigated — is the first thing to confirm in the fee agreement.
+
 ## Case Costs Beyond the Attorney Fee: Where the Real Money Goes
 
 ![Gavel and law books on a desk](https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1200&q=80&auto=format&fit=crop)
@@ -162,6 +166,10 @@ Yes — that is what contingency is for. You pay $0 upfront, the firm advances t
 ### Does the lawyer's fee come out before or after medical bills are paid?
 
 The fee comes out of the gross recovery first in most agreements; medical liens are then negotiated and paid from your share. Ask the firm to negotiate liens down — a $25,000 lien reduction goes straight into your pocket, and it is often the easiest money in the whole case.
+
+### How long do I have to file a medical malpractice claim?
+
+Every state sets a statute of limitations for malpractice claims, typically **one to three years**. The clock usually starts on the date of the negligent treatment, but most states apply a **discovery rule**: the period does not begin until you knew — or reasonably should have known — that you were injured and that the injury was potentially caused by negligence. Many states also impose a statute of repose, an outer cutoff measured from the treatment date that can bar a claim even if the injury was discovered late, and special rules often extend deadlines for minors and incapacitated patients. Because a missed deadline ends the case no matter how strong it is, pinning down your filing deadline should be the first conversation you have with any lawyer — before the fee conversation.
 
 ## The Bottom Line
 
