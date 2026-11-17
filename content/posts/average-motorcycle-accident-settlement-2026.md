@@ -107,6 +107,14 @@ For the broader accident playbook, see our [car accident checklist](/blog/what-t
 
 ![Rider in full protective gear on a motorcycle](https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=1200&q=80&auto=format&fit=crop)
 
+## The Filing Deadline: How Long You Have to Sue
+
+Every number in this guide is worthless if the claim is filed late. Each state sets its own statute of limitations for motorcycle accident lawsuits, and in most states the window is **two to three years from the date of the crash**. A few states allow more time, and a few — including some that give only **one year** — allow far less. The clock starts on the day of the crash, not the day you finish treatment and not the day negotiations with the insurer break down.
+
+Three traps catch riders out. First, negotiating with the insurance company does **not** pause the deadline — a claim can be actively under discussion and still expire. Second, claims that involve a government entity — a city bus, a road crew, a defectively designed intersection — usually require a formal notice of claim far earlier, often within **90 days to six months**, before any lawsuit can be filed at all. Third, the deadline for the injury claim and the deadline for a related wrongful death claim (if a rider dies) can be different clocks in the same state.
+
+The practical rule: treat the shortest plausible deadline as your deadline until a lawyer in your state confirms the real one. Filing suit before the deadline also changes the negotiation itself — it is usually the moment an insurer stops pricing the claim as one that might simply go away.
+
 ## Frequently Asked Questions
 
 **What is the average motorcycle accident settlement?**
