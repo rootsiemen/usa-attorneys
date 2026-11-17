@@ -127,4 +127,10 @@ Most states prohibit firing or punishing a worker for filing or appealing a work
 **How much does it cost to appeal a denied claim?**
 Filing the appeal itself is usually free or a nominal fee. A workers' comp lawyer works on contingency, so there is typically no upfront cost, and you pay nothing if the appeal fails. The real cost of appealing is time: 3 to 12 months from filing to decision.
 
+**What if I already missed the appeal deadline?**
+Your options narrow sharply. Missing the deadline usually forfeits the right to contest the denial, and the decision can become permanent. A few states allow a narrow good-cause exception, but it is an exception, not a plan — contact your state workers' comp board or an attorney immediately if your deadline has passed, because the sooner you act, the more room you have.
+
+**Can I get other benefits while my appeal is pending?**
+Possibly. While the appeal runs, you may qualify for short-term disability, FMLA leave, or unemployment benefits, depending on your employer, your state, and whether you are able to work in some capacity. File for whatever you qualify for — an appeal that takes 3 to 12 months is much easier to survive with some income bridge in place, and using your health insurance for treatment in the meantime keeps the medical record your appeal depends on intact.
+
 A denied claim is a setback with a clock attached to it, not a verdict. The workers who get paid after a denial are not the ones with the worst injuries — they are the ones who read the letter the day it arrived, got the doctor's letter, and filed before the deadline. Do those three things, and the math moves to your side.
