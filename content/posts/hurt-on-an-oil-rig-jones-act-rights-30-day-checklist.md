@@ -101,6 +101,32 @@ That is why the first 30 days matter more than the next three years. The claim i
 
 ![Waves breaking at sea — the first 30 days after an offshore injury decide the claim](https://images.unsplash.com/photo-1439405326854-014607f694d7?w=1200&q=80&auto=format&fit=crop)
 
+## Frequently Asked Questions
+
+### Can I sue my employer directly if I was injured on an oil rig?
+
+Yes, if you qualify as a Jones Act seaman. Under the Jones Act (46 U.S.C. § 30104), qualified seamen can bring a civil lawsuit directly against their employer for negligence, with a right to a jury trial. The standard of proof is lower than in most personal injury cases: you only need to show the employer's negligence played any part, however slight, in causing your injury. Workers on fixed platforms or land rigs generally cannot sue their employer, but they receive compensation benefits and keep the right to sue negligent third parties.
+
+### Does the Jones Act apply to all oil rig workers?
+
+No. It covers workers who qualify as seamen — those who spend at least 30 percent of their working time in service of a vessel in navigation and whose duties contribute to the vessel's function or mission. Workers on mobile rigs like jack-up rigs, drillships, and semisubmersibles are more likely to qualify. Workers on fixed platforms permanently attached to the seabed typically fall under the Outer Continental Shelf Lands Act (OCSLA), which extends LHWCA compensation to the Outer Continental Shelf, instead.
+
+### What is "maintenance and cure" and am I entitled to it?
+
+Maintenance and cure is a right under general maritime law that requires your employer to pay your basic daily living expenses (maintenance — typically $30 to $40 per day as paid by operators) and cover all necessary medical treatment (cure) while you recover, until you reach maximum medical improvement. You do not have to prove your employer was at fault to receive it, and accepting it does not waive your right to sue for negligence or unseaworthiness.
+
+### Can I sue if I signed a waiver or arbitration agreement?
+
+Offshore employment contracts often contain arbitration clauses. They can change where your claim is heard — arbitration instead of court — but they generally do not eliminate your Jones Act rights. Some employer-drafted waivers are unenforceable. Have the agreement reviewed before assuming it bars your claim, and do not sign any new release after an injury without legal advice.
+
+### What if I was hurt during transportation to the rig?
+
+Crew-change transportation — crew boats and helicopters — is a gray zone. Injuries during employer-provided transport to and from the vessel are often covered, but the analysis depends on whether you were already in the service of the vessel. Report the injury the same way you would an injury on the rig itself: in writing, the same day, with witness names recorded.
+
+### Does the Jones Act cover foreign workers on United States rigs?
+
+It can. Jones Act coverage depends on the worker's connection to a United States vessel and United States operations, not citizenship alone. Foreign seamen on United States-flagged or United States-operated vessels may qualify.
+
 ## When to get a lawyer — and what it costs
 
 Talk to a maritime attorney if any of these are true: the injury will keep you off work for more than a few weeks; the company is disputing how the accident happened; maintenance payments are late, short, or stopped; you were asked to sign anything; or you work on a fixed platform and were told you have "no claim." Almost all maritime injury lawyers work on contingency — typically around one-third of the recovery, paid only if you win — and the first consultation is usually free. There is no upfront cost to finding out what your case is worth, and there is a real cost to finding out too late.
