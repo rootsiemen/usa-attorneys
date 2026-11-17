@@ -63,6 +63,19 @@ Third, liability is usually clearer. A driver who hits a pedestrian in a marked 
 
 The one systematic discount in pedestrian cases is the "pedestrian bias" — the quiet assumption, in adjuster files and sometimes in jury rooms, that the person on foot must have done something wrong. It shows up as a fault percentage shaved off the top of every offer. The antidote is evidence gathered early, which is exactly what the first-5-steps section below is for.
 
+## Why the Driver's Speed Changes the Whole Case
+
+One variable predicts pedestrian injury severity better than any other: how fast the car was moving. The relationship is not gradual — it is a cliff. Research from the AAA Foundation for Traffic Safety, summarized in SetCalc's pedestrian settlement analysis, puts a pedestrian's risk of death at roughly **10% when struck at 23 mph, 25% at 32 mph, 50% at 42 mph, and 75% at 50 mph**:
+
+| Vehicle speed at impact | Pedestrian death risk | Typical injury pattern |
+| --- | --- | --- |
+| 23 mph | ~10% | Soft tissue damage, single fractures |
+| 32 mph | ~25% | Broken bones, moderate brain injury, internal injuries |
+| 42 mph | ~50% | Multiple fractures, severe brain injury, spinal injuries |
+| 50 mph | ~75% | Catastrophic injury or death |
+
+That is why speed evidence matters so much in these claims. A driver traveling 42 mph in a 25 mph zone was not just careless — the physics made serious injury the likely outcome, and juries understand that instantly. Speed can be proved after the fact from skid marks and braking distance, the vehicle's event data recorder (the "black box" most modern cars carry), dashcam and traffic-camera footage, and accident reconstruction. The catch is that black-box data can be overwritten if the car is driven or repaired, so a preservation letter demanding the vehicle and its data be kept intact should go out within days of the crash.
+
 ## Your First 5 Steps After Being Hit as a Pedestrian
 
 What you do in the first hours decides how much of the settlement math above you actually collect. These five steps are in order for a reason.
@@ -114,6 +127,28 @@ Five factors do most of the damage to pedestrian settlements, and all five are m
 **Low policy limits.** The most common reason a strong case settles for less than it is worth. The fix is looking beyond the driver's policy: your own uninsured/underinsured motorist coverage, the driver's employer if they were working, a bar under a dram shop law if the driver was overserved, or the city if the crosswalk itself was defectively designed.
 
 **The recorded statement.** Already covered above, but it deserves repeating: the single most expensive sentence in a pedestrian case is usually the one the victim says to the other driver's adjuster in the first week, before they know the full extent of their injuries.
+
+## Frequently Asked Questions
+
+### What is the average pedestrian accident settlement?
+
+The reported national average is about $67,511, with a median closer to $30,000. The typical claim — a fracture, a surgery, months of physical therapy — lands in the $50,000 to $150,000 band. Minor injuries settle for $10,000 to $75,000, while catastrophic injuries such as brain or spinal cord damage regularly exceed $250,000 and can pass $1 million, depending on the insurance available.
+
+### Can I still recover if I was partly at fault — for example, crossing outside a crosswalk?
+
+Usually, yes. In pure comparative negligence states your settlement is reduced by your percentage of fault but never eliminated; in modified comparative negligence states you recover as long as you are 50% or less at fault. Only the contributory negligence states — Alabama, Maryland, North Carolina, Virginia, and Washington D.C. — bar recovery entirely if you were even 1% at fault. And even outside a crosswalk, the driver still owed you a duty to watch for pedestrians.
+
+### Who pays if the driver who hit me has no insurance — or fled the scene?
+
+Your own uninsured/underinsured motorist (UM/UIM) coverage is the usual answer, and it applies to hit-and-run crashes as well. In no-fault states, your personal injury protection (PIP) can also pay initial medical bills even though you were on foot. This is why the coverage search should never stop at the driver's policy — your own policy, the driver's employer, and other third parties can all be sources of payment.
+
+### How long does a pedestrian accident settlement take?
+
+Minor-injury claims commonly settle in 3 to 6 months. Moderate cases involving a fracture or surgery typically take 6 to 18 months, because settling before maximum medical improvement risks leaving a future operation unpaid. Serious and catastrophic cases run 18 months to 3 years, and cases that go to trial take longer. The hard deadline behind all of it is your state's statute of limitations — two years in most states, and as short as 90 days for the notice required in claims against a government entity.
+
+### Is a pedestrian accident settlement taxable?
+
+Usually not. Compensation for physical injuries is generally excluded from federal income tax under Internal Revenue Code Section 104(a)(2). Amounts tied to punitive damages or interest can be taxable, so the breakdown in the settlement agreement matters — confirm it with a tax professional before you sign.
 
 ## The Bottom Line on Pedestrian Accident Settlements
 
