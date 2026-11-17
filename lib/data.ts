@@ -408,6 +408,32 @@ export const STATES: StateInfo[] = [
       "Florida's trial courts are the Circuit Courts — 20 judicial circuits covering felonies, major civil cases, family law, and probate — with County Courts beneath them for misdemeanors, small claims, and traffic. Appeals go to six District Courts of Appeal (the Sixth District was created in 2023), then the Supreme Court of Florida. Circuit and county judges are elected in nonpartisan elections; appellate judges are merit-appointed and face retention votes. Florida's dockets are among the nation's busiest, and hurricane seasons periodically flood civil courts with insurance cases — ask your lawyer about current backlogs.",
     notableLaws:
       "Florida's 2023 tort reform rewrote the rules: the state switched from pure to modified comparative negligence (you now recover nothing if more than 50% at fault) and cut the negligence filing deadline from four years to two — if your accident predates the change, which rule applies is itself a legal question. The reform also ended one-way attorney's fees against insurers, so policyholders now often pay their own lawyers in coverage fights. Third, Florida's dangerous instrumentality doctrine makes vehicle owners liable when someone else drives their car with permission — a rule found almost nowhere else that reshapes every auto case.",
+    faqs: [
+      {
+        q: "How long do I have to save my license after a Florida DUI arrest?",
+        a: "Only 10 days. After a Florida DUI arrest (Fla. Stat. § 316.193), you have 10 days from the arrest to request a formal review hearing with the Department of Highway Safety and Motor Vehicles (DHSMV) to challenge the administrative suspension. The officer's citation serves as a temporary permit for those 10 days — miss the deadline and the suspension (180 days for a first failed test, one year for a first refusal) takes effect with no hearing.",
+      },
+      {
+        q: "Can refusing a breath test in Florida be a crime by itself?",
+        a: "Yes — on a second refusal. Under Fla. Stat. § 316.1939, refusing a lawful breath, blood, or urine test after a prior refusal is a first-degree misdemeanor of its own, on top of the one-year administrative license suspension. A first refusal is not criminal, but it still suspends your license for a year and the refusal can be used as evidence in the DUI case.",
+      },
+      {
+        q: "What is Florida's deadline to file a personal injury lawsuit?",
+        a: "Two years for most negligence claims. Florida's 2023 tort reform (HB 837) shortened the general negligence statute of limitations from four years to two for claims accruing after March 24, 2023 (Fla. Stat. § 95.11). Older claims may still carry the previous four-year deadline, and wrongful death claims are two years — the accrual date matters, so confirm which period applies to your case early.",
+      },
+      {
+        q: "Can I recover damages in Florida if I was partly at fault?",
+        a: "Only if you were 50% or less at fault. The same 2023 reform replaced Florida's pure comparative fault system with a modified rule (Fla. Stat. § 768.81): a plaintiff found more than 50% at fault recovers nothing. Below that threshold, your award is reduced by your share of fault. Medical malpractice cases were carved out of the change.",
+      },
+      {
+        q: "How much do Florida personal injury lawyers charge?",
+        a: "Florida regulates injury contingency fees in the Rules Regulating The Florida Bar (Rule 4-1.5(f)): the standard maximum is 33⅓% of a recovery up to $1 million if the case settles before a lawsuit is filed or an answer is due, and 40% once litigation is underway, with different percentages on amounts above $1 million. The fee agreement must be in writing, and you should receive a closing statement showing exactly how the recovery was divided.",
+      },
+      {
+        q: "What is the small claims limit in Florida, and how do I verify a Florida lawyer?",
+        a: "Florida small claims court handles cases up to $8,000, not counting court costs, interest, and attorney's fees. To verify a lawyer, use The Florida Bar's official Find a Lawyer search — every attorney licensed in Florida must be a Bar member, and the directory shows license status and any public discipline.",
+      },
+    ],
   },
   {
     name: "Georgia",
@@ -427,6 +453,32 @@ export const STATES: StateInfo[] = [
       "Georgia Superior Courts — organized into 49 judicial circuits — are the trial courts for felonies, major civil cases, divorces, and land disputes. Below them, State Courts (in counties that have them), Probate Courts, and Magistrate Courts handle misdemeanors, small claims, and preliminary matters. Appeals go to the Court of Appeals of Georgia, then the Supreme Court of Georgia. Judges are chosen in nonpartisan elections, and Georgia's courts are known for moving cases relatively quickly. Because superior and state court jurisdiction overlaps in confusing ways, confirm your lawyer files in the right court — it affects everything downstream.",
     notableLaws:
       "Georgia caps punitive damages at $250,000 in most cases — a critical number your injury lawyer must factor into settlement strategy from day one. Second, claims against the government require ante litem notice: as little as six months for cities and counties, twelve for the state — miss the deadline and your case dies regardless of merit, so mention any government defendant in your first meeting. Third, Georgia's offer-of-settlement statute can shift attorney's fees to whichever side unreasonably rejects a fair offer, which means settlement negotiations carry real financial stakes beyond the headline number.",
+    faqs: [
+      {
+        q: "What is the 30-day deadline after a Georgia DUI arrest?",
+        a: "When the officer serves you with DDS Form 1205 (the notice of intent to suspend), you have 30 calendar days to act. You can appeal the Administrative License Suspension by filing a written request with the Department of Driver Services with the $150 filing fee — the hearing is then held before the Office of State Administrative Hearings — or, if eligible, elect an ignition interlock limited permit instead. Choosing the interlock permit waives the appeal, and missing the 30 days waives both options.",
+      },
+      {
+        q: "How long is the license suspension if I refuse testing in Georgia?",
+        a: "A refusal triggers a one-year Administrative License Suspension with no limited permit available for the refusal itself. A failed test (0.08 or higher) brings a shorter suspension with the possibility of a limited driving permit. Either way, the ALS case is separate from the criminal DUI charge — you can win one and lose the other.",
+      },
+      {
+        q: "What is Georgia's statute of limitations for personal injury?",
+        a: "Two years. O.C.G.A. § 9-3-33 gives you two years from the date of the injury to file a personal injury lawsuit (four years for property damage). Claims against a city, county, or the state have much shorter ante litem notice deadlines — as short as six months for municipalities — so government defendants change the timeline dramatically.",
+      },
+      {
+        q: "Can I recover in Georgia if I was partly at fault for the accident?",
+        a: "Yes, if you were less than 50% at fault. Georgia follows a modified comparative negligence rule (O.C.G.A. § 51-12-33): your damages are reduced by your percentage of fault, but if you are found 50% or more responsible, you recover nothing. Juries assign the percentages, which makes fault evidence central to Georgia injury cases.",
+      },
+      {
+        q: "How much does a Georgia injury lawyer cost?",
+        a: "Most Georgia personal injury lawyers work on contingency — commonly around one-third of the recovery if the case settles before suit and a higher share, often 40%, if it goes to trial — and charge nothing upfront. Georgia DUI and criminal defense is usually a flat fee or hourly. Always get the fee agreement in writing and ask which case costs (experts, filing fees, records) you may owe on top of the percentage.",
+      },
+      {
+        q: "What is the small claims limit in Georgia, and how do I check a lawyer's license?",
+        a: "Georgia magistrate court — the state's small claims court — handles civil claims up to $15,000, and filing is designed to be done without a lawyer. To verify an attorney, search the State Bar of Georgia's official membership directory, which confirms whether a lawyer is licensed and in good standing.",
+      },
+    ],
   },
   {
     name: "Hawaii",
@@ -446,6 +498,32 @@ export const STATES: StateInfo[] = [
       "Hawaii's trial courts are the Circuit Courts, organized into four circuits covering Oahu, Maui, Hawaii Island, and Kauai. Above them sits the Intermediate Court of Appeals, and at the top the Supreme Court of Hawaii. Unusually, Hawaii judges are not elected — they are appointed through merit selection by a Judicial Selection Commission and confirmed by the state senate for set terms. Specialized courts include the Land Court, which handles registered (Torrens) land titles, plus a Tax Appeal Court — systems most mainland attorneys never encounter in practice.",
     notableLaws:
       "First, Hawaii's condominium statute (HRS Chapter 514B) governs daily life for a huge share of residents — HOA fee disputes, special assessments, and board governance are the state's most common civil conflicts, so look for attorneys with specific 514B experience. Second, Hawaii recognizes the assumption of risk for outdoor recreational activities by statute, which shapes how tour-operator and ocean-injury cases are litigated. Third, the state's Land Court Torrens system means some property has state-guaranteed title — a concept foreign to mainland practice that demands a locally experienced real estate attorney.",
+    faqs: [
+      {
+        q: "What is an OVUII in Hawaii?",
+        a: "Hawaii doesn't call it a DUI — the offense is OVUII, Operating a Vehicle Under the Influence of an Intoxicant, under Hawaii Revised Statutes § 291E-61. It covers alcohol, drugs, or any combination that impairs you, and a BAC of 0.08% or more is enough on its own. A first offense is a petty misdemeanor carrying 48 hours to 5 days in jail, a $250–$1,000 fine, and license revocation of at least one year.",
+      },
+      {
+        q: "How fast do I have to act to save my Hawaii license after an OVUII arrest?",
+        a: "Faster than almost anywhere else. Alongside the criminal case, the Administrative Driver's License Revocation Office (ADLRO) runs its own revocation. To get the expedited hearing you must request it within 6 calendar days of the revocation review decision, and after 60 days from the Notice of Administrative Revocation no hearing is available at all. The notice the officer hands you doubles as a 30-day temporary permit — treat it as a countdown, not paperwork.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Hawaii?",
+        a: "Refusal triggers an automatic license revocation through the ADLRO — one year for a first refusal — separate from the criminal OVUII case. Even if the criminal charge is later dismissed or reduced, the administrative revocation can stand on its own because the two proceedings are independent.",
+      },
+      {
+        q: "What is Hawaii's deadline to sue for personal injury, and what if I was partly at fault?",
+        a: "Hawaii gives you two years from the injury to file most personal injury claims (HRS § 657-7). Hawaii uses a modified comparative fault rule (HRS § 663-31): you can recover as long as your fault is not greater than the defendant's — effectively a 51% bar — and your award is reduced by your share of fault.",
+      },
+      {
+        q: "How much do Hawaii lawyers charge for injury cases?",
+        a: "Hawaii personal injury attorneys typically work on a contingency fee — generally one-third of the recovery, sometimes rising if the case is tried — with no upfront payment, while DUI/OVUII defense is normally a flat fee based on the offense level and whether the ADLRO hearing is contested. Ask for the fee agreement in writing and confirm whether litigation costs are deducted before or after the percentage is calculated.",
+      },
+      {
+        q: "What is Hawaii's small claims limit, and how do I verify a Hawaii lawyer?",
+        a: "Hawaii small claims court (a division of district court) handles claims up to $5,000; claims involving security deposits have no dollar cap. To check a lawyer, use the Hawaii State Bar Association's member search and the Judiciary's records — attorneys must be licensed and in good standing to practice in Hawaii.",
+      },
+    ],
   },
   {
     name: "Idaho",
@@ -465,6 +543,32 @@ export const STATES: StateInfo[] = [
       "Idaho's trial courts are the District Courts, divided into seven judicial districts, each with a Magistrate Division handling misdemeanors, small claims, and preliminary matters. Appeals go to the Idaho Court of Appeals and then the Idaho Supreme Court. Idaho judges are chosen in nonpartisan elections rather than through merit commissions, which means judicial philosophy can shift with election cycles. The system's reputation for moving dockets efficiently is real — criminal and civil calendars turn over faster than in many neighboring states.",
     notableLaws:
       "First, Idaho is one of only nine community property states, which fundamentally changes divorce and estate planning — property acquired during marriage belongs equally to both spouses regardless of whose name is on it, so hire attorneys fluent in community property rules. Second, Idaho's open range law means livestock may legally roam in designated areas, and drivers who hit cattle there often have no claim — a shock to newcomers involved in rural collisions. Third, Idaho enforces a statutory cap on noneconomic damages in personal injury cases, which directly limits what pain-and-suffering awards are possible.",
+    faqs: [
+      {
+        q: "Is refusing a breath test in Idaho a crime?",
+        a: "No — Idaho treats refusal as a civil matter, not a crime. Under Idaho Code § 18-8002, a first refusal brings a $250 civil penalty and a one-year license suspension (two years for a second refusal within ten years), followed by a year of ignition interlock. Officers can still seek a warrant for a blood draw, so refusal rarely ends the investigation.",
+      },
+      {
+        q: "How long do I have to challenge an Idaho DUI license suspension?",
+        a: "Seven days — one of the shortest windows in the country. Under Idaho Code § 18-8002A, you have 7 days from service of the Notice of Suspension to send the Idaho Transportation Department a written hearing request. A failed test means a 90-day administrative suspension (first 30 days absolute); miss the 7-day window and the suspension becomes automatic, win or lose in criminal court.",
+      },
+      {
+        q: "What is Idaho's statute of limitations for personal injury claims?",
+        a: "Two years from the date of the injury under Idaho Code § 5-219. Claims against government entities are much faster: a notice of claim must be filed within 180 days under the Idaho Tort Claims Act. Wrongful death claims also carry a two-year deadline.",
+      },
+      {
+        q: "Can I recover damages in Idaho if I was partly at fault?",
+        a: "Yes, if your fault is less than the defendant's. Idaho follows a modified comparative negligence rule (Idaho Code § 6-801) — often described as a 50% bar: a plaintiff whose negligence is as great as or greater than the defendant's recovers nothing, and any award is reduced by your percentage of fault.",
+      },
+      {
+        q: "How much does an Idaho injury lawyer charge?",
+        a: "Idaho personal injury lawyers almost always work on contingency — typically one-third of the settlement, sometimes more if the case goes through trial — with no upfront cost to the client. DUI defense in Idaho is generally a flat fee for a first misdemeanor offense. Get the agreement in writing and ask how case costs are handled if the claim doesn't succeed.",
+      },
+      {
+        q: "What is the small claims limit in Idaho, and how do I verify a lawyer's license?",
+        a: "Idaho small claims court handles cases up to $5,000, filed in the magistrate division of the district court in the county where the defendant lives or the claim arose. To verify an attorney, use the Idaho State Bar's official licensing lookup, which shows whether a lawyer is admitted and in good standing.",
+      },
+    ],
   },
   {
     name: "Illinois",
@@ -484,6 +588,32 @@ export const STATES: StateInfo[] = [
       "Illinois trial courts are the Circuit Courts — 25 circuits statewide, with Cook County operating as the single largest unified court system in the country. Appeals go to the Illinois Appellate Court (five districts) and then the Supreme Court of Illinois (seven justices). Circuit judges are chosen in partisan elections, while appellate and supreme court justices face retention votes. Cook County's sheer scale means courthouse-specific experience matters enormously — procedures and unwritten customs vary between the Daley Center, Skokie, Rolling Meadows, and other divisions.",
     notableLaws:
       "First, the Illinois Biometric Information Privacy Act (BIPA) gives individuals a private right of action over fingerprint, face-scan, and other biometric collection — with damages of $1,000 to $5,000 per violation, it has generated some of the nation's largest privacy settlements, so employment and consumer cases need BIPA-aware counsel. Second, Illinois' workers' compensation system is among the most employee-friendly in the country, with no cap on wage-differential awards. Third, Illinois requires specific statutory notices and procedures in eviction cases that Chicago landlords frequently get wrong.",
+    faqs: [
+      {
+        q: "What is a Statutory Summary Suspension after an Illinois DUI?",
+        a: "It's an automatic license suspension that starts on the 46th day after your arrest, separate from the criminal case (625 ILCS 5/11-501.1). Failing a chemical test means a 6-month suspension for a first offender; refusing means 12 months. You can challenge it by filing a petition to rescind in the criminal case, and many first offenders drive during the suspension with a Monitoring Device Driving Permit and an ignition interlock.",
+      },
+      {
+        q: "What makes an Illinois DUI a felony?",
+        a: "A third DUI is an Aggravated DUI — a Class 2 felony — and DUI also becomes a felony when it involves a crash causing great bodily harm or death, driving on a revoked license, or a school zone or school bus. A first or second DUI is a Class A misdemeanor (up to 364 days in jail and a $2,500 fine), though a BAC of 0.16 or higher, or a child passenger under 16, adds mandatory minimum penalties even on a first offense.",
+      },
+      {
+        q: "What is the Illinois deadline to file a personal injury lawsuit?",
+        a: "Two years from the date of injury (735 ILCS 5/13-202); property damage claims get five years. Suits against local government bodies carry a shorter one-year limitations period, and a formal notice of claim against a municipality is due within one year as well — don't assume the two-year rule applies to every defendant.",
+      },
+      {
+        q: "Can I recover in Illinois if I was partly at fault?",
+        a: "Yes, if you were 50% or less at fault. Illinois uses modified comparative fault (735 ILCS 5/2-1116): being more than 50% responsible bars recovery entirely, and your award is reduced by your share of fault at or below that line.",
+      },
+      {
+        q: "How much do Illinois injury lawyers charge?",
+        a: "Most Illinois personal injury lawyers charge a contingency fee, commonly one-third of the recovery. Medical malpractice is regulated by statute (735 ILCS 5/2-1114), which caps contingency fees at one-third of the first $150,000, 25% of the next $850,000, and 20% of amounts above $1 million. DUI defense is typically a flat fee or hourly. Insist on a written fee agreement before work begins.",
+      },
+      {
+        q: "What is the small claims limit in Illinois, and how do I check a lawyer?",
+        a: "Illinois small claims court handles cases up to $10,000, plus costs. Attorney licensing in Illinois is handled by the Attorney Registration and Disciplinary Commission (ARDC) — its Lawyer Search confirms whether an attorney is registered, active, and whether they have public discipline.",
+      },
+    ],
   },
   {
     name: "Indiana",
@@ -503,6 +633,32 @@ export const STATES: StateInfo[] = [
       "Indiana's trial courts are the Circuit and Superior Courts, organized by county. Appeals go to the Court of Appeals of Indiana and then the Indiana Supreme Court. Indiana also has a specialized Indiana Tax Court — one of few in the nation — handling state tax disputes exclusively. Appellate judges are chosen through merit selection with retention elections, while many trial judges are elected at the county level. The system is known for business-friendly efficiency, and e-filing is mandatory statewide.",
     notableLaws:
       "First, Indiana's Medical Malpractice Act requires most claims to pass through a Medical Review Panel before reaching court, and caps total recovery (currently $1.8 million, with the Patient's Compensation Fund covering amounts above the provider's share) — any med-mal attorney must know this process cold. Second, Indiana's Motor Vehicle Protection Act (the 'lemon law') gives buyers of defective new vehicles specific refund-or-replace rights with strict timelines. Third, Indiana's landlord-tenant statutes are relatively landlord-friendly compared to Illinois, which changes the calculus in housing disputes.",
+    faqs: [
+      {
+        q: "What happens to my license right after an Indiana DUI (OVWI) arrest?",
+        a: "Indiana calls the offense operating a vehicle while intoxicated (OVWI, Ind. Code § 9-30-5). If you fail a certified chemical test, the BMV administratively suspends your license for up to 180 days; a refusal brings a one-year suspension, and two years for a second refusal. Many drivers can apply to the court for specialized driving privileges to drive for work and essential needs during the suspension.",
+      },
+      {
+        q: "Can an Indiana DUI be a felony?",
+        a: "Yes. A first OWI with a BAC of 0.15 or higher, or with a passenger under 18, is elevated to a Class A misdemeanor, and an OWI with a prior conviction within seven years is a Level 6 felony. Causing serious bodily injury is a Level 5 felony and causing death a Level 4 felony. A basic first offense at 0.08–0.14 is a Class C misdemeanor.",
+      },
+      {
+        q: "What is Indiana's personal injury filing deadline?",
+        a: "Two years from the date of the injury (Ind. Code § 34-11-2-4). If the defendant is a government entity, a tort claim notice is due far sooner — within 180 days for a local unit of government and 270 days for the state — and missing the notice deadline usually ends the claim before it starts.",
+      },
+      {
+        q: "Can I recover in Indiana if I was partly at fault?",
+        a: "Yes, if you were 50% or less at fault. Indiana's Comparative Fault Act (Ind. Code § 34-51-2) reduces your recovery by your share of fault and bars recovery entirely once your fault exceeds 50%. Note that claims against government defendants use a different rule — any contributory fault by the plaintiff can bar a claim against a governmental entity.",
+      },
+      {
+        q: "How much do Indiana personal injury lawyers charge?",
+        a: "Indiana injury lawyers typically charge a contingency fee of about one-third of the recovery, often rising to 40% if the case is filed in court or tried, with nothing paid upfront. OWI defense is usually a flat fee. Ask for the written fee agreement and whether costs like expert witnesses are advanced by the firm and repaid from the recovery.",
+      },
+      {
+        q: "What is Indiana's small claims limit, and how do I verify an attorney?",
+        a: "Indiana small claims courts handle cases up to $10,000 (some township small claims courts have lower limits). To verify a lawyer, search the Roll of Attorneys maintained by the Indiana Supreme Court — it lists every attorney admitted in Indiana and their current status.",
+      },
+    ],
   },
   {
     name: "Iowa",
@@ -522,6 +678,32 @@ export const STATES: StateInfo[] = [
       "Iowa's trial courts are the District Courts, organized into eight judicial districts covering all 99 counties. Appeals go to the Iowa Court of Appeals and then the Iowa Supreme Court. Iowa pioneered the merit-selection system (the 'Missouri Plan' model): a nominating commission screens candidates, the governor appoints, and judges face retention elections. This tends to produce a well-regarded, less politicized judiciary. The system is known for collegiality — Iowa lawyers famously resolve many disputes through negotiation rather than scorched-earth litigation.",
     notableLaws:
       "First, Iowa's partition fence law (Iowa Code Chapter 359A) requires adjoining rural landowners to share the cost of boundary fences — a frequent source of neighbor disputes that general practice attorneys may not know. Second, Iowa's workers' compensation law has specific provisions for agricultural workers that differ from standard coverage. Third, Iowa's implied warranty of habitability and its specific notice requirements in farm tenancy terminations (leases must be terminated by September 1 for the following March) catch newcomers off guard — farm lease work belongs with attorneys who know agricultural law.",
+    faqs: [
+      {
+        q: "What is an OWI in Iowa, and what happens to my license?",
+        a: "Iowa's drunk-driving offense is OWI — operating while intoxicated — under Iowa Code § 321J.2. Your license is revoked administratively by the DOT: 180 days for a failed test on a first offense and one year for a refusal. A first-offense OWI is an aggravated misdemeanor carrying a minimum 48 hours in jail and a fine of at least $1,025, though many first offenders qualify for a deferred judgment that can keep the conviction off their record.",
+      },
+      {
+        q: "Can I keep driving after an Iowa OWI arrest?",
+        a: "Often, yes. Most revoked drivers can get a temporary restricted license allowing driving for work, school, treatment, and other approved purposes, and since 2018 Iowa generally requires an ignition interlock on all vehicles you operate while on the restricted license. You also have only 10 days after the revocation notice to request an administrative appeal with the DOT, so act quickly.",
+      },
+      {
+        q: "What is Iowa's statute of limitations for personal injury?",
+        a: "Two years from the date of the injury (Iowa Code § 614.1(2)). Claims against the state require an administrative claim under the Iowa Tort Claims Act first, and claims against cities and counties have their own notice requirements — both much shorter than two years.",
+      },
+      {
+        q: "Can I recover in Iowa if I was partly at fault?",
+        a: "Yes, if your fault is no more than the combined fault of the defendants. Iowa uses a modified comparative fault rule (Iowa Code § 668.3) with a 51% bar: a plaintiff more at fault than the defendants recovers nothing, and awards are reduced by your percentage of fault.",
+      },
+      {
+        q: "How much does an Iowa injury lawyer cost?",
+        a: "Iowa personal injury lawyers generally work on contingency — commonly one-third of the recovery — with no upfront fees, while OWI defense is typically a flat fee depending on offense level and whether the DOT revocation is appealed. Confirm in writing what the percentage covers and how litigation expenses are paid.",
+      },
+      {
+        q: "What is Iowa's small claims limit, and how do I check a lawyer's license?",
+        a: "Iowa small claims court handles claims up to $6,500. To verify an attorney, use the Iowa State Bar Association's Find a Lawyer directory or the Iowa Judicial Branch's attorney listings, which confirm admission and good standing.",
+      },
+    ],
   },
   {
     name: "Kansas",
@@ -586,6 +768,32 @@ export const STATES: StateInfo[] = [
       "Kentucky has a unified Court of Justice: Circuit Courts handle major civil and criminal trials, District Courts handle misdemeanors and smaller civil matters, and Family Court divisions operate in many counties. Appeals go to the Kentucky Court of Appeals and then the Supreme Court of Kentucky. All Kentucky judges are chosen in nonpartisan elections — a distinctive feature that keeps party labels off the ballot but makes judicial races heavily dependent on name recognition. The state has 120 counties, each with its own circuit court clerk and local practices.",
     notableLaws:
       "First, Kentucky is a pure comparative fault state — unlike most neighbors, you can recover damages even if you are 99% at fault (reduced by your share), which fundamentally changes settlement strategy in injury cases. Second, Kentucky's equine activity liability statute (KRS 247.401) limits liability for horse-related injuries under defined conditions, directly affecting the Lexington racing and breeding industry. Third, Kentucky's 'choice no-fault' auto insurance system lets drivers choose between no-fault and traditional tort coverage at purchase — the single most important detail in any Kentucky crash case, and one many accident victims don't realize they chose.",
+    faqs: [
+      {
+        q: "What are Kentucky's DUI 'aggravating circumstances'?",
+        a: "Kentucky lists six aggravating circumstances in KRS 189A.010 that double the mandatory minimum jail sentence: driving 30+ mph over the limit, driving the wrong way on a limited-access highway, causing a crash with death or serious injury, a BAC of 0.15 or higher, refusing the chemical test, and carrying a passenger under 12. The doubled minimum cannot be probated or suspended — for example, a second offense jumps from 7 days to a mandatory 14.",
+      },
+      {
+        q: "What is Kentucky's personal injury deadline? It's shorter than most states.",
+        a: "Kentucky has one of the shortest deadlines in the country: one year from the date of injury for most personal injury claims (KRS 413.140). The major exception is car accidents — injury claims arising from a motor vehicle accident generally get two years (KRS 413.140(1)(e)), tied to Kentucky's no-fault (PIP) system. Missing the one-year deadline on a non-auto claim is almost always fatal to the case.",
+      },
+      {
+        q: "Can I recover in Kentucky if I was mostly at fault?",
+        a: "Yes — Kentucky is a pure comparative negligence state (KRS 411.182). Your recovery is reduced by your percentage of fault, but there is no cutoff: even a plaintiff found 90% at fault can recover the remaining 10% from a defendant who was 10% at fault. That makes Kentucky unusually favorable for plaintiffs with significant shared fault.",
+      },
+      {
+        q: "How does Kentucky no-fault (PIP) affect a car accident claim?",
+        a: "Kentucky is a 'choice no-fault' state: your own policy pays the first $10,000 of medical bills and lost wages through Personal Injury Protection regardless of fault, and you generally cannot sue the other driver for pain and suffering unless your injuries cross a threshold — more than $1,000 in medical expenses, a fracture, permanent injury, or other qualifying harm — unless you rejected the no-fault system in writing when buying your policy.",
+      },
+      {
+        q: "How much do Kentucky injury lawyers charge?",
+        a: "Kentucky personal injury lawyers typically work on contingency — commonly one-third of the recovery, sometimes higher after a lawsuit is filed or the case is tried — with no upfront cost. DUI defense is usually a flat fee. Ask for the agreement in writing and confirm how case expenses are advanced and repaid.",
+      },
+      {
+        q: "What is Kentucky's small claims limit, and how do I verify a lawyer?",
+        a: "Kentucky's small claims division of District Court handles claims up to $2,500 — one of the lowest limits in the country — exclusive of interest and costs. To verify an attorney, search the Kentucky Bar Association's official member directory, which shows admission status and contact information for every licensed Kentucky lawyer.",
+      },
+    ],
   },
   {
     name: "Louisiana",
@@ -605,6 +813,32 @@ export const STATES: StateInfo[] = [
       "Louisiana's trial courts are the District Courts, organized by parish (Louisiana's equivalent of counties). Appeals go to five Circuit Courts of Appeal and then the Supreme Court of Louisiana (seven justices). Distinctively, Louisiana judges are chosen in partisan elections — voters see party labels — which is increasingly rare nationally. Because Louisiana private law follows the civil law tradition rather than English common law, its courts use different concepts and terminology: what other states call probate is 'successions' here, and property doctrines like redhibition have no common-law equivalent.",
     notableLaws:
       "First, Louisiana's Direct Action Statute was overhauled in August 2024 (Act 275) — plaintiffs can no longer routinely sue a defendant's insurer directly; direct action now survives only in seven narrow circumstances such as the insured's bankruptcy or death, a seismic shift for injury litigation strategy. Second, the 'no pay, no play' law bars uninsured drivers from recovering the first $15,000 of bodily injury and $25,000 of property damage, which punishes uninsured motorists harshly. Third, redhibition under the Civil Code gives buyers broader warranty rights against hidden defects in homes and vehicles than common-law states allow.",
+    faqs: [
+      {
+        q: "Louisiana is changing its fault rules — which rule applies to my accident?",
+        a: "It depends on the accident date. For decades Louisiana was a pure comparative fault state where you could recover even if 99% at fault. Act 15 of 2025 (HB 431) amended Civil Code art. 2323: for accidents on or after January 1, 2026, a plaintiff who is 51% or more at fault recovers nothing. Accidents before that date still use the old pure comparative rule.",
+      },
+      {
+        q: "What is Louisiana's deadline to file a personal injury claim?",
+        a: "Two years for injuries occurring on or after July 1, 2024 — Louisiana raised its prescriptive period from one year to two (Civil Code art. 3493.1). Injuries before that date still carry the old one-year deadline, which was among the shortest in the nation. Because the two rules overlap in time, confirm which period governs your injury date before assuming you have time.",
+      },
+      {
+        q: "How long do I have to save my license after a Louisiana DWI arrest?",
+        a: "Thirty days. Louisiana calls the offense DWI — operating a vehicle while intoxicated (R.S. 14:98). When the officer seizes your license and issues a temporary permit, you have 30 days from the arrest to send a written request for an administrative hearing to the Department of Public Safety and Corrections (Office of Motor Vehicles); the hearing is held before the Division of Administrative Law. A first refusal means a one-year suspension; a failed test, 180 days. Miss the 30 days and the suspension is automatic.",
+      },
+      {
+        q: "How much do Louisiana personal injury lawyers charge?",
+        a: "Louisiana injury lawyers usually charge a contingency fee — commonly one-third of the recovery before suit, and often 40% if the case is litigated or tried — with no upfront payment. DWI defense is typically a flat fee. Get the contract in writing; Louisiana law requires contingency agreements to be written and signed, and you are entitled to a statement of how the recovery was distributed.",
+      },
+      {
+        q: "What is Louisiana's small claims limit?",
+        a: "Louisiana small claims courts handle claims up to $5,000. Small claims are filed in city court, parish court, or justice of the peace court depending on where you live, and the process is designed for people representing themselves, with simplified procedures and limited appeals.",
+      },
+      {
+        q: "How do I verify that a Louisiana lawyer is licensed?",
+        a: "Search the Louisiana State Bar Association's official member directory. Every lawyer practicing in Louisiana must be a member of the LSBA, and the directory shows whether the attorney is eligible to practice, plus any public discipline. The Louisiana Supreme Court also publishes attorney disciplinary decisions.",
+      },
+    ],
   },
   {
     name: "Maine",
