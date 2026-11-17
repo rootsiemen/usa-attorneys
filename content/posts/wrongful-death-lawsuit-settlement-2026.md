@@ -54,6 +54,18 @@ A quick state check, because the rules are genuinely different:
 
 If you are not in the first tier, do not assume you are excluded — and do not assume you are included. The statute in your state is the only answer, and it is worth reading before you spend money on anything else. Our [personal injury lawyer](/personal-injury-lawyer) directory can help you find an attorney licensed in your state who handles these claims.
 
+## How a Wrongful Death Settlement Is Divided Among Family Members
+
+Winning the settlement is only half the question. The other half is who gets what — and that division is set by state law, not by the family's preference and not by the insurer.
+
+The general pattern: the surviving spouse usually receives the largest share, and children and dependent parents receive portions based on two factors courts weigh most — **financial dependency** (how much the survivor actually relied on the deceased's income and support) and **relationship closeness**. A minor child who lived with the deceased will ordinarily receive more than an adult child who was financially independent and had little contact. A spouse who depended on the deceased's earnings receives more than one who did not.
+
+Three mechanics families are often surprised by:
+
+- **Court approval.** When minor children are among the beneficiaries, a court must approve the settlement in most states, and a guardian ad litem may be appointed to represent the children's interests separately. That approval step adds weeks or months after the deal is agreed.
+- **Disagreements go to the court.** If beneficiaries cannot agree on the split, the court decides it — mediation resolves most of these disputes before a judge has to.
+- **The survival action is divided differently.** Money recovered through the survival action (the deceased's own pre-death losses) belongs to the estate and passes through probate under the will or the state's intestacy rules, which may not match the wrongful death division at all.
+
 ## What a Wrongful Death Lawsuit Settlement Is Made Of
 
 A settlement is not one number. It is a stack of categories, and understanding the stack is how you tell a fair offer from a low one.
@@ -130,6 +142,18 @@ If the case goes to trial, the fee often rises to 40%, and expenses climb — ex
 
 One comparison worth making: a family that settles for $600,000 with a lawyer at 33% takes home about $380,000 after fees and expenses. A family that tries to negotiate alone and accepts the insurer's first offer of $250,000 keeps all of it — and loses $130,000. The fee is real. So is the gap it closes.
 
+## Are Wrongful Death Settlements Taxable?
+
+Mostly, no — and the exceptions are specific enough to plan around. Under Internal Revenue Code Section 104(a)(2), compensatory damages received on account of a physical injury or death are excluded from federal gross income. That exclusion covers the core of a wrongful death settlement: lost future income, medical expenses, funeral costs, and loss of companionship.
+
+Three parts of a recovery can still be taxed:
+
+- **Punitive damages** are taxable as ordinary income in almost every case, even when the underlying injury was physical.
+- **Interest** — pre-judgment or post-judgment interest paid on top of the award — is taxable as ordinary income.
+- **Previously deducted medical expenses.** If the family deducted medical bills in an earlier tax year and the settlement later reimburses those same bills, that portion can become taxable under the tax benefit rule.
+
+This is why the wording of the settlement agreement matters. An agreement that allocates the recovery between compensatory damages, punitive damages, and interest gives the family a defensible tax position; a single lump-sum figure with no allocation invites the IRS to make its own. Have both the wrongful death attorney and a tax professional review the allocation before anything is signed.
+
 ## Wrongful Death vs. Survival Action: The Pair Most Families Confuse
 
 These are two different claims, often filed together, and mixing them up costs money:
@@ -164,6 +188,32 @@ This is the checklist version of everything above. Do these in order:
 5. **Gather the economic paper trail** — pay stubs, tax returns, benefits statements, childcare costs, and a list of household tasks the deceased handled.
 6. **Note the statute of limitations in your state** and put the deadline on a calendar. In [Texas](/attorneys/texas) and [Illinois](/attorneys/illinois) it is two years from the date of death; other states range from one to six years.
 7. **Talk to a wrongful death attorney** — most offer a free consultation, work on contingency, and can tell you within one meeting whether the case is viable and what the realistic range looks like.
+
+## Frequently Asked Questions
+
+### What is the average wrongful death lawsuit settlement?
+
+An analysis of 956 wrongful death cases from 2019–2024 put the average settlement at $973,054 and the median at $294,728. Treat the median as the planning number: a small number of very large outcomes — commercial trucking, medical negligence, defective products — drag the average far above what a typical family receives. Simple cases with modest income loss can settle for $75,000 to $300,000; catastrophic cases can exceed $10 million.
+
+### How long do I have to file a wrongful death lawsuit?
+
+Most states give you two years from the date of death. Some allow three years, a few only one, and claims against a government entity can require a formal notice within months. Missing the deadline usually ends the claim entirely, no matter how strong it is — it is the single most important date in the case.
+
+### Who gets the money from a wrongful death settlement?
+
+State law decides. The surviving spouse, children, and dependent parents have priority, and courts divide shares based on financial dependency and closeness of relationship. When minor children are beneficiaries, a court must usually approve the settlement, and a guardian ad litem may represent the children. Money from a separate survival action goes to the estate instead, and passes through probate.
+
+### Are wrongful death settlements taxable?
+
+The compensatory portion is generally tax-free under Internal Revenue Code Section 104(a)(2) — that includes lost income, medical costs, funeral expenses, and loss of companionship. Punitive damages and any interest on the award are taxable, and reimbursed medical expenses you previously deducted can be taxable too. The allocation written into the settlement agreement controls much of this, so have it reviewed before signing.
+
+### Do most wrongful death cases settle or go to trial?
+
+They settle. Roughly 96% of tort cases resolve without a trial, and wrongful death claims follow the same pattern because both sides face real verdict risk — the insurer risks a jury award well above the offer, and the family risks a defense verdict that pays nothing. The credible threat of trial is usually what moves the settlement number.
+
+### Can adult children recover in a wrongful death case?
+
+Yes, adult children are eligible beneficiaries in most states. The amount depends on their relationship with the deceased and how financially dependent they were: an adult child who relied on the deceased for support recovers more than one who was fully independent, and typically less than a surviving spouse or a minor child.
 
 ## The Bottom Line
 
