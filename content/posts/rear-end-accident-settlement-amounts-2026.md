@@ -132,7 +132,13 @@ The steps that protect your settlement value are the same ones that protect your
 
 Our full [car accident checklist](/blog/what-to-do-after-car-accident-legal-checklist) covers the same steps in more detail, including what to do when the other driver is uninsured. And if you want the broader context on how car accident claims are valued generally, the [average car accident settlement](/blog/average-car-accident-settlement-2026) breakdown shows how rear-end numbers fit into the wider picture.
 
-## FAQ: Rear-End Accident Settlement Amounts
+## Rear-End Crashes in No-Fault States: The PIP Detour
+
+Everything above assumes an at-fault system, where the driver who hit you pays. In the roughly dozen no-fault states, the first dollars work differently: your own personal injury protection (PIP) coverage pays your initial medical bills regardless of who caused the crash. Florida is the standard example — accident victims rely on their own PIP for the first medical expenses, and only serious injuries support a lawsuit against the at-fault driver for the full range of damages, including pain and suffering.
+
+That changes the rear-end math in two ways. First, the fault presumption that dominates at-fault states matters less at the start, because your own insurer is the first payer either way. Second, your claim effectively splits in two: PIP handles the early medical bills up to its limit, and the liability claim against the rear driver covers what PIP does not — the excess medical costs, lost income beyond the PIP benefit, and, where the state's serious-injury threshold is met, pain and suffering. If you were rear-ended in a no-fault state, find out your PIP limit and your state's injury threshold before you evaluate any offer; an offer that looks low may simply be the liability half of a claim whose other half your own policy already paid.
+
+## Frequently Asked Questions
 
 **How much is the average rear-end accident settlement?**
 Published estimates put most injury-involved rear-end settlements between $5,000 and $50,000, with minor whiplash cases at $1,000–$15,000 and surgery cases at $100,000+. There is no single average that describes the category, because the range is driven by injury severity, medical bills, and policy limits.
