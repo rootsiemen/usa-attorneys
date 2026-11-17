@@ -117,6 +117,38 @@ Not every truck accident needs a lawyer. A property-damage-only collision with a
 
 Most truck accident attorneys work on contingency — no fee unless you recover — so the consultation costs nothing and the fee math is the same structure explained in our contingency-fee guide. The single most expensive mistake in truck cases is waiting: the black-box data, the driver's logs, and the truck itself can all be gone within weeks.
 
+## How long does a truck accident settlement take?
+
+Truck cases run longer than car cases, and the reason is structural: your attorney cannot value the case until your treatment stabilizes, and discovery against a trucking company — ELD data, maintenance records, driver files — takes longer than discovery against a single driver. Published timelines break down roughly like this:
+
+- **Simple, low-injury claims** with clear liability can resolve in as little as **3 to 6 months**.
+- **Moderate injury claims** requiring surgery and extended treatment often take **9 to 18 months**, largely because the case cannot be valued until you reach maximum medical improvement — the point where your doctors say your condition has stabilized.
+- **Severe or catastrophic cases** with multiple insurers, corporate defendants, or disputed liability commonly run **12 to 36 months or longer**.
+
+Settling before maximum medical improvement is the classic timing mistake: if a future surgery or permanent limitation appears after you sign the release, the settlement does not reopen. Every state also sets a statute of limitations — commonly two years from the crash for personal injury claims, though it varies by state — so the negotiation clock and the filing clock have to be watched at the same time.
+
+## Frequently Asked Questions
+
+### What is a typical average truck accident settlement for serious injuries?
+
+Settlements can exceed $1 million when a crash causes permanent or catastrophic harm, but the exact figure depends on your medical costs, lost income, and the insurance coverage available. Across a broad sample of more than 400 cases, the average was $103,654 and the median about $30,000 — catastrophic injuries like brain trauma or spinal damage reach the higher end of settlement values, while most moderate cases land far below the headline average.
+
+### How is a truck accident settlement calculated?
+
+A truck accident settlement is calculated by adding up your economic and non-economic losses. Economic losses include medical bills, lost wages, and future care costs, while non-economic losses cover pain and suffering — usually valued with a multiplier applied to the economic damages. That total is then adjusted based on your share of fault, and the available insurance can affect how much compensation is actually collectible.
+
+### Can I get a settlement if the truck driver wasn't entirely at fault?
+
+In most states, yes. Most states reduce your recovery by your percentage of fault rather than barring it — a case valued at $100,000 with 30% fault assigned to you collects $70,000. A few states use modified comparative fault, where recovery is barred once you pass a 50% or 51% threshold, and a small number still use contributory negligence, which can bar recovery entirely. Which rule your state follows changes how hard the liability fight matters.
+
+### How long does it take to settle a truck accident claim?
+
+Simple claims with clear liability can settle in 3 to 6 months. Moderate injury claims often take 9 to 18 months, because the case should not be valued until treatment stabilizes. Severe or catastrophic cases with multiple defendants commonly run 12 to 36 months or longer.
+
+### Should I accept the trucking insurer's first offer?
+
+Almost never before your medical picture is clear. An early offer may not account for future medical costs or the full effect of your injuries while treatment is still underway, and a signed settlement usually closes the door on asking for more. Have the offer evaluated against the settlement formula — economic damages, a justified multiplier, and the available insurance — before you sign anything.
+
 ## The bottom line
 
 The average truck accident settlement — about **$103,654** across a broad sample of cases, with a median near **$30,000** — is a useful starting point and a misleading finish line. Your case is worth what the formula says it is worth: your economic damages, multiplied by a factor that reflects how badly you were hurt and how clearly the trucking company was at fault, capped by the insurance available on the other side. Minor injuries settle in the tens of thousands. Serious injuries settle in the hundreds of thousands. Catastrophic injuries and wrongful death settle in the millions. Know which bracket you are in, document everything from day one, and never accept a first offer that does not cover your future care — because once you sign the release, the case is over, whatever your bills turn out to be.
