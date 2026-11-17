@@ -1344,6 +1344,32 @@ export const STATES_2: StateInfo[] = [
       "New Hampshire's trial courts are the Superior Court (general jurisdiction: felonies, large civil cases) and the Circuit Court, which consolidated the old district, probate, and family courts into one system with specialized divisions. Appeals go directly to the five-justice New Hampshire Supreme Court — there is no intermediate appellate court. Distinctively, judges are appointed by the governor with Executive Council confirmation and serve to age 70; New Hampshire has no judicial elections at all, which keeps the bench notably insulated from campaign politics.",
     notableLaws:
       "First, New Hampshire is the only state with no seatbelt or motorcycle helmet requirement for adults — which cuts both ways in injury cases, since defense lawyers argue comparative fault when restraints weren't used. Second, the state allows both no-fault and fault-based divorce grounds, so the grounds you file under can affect property division and strategy — a family lawyer's first advice point. Third, New Hampshire imposes strict liability on dog owners for bites regardless of the animal's history, making homeowner's and renter's insurance coverage a key question in any dog-bite claim.",
+    faqs: [
+      {
+        q: "What is the 30-day ALS deadline after a New Hampshire DWI arrest?",
+        a: "The Department of Safety must receive your written request for an ALS hearing within 30 days of the date the suspension notice was issued (RSA 265-A:31) — a late request is denied as untimely. The suspension itself takes effect 30 days after service, and filing the request does not automatically stop it. A first failed test means a six-month ALS; a first refusal means 180 days (RSA 265-A:14), rising to two years with a prior DWI or refusal.",
+      },
+      {
+        q: "What are the penalties for a first New Hampshire DWI?",
+        a: "A first-offense DWI (RSA 265-A:2) is a Class B misdemeanor with no mandatory jail: a fine of at least $500, license revocation of nine months to two years, and mandatory referral to an Impaired Driver Care Management Program (IDCMP) for screening and education. It becomes Aggravated DWI (RSA 265-A:3) — a Class A misdemeanor with mandatory jail — if your BAC was 0.16 or higher, you drove 30+ mph over the limit, tried to elude police, carried a passenger under 16, or caused serious bodily injury (which can make it a felony).",
+      },
+      {
+        q: "What is New Hampshire's personal injury deadline, and what if I was partly at fault?",
+        a: "Three years from the date of injury for most personal injury claims (RSA 508:4). New Hampshire follows modified comparative fault (RSA 507:7-d): if your negligence is greater than the defendant's, you recover nothing; otherwise your award is reduced by your share of fault.",
+      },
+      {
+        q: "How much do New Hampshire injury lawyers charge?",
+        a: "New Hampshire injury lawyers typically charge about one-third on contingency, with hourly rates in the $225–$375 range for other work; business formation is commonly flat-fee. New Hampshire court rules require contingency agreements in writing — confirm how case costs are handled before you sign.",
+      },
+      {
+        q: "What is New Hampshire's small claims limit, and how do I verify a lawyer?",
+        a: "New Hampshire small claims are heard in the District Division of the Circuit Court for claims up to $10,000, with simplified procedures and mediation offered in many cases. To verify a lawyer, use the New Hampshire Bar Association's member search — attorneys are admitted by the New Hampshire Supreme Court, and the Association maintains membership and standing records.",
+      },
+      {
+        q: "Does New Hampshire require drivers to have car insurance?",
+        a: "Yes — New Hampshire is the only state that does not require most drivers to carry liability insurance at all. Financial responsibility is only triggered after an at-fault accident or certain violations, and drivers who do buy insurance must carry at least $25,000/$50,000 in liability coverage. That makes uninsured/underinsured motorist coverage on your own policy unusually important in New Hampshire: if the at-fault driver has no insurance, your own UM coverage may be the only money available.",
+      },
+    ],
   },
   {
     name: "New Jersey",
@@ -1363,6 +1389,32 @@ export const STATES_2: StateInfo[] = [
       "New Jersey's trial court is the Superior Court, uniquely split into the Law Division (civil damages, criminal) and the Chancery Division (equity: family, foreclosure, injunctions), plus the Family Part and a separate Tax Court. Appeals go to the Appellate Division, then the seven-justice New Jersey Supreme Court. Municipal Courts handle traffic and minor offenses in each town. Judges are appointed by the governor with senate confirmation and serve initial seven-year terms — no judicial elections — producing a professionalized bench, though the appointment process itself is intensely political.",
     notableLaws:
       "First, the New Jersey Consumer Fraud Act allows treble damages plus attorney's fees for deceptive business practices — among the strongest consumer laws in America, and the reason consumer lawyers take these cases on contingency. Second, the Law Against Discrimination is broader than federal law, covering perceived disabilities and more protected classes, which shapes every employment case filed here. Third, the Conscientious Employee Protection Act gives whistleblowers powerful retaliation protections — if you were fired after reporting wrongdoing, this is the statute an employment lawyer will reach for first.",
+    faqs: [
+      {
+        q: "Is a New Jersey DWI a crime, and will I lose my license on a first offense?",
+        a: "No — and that is unique. New Jersey has no separate MVC administrative hearing and no license action at arrest. A DWI (N.J.S.A. 39:4-50) is a motor-vehicle offense, not a crime, decided by a municipal court judge with no jury. Since the December 2019 reform, first offenders with a BAC under 0.15% generally do not lose their license at all: the sentence is built around an ignition interlock — 3 months at 0.08–0.10%, 7 to 12 months at 0.10–0.15% — plus a $250–$500 fine and 12–48 hours at an Intoxicated Driver Resource Center.",
+      },
+      {
+        q: "What happens if I refuse the breath test in New Jersey?",
+        a: "Refusal is a completely separate offense (N.J.S.A. 39:4-50.4a) with its own penalties that stack on top of the DWI: a first refusal brings a $300–$500 fine and license forfeiture of 7 to 12 months, followed by an interlock period. You can be convicted of refusal even if the DWI itself is dismissed. Every DWI or refusal conviction also adds an MVC insurance surcharge of $1,000 a year for three years.",
+      },
+      {
+        q: "What is New Jersey's personal injury filing deadline?",
+        a: "Two years from the date of injury (N.J.S.A. 2A:14-2), though New Jersey's discovery rule can delay the start when an injury or its cause was not reasonably knowable. Claims against public entities require a notice of claim under the Tort Claims Act within 90 days — far shorter than the main deadline.",
+      },
+      {
+        q: "Can I recover in New Jersey if I was partly at fault?",
+        a: "Yes, if you were 50% or less at fault. New Jersey's Comparative Negligence Act (N.J.S.A. 2A:15-5.1) bars recovery only when the plaintiff's negligence is greater than the combined negligence of the defendants — a 51% bar — and reduces your award by your percentage of fault below that line.",
+      },
+      {
+        q: "How much do New Jersey injury lawyers charge?",
+        a: "New Jersey injury contingency fees run 33–40% in practice, and New Jersey court rules (R. 1:21-7) cap contingency percentages on a sliding scale in tort cases — one-third of the first $750,000 recovered, with lower percentages on amounts above that. North Jersey hourly rates ($325–$550) reflect NYC-metro spillover. The fee agreement must comply with the court rule and be in writing.",
+      },
+      {
+        q: "What is New Jersey's small claims limit, and how do I verify a lawyer?",
+        a: "New Jersey small claims — a section of the Superior Court's Special Civil Part — handles claims up to $5,000 (the Special Civil Part as a whole goes up to $20,000). To verify a lawyer, use the New Jersey Judiciary's official Attorney Search: every New Jersey attorney must register annually with the Supreme Court of New Jersey, and the search shows registration status.",
+      },
+    ],
   },
   {
     name: "New Mexico",
@@ -1382,6 +1434,32 @@ export const STATES_2: StateInfo[] = [
       "New Mexico's trial work happens in district courts across 13 judicial districts, with the Bernalillo County Metropolitan Court handling misdemeanors and smaller civil cases in Albuquerque. Magistrate courts cover preliminary matters statewide, and each county has a probate court. Appeals go to the New Mexico Court of Appeals, with the five-justice Supreme Court of New Mexico at the top. Judges are first appointed through a merit-selection nominating process, then face retention elections — so they don't campaign against opponents. If your case is in Albuquerque, expect the metro court's high volume; rural districts move slower but with more individual attention.",
     notableLaws:
       "Three laws shape attorney choice here. First, New Mexico abolished the death penalty in 2009, so serious criminal cases turn entirely on sentencing strategy — pick a defense lawyer with deep sentencing-hearing experience. Second, the Medical Malpractice Act caps most malpractice recoveries, which means med-mal attorneys screen cases ruthlessly; bring complete records to the first meeting. Third, water rights follow prior appropriation and centuries-old acequia customs — a property dispute involving irrigation ditches needs a water-law specialist, not a general real estate lawyer. Tribal jurisdictional overlap adds a fourth wrinkle: confirm your lawyer knows whether state, federal, or tribal court has authority.",
+    faqs: [
+      {
+        q: "How long do I have to save my license after a New Mexico DWI arrest?",
+        a: "You have 10 days after receiving the Notice of Revocation to request an MVD hearing in writing, with a $25 fee or a sworn statement of indigency (§ 66-8-112(B)). The hearing is held before the Administrative Hearings Office, and the notice doubles as a 20-day temporary permit. A first failed test means a six-month revocation; miss the 10-day window and the revocation is automatic.",
+      },
+      {
+        q: "What happens if I refuse a breath test in New Mexico?",
+        a: "Refusing a chemical test under the Implied Consent Act brings a one-year license revocation (§ 66-8-111) — and if the court also finds from the evidence that you were impaired, the refusal makes the criminal charge aggravated DWI (§ 66-8-102(D)(3)), adding a mandatory 48 consecutive hours in jail on a first offense that the judge cannot suspend. A BAC of 0.16 or higher, or causing bodily injury, also makes the DWI aggravated; a fourth DWI conviction is a felony.",
+      },
+      {
+        q: "What is New Mexico's personal injury deadline, and what if I was mostly at fault?",
+        a: "Three years from the date of injury for most personal injury claims (§ 37-1-8). New Mexico is a pure comparative negligence state — among the most plaintiff-friendly in the country: your damages are reduced by your share of fault, but no percentage of fault bars recovery entirely.",
+      },
+      {
+        q: "How much do New Mexico injury lawyers charge?",
+        a: "New Mexico injury lawyers generally charge about one-third on contingency, with Albuquerque hourly rates in the $200–$350 range for other matters; federal contracting and clearance work may be flat-fee or hourly. Ask for the written fee agreement and how litigation expenses are advanced.",
+      },
+      {
+        q: "What is New Mexico's small claims limit, and how do I verify a lawyer?",
+        a: "New Mexico small claims are filed in magistrate court (or metropolitan court in Bernalillo County) for claims up to $10,000, with informal procedures meant for self-represented parties. To verify a lawyer, use the State Bar of New Mexico's official member directory, which shows admission status for every licensed New Mexico attorney.",
+      },
+      {
+        q: "Does New Mexico have any unusual rules for injury claims?",
+        a: "Yes — New Mexico follows several distinctive doctrines, including pure comparative negligence and, in medical malpractice, a state compensation fund system (the Patient's Compensation Fund) that caps and structures recoveries under the Medical Malpractice Act. New Mexico also caps damages against government defendants under its Tort Claims Act, and claims against the state require written notice within 90 days.",
+      },
+    ],
   },
   {
     name: "New York",
@@ -1401,6 +1479,32 @@ export const STATES_2: StateInfo[] = [
       "New York's court names confuse everyone: the 'Supreme Court' is actually the main TRIAL court in each county, while the highest court is the Court of Appeals in Albany. Between them sits the Appellate Division, split into four departments. Specialized courts include Family Court, Surrogate's Court (which handles wills and estates — the name is a colonial holdover), the Court of Claims for suits against the state, and New York City's Civil and Criminal Courts. Most judges are elected, which is why judicial races appear on your ballot. The practical takeaway: confirm which specific court your case belongs in, because filing in the wrong one wastes months.",
     notableLaws:
       "First, New York's wrongful death statute is among the country's most restrictive — recovery is limited to pecuniary (financial) loss, with nothing for grief or loss of companionship. A lawyer who doesn't front-load economic-damage proof will leave money behind. Second, 'Lavern's Law' created a discovery rule for the statute of limitations in cancer misdiagnosis cases, so the clock may start at discovery rather than the error — timing questions here are genuinely technical. Third, CPLR Article 16 limits joint-and-several liability: defendants found 50% or less at fault generally pay only their share, which makes fault allocation the central battle in multi-defendant injury cases.",
+    faqs: [
+      {
+        q: "What is the difference between DWI and DWAI in New York?",
+        a: "They are different offenses under Vehicle and Traffic Law § 1192. DWAI-Alcohol (§ 1192(1)) covers impairment at roughly 0.05–0.07 BAC and is only a traffic infraction — not a crime — carrying a $300–$500 fine and a 90-day suspension. DWI (§ 1192(2)) is the per se crime at 0.08 or higher: a misdemeanor with a $500–$1,000 fine, up to a year in jail, and at least a six-month revocation. At 0.18 or higher the charge becomes Aggravated DWI. Because a DWAI is not criminal, it is a common plea-reduction target in first-offense cases.",
+      },
+      {
+        q: "What is Leandra's Law?",
+        a: "Under Leandra's Law, driving while intoxicated with a passenger aged 15 or younger is a Class E felony (§ 1192(2-a)(b)) — even for a first offense with no prior record. Leandra's Law also made ignition interlock mandatory on every DWI conviction in New York, including first-offense misdemeanors (§ 1198).",
+      },
+      {
+        q: "What happens if I refuse a breath test in New York?",
+        a: "Refusing triggers a separate DMV case under VTL § 1194: a refusal hearing before a DMV administrative law judge, scheduled within about 15 days of your arraignment. If the refusal is upheld, your license is revoked for at least one year and you owe a $500 civil penalty ($750 and an 18-month revocation with a qualifying prior) — even if the criminal DWI is later dismissed. Your refusal can also be used as evidence in the criminal case.",
+      },
+      {
+        q: "What is New York's personal injury deadline, and what if I was partly at fault?",
+        a: "Three years from the date of injury for most personal injury claims (CPLR 214). New York is a pure comparative fault state (CPLR 1411): your recovery is reduced by your percentage of fault, but no amount of fault bars you entirely. Claims against the state or a municipality require a notice of claim within 90 days.",
+      },
+      {
+        q: "How much do New York injury lawyers charge?",
+        a: "New York injury contingency fees are regulated on a sliding scale and generally run around one-third of the recovery; medical malpractice contingency fees follow a statutory sliding scale under Judiciary Law § 474-a. NYC hourly rates ($400–$800+) are the nation's highest, while upstate rates run far lower. The retainer agreement must be in writing and filed as required by court rules.",
+      },
+      {
+        q: "What is New York's small claims limit, and how do I verify an attorney?",
+        a: "New York small claims court handles claims up to $10,000 in New York City Civil Court and in city courts upstate (limits are lower in town and village courts). To verify a lawyer, use the New York State Unified Court System's official Attorney Search, maintained by the Office of Court Administration — it confirms registration status for every New York attorney.",
+      },
+    ],
   },
   {
     name: "North Carolina",
@@ -1420,6 +1524,32 @@ export const STATES_2: StateInfo[] = [
       "North Carolina's District Court handles misdemeanors, family law, and civil cases up to $25,000, while Superior Court — the general trial court — takes felonies and larger civil matters. What surprises outsiders: Superior Court judges rotate between districts every six months, so your judge may have just arrived from another county. Appeals go to the 15-judge Court of Appeals, then the seven-justice Supreme Court of North Carolina. The state also runs a specialized North Carolina Business Court for complex commercial disputes. Judges are elected, and the rotation system means local courthouse familiarity matters less than statewide litigation experience.",
     notableLaws:
       "North Carolina is one of the last states where you can still sue for alienation of affection and criminal conversation — essentially suing a third party for breaking up a marriage. These 'heart balm' cases require a family litigator with specific experience, as defenses are technical. Second, the state allows the 'seat belt defense': evidence that you weren't buckled up can reduce your injury recovery, so defense lawyers probe it early. Third, the personal injury statute of limitations is three years — more generous than many states — but waiting invites spoliation fights over surveillance video and black-box data, so prompt counsel still matters.",
+    faqs: [
+      {
+        q: "How does North Carolina sentence a DWI? The levels are confusing.",
+        a: "North Carolina doesn't use a fixed penalty. Under G.S. § 20-179, after a DWI conviction the judge holds a sentencing hearing and weighs grossly aggravating, aggravating, and mitigating factors to place the case on a six-level ladder, from Level 5 (24 hours to 60 days in jail, up to a $200 fine — usually suspended for community service) up to Aggravated Level 1 (up to 36 months and a $10,000 fine). One grossly aggravating factor — a prior DWI within seven years, driving on a license revoked for impaired driving, causing serious injury, or having a child under 18 in the car — forces at least Level 2 with mandatory active jail time.",
+      },
+      {
+        q: "What happens to my license after a North Carolina DWI arrest?",
+        a: "Two things happen before any conviction. First, a charge with a 0.08+ result or a refusal triggers an immediate 30-day civil revocation of your license (§ 20-16.5), with a limited driving privilege possible after 10 days for eligible drivers. Second, willfully refusing the chemical test adds a separate one-year DMV revocation under the implied consent law (§ 20-16.2), even if the DWI is later dismissed. A first-offense conviction itself brings another one-year revocation, though a limited driving privilege for work, school, and treatment is often available.",
+      },
+      {
+        q: "What is North Carolina's personal injury deadline?",
+        a: "Three years from the date of injury for most personal injury claims (G.S. § 1-15(c) and § 1-52). North Carolina also has a four-year statute of repose for most claims, which can cut off a claim based on when the injury occurred even if it was discovered later — one more reason not to wait.",
+      },
+      {
+        q: "Can I recover in North Carolina if I was even 1% at fault?",
+        a: "Probably nothing — North Carolina is one of the last pure contributory negligence states. If the defense proves you were even slightly negligent, you recover zero, with only narrow escape doctrines like last clear chance. That is why the site's North Carolina guidance stresses that case selection is heavily influenced by contributory negligence risk: the fault fight is the whole case.",
+      },
+      {
+        q: "How much do North Carolina injury lawyers charge?",
+        a: "North Carolina injury contingency fees run about one-third of the recovery; Charlotte hourly rates ($275–$500) lead the state, and business formation is commonly flat-fee. Because of the contributory negligence rule, expect firms to screen accident cases carefully before agreeing to take them on contingency.",
+      },
+      {
+        q: "What is North Carolina's small claims limit, and how do I verify a lawyer?",
+        a: "North Carolina small claims are heard by magistrates for claims up to $10,000 (the exact limit is set by county within a $5,000–$10,000 range set by the chief district court judge). To verify a lawyer, use the North Carolina State Bar's official membership directory — every North Carolina lawyer must be a State Bar member in good standing.",
+      },
+    ],
   },
   {
     name: "North Dakota",
@@ -1439,6 +1569,32 @@ export const STATES_2: StateInfo[] = [
       "North Dakota's District Courts — organized into eight judicial districts — are the trial courts for almost everything. Above them sits the five-justice Supreme Court of North Dakota. Unusually, the state has no permanent intermediate appellate court: instead, a temporary Court of Appeals of three-judge panels is assigned cases by the Supreme Court when needed. Municipal courts handle city ordinance violations. Judges are elected in nonpartisan races. The practical effect of the temporary appeals court is a thinner body of published intermediate precedent, so experienced appellate lawyers lean heavily on Supreme Court decisions.",
     notableLaws:
       "First, workplace injuries go through Workforce Safety & Insurance (WSI), North Dakota's exclusive state-run workers' comp fund — you cannot sue your employer, and appeals follow an administrative track, so hire someone who practices in that system, not a general PI lawyer. Second, mineral rights law is its own world here: dormant mineral statutes can sever long-unused interests, and Bakken title chains are notoriously tangled — oil and gas matters demand a title specialist. Third, the state's agritourism immunity statute shields farm operators from certain visitor-injury suits, which changes the calculus of any rural recreational injury claim.",
+    faqs: [
+      {
+        q: "Is refusing a breath test a crime in North Dakota?",
+        a: "Yes. Under NDCC § 39-08-01, refusing a chemical test after a lawful arrest is charged as its own criminal offense and punished on the same scale as the DUI itself — a Class B misdemeanor for a first offense. North Dakota is the state whose refusal law produced the U.S. Supreme Court's Birchfield decision (2016), which drew a line: the state can criminally punish refusing a breath test, but not refusing a warrantless blood draw.",
+      },
+      {
+        q: "How long do I have to challenge a North Dakota DUI license suspension?",
+        a: "You have 10 days from the date on your Report and Notice form to request an administrative hearing with the North Dakota Department of Transportation. The form doubles as a 25-day temporary permit; if you don't request the hearing, the suspension takes effect automatically on day 25. A first failed test means a 91-day suspension (180 days at 0.18 or higher); a first refusal means a 180-day revocation.",
+      },
+      {
+        q: "What are the penalties for a first North Dakota DUI?",
+        a: "A first DUI is a Class B misdemeanor: a minimum $500 fine ($750 if your BAC was 0.16 or higher), a mandatory addiction evaluation, and up to 30 days in jail, though jail is uncommon for a clean first offense. A second offense within seven years adds a $1,500 minimum fine, at least 10 days in jail, and a year in the 24/7 Sobriety Program, which requires twice-daily breath testing or continuous monitoring.",
+      },
+      {
+        q: "What is North Dakota's personal injury deadline, and what if I was partly at fault?",
+        a: "Six years from the date of injury for most personal injury claims (NDCC § 28-01-16) — tied for the longest in the country. North Dakota follows modified comparative fault (NDCC § 32-03.2-02) with a 50% bar: if your fault is as great as the combined fault of the defendants, you recover nothing; below that, your award is reduced by your percentage.",
+      },
+      {
+        q: "How much do North Dakota lawyers charge?",
+        a: "North Dakota rates are modest: injury contingency around one-third of the recovery and hourly rates of $175–$300. Oil and gas title work is often project-based. Ask for the contingency agreement in writing and how costs are advanced on smaller cases, where expenses can matter proportionally more.",
+      },
+      {
+        q: "What is North Dakota's small claims limit, and how do I verify a lawyer?",
+        a: "North Dakota small claims court handles claims up to $15,000 — among the highest small claims limits in the country — and filing waives the right to a jury trial unless the defendant removes the case. To verify a lawyer, use the North Dakota Supreme Court's official attorney search, maintained through the State Bar Association of North Dakota.",
+      },
+    ],
   },
   {
     name: "Ohio",
@@ -1458,6 +1614,32 @@ export const STATES_2: StateInfo[] = [
       "Ohio is the only state with mayor's courts — small municipal courts run by mayors in villages and small cities, handling traffic and minor misdemeanors. Above them: municipal and county courts, then the Courts of Common Pleas (one per county, the main trial courts). Appeals go to one of 12 District Courts of Appeals, then the seven-justice Supreme Court of Ohio. Ohio judges are elected — partisan primaries followed by nonpartisan general-election ballots, a hybrid found almost nowhere else. If your matter starts in a mayor's court, hire a lawyer who actually practices in that village courtroom.",
     notableLaws:
       "Ohio's tort reform caps most noneconomic damages (roughly $250,000–$350,000 depending on the case), so a PI lawyer's real skill is maximizing economic damages and finding exceptions — ask how they've done it. Second, medical malpractice cases require a certificate of merit: an expert's affidavit filed with the complaint. Miss it and the case dies early, so your lawyer needs an expert network ready on day one. Third, Ohio's 'apology law' bars expressions of sympathy from being used as admissions in malpractice cases, which shapes how pre-suit negotiations play out.",
+    faqs: [
+      {
+        q: "What is an OVI in Ohio, and how fast does the license suspension start?",
+        a: "Ohio calls it OVI — Operating a Vehicle Impaired (R.C. § 4511.19). The Administrative License Suspension (ALS) starts the moment you are arrested, before any conviction: 90 days for a first failed test, and a full year for a first refusal. You can appeal the ALS only within 30 days — the appeal is filed at your initial appearance or arraignment, or within 30 days after it (R.C. § 4511.197) — and only on four narrow grounds, such as whether the officer had reasonable grounds and whether you were properly advised of the consequences.",
+      },
+      {
+        q: "What does a 'high test' OVI mean in Ohio?",
+        a: "A test result of 0.17 or higher is a 'high test' that doubles the mandatory minimum penalties at every offense level. A standard first OVI carries a mandatory three days in jail or a three-day Driver Intervention Program, plus a one-to-three-year court suspension; a high-test first offense doubles the jail minimum to six days. Ohio also uses distinctive yellow-and-red restricted 'party plates' that courts can order, and penalties escalate on a ten-year lookback under Annie's Law.",
+      },
+      {
+        q: "What is Ohio's personal injury deadline, and what if I was partly at fault?",
+        a: "Two years from the date of injury for most personal injury claims (R.C. § 2305.10). Ohio follows modified comparative negligence (R.C. § 2315.33) with a 51% bar: if your fault is greater than the combined fault of all defendants, you recover nothing; otherwise your award is reduced by your percentage of fault.",
+      },
+      {
+        q: "How much do Ohio injury lawyers charge?",
+        a: "Ohio injury contingency fees run about one-third of the recovery, with major-metro hourly rates of $250–$450; trucking accident cases are almost always contingency-based. Ohio requires contingency agreements in writing — confirm the percentage, whether it rises on appeal, and how costs are repaid.",
+      },
+      {
+        q: "What is Ohio's small claims limit, and how do I verify a lawyer?",
+        a: "Ohio municipal and county courts handle small claims up to $6,000, with informal hearings designed for self-represented litigants. To verify a lawyer, use the Supreme Court of Ohio's official Attorney Directory — it lists every attorney registered to practice in Ohio and their current status.",
+      },
+      {
+        q: "Can an Ohio OVI be diverted or expunged?",
+        a: "Yes, one important one: Ohio has no diversion or intervention-in-lieu program that erases an OVI the way some states allow — an OVI generally cannot be reduced through a diversion program, and an OVI conviction cannot be sealed or expunged from your record. That permanence is why the ALS appeal and the criminal defense both matter from the first week.",
+      },
+    ],
   },
   {
     name: "Oklahoma",
@@ -1477,6 +1659,32 @@ export const STATES_2: StateInfo[] = [
       "Oklahoma is one of only two states with a bifurcated high court: the Supreme Court of Oklahoma is the last word on civil cases, while the Court of Criminal Appeals is the last word on criminal cases, with a Court of Civil Appeals in between for civil matters. Trial work happens in district courts across 26 districts. Appellate judges reach the bench through merit selection and then face retention elections. The split top courts mean civil and criminal appeals develop in separate silos — make sure your appellate lawyer practices in the right one.",
     notableLaws:
       "Since McGirt v. Oklahoma, criminal jurisdiction in much of eastern Oklahoma depends on whether the defendant or victim is tribal and where the crime occurred — state, federal, or tribal court could claim the case. A criminal defense lawyer without federal Indian-law fluency is a liability here. Second, Oklahoma's medical marijuana program (State Question 788) is among the nation's most permissive, but employment protections lag behind, creating a steady stream of workplace disputes that need cannabis-aware counsel. Third, workers' compensation runs through an administrative commission with no jury — a very different skill set from courtroom litigation.",
+    faqs: [
+      {
+        q: "How do I fight a license revocation after an Oklahoma DUI?",
+        a: "Oklahoma scrapped its old DPS administrative hearing system. Today, when Service Oklahoma issues a revocation after a failed test or a refusal, you have 30 days from receiving the notice to choose one of two paths — enroll in the Impaired Driver Accountability Program (IDAP) through the Board of Tests, which lets you drive with an ignition interlock during the revocation, or file a district court appeal challenging the revocation (47 O.S. § 6-211). You cannot do both for the same arrest, so the choice should be made deliberately and on time.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Oklahoma?",
+        a: "A first refusal brings a revocation of at least 180 days, the same as a first failed test, and the refusal can be used as evidence in the criminal case. Oklahoma also charges DUI based on 'actual physical control' (APC): you can be convicted for being in control of a vehicle while intoxicated even if you were not actually driving it — sitting in the driver's seat with the keys can be enough.",
+      },
+      {
+        q: "What is Oklahoma's personal injury deadline, and what if I was partly at fault?",
+        a: "Two years from the date of injury for most personal injury claims (12 O.S. § 95). Oklahoma follows modified comparative negligence (23 O.S. § 13): contributory negligence does not bar recovery unless your negligence is greater than the combined negligence of all the defendants — effectively a 51% bar — and your award is reduced by your share of fault.",
+      },
+      {
+        q: "How much do Oklahoma injury lawyers charge?",
+        a: "Oklahoma contingency fees run about one-third of the recovery, with moderate hourly rates ($200–$350) statewide; oil and gas title examination is often volume-priced. Get the fee agreement in writing and ask how case expenses are advanced and repaid from any recovery.",
+      },
+      {
+        q: "What is Oklahoma's small claims limit, and how do I verify a lawyer?",
+        a: "Oklahoma small claims court handles claims up to $10,000, with simplified procedures and limited formal discovery. To verify a lawyer, use the Oklahoma Bar Association's official Find a Lawyer roster — it confirms whether an attorney is licensed and in good standing in Oklahoma.",
+      },
+      {
+        q: "Can a first Oklahoma DUI be a felony now?",
+        a: "It can be. Legislation effective November 1, 2025 significantly expanded Oklahoma's aggravated DUI law, so a first-offense DUI with aggravating factors — an aggravated DUI in Oklahoma centers on a BAC of 0.15 or higher — can now be charged as a felony instead of a misdemeanor. That change makes the exact BAC reading and the circumstances of the stop far more consequential than they were under the old misdemeanor-only first-offense scheme.",
+      },
+    ],
   },
   {
     name: "Oregon",
@@ -1496,6 +1704,32 @@ export const STATES_2: StateInfo[] = [
       "Oregon's Circuit Courts — 27 judicial districts — handle nearly all trial work, from felonies to major civil cases. The state also has its own Tax Court, a specialized statewide court for tax disputes that few states maintain. Appeals go to the Court of Appeals, then the seven-justice Supreme Court of Oregon. Justice and municipal courts handle smaller matters. Judges are elected in nonpartisan races. The Tax Court's existence is the practical headline: property and business tax fights get a dedicated forum with judges who live in that subject matter, so tax controversies call for specialists.",
     notableLaws:
       "Oregon was the first state with a Death with Dignity Act, which adds end-of-life dimensions to estate planning — your estate lawyer should be comfortable with advance directives in this framework. Second, marijuana is fully legal, but employment law is still catching up: recent rules limit how employers can act on off-duty cannabis use, a fast-moving area where HR-side and employee-side counsel disagree sharply. Third, Oregon imposes strict liability for dog bites — the 'one free bite' rule doesn't exist here — so dog-attack cases are more straightforward for plaintiffs, though damages still need a lawyer who documents scarring and trauma properly.",
+    faqs: [
+      {
+        q: "Can a first Oregon DUII be dismissed through diversion?",
+        a: "Yes, if you qualify. Oregon's DUII Diversion Program (ORS 813.200 et seq.) lets eligible first offenders avoid a conviction: you enter a plea that the court holds, complete a one-year program of evaluation, treatment, and abstinence conditions, and the charge is dismissed. Eligibility is strict — no DUII conviction or diversion in the previous 15 years, no commercial license at the time of the offense, and no injury crash — and it matters because a DUII conviction in Oregon can never be expunged or set aside.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Oregon?",
+        a: "Refusing a breath, blood, or urine test brings a one-year DMV suspension (three years with a prior DUII or refusal within five years) plus a separate $650 fine for the refusal itself (ORS 813.095) — and the refusal can be used as evidence at trial. A failed test means a 90-day suspension. Either way, you have only 10 days from the arrest to request a DMV implied-consent hearing; the request must be received by the deadline, and the suspension otherwise begins on the 30th day.",
+      },
+      {
+        q: "What is Oregon's personal injury deadline, and what if I was partly at fault?",
+        a: "Two years from the date of injury for most personal injury claims (ORS 12.110). Oregon follows modified comparative negligence (ORS 31.600) with a 51% bar: if your fault is greater than the defendants' combined fault, you recover nothing; otherwise your damages are reduced by your percentage.",
+      },
+      {
+        q: "How much do Oregon injury lawyers charge?",
+        a: "Oregon injury contingency fees run about one-third of the recovery; Portland hourly rates ($275–$475) reflect West Coast costs and rural rates run lower, while land-use and environmental work is typically hourly. Oregon requires contingency agreements in writing — confirm how costs are treated if the case is lost.",
+      },
+      {
+        q: "What is Oregon's small claims limit, and how do I verify a lawyer?",
+        a: "Oregon small claims are heard in circuit court (and justice courts in some counties) for claims up to $10,000, with mediation required or offered in many counties before a hearing. To verify a lawyer, use the Oregon State Bar's official member directory, which shows licensure status and any public discipline.",
+      },
+      {
+        q: "Does Oregon cap pain-and-suffering damages?",
+        a: "Yes — Oregon is one of the few states with no cap on non-economic damages in most personal injury cases, after its supreme court struck down the general damages cap as applied in many cases; wrongful death and claims against public bodies remain capped by statute. Oregon also requires drivers to carry Personal Injury Protection (PIP) coverage, so your own policy pays initial medical bills regardless of fault after a crash.",
+      },
+    ],
   },
   {
     name: "Pennsylvania",
