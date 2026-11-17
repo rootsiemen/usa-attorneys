@@ -71,6 +71,82 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
   const url = `${SITE_URL}/attorneys/${state.slug}`;
   const attorneys = await getAttorneysByState(state.slug);
 
+  /**
+   * Auto-generated versions of the two depth sections Maine got by hand
+   * (gap analysis, 2026-11-17): "Attorneys by City" computed from this
+   * state's own attorney records, and the "Legal Data & Cost Tools"
+   * internal-links section. States that define `extraSections` in
+   * lib/data.ts (currently Maine) keep their hand-written sections —
+   * this fallback only renders for states without them.
+   */
+  type ExtraSection = {
+    heading: string;
+    paragraphs: string[];
+    links?: { href: string; label: string; blurb: string }[];
+  };
+  const autoSections: ExtraSection[] = [];
+  const cityCountsMap = new Map<string, number>();
+  for (const a of attorneys) {
+    if (a.city) cityCountsMap.set(a.city, (cityCountsMap.get(a.city) ?? 0) + 1);
+  }
+  const cityCounts = [...cityCountsMap.entries()].sort(
+    (x, y) => y[1] - x[1] || x[0].localeCompare(y[0])
+  );
+  if (cityCounts.length > 0) {
+    const joinList = (items: string[]) =>
+      items.length <= 1
+        ? items.join("")
+        : `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
+    const topText = joinList(
+      cityCounts.slice(0, 3).map(([c, n]) => `${c} (${n})`)
+    );
+    const restCities = cityCounts.slice(3).map(([c]) => c);
+    let cityPara =
+      `Our ${state.name} directory currently lists ${attorneys.length} ` +
+      `${attorneys.length === 1 ? "attorney" : "attorneys"} across ` +
+      `${cityCounts.length} ${cityCounts.length === 1 ? "community" : "communities"}. ` +
+      `${cityCounts.length === 1 ? "They are based in" : "The largest concentrations are in"} ${topText}.`;
+    if (restCities.length > 0) {
+      cityPara += ` Listings also cover ${joinList(restCities)}.`;
+    }
+    cityPara +=
+      " Tap any name in the contacts list on this page to open the full profile, practice areas, and phone number.";
+    autoSections.push({
+      heading: `${state.name} Attorneys by City`,
+      paragraphs: [
+        cityPara,
+        `Coverage is thinner in rural parts of ${state.name}, where the nearest listed attorney may be some distance away. That is normal for a directory compiled from public records: many ${state.name} attorneys serve several counties and meet clients by phone or video, so a lawyer in the nearest city above can often handle your matter without a long drive. If you practice in an under-served ${state.name} community, claim your free listing so clients there can find you.`,
+      ],
+    });
+  }
+  autoSections.push({
+    heading: `${state.name} Legal Data & Cost Tools`,
+    paragraphs: [
+      `Before you hire, put real numbers next to the decision. Our research pages show how ${state.name} compares with other states and what cases like yours typically settle for:`,
+    ],
+    links: [
+      {
+        href: "/data/attorney-density-by-state",
+        label: "Attorney Density by State",
+        blurb:
+          "How many lawyers per resident each state has — and what that means for finding counsel near you.",
+      },
+      {
+        href: "/data/settlement-ranges",
+        label: "Settlement Ranges by Case Type",
+        blurb:
+          "Typical settlement ranges for injury, accident, and malpractice cases.",
+      },
+      {
+        href: "/tools",
+        label: "Free Settlement Calculators",
+        blurb:
+          "Estimate car accident, personal injury, workers' comp, and other settlements in minutes.",
+      },
+    ],
+  });
+  const sectionsToRender = state.extraSections ?? autoSections;
+
   const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -134,7 +210,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
         <h2>Notable {state.name} Laws to Know</h2>
         <p>{state.notableLaws}</p>
 
-        {state.extraSections?.map((sec) => (
+        {sectionsToRender.map((sec) => (
           <div key={sec.heading}>
             <h2>{sec.heading}</h2>
             {sec.paragraphs.map((para, i) => (
