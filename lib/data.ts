@@ -48,6 +48,32 @@ export const STATES: StateInfo[] = [
       "Alabama's trial courts are the Circuit Courts, which hear felonies, major civil cases, and family matters, while District Courts handle misdemeanors, small claims, and preliminary hearings. Appeals go to two specialized courts — the Court of Civil Appeals and the Court of Criminal Appeals — before reaching the Supreme Court of Alabama. One Alabama distinctive: judges at every level are chosen in partisan elections, so the judge hearing your case campaigned for the job. That makes local knowledge valuable — an attorney who practices regularly before your county's elected judges understands their tendencies in a way an outsider can't.",
     notableLaws:
       "Three Alabama rules reshape injury cases. First, wrongful death damages here are exclusively punitive — Alabama is the only state that bars compensatory damages in wrongful death suits, so these cases hinge entirely on punishment evidence. Second, tort reform abolished joint and several liability: each defendant pays only its own share of fault, which matters when multiple parties caused your injury. Third, punitive damages are capped at three times compensatory damages or $1.5 million, whichever is greater. Ask any personal injury lawyer how these three rules affect your case's value before you sign a fee agreement.",
+    faqs: [
+      {
+        q: "Can I be charged with DUI in Alabama if I wasn't actually driving?",
+        a: "Yes. Alabama's DUI law (Ala. Code § 32-5A-191) makes it illegal to drive or be in “actual physical control” of a vehicle while under the influence — so sitting in the driver's seat with the keys can be enough, even if the car never moved. A DUI arrest also starts an administrative license action through the Alabama Law Enforcement Agency (ALEA) under the implied consent law, separate from the criminal case. Because the physical-control rule catches people who thought they were sleeping it off safely, talk to an Alabama DUI lawyer before you say anything about what you were doing in the car.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in Alabama?",
+        a: "Two years from the date of injury (Ala. Code § 6-2-38) for most negligence claims. Some claims run shorter — suits against cities and counties require formal notice within six months, and medical malpractice has its own rules. Alabama's deadline interacts with its harsh fault rule (below), so waiting is doubly risky: evidence that could prove you were blameless fades fast. Most Alabama injury lawyers offer free consultations, and there is no reason to sit on a claim.",
+      },
+      {
+        q: "Can I still recover money in Alabama if the accident was partly my fault?",
+        a: "This is where Alabama is unforgiving. Alabama is one of the few pure contributory negligence states: if you are found even 1% at fault for the accident, you are barred from recovering anything at all. Insurers know this and look hard for any hint of fault on your side — a rolling stop, a glance at your phone. That is why Alabama injury lawyers build cases designed to eliminate any suggestion of client fault, and why you should never give a recorded statement to the other driver's insurer before getting counsel.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in Alabama?",
+        a: "Personal injury lawyers in Alabama typically charge a contingency fee around one-third of the recovery — nothing upfront, and nothing if you lose. Criminal defense and family lawyers usually bill hourly ($200–$400) or flat fees for routine matters, and business and real estate work in Huntsville's growth market often runs flat-fee for formations and closings. Whatever the structure, get the fee agreement in writing, and ask how case expenses are handled before you sign.",
+      },
+      {
+        q: "How do I check whether an Alabama lawyer is licensed and in good standing?",
+        a: "The Alabama State Bar keeps the official roster of licensed attorneys — its online member directory at alabar.org lets you confirm a lawyer is licensed and shows whether they are in good standing. The Bar's Lawyer Referral Service can also match you with a local attorney for a low-cost first consultation. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is Alabama's small claims limit?",
+        a: "Alabama's District Court small claims docket handles claims up to $6,000 (Ala. Code § 12-12-31). The process is built for people without lawyers: modest filing fees, informal hearings in front of a judge, and quicker timelines than regular civil court. For disputes above $6,000 — or anything involving evictions, property title, or a likely appeal — talk to an Alabama attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
   },
   {
     name: "Alaska",
@@ -67,6 +93,32 @@ export const STATES: StateInfo[] = [
       "Alaska runs a unified court system: the Superior Court is the main trial court for felonies, major civil cases, and family law, while the District Court handles misdemeanors and smaller civil matters. Appeals go to the Court of Appeals for criminal cases and directly to the Supreme Court of Alaska for civil matters. Judges aren't elected in contested races — they're appointed by the governor from a nominating commission's list and then face periodic retention elections. The practical upshot: Alaska judges tend toward the deliberative, and attorneys who know the small, close-knit bench have an edge.",
     notableLaws:
       "Alaska's Rule 82 is the rule most newcomers miss: the losing side in a civil case generally pays a portion of the winner's attorney fees. That fee-shifting risk changes settlement math — ask your lawyer to model best- and worst-case fee exposure before filing. Second, Alaska follows pure comparative negligence, so you can recover damages even if you were mostly at fault (your award is just reduced by your share). Third, tribal courts operate alongside state courts in much of rural Alaska, and jurisdictional fights over which court hears your case are common — hire someone who has actually litigated the tribal-state boundary.",
+    faqs: [
+      {
+        q: "Is refusing a breath test in Alaska a separate crime?",
+        a: "Yes — and that surprises people. Alaska charges impaired driving as DUI (AS 28.35.030), but refusing a chemical test after a lawful arrest is its own criminal offense (AS 28.35.032), a class A misdemeanor, on top of the DUI charge and a license revocation through the Division of Motor Vehicles. So refusing rarely improves your position: you can end up with two convictions instead of one. An Alaska DUI lawyer can tell you whether the stop and the arrest were lawful, which is where these cases are usually won or lost.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in Alaska?",
+        a: "Two years from the date of injury (AS 09.10.070) for most negligence claims. Alaska's short window matters more here than in most states because evidence can literally wash away — seasonal roads, departing seasonal workers, and short construction seasons mean witnesses scatter fast. Claims against the state or a municipality carry additional notice requirements. If you were hurt anywhere in Alaska, an injury lawyer should start preserving evidence within weeks, not months.",
+      },
+      {
+        q: "Can I still recover money in Alaska if the accident was mostly my fault?",
+        a: "Usually, yes. Alaska follows pure comparative negligence (AS 09.17.060): your compensation is reduced by your percentage of fault, but you are never barred entirely — even at 90% fault you can recover the other 10%. One Alaska rule cuts the other way: under Rule 82, the losing side in a civil case generally pays a portion of the winner's attorney fees, so a weak claim carries fee exposure. Ask your lawyer to model that best- and worst-case fee math before you file.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in Alaska?",
+        a: "Contingency fees dominate Alaska personal injury work — typically around one-third of the recovery, with nothing paid upfront. Hourly rates in Anchorage run $250–$450 for family, criminal, and business matters, and rural cases can add real travel costs for hearings outside the firm's home city. Ask upfront how the firm handles travel expenses and whether they appear in village or borough courts by phone or video. Whatever the structure, get the fee agreement in writing before work starts.",
+      },
+      {
+        q: "How do I check whether an Alaska lawyer is licensed and in good standing?",
+        a: "Alaska has an integrated bar: every practicing lawyer must belong to the Alaska Bar Association, which publishes a member directory and disciplinary decisions — search the lawyer's name there to confirm an active license before you hire. The Bar Association also runs a lawyer referral service. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is Alaska's small claims limit?",
+        a: "Alaska District Court hears small claims up to $10,000 (AS 22.15.040). The process is designed for people without lawyers — filing fees are modest and hearings are informal — though in bush communities the practical challenge is often scheduling and travel rather than the law itself. For disputes above $10,000, or anything involving property title or an appeal, talk to an Alaska attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
   },
   {
     name: "Arizona",
@@ -86,6 +138,32 @@ export const STATES: StateInfo[] = [
       "Every Arizona county has a Superior Court — the trial court for felonies, major civil cases, divorces, and probate. Below it, Justice Courts and municipal courts handle misdemeanors, small claims, and traffic. Appeals go to the Court of Appeals, which sits in two divisions (Phoenix and Tucson), then the Supreme Court of Arizona. Judicial selection is split: appellate judges and those in Maricopa, Pima, and Pinal counties are merit-selected and face retention elections, while rural counties still elect judges. In Phoenix's massive Maricopa County Superior Court, courthouse-specific experience genuinely matters.",
     notableLaws:
       "Arizona's anti-deficiency statutes are a big deal for homeowners: after a foreclosure on most residential properties, the lender generally cannot chase you for the remaining loan balance. If you're facing foreclosure, hire a real estate attorney who litigates these protections — they change leverage completely. Second, Arizona follows pure comparative negligence, so an injured person even 90% at fault can still recover 10%. Third, Arizona imposes strict liability for dog bites — the owner is liable even if the dog never showed aggression before. Each rule rewards lawyers who specialize rather than generalize.",
+    faqs: [
+      {
+        q: "What are “extreme” and “super extreme” DUI in Arizona?",
+        a: "Arizona tiers its DUI law by blood alcohol level. A standard DUI starts at 0.08 (A.R.S. § 28-1381), but a result of 0.15 or higher within two hours of driving is an “extreme DUI” (§ 28-1382) carrying a mandatory minimum of 30 consecutive days in jail on a first offense — a judge can suspend all but 9 of those days only if you install an ignition interlock for 12 months. At 0.20 or higher it becomes a “super extreme DUI,” with a 45-day minimum. The exact number on the breath or blood test changes everything in an Arizona DUI case, which is why challenging the test is often the defense.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in Arizona?",
+        a: "Two years from the date of injury (A.R.S. § 12-542) for most negligence claims. Claims against public entities are far tighter: a formal notice of claim against a city, county, or the state is due within 180 days, and the suit deadline itself shrinks. Medical malpractice and wrongful death have their own wrinkles. Because the government-claim clock runs so fast, tell your Arizona injury lawyer in the first meeting if any public agency or vehicle was involved.",
+      },
+      {
+        q: "Can I still recover money in Arizona if the accident was partly my fault?",
+        a: "Yes — Arizona follows pure comparative negligence (A.R.S. § 12-2505): your compensation is reduced by your percentage of fault, but you are never barred entirely, even if you were mostly responsible. In practice this makes Arizona injury cases a fight over percentages: every point of fault shifted to the other side is money back in your pocket. Insurers argue those percentages aggressively, which is why Arizona litigators document fault evidence (scene photos, vehicle data, witness statements) from day one.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in Arizona?",
+        a: "Arizona personal injury lawyers work on contingency — about 33% of the recovery, with nothing paid upfront. Family law attorneys typically charge $250–$450 per hour with a retainer, and estate planning in retirement-heavy areas often runs flat-fee, from a few hundred dollars for a simple will to several thousand for a trust-based plan. Whatever the structure, get the fee agreement in writing and ask whether the contingency percentage rises if the case goes to trial.",
+      },
+      {
+        q: "How do I check whether an Arizona lawyer is licensed and in good standing?",
+        a: "The State Bar of Arizona regulates the profession — its online “Find a Lawyer” directory confirms whether an attorney is licensed and shows their practice status, and the Bar publishes disciplinary actions. Search the lawyer's name there before you hire, especially for high-stakes matters. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is Arizona's small claims limit?",
+        a: "Arizona's small claims limit is $3,500 — one of the lowest in the country. Small claims is a division of the Justice Court, designed for people without lawyers: hearings are informal, and attorneys generally cannot participate unless both sides agree or the case is transferred. For disputes above $3,500, the Justice Court's regular civil division (up to $10,000) or Superior Court is the right venue — talk to an Arizona attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
   },
   {
     name: "Arkansas",
@@ -105,6 +183,32 @@ export const STATES: StateInfo[] = [
       "Arkansas Circuit Courts are the trial courts of general jurisdiction — felonies, major civil disputes, divorces, and juvenile matters all start there. District Courts handle misdemeanors, small claims, and traffic. Appeals go to the Arkansas Court of Appeals, with the Supreme Court of Arkansas taking the most significant cases. Arkansas judges are chosen in nonpartisan elections, a system meant to keep party politics out of the courtroom. Because dockets in Pulaski County (Little Rock) move very differently from rural circuits, ask prospective lawyers where they actually try cases.",
     notableLaws:
       "Arkansas's Deceptive Trade Practices Act is unusually consumer-friendly: if a business deceived you, the statute can award actual damages plus attorney's fees to the winning consumer — which is why consumer lawyers take cases here they might decline elsewhere. Second, Arkansas gives you three years to file most personal injury suits, a full year longer than many neighboring states, but don't treat that as breathing room since evidence fades. Third, Arkansas abolished joint and several liability, so each at-fault party pays only its percentage — making the choice of which defendants to sue a strategic decision your lawyer must get right.",
+    faqs: [
+      {
+        q: "Why can't an Arkansas DWI be pleaded down to reckless driving?",
+        a: "Arkansas prosecutes impaired driving as DWI (Ark. Code § 5-65-103), and state law (§ 5-65-107) generally prohibits reducing a DWI charge to a lesser offense through plea bargaining — the prosecutor must try the DWI as charged or dismiss it outright. That makes the defense different here: the fight is over the stop, the test, and the evidence, not negotiation. An arrest also starts a separate license suspension through the Office of Driver Services, and you have only 7 calendar days from arrest to request a hearing to contest it. A first DWI carries a six-month license suspension, so call an Arkansas DWI lawyer immediately.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in Arkansas?",
+        a: "Three years from the date of injury (Ark. Code § 16-56-105) for most negligence claims — a full year longer than many neighboring states. Medical malpractice runs shorter at two years, and claims against government entities have their own notice rules. Three years sounds generous, but Arkansas cases still turn on evidence gathered in the first weeks: skid marks fade, vehicles get repaired, and witnesses move. Most Arkansas injury lawyers will tell you to start long before the deadline forces the issue.",
+      },
+      {
+        q: "Can I still recover money in Arkansas if the accident was partly my fault?",
+        a: "Only if the other side was more at fault than you. Arkansas follows a modified comparative fault rule with a 50% bar (Ark. Code § 16-64-122): your compensation is reduced by your percentage of fault, and if your fault is equal to or greater than the defendant's, you recover nothing. Because a 50-50 finding wipes out the claim, Arkansas injury cases are often decided by how fault percentages get argued — the core skill of an experienced local litigator.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in Arkansas?",
+        a: "Contingency fees — around one-third of the recovery — are standard for Arkansas injury cases, with nothing paid upfront. Hourly rates in Little Rock typically run $200–$350 for family, criminal, and business work; northwest Arkansas corporate work can run higher. Simple estate plans and uncontested divorces are often flat-fee. Whatever the structure, get the fee agreement in writing before any work starts, and ask how case expenses are deducted.",
+      },
+      {
+        q: "How do I check whether an Arkansas lawyer is licensed and in good standing?",
+        a: "The Arkansas Supreme Court keeps the official roll of licensed attorneys through its Clerk, and the Arkansas Judiciary publishes an online attorney directory built from those records — search the lawyer's name there before you hire. The Office of Professional Conduct handles complaints and publishes disciplinary outcomes. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is Arkansas's small claims limit?",
+        a: "Arkansas District Court's small claims division handles claims up to $5,000 (Ark. Code § 16-17-704). The process is designed for people without lawyers — filing fees are modest and hearings are informal — and claims above the limit belong in the court's regular civil docket or Circuit Court. For anything involving evictions, property title, or a likely appeal, talk to an Arkansas attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
   },
   {
     name: "California",
@@ -124,6 +228,32 @@ export const STATES: StateInfo[] = [
       "California's trial courts are the Superior Courts — one in each of the state's 58 counties, from tiny Alpine to massive Los Angeles. Felonies, major civil cases, family law, and probate all start there. Appeals go to the Courts of Appeal, divided into six districts, then the Supreme Court of California. Judges are appointed by the governor and later face retention elections, though Superior Court judges can also be challenged in nonpartisan elections. With 58 separate trial courts, each with local rules and cultures, hiring a lawyer who practices daily in your specific courthouse is more important here than anywhere.",
     notableLaws:
       "Three California rules dominate hiring decisions. First, the revised MICRA law caps non-economic damages in medical malpractice cases (currently $350,000, rising annually, higher for wrongful death) — ask any med-mal lawyer to explain exactly how the cap affects your case's economics. Second, California's anti-SLAPP statute is the strongest in America: if you're sued for speaking out on a public issue, a specialized motion can kill the case early and award you attorney's fees. Third, Proposition 51 makes each defendant pay non-economic damages only in proportion to fault — so identifying every responsible party matters enormously.",
+    faqs: [
+      {
+        q: "What is the 10-day DMV deadline after a California DUI arrest?",
+        a: "A California DUI arrest (Vehicle Code § 23152) starts two cases at once. The DMV's Administrative Per Se process will suspend your license automatically — but you have exactly 10 days from receiving the pink temporary license to request a DMV hearing and a stay of that suspension (Vehicle Code § 13558). Miss the window and the suspension begins on day 30, no matter how strong your criminal defense is. Refusing a chemical test makes the suspension longer and removes the stay option. A DUI lawyer's first job is making that 10-day call, so do not wait for your court date to hire one.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in California?",
+        a: "Two years from the date of injury (Code Civ. Proc. § 335.1) for most negligence claims; property damage gets three. Claims against a city, county, or state agency are far stricter — a government claim form is generally due within six months, and missing it can end the case before it starts. Medical malpractice runs one year from discovery with a three-year outer cap. Tell your California injury lawyer in the first meeting if any public entity, public vehicle, or public property was involved.",
+      },
+      {
+        q: "Can I still recover money in California if the accident was mostly my fault?",
+        a: "Yes. California follows pure comparative negligence: your compensation is reduced by your percentage of fault, but you are never barred entirely — even at 90% fault you can recover the remaining 10%. That makes California injury litigation a fight over percentages, and it is also why insurers here push hard to assign you a larger share. Document everything early, and let your lawyer — not the adjuster — frame how the fault gets divided.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in California?",
+        a: "California personal injury contingency fees run 33–40% of the recovery, with nothing paid upfront; the percentage often steps up if the case is litigated or tried. Hourly rates in Los Angeles and the Bay Area ($350–$700+) are among the nation's highest, while inland areas run lower. Employment and consumer attorneys often take cases on contingency or hybrid arrangements because California's fee-shifting statutes let winning plaintiffs recover fees. Whatever the structure, get the fee agreement in writing before work starts.",
+      },
+      {
+        q: "How do I check whether a California lawyer is licensed and in good standing?",
+        a: "The State Bar of California keeps the official member records — its online member search at calbar.ca.gov shows whether a lawyer is licensed, their status, and any public discipline. Search the name before you hire; an “inactive” or suspended status is a hard stop. The State Bar also certifies lawyer referral services in most counties. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is California's small claims limit?",
+        a: "In California, individuals can sue in small claims court for up to $12,500; businesses and other entities are capped at $6,250 (Code Civ. Proc. § 116.220). The process is designed for people without lawyers — attorneys generally cannot represent you at the hearing — and filing fees scale with the amount claimed. For disputes above the limit, or anything involving evictions or complex title issues, talk to a California attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
   },
   {
     name: "Colorado",
@@ -143,6 +273,32 @@ export const STATES: StateInfo[] = [
       "Colorado District Courts are the trial courts for felonies, major civil cases, divorces, and juvenile matters, while County Courts handle misdemeanors, small claims, and traffic. Appeals go to the Colorado Court of Appeals, then the Supreme Court of Colorado. The state uses merit selection: a nominating commission screens applicants, the governor appoints, and judges later face retention elections rather than opponents. Colorado's courts are known for comparatively efficient dockets, and its e-filing system is statewide — but local practice still varies enough that Front Range experience doesn't automatically translate to mountain jurisdictions.",
     notableLaws:
       "Colorado caps non-economic damages in injury cases (pain and suffering), a figure adjusted for inflation that now exceeds half a million dollars — your lawyer should calculate how the cap constrains your specific claim. Second, the Colorado Ski Safety Act sharply limits lawsuits over skiing injuries by treating inherent risks of the sport as assumed by the skier; ski-accident cases turn on whether the resort violated its specific statutory duties, a niche specialty. Third, Colorado's premises liability statute sorts visitors into categories with different duty levels — where you stood legally when injured can decide the whole case.",
+    faqs: [
+      {
+        q: "What is the difference between a DUI and a DWAI in Colorado?",
+        a: "Colorado has two impaired-driving offenses under the same statute (C.R.S. § 42-4-1301). A DUI applies when a driver is substantially incapable of driving safely, or has a BAC of 0.08 or higher. A DWAI — Driving While Ability Impaired — is the lesser offense: it takes only impairment “to the slightest degree,” and a BAC of 0.05 to 0.08 can support the charge. Many Colorado drivers are shocked to be arrested below the 0.08 line. A first DWAI carries lighter penalties than a DUI, but it still counts as a prior impaired-driving offense if you are ever charged again — so it is worth defending, not just paying.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in Colorado?",
+        a: "Two years from the date of injury for most negligence claims (C.R.S. § 13-80-102) — but three years if the injury came from a motor-vehicle crash (C.R.S. § 13-80-101). Claims against government entities require a written notice within 182 days, which traps many unrepresented plaintiffs. Colorado also caps non-economic damages in injury cases (a figure adjusted for inflation that now exceeds half a million dollars), so ask your injury lawyer early how the cap constrains your claim's value.",
+      },
+      {
+        q: "Can I still recover money in Colorado if the accident was partly my fault?",
+        a: "Only if you were less at fault than the other side. Colorado follows a modified comparative negligence rule with a 50% bar (C.R.S. § 13-21-111): your compensation is reduced by your percentage of fault, and if your fault is equal to or greater than the defendant's, you recover nothing. Ski and outdoor cases add another layer — the Ski Safety Act treats many slope risks as assumed by the skier. A Colorado litigator's real job in close cases is keeping your fault share under that 50% line.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in Colorado?",
+        a: "Injury contingency fees hover around one-third of the recovery in Colorado, with nothing paid upfront. Family and criminal hourly rates in Denver run $250–$450, with mountain-town and rural practices often lower. Cannabis and business regulatory work is frequently hourly or project-based given its complexity. Whatever the structure, get the fee agreement in writing before any work starts, and ask whether the contingency percentage changes if the case goes to trial.",
+      },
+      {
+        q: "How do I check whether a Colorado lawyer is licensed and in good standing?",
+        a: "Attorney registration in Colorado is handled by the Colorado Supreme Court's Office of Attorney Registration, which maintains the official directory of licensed attorneys — search the lawyer's name there to confirm they are active and eligible to practice. The Office of Attorney Regulation Counsel investigates complaints and publishes discipline. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is Colorado's small claims limit?",
+        a: "Colorado's small claims division of County Court handles claims up to $7,500 (C.R.S. § 13-6-403). The process is designed for people without lawyers: filing fees are modest, hearings are informal, and attorneys can participate only in limited circumstances. For disputes above $7,500 — or anything involving evictions, property title, or a likely appeal — talk to a Colorado attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
   },
   {
     name: "Connecticut",
@@ -162,6 +318,32 @@ export const STATES: StateInfo[] = [
       "Connecticut is unusual: it has a single statewide Superior Court rather than separate county trial courts. The Superior Court is divided into judicial districts plus specialized dockets for housing, family, and complex litigation. Appeals go to the Connecticut Appellate Court, then the Supreme Court. Judges are nominated by the governor and confirmed by the General Assembly — no popular elections — and serve eight-year terms. The system leans heavily on mediation and alternative dispute resolution, so Connecticut rewards lawyers who negotiate brilliantly, not just those who try cases well.",
     notableLaws:
       "Connecticut's comparative fault rule is slightly friendlier than most: you can recover damages as long as your share of fault doesn't exceed 50%, with your award reduced proportionally. Second, Connecticut imposes strict liability on dog owners for bites — no 'one free bite' defense, which simplifies these cases considerably. Third, medical malpractice suits require a certificate of merit: a qualified physician must attest the case has merit before you can even file. That front-loaded requirement means experienced med-mal lawyers screen cases rigorously — if a firm takes yours, that's itself a signal.",
+    faqs: [
+      {
+        q: "Connecticut calls it OUI — what does that mean for a first arrest?",
+        a: "Connecticut's impaired-driving offense is Operating Under the Influence (Conn. Gen. Stat. § 14-227a) — “OUI” rather than DUI, though the terms are used interchangeably locally. The arrest also triggers a DMV license action separate from the criminal case. For first-time offenders, the key option is the Pretrial Impaired Driving Intervention Program (§ 54-56r): complete the assigned education or treatment sessions and the charge is dismissed outright. Eligibility is limited — no prior OUI convictions and no use of the program in the past 10 years — so an OUI lawyer should evaluate it at the very first meeting, before any plea is entered.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in Connecticut?",
+        a: "Two years from the date of injury (Conn. Gen. Stat. § 52-584) for most negligence claims. Medical malpractice also runs two years but requires a certificate of merit — a qualified medical expert's written opinion — before suit, which takes time to obtain. Claims against the state go through the Claims Commissioner on a shorter track. Because the malpractice pre-suit process eats into the clock, Connecticut injury lawyers start expert review early; bring complete medical records to the first consultation.",
+      },
+      {
+        q: "Can I still recover money in Connecticut if the accident was partly my fault?",
+        a: "Yes, as long as your fault does not exceed the other side's. Connecticut follows modified comparative negligence with a 51% bar (Conn. Gen. Stat. § 52-572h): your compensation is reduced by your percentage of fault, and you are barred only if your fault is greater than the combined fault of the defendants. At exactly 50-50 you still recover half — slightly friendlier than states with a hard 50% bar. Connecticut also imposes strict liability on dog owners for bites, which removes the fault fight from those cases entirely.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in Connecticut?",
+        a: "Personal injury in Connecticut remains contingency-based — roughly one-third of the recovery, with nothing paid upfront. Hourly rates run $300–$500 in Fairfield County, reflecting New York metro spillover, and less elsewhere in the state. Estate planning for the state's affluent retirees is commonly flat-fee. Whatever the structure, get the fee agreement in writing before any work starts, and ask how litigation expenses are advanced and repaid.",
+      },
+      {
+        q: "How do I check whether a Connecticut lawyer is licensed and in good standing?",
+        a: "Connecticut attorneys are admitted and regulated through the Judicial Branch, which maintains the official list of licensed attorneys — search the lawyer's name there to confirm active status before you hire. The Statewide Grievance Committee publishes disciplinary decisions for attorneys found to have violated the rules. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is Connecticut's small claims limit?",
+        a: "Connecticut's small claims session of Superior Court handles claims up to $5,000 (Conn. Gen. Stat. § 51-15) — with a notable exception: certain home-improvement and new-home construction contract claims can go up to $15,000. The process is designed for people without lawyers: modest filing fees, informal hearings before a magistrate, and no jury. For disputes above the limit, or anything involving evictions or title, talk to a Connecticut attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
   },
   {
     name: "Delaware",
@@ -181,6 +363,32 @@ export const STATES: StateInfo[] = [
       "Delaware's court structure is one of a kind. The Court of Chancery — a court of equity with no juries — decides corporate and fiduciary disputes and is the most influential business court in America. The Superior Court is the main trial court for criminal and major civil cases, with the Court of Common Pleas below it for lesser matters and a separate Family Court. Appeals go to the Supreme Court of Delaware. Uniquely, Delaware's constitution requires partisan balance on the bench, and judges are appointed by the governor and confirmed by the senate — no elections, which insulates the judiciary from campaign politics.",
     notableLaws:
       "Delaware's LLC Act is the most flexible in the country — operating agreements can waive fiduciary duties in ways most states forbid, which is why business formation here demands a lawyer who drafts with that freedom (and its traps) in mind. Second, Delaware is one of the few states with no dram shop law: bars generally can't be sued for overserving a patron who later causes injury, a sharp contrast with neighboring states. Third, Delaware follows modified comparative negligence with a 50% bar — recover nothing if you're half or more at fault — so early fault analysis by your attorney is critical.",
+    faqs: [
+      {
+        q: "What is Delaware's First Offender Election for a DUI?",
+        a: "Delaware charges impaired driving as DUI (21 Del. C. § 4177) — and “driving” includes being in actual physical control of the vehicle. Eligible first-time offenders get an option most states do not offer: the First Offender Election (21 Del. C. § 4177B). Instead of a trial, the court places you on probation with an education or rehabilitation program and no judgment of guilt; complete it and the case is dismissed. The trade-offs are real — you waive your trial and DMV hearing rights, your license is still revoked for a year, and the election counts as a prior offense if you are ever arrested again. A Delaware DUI lawyer can tell you whether electing it beats fighting the charge.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in Delaware?",
+        a: "Two years from the date of injury (10 Del. C. § 8119) for most negligence claims. Delaware's courts move quickly, and the state's small size means cases are often resolved faster than in bigger jurisdictions — but the deadline is unforgiving, and evidence in crash and premises cases degrades fast. Note one Delaware distinctive that affects strategy: the state has no dram shop law, so bars generally cannot be sued for overserving a patron who later injures you; your claim runs against the driver and their insurer.",
+      },
+      {
+        q: "Can I still recover money in Delaware if the accident was partly my fault?",
+        a: "Yes, as long as you were not more at fault than the other side. Delaware follows modified comparative negligence with a 51% bar (10 Del. C. § 8132): your compensation is reduced by your percentage of fault, and you are barred only when your fault is greater than the defendant's. At an even 50-50 split you still recover half. In practice, Delaware injury cases turn on the fault allocation — the percentages argued by your litigator matter as much as the total damages number.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in Delaware?",
+        a: "Consumer-side Delaware work follows national norms: contingency (about one-third) for injury cases, hourly billing ($250–$400) for family and criminal defense, and flat fees for residential closings. Corporate and Court of Chancery work is the exception — it commands premium hourly rates ($400–$800+) because so many American companies are incorporated here. Whatever the structure, get the fee agreement in writing before any work starts.",
+      },
+      {
+        q: "How do I check whether a Delaware lawyer is licensed and in good standing?",
+        a: "The Delaware Supreme Court keeps the official roster of Delaware attorneys, and the Delaware Courts publish an attorney directory you can search by name to confirm an active license. The Office of Disciplinary Counsel investigates complaints and publishes disciplinary outcomes. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is Delaware's small claims limit?",
+        a: "Delaware's limit is $25,000 — tied for the highest in the country. Small claims are heard in Justice of the Peace Court (10 Del. C. § 9301), and the process is designed for people without lawyers, with modest filing fees and informal hearings. Because the ceiling is so high, many contract and landlord-tenant disputes that would need a full civil filing elsewhere fit here. For anything above $25,000 or involving property title, talk to a Delaware attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
   },
   {
     name: "Florida",
@@ -333,6 +541,32 @@ export const STATES: StateInfo[] = [
       "Kansas trial courts are the District Courts, organized into 31 judicial districts. Appeals go to the Kansas Court of Appeals and then the Kansas Supreme Court. Judicial selection is a hybrid: Supreme Court justices are appointed through merit selection (nominating commission plus gubernatorial appointment, then retention elections), but district judge selection varies by district — some use partisan elections, others use merit selection. In the Kansas City metro, which straddles the Kansas-Missouri line, attorneys must be licensed in the correct state, as the two states' procedures differ significantly.",
     notableLaws:
       "First, Kansas is a no-fault auto insurance state — every policy must include Personal Injury Protection ($4,500 medical, $900/month wage loss), and you can only sue for pain and suffering if medical bills exceed $2,000 or injuries meet statutory severity thresholds, so car-accident attorneys must understand PIP coordination. Second, Kansas' 50% comparative fault bar is stricter than the 51% rule in neighboring states — being exactly half at fault still bars recovery. Third, the Kansas Tort Claims Act sets special notice requirements and damage caps for claims against government entities.",
+    faqs: [
+      {
+        q: "What happens to my license after a Kansas DUI arrest?",
+        a: "A Kansas DUI (K.S.A. § 8-1567) runs on two tracks at once: the criminal case in court and a separate license action through the Kansas Department of Revenue. If you fail or refuse a chemical test, the officer takes your license and serves a suspension notice — and you have only 14 calendar days to request an administrative hearing to fight it. Miss that window and the suspension takes effect automatically, whatever happens in court. Refusing the test is worse: a first refusal brings a one-year suspension on its own. A DUI lawyer should be your first call, ideally the same week.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in Kansas?",
+        a: "Two years from the date of injury (K.S.A. § 60-513) for most negligence claims, including car accidents. Kansas is also a no-fault state: your own PIP coverage pays first ($4,500 in medical coverage is the statutory minimum), and you can only sue for pain and suffering if your medical bills pass $2,000 or the injury meets a statutory severity threshold. Claims against a government entity carry much shorter notice deadlines, so if a public vehicle or agency is involved, talk to a Kansas injury lawyer immediately.",
+      },
+      {
+        q: "Can I still recover money in Kansas if the accident was partly my fault?",
+        a: "Only if your share of fault stays below the other side's. Kansas follows a 50% comparative fault bar (K.S.A. § 60-258a): your compensation is reduced by your percentage of fault, and if your fault is equal to or greater than the defendant's, you recover nothing at all. A 50-50 split wipes out the claim entirely, so Kansas injury cases often turn on how the fault percentages are argued — exactly where an experienced local litigator earns their fee.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in Kansas?",
+        a: "Most Kansas personal injury lawyers work on contingency — roughly one-third of the recovery, with nothing paid upfront. Hourly rates in Wichita and the Kansas City area typically run $200–$350 for family, criminal, and business work, with rural practices lower. Aviation and agricultural specialty work may command premiums. Whatever the structure, get the fee agreement in writing before any work starts, and ask whether case expenses (experts, filing fees, records) come out of your share.",
+      },
+      {
+        q: "How do I check whether a Kansas lawyer is licensed and in good standing?",
+        a: "Attorney registration in Kansas runs through the Kansas Supreme Court — the Kansas Judicial Branch publishes the official attorney directory, so search the lawyer's name there to confirm an active license. The Office of the Disciplinary Administrator handles complaints and publishes discipline. The Kansas Bar Association also offers a lawyer finder for referrals. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is Kansas's small claims limit?",
+        a: "Kansas small claims court handles cases up to $10,000 (K.S.A. § 61-2703, raised from $4,000 in 2024). Small claims is a division of the District Court designed for people without lawyers: filing fees are modest, hearings are informal, and the procedure is designed to be handled without attorneys. For disputes above $10,000 — or anything involving evictions, title, or an appeal — talk to a Kansas attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
   },
   {
     name: "Kentucky",
