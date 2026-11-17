@@ -7,6 +7,14 @@ export interface StateInfo {
   region: string;
   /** Optional override for the fees-section H2 (defaults to "What Attorneys Cost in {name}"). */
   feesHeading?: string;
+  /** Optional state-specific FAQ set; when present it replaces the rotated generic sets. */
+  faqs?: Faq[];
+  /** Optional extra content sections rendered after the notable-laws section (state-specific depth, e.g. city coverage and resource links). */
+  extraSections?: {
+    heading: string;
+    paragraphs: string[];
+    links?: { href: string; label: string; blurb: string }[];
+  }[];
   /** Two unique intro paragraphs (~170-200 words total). */
   intro: [string, string];
   /** How-to-find guidance paragraph (~90 words). */
@@ -383,6 +391,64 @@ export const STATES: StateInfo[] = [
       "Maine is distinctive for having no intermediate appellate court — the Supreme Judicial Court, sitting as the Law Court, hears all appeals directly from the trial courts. Trial work happens in the Superior Court (major civil and criminal cases) and the District Court (family, smaller civil, and misdemeanor matters). Maine judges are appointed by the governor and confirmed by the state senate, not elected. The system strongly emphasizes mediation and alternative dispute resolution, and the small, collegial bar means cases often resolve faster than in busier states.",
     notableLaws:
       "First, Maine's lobster fishery operates under a limited-entry zone licensing system — licenses are scarce, valuable, and transferable only under strict rules, so fishing-business transactions demand attorneys who understand maritime licensing. Second, Maine requires mandatory foreclosure mediation, giving homeowners a structured chance to negotiate before losing their homes. Third, Maine's Human Rights Act covers more protected classes and applies to smaller employers than federal law, making employment disputes broader here — and its paid family and medical leave program, phasing in from 2026, is creating a new wave of compliance work.",
+    faqs: [
+      {
+        q: "What is an OUI in Maine — and is it the same as a DUI?",
+        a: "Maine calls impaired driving an OUI — Operating Under the Influence (29-A M.R.S. § 2411). It covers alcohol and drugs, and it runs on two tracks at once: a criminal case in court and a separate license suspension through the Bureau of Motor Vehicles. The BMV clock starts right after arrest, and you have only a short window to request a hearing to challenge the suspension — so an OUI defense lawyer should be your first call, before you decide anything about the criminal charge.",
+      },
+      {
+        q: "How long do I have to file a personal injury claim in Maine?",
+        a: "Six years from the date of injury (14 M.R.S. § 752) — one of the longest personal injury deadlines in the country. Other claims run shorter: medical malpractice generally must be filed within three years, and a malpractice case has to pass a mandatory prelitigation screening panel before it can go to court. Even with six years, evidence and witness memories fade fast, so most Maine injury lawyers will tell you to start within weeks, not years.",
+      },
+      {
+        q: "Can I still recover money in Maine if the accident was partly my fault?",
+        a: "Usually, yes. Maine follows modified comparative negligence (14 M.R.S. § 156): your compensation is reduced by your percentage of fault, and you are barred only if your fault is equal to or greater than the other side's — the so-called 50% bar. Because crossing that line wipes out the claim entirely, Maine injury cases often turn on how the fault percentages get argued, which is where an experienced local litigator earns their fee.",
+      },
+      {
+        q: "How much does it cost to hire an attorney in Maine?",
+        a: "Most Maine personal injury lawyers work on contingency — roughly one-third of the recovery, with nothing paid upfront. Hourly rates for family, criminal, and business work typically run $200–$325, with Portland firms at the top of that range and rural practices lower. Estate plans are commonly flat-fee. Whatever the structure, get the fee agreement in writing before any work starts.",
+      },
+      {
+        q: "How do I check whether a Maine lawyer is licensed and in good standing?",
+        a: "The Maine Board of Overseers of the Bar keeps the official roster of licensed attorneys and publishes disciplinary decisions — search the lawyer's name there before you hire. For referrals, the Maine State Bar Association's Lawyer Referral & Information Service matches callers with local attorneys by practice area and county. Every attorney listed on this page was compiled from public records; profiles marked “Unclaimed” have not yet been verified by the attorney.",
+      },
+      {
+        q: "My dispute is small — what is Maine's small claims limit?",
+        a: "Maine District Court hears small claims up to $6,000. The process is designed for people without lawyers: filing fees are modest, hearings are informal, and mediation is often offered first. For disputes above $6,000 — or anything involving evictions, property title, or an appeal — talk to a Maine attorney before filing, because filing in the wrong court can cost you the claim.",
+      },
+    ],
+    extraSections: [
+      {
+        heading: "Maine Attorneys by City",
+        paragraphs: [
+          "Our Maine directory currently lists 15 attorneys across 9 communities. Six are in Portland — the state's legal hub, home to its largest firms and the Cumberland County courts — with two more in Hampden, just outside Bangor. The rest are spread across Bangor, Lewiston, Ellsworth, Saco, Sanford, Falmouth, and Cape Elizabeth. Tap any name in the contacts list on this page to open the full profile, practice areas, and phone number.",
+          "Coverage is thinner Down East and in the northern counties, where the nearest listed attorney may be an hour away. That is normal for Maine: many rural attorneys cover several counties and meet clients by phone or video, and the Maine State Bar Association's referral service can confirm who is actively taking cases near you. If you practice in an under-served Maine community, claim your free listing so clients there can find you.",
+        ],
+      },
+      {
+        heading: "Maine Legal Data & Cost Tools",
+        paragraphs: [
+          "Before you hire, put real numbers next to the decision. Our research pages show how Maine compares with other states and what cases like yours typically settle for:",
+        ],
+        links: [
+          {
+            href: "/data/attorney-density-by-state",
+            label: "Attorney Density by State",
+            blurb: "How many lawyers per resident each state has — and why Maine's rural counties feel underserved.",
+          },
+          {
+            href: "/data/settlement-ranges",
+            label: "Settlement Ranges by Case Type",
+            blurb: "Typical settlement ranges for injury, accident, and malpractice cases.",
+          },
+          {
+            href: "/tools",
+            label: "Free Settlement Calculators",
+            blurb: "Estimate car accident, personal injury, workers' comp, and other settlements in minutes.",
+          },
+        ],
+      },
+    ],
   },
   {
     name: "Maryland",

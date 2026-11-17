@@ -66,7 +66,8 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
 
   const stateIndex = ALL_STATES.findIndex((s) => s.slug === state.slug);
   const heroImage = getStateImage(state.slug);
-  const faqs = STATE_FAQ_SETS[stateIndex % STATE_FAQ_SETS.length](state.name);
+  const faqs =
+    state.faqs ?? STATE_FAQ_SETS[stateIndex % STATE_FAQ_SETS.length](state.name);
   const url = `${SITE_URL}/attorneys/${state.slug}`;
   const attorneys = await getAttorneysByState(state.slug);
 
@@ -132,6 +133,24 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
 
         <h2>Notable {state.name} Laws to Know</h2>
         <p>{state.notableLaws}</p>
+
+        {state.extraSections?.map((sec) => (
+          <div key={sec.heading}>
+            <h2>{sec.heading}</h2>
+            {sec.paragraphs.map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
+            {sec.links && (
+              <ul>
+                {sec.links.map((l) => (
+                  <li key={l.href}>
+                    <Link href={l.href}>{l.label}</Link> — {l.blurb}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        ))}
 
         <h2>{state.name} Attorneys by Practice Area</h2>
         <p>
