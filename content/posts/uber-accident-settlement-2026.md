@@ -47,7 +47,7 @@ Read that table again, because it is the whole game. In Period 1, the per-person
 
 The same structure applies to Lyft, with nearly identical limits, which is why the settlement math in this article works for both companies. The policies are underwritten by a rotating cast of carriers — Progressive, Allstate, Farmers, and others depending on your state — but the tier structure is set by the rideshare companies themselves.
 
-There is one more wrinkle worth knowing before you do any math: in California, a 2023 law (SB 371) cut rideshare uninsured/underinsured motorist coverage for passengers from $1,000,000 down to $60,000 per person in some situations. If the at-fault driver in your crash was uninsured, that single state law can shrink your recovery by more than 90 percent. State law is never a footnote in rideshare cases — it is often the deciding factor.
+There is one more wrinkle worth knowing before you do any math: in California, SB 371 — signed in October 2025 and effective January 1, 2026 — cut the uninsured/underinsured motorist coverage rideshare companies must carry from $1,000,000 down to $60,000 per person and $300,000 per incident. (The $1,000,000 third-party liability coverage that applies when the rideshare driver is at fault did not change.) If the at-fault driver in your crash was uninsured, that single state law can shrink your recovery by more than 90 percent. State law is never a footnote in rideshare cases — it is often the deciding factor.
 
 ## Uber Accident Settlement Amounts by Injury
 
@@ -133,6 +133,32 @@ If the crash was a regular car accident rather than a rideshare trip, the checkl
 - Report the crash in the Uber or Lyft app the same day — this creates the company's own record of the period.
 - See a doctor the same day and keep every receipt.
 - Do not post about the crash on social media, and do not sign anything from any insurer yet.
+
+## Frequently Asked Questions
+
+### What is the average Uber accident settlement?
+
+Published law-firm data puts most Uber accident settlements between $10,000 and $250,000. One 2026 analysis of court records and legal databases puts the average at roughly $75,000, and another firm's data puts the median closer to $98,000 — but the range matters more than either number: whiplash cases settle for $6,000 to $25,000, while wrongful-death cases can exceed $1,000,000.
+
+### How much coverage applies if the Uber app was on but no ride had been accepted?
+
+That is Period 1, and the ceiling drops sharply: $50,000 per person and $100,000 per accident for bodily injury, plus $30,000 for property damage. The $1,000,000 policy only applies in Periods 2 and 3 — after the driver has accepted a ride or has a passenger in the car.
+
+### Can I sue Uber directly after a crash?
+
+Usually the claim runs against the driver and whichever insurance policy applies, not against Uber itself — drivers are treated as independent contractors. Claims against Uber as a company are also shaped by the mandatory arbitration clause in the terms of service, which routes disputes to a private arbitrator instead of a jury unless you opted out within 30 days of accepting the terms.
+
+### How long does an Uber accident settlement take?
+
+A straightforward claim with clear liability typically settles in 2 to 6 months. A disputed or high-value claim with ongoing treatment often takes 9 to 18 months or more. Settling before treatment ends is the most common way claimants underprice their own injuries.
+
+### What if another driver caused my Uber crash?
+
+The other driver's liability policy is first in line, and the rideshare UM/UIM coverage fills the gap — but only as far as the period and state law allow. In California, SB 371 reduced that UM/UIM backstop to $60,000 per person and $300,000 per incident from January 1, 2026, so an uninsured at-fault driver is a much bigger problem there than it used to be.
+
+### Do I need a lawyer for an Uber accident claim?
+
+For a property-damage-only crash, usually not. For any injury claim, the published data says representation changes the outcome: one analysis found represented rideshare claimants settle for about 3.5 times more than unrepresented ones. Most personal injury lawyers work on contingency, so there is no upfront cost to have the period question and the policy stack reviewed.
 
 ## The Bottom Line
 
