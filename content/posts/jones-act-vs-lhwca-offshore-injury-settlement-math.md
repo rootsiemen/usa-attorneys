@@ -60,7 +60,7 @@ That $942,000 is the *value* — the settlement is where the parties land after 
 
 ## LHWCA settlement amounts: the schedule that caps your claim
 
-The LHWCA does not ask a jury what your injury is worth. It reads a schedule. The core benefit is **temporary total disability: two-thirds of your average weekly wage**, capped at 200% of the national average weekly wage (about $1,950 a week in 2026 terms, adjusted annually). Medical care is paid in full. When you reach maximum medical improvement, **permanent partial disability** is paid from a statutory schedule: a fixed number of weeks of compensation per body part, multiplied by two-thirds of your weekly wage. A lost arm, for example, is scheduled at 312 weeks; a lost leg at 288 weeks; a lost finger at a fraction of that.
+The LHWCA does not ask a jury what your injury is worth. It reads a schedule. The core benefit is **temporary total disability: two-thirds of your average weekly wage**, capped at 200% of the national average weekly wage — for fiscal year 2026, the maximum LHWCA compensation rate is $2,082.70 per week (200% of the $1,041.35 national average weekly wage, updated annually by the U.S. Department of Labor each October). Medical care is paid in full. When you reach maximum medical improvement, **permanent partial disability** is paid from a statutory schedule: a fixed number of weeks of compensation per body part, multiplied by two-thirds of your weekly wage. A lost arm, for example, is scheduled at 312 weeks; a lost leg at 288 weeks; a lost finger at a fraction of that.
 
 Run the same broken leg through the LHWCA. A longshoreman earning $1,500 a week gets $1,000 a week while out — 35 weeks is **$35,000** in wage benefits, against the deckhand's $49,000 in full wages for the same time off. His medical bills are paid, same as the Jones Act. His permanent partial disability for a leg with lasting limits might add $60,000–$120,000 depending on the impairment rating. Total: roughly **$150,000–$250,000** — and zero for pain and suffering, zero for lost earning capacity beyond the schedule, zero for the career he cannot return to.
 
@@ -101,6 +101,36 @@ The table is the whole article in one view. If you are a seaman, you are in a la
 5. **Talk to a maritime attorney before the deadlines move.** The consultation costs nothing in most maritime practices — they work on contingency — and the classification question alone can be worth hundreds of thousands of dollars. Start with the [offshore accident lawyer](/offshore-accident-lawyer) page, and if your injury happened in the Gulf, look at attorneys in [Louisiana](/attorneys/louisiana) and [Alabama](/attorneys/alabama), where most of these cases are filed and where the Fifth Circuit's maritime case law is the most developed.
 
 ![Offshore oil platform in the Gulf at dusk — offshore injury settlement math under the Jones Act and LHWCA](https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80&auto=format&fit=crop)
+
+## Frequently Asked Questions
+
+### What is the difference between the Jones Act and LHWCA?
+
+The Jones Act (46 U.S.C. § 30104) is a negligence-based tort law for seamen who work on vessels in navigation, allowing full damages including pain and suffering. The Longshore and Harbor Workers' Compensation Act (33 U.S.C. § 901) is a no-fault workers' compensation law for maritime workers on docks, piers, and terminals, with capped benefits and no pain and suffering recovery.
+
+### Can I receive benefits under both the Jones Act and LHWCA?
+
+No. The Jones Act and LHWCA are mutually exclusive — you qualify for one or the other, never both. The LHWCA expressly excludes masters and crew members precisely because the Jones Act covers them. Courts determine your status based on the nature of your work, not your job title, and filing under the wrong one can cost you months.
+
+### What is the LHWCA situs and status test?
+
+To qualify for LHWCA coverage, you must meet both: (1) **Situs** — the injury occurred on navigable waters or an adjoining area customarily used for maritime work (a dock, pier, terminal, or shipyard); and (2) **Status** — your work involves maritime employment, such as loading, unloading, building, or repairing vessels. Office workers and clerical staff typically don't qualify. Where a worker is injured on actual navigable waters, the situs test is independently satisfied.
+
+### Do offshore platform workers qualify for the Jones Act?
+
+Generally no. Fixed offshore platforms attached to the seabed are not "vessels in navigation," so platform workers typically fall under the LHWCA — extended to the Outer Continental Shelf by the Outer Continental Shelf Lands Act (OCSLA) — or state workers' comp. However, workers on floating platforms like drillships or semi-submersibles may qualify for the Jones Act, because those structures count as vessels.
+
+### What is maintenance and cure under the Jones Act?
+
+Maintenance and cure is a Jones Act benefit not available under LHWCA. **Maintenance** is a daily living allowance (commonly $30–$65/day in published guidance, and $30–$100 a day depending on the contract or court rate) while you recover. **Cure** covers all medical expenses until you reach maximum medical improvement. These benefits are owed regardless of fault and can be recovered even if you lose the negligence claim.
+
+### What if my employer claims I'm covered by LHWCA instead of the Jones Act?
+
+This is a common employer tactic to limit liability. Your coverage is determined by the nature of your work, not what your employer says. If you spend 30% or more of your time on vessels and contribute to the vessel's mission, you may qualify as a Jones Act seaman regardless of your employer's classification. Document your vessel time and duties carefully, and get an independent evaluation before accepting the cheaper track.
+
+### What are the filing deadlines under each law?
+
+The Jones Act gives you **three years** from the date of injury. The LHWCA is much tighter: you must generally give notice of injury to your employer within **30 days**, and file a formal claim within **one year** of the injury (two years for occupational diseases, measured from awareness of the connection to work), under 33 U.S.C. §§ 912–913.
 
 ## The bottom line: find your track before you negotiate
 
