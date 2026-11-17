@@ -86,6 +86,12 @@ Forty-three states allow you to sue the business that served alcohol to the driv
 
 Dram shop law varies sharply by state. Texas, for example, allows dram shop claims but requires proof the driver was "obviously intoxicated to the extent that he presented a clear danger to himself and others" — a high bar that turns on witness testimony. Other states are more forgiving. If your crash happened in Texas, start with the [Texas attorneys directory](/attorneys/texas) and a lawyer who has actually filed a dram shop claim there, not one who is learning the statute on your case.
 
+### Social Hosts and the Dram Shop Clock
+
+Not every server is a business. Some states also impose **social host liability** on a private host who served alcohol to a guest who then drove and caused a crash. It is narrower than dram shop liability — in many states it is limited to serving minors, and some states impose no social host liability at all — but where it applies, a host's homeowners policy becomes one more source of recovery. New Jersey's dram shop framework, for example, reaches social hosts as well as bars.
+
+One timing trap applies to both kinds of claim: dram shop and social host claims often carry **notice deadlines far shorter than the injury claim itself — 60 to 180 days in some states**. Miss the notice window and the claim against the bar or host can die while your claim against the driver is still alive. That is why the investigation into where the driver was drinking cannot wait until the main claim is settled.
+
 ## Where the Money Comes From: Stacking Every Available Policy
 
 A drunk-driving settlement is often assembled from four or five sources, not one. Miss a source and you leave money on the table:
