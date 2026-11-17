@@ -128,6 +128,20 @@ When the policy limit is the binding constraint, the negotiation changes complet
 
 ![Calculator and financial documents for settlement calculation](https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80&auto=format&fit=crop)
 
+## How Long Does a Slip and Fall Settlement Take?
+
+Most slip and fall claims resolve without a trial — roughly 95% of them settle out of court — but "settles" does not mean "settles fast." Timeline breakdowns published by Sakkascahn and Brown & Crouppen, summarized in PreSettlementFundings' 2026 settlement analysis, put the realistic ranges at:
+
+| Case type | Typical timeline |
+| --- | --- |
+| Clear liability, minor injuries | 6–12 months |
+| Moderate injuries, some dispute over negligence | 9–12 months |
+| Complex injuries, disputed negligence | 12–24 months |
+| Full trial litigation | 2+ years |
+| Payment after a settlement is reached | 2–6 weeks |
+
+The biggest delay is rarely the legal process. It is medical: a claim should not settle until you reach maximum medical improvement, the point where your doctors can say what is permanent and what future treatment will cost. Settling before that point trades a few months of speed for a release that leaves the next surgery on you. Disputed notice — the fight over whether the owner knew about the hazard — is the other common brake, because it is the issue insurers litigate hardest in premises cases.
+
 ## What to Do With the First Offer (and When to Walk Away)
 
 The insurer's first offer is almost never their best offer. It is a test — of how much you know, how much documentation you have, and how willing you are to wait. Here is how to handle it.
@@ -141,6 +155,28 @@ The insurer's first offer is almost never their best offer. It is a test — of 
 **Watch the clock.** Every state has a statute of limitations for slip and fall claims — typically two to three years, but as short as one year in some states, and far shorter for claims against government property. The deadline does not pause while you negotiate. If the insurer is slow-walking you toward the deadline, that is a strategy, not an accident. Filing suit before the deadline preserves your claim and, in most cases, moves the settlement number up — because the insurer now has to pay a defense lawyer too.
 
 **Get the fee math straight before you sign anything.** Most slip and fall lawyers work on contingency — typically 33% if the case settles before a lawsuit is filed, and 40% if it goes to litigation. On a $60,000 median settlement, that means roughly $20,000 in fees and about $40,000 to you before medical liens are paid. Medical liens — the hospital and your health insurer claiming reimbursement from the settlement — are the last surprise in most cases, and they are negotiable. A lawyer who negotiates your liens down by 30% can put more money in your pocket than a lawyer who negotiates the settlement up by 10%.
+
+## Frequently Asked Questions
+
+### What is a good settlement for a slip and fall?
+
+A good settlement covers all of your medical costs — past and projected — replaces your lost income, and adds fair pain-and-suffering compensation on top. Against the national figures, that means roughly $10,000–$45,000 for a minor injury, around the $60,000 median for a typical fracture case, and $100,000–$250,000 for a moderate injury involving surgery. Any offer that ignores future medical needs is likely too low, whatever the headline number.
+
+### Can I sue for a slip and fall on a wet floor?
+
+Yes — if the property owner knew, or should have known, about the wet floor and failed to fix it or warn you. That proof-of-notice question decides most wet-floor cases: you need evidence the hazard existed long enough that a reasonable owner would have found it, such as store inspection logs, surveillance footage, or a witness who saw the spill sitting there. A floor that was mopped thirty seconds before you fell is a much harder case than one left wet through a whole shift.
+
+### How is pain and suffering calculated in a slip and fall case?
+
+Insurers generally use one of two methods. The multiplier method multiplies your economic damages (medical bills plus lost wages) by 1.5 to 5, depending on severity and permanence. The per diem method assigns a daily dollar amount to your pain and multiplies it by the number of recovery days. The multiplier method usually produces the larger number in serious cases with lasting effects, which is why it is the one lawyers argue for there.
+
+### Does being partly at fault reduce my slip and fall settlement?
+
+Yes. Under comparative negligence, your settlement is reduced by your percentage of fault — a case worth $100,000 pays $80,000 if you were 20% at fault. In modified comparative negligence states you recover nothing once your fault reaches 50% or 51%, and in the contributory negligence states (Alabama, Maryland, North Carolina, Virginia, and Washington D.C.) even 1% fault can bar the claim entirely. Expect the insurer to argue footwear, distraction, and "you should have seen it" in almost every case.
+
+### How long do I have to file a slip and fall lawsuit?
+
+Every state sets a statute of limitations — typically two to three years from the date of the fall, as short as one year in some states. Claims against government property (a city sidewalk, a public building) are the dangerous exception: many require a formal government tort claim within 60 to 180 days. The deadline does not pause while you negotiate with the insurer, so treat the shortest deadline that could apply as the real one until a lawyer confirms otherwise.
 
 The average slip and fall settlement is a starting point, not a verdict on your case. Your injury, your proof, your state's fault rules, and the insurance money available all move the number — and the moves are large enough that the difference between a well-documented claim and a rushed one can be tens of thousands of dollars. If you were hurt in a fall that was not your fault, the most valuable thing you can do in the first week is preserve the evidence: photos, the incident report, the names of witnesses, and a preservation letter for the surveillance video. Everything else — the multiplier, the negotiation, the demand letter — is built on that foundation.
 
