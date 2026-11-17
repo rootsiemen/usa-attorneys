@@ -117,6 +117,28 @@ Not every construction injury needs a third-party lawsuit. A minor injury with a
 
 ![Architectural blueprint and construction planning documents](https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&q=80&auto=format&fit=crop)
 
+## Frequently Asked Questions
+
+### Can I collect workers' comp and sue a third party at the same time?
+
+Yes. The two claims run on parallel tracks, and filing one does not close the other. Workers' comp pays your medical bills and roughly two-thirds of your wages without any proof of fault, starting almost immediately. The third-party lawsuit — against the general contractor, a subcontractor, the property owner, an equipment manufacturer, or a design professional — is what recovers the pain and suffering, full lost wages, and lost earning capacity that comp never pays.
+
+### Can I sue my own employer for a construction accident?
+
+In almost every state, no. Workers' comp is the exclusive remedy against your direct employer: you get no-fault benefits, and in exchange you give up the right to sue your employer for negligence, no matter how careless the employer was. That bar protects only your employer. It does not protect any other company on the site, which is exactly why the third-party investigation matters.
+
+### Who counts as a "third party" on a construction site?
+
+Anyone other than your direct employer whose negligence contributed to the injury: the general contractor controlling the site, a subcontractor from another trade, the property owner or developer, the manufacturer or rental company behind defective equipment, and the architect or engineer whose design caused the failure. Most construction sites have five or six employers working at once, so most serious injuries have at least one third party worth investigating.
+
+### Will the workers' comp insurer take part of my third-party settlement?
+
+Usually, yes — the comp carrier holds a lien on the third-party recovery for the benefits it paid out. But the lien is negotiable. Standard practice reduces it to reflect the attorney fee that produced the recovery, and it is often negotiated down further; according to ConstructionAccidentCalc's breakdown of the WC-vs.-third-party math, carriers commonly end up netting about 50–70% of what they paid out. Never sign a lump-sum comp settlement before the third-party claim is investigated, because a badly drafted release can damage the third-party rights the lien will later attach to.
+
+### How long do I have to file a third-party construction lawsuit?
+
+Most states give you two to three years from the date of injury to file a personal injury lawsuit — two years in Georgia, three in New York, and only one year in a few states. The exception that kills claims is the government deadline: if the project is public, a formal notice of claim may be due within 90 days to six months, long before the lawsuit deadline. The evidence deadline is shorter still — scaffolding is dismantled and site logs are deleted within weeks, so the investigation has to start in the first days, not the first year.
+
 ## Your 30-day checklist after a construction injury
 
 1. **Report the injury in writing, same day.** Tell your supervisor and file the written report. Verbal notice fades; a dated paper trail does not.
