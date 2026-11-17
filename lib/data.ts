@@ -2154,6 +2154,32 @@ export const STATES_2: StateInfo[] = [
       "Washington's Superior Courts — one for each of the 39 counties — are the trial courts of general jurisdiction handling felonies, major civil cases, and family law. Appeals go to the Court of Appeals, organized into three geographic divisions, and then to the nine-justice Washington Supreme Court in Olympia. All judges are chosen in nonpartisan elections, and Washington is known for an independent-minded judiciary whose rulings on privacy and consumer protection frequently lead the nation and get cited elsewhere by other courts.",
     notableLaws:
       "Washington's My Health My Data Act (2024) is the broadest health-privacy law in America, covering far more than HIPAA — tech and health-care businesses need attorneys who understand its private right of action. The state's 7% capital gains tax (2021) on high earners reshaped estate and business planning despite having no income tax otherwise. And the WA Cares program imposes a 0.58% payroll tax for long-term care, with opt-out rules that tripped up thousands of workers — employment attorneys field constant questions about exemptions and refunds.",
+    faqs: [
+      {
+        q: "What happens to my license after a DUI arrest in Washington?",
+        a: "Two separate cases start at once: a criminal DUI charge (RCW 46.61.502) and an administrative action by the Department of Licensing under the implied-consent law (RCW 46.20.308). You have only 7 calendar days from the arrest to request a DOL hearing to fight the suspension. A first failed test brings a 90-day administrative suspension, while refusing the test brings a 1-year revocation (RCW 46.20.3101). Most drivers can keep driving during the suspension on an Ignition Interlock License (RCW 46.20.385) with an interlock device and SR-22 insurance.",
+      },
+      {
+        q: "How long do I have to file a personal injury lawsuit in Washington?",
+        a: "Three years from the date of the injury under RCW 4.16.080. Washington's deadline sits in the middle of the national range, but it runs from the accident in most cases, and claims against a government agency require a formal claim filing well before any lawsuit. Missing the three-year deadline almost always ends the case, so the date should be confirmed with a lawyer early.",
+      },
+      {
+        q: "Can I recover damages if I was mostly at fault for an accident in Washington?",
+        a: "Yes. Washington is a pure comparative fault state (RCW 4.22.005): your compensation is reduced by your percentage of fault, but you can recover even if you were 90% responsible — you would collect 10% of your damages. There is no percentage cutoff, which makes Washington one of the most forgiving states for partially-at-fault plaintiffs.",
+      },
+      {
+        q: "How much does a lawyer cost in Washington?",
+        a: "Personal injury lawyers typically charge a contingency fee of 33–40% of the recovery, and Seattle-area hourly rates commonly run $350–$600. One Washington-specific advantage: the state Consumer Protection Act shifts attorney fees to the losing side in many consumer cases, so some consumer-protection lawyers take strong claims on contingency when they would bill hourly elsewhere. Get the fee agreement in writing before signing.",
+      },
+      {
+        q: "How do I verify a Washington lawyer's license?",
+        a: "Use the Washington State Bar Association's free Legal Directory at wsba.org. Search by name to confirm the lawyer is actively licensed in Washington and check the discipline history shown on the profile. Anyone offering legal services in Washington must hold a WSBA license, and the directory is the authoritative source.",
+      },
+      {
+        q: "What is the small claims limit in Washington?",
+        a: "$10,000 in the small claims department of district court (RCW 3.38.100). Small claims is designed for people to represent themselves — no jury, informal procedure, and filing fees are modest — which makes it a practical route for property-damage and contract disputes under the limit without hiring a lawyer.",
+      },
+    ],
   },
   {
     name: "West Virginia",
@@ -2173,6 +2199,32 @@ export const STATES_2: StateInfo[] = [
       "West Virginia's trial courts are the Circuit Courts, which handle felonies, major civil cases, and family matters. In a major 2021 reform, the state created an Intermediate Court of Appeals, which began hearing cases in 2022 — ending West Virginia's long run as one of the few states where every appeal went straight to the top court. The five-justice Supreme Court of Appeals of West Virginia remains the court of last resort. Since 2016, judges have been chosen in nonpartisan elections rather than partisan ones.",
     notableLaws:
       "West Virginia's 'deliberate intent' statute (W.Va. Code 23-4-2) lets injured workers sue employers outside workers' compensation in narrow cases where the employer acted with conscious, deliberate intent — a rare exception to comp exclusivity that makes workplace-injury attorney selection critical here. The state's courts have developed a distinctive body of law interpreting broad-form mineral deeds, so anyone with coal, gas, or timber interests needs counsel steeped in that case law. And as the epicenter of the opioid crisis, West Virginia generated the nation's largest pharmaceutical settlements, sustaining a specialized mass-tort bar worth seeking out for complex injury claims.",
+    faqs: [
+      {
+        q: "Is there a DMV hearing after a DUI arrest in West Virginia?",
+        a: "No — West Virginia abolished the separate DMV administrative hearing in 2020, and your license is not suspended at arrest. Under W. Va. Code § 17C-5A-1a, the DMV revokes your license only after the criminal court acts: a DUI conviction that is not appealed, entry into the DUI Deferral Program, or a court order finding that you refused the secondary chemical test. The DMV's Test and Lock ignition interlock program can shorten a revocation, and completing the Safety and Treatment Program is required before reinstatement.",
+      },
+      {
+        q: "What is West Virginia's DUI Deferral Program, and what happens if I refuse the test?",
+        a: "Eligible first-time offenders can enter the Deferral Program (W. Va. Code § 17C-5-2b) — you must notify the court within 30 days of arrest. It typically means a 15-day license suspension followed by 165 days on ignition interlock plus the Safety and Treatment Program; finish successfully and the charge is dismissed, with expungement possible a year later. Refusing the secondary chemical test is handled by the court too: request a refusal review hearing within 30 days of your first court appearance, because a first refusal brings a 1-year revocation (or 45 days plus a year of Test and Lock) and a second refusal brings 10 years.",
+      },
+      {
+        q: "How long do I have to file a personal injury lawsuit in West Virginia?",
+        a: "Two years from the date of the injury under W. Va. Code § 55-2-12. That is one of the shorter deadlines in the country, and it applies to most negligence claims including car accidents and slip-and-falls. Because evidence and witnesses fade quickly, a claim should be evaluated well inside the two-year window.",
+      },
+      {
+        q: "Can I recover damages if I was partly at fault in West Virginia?",
+        a: "Yes, as long as your fault is not greater than the combined fault of the defendants. West Virginia's comparative fault statute (W. Va. Code § 55-7-13a) reduces your recovery by your percentage of fault, and bars recovery only when your share exceeds the other side's — in practice, a 51% bar. At 50% fault or less, you still recover the remaining share of your damages.",
+      },
+      {
+        q: "How much does a lawyer cost in West Virginia?",
+        a: "Personal injury and mass tort cases usually run on contingency at about one-third of the recovery, while hourly billing commonly falls between $200 and $325. West Virginia's energy economy shapes some pricing: mineral-rights and title work for oil and gas is often volume-priced, and the state's long history of workplace-exposure litigation means experienced plaintiff firms compete hard on contingency terms. Always get the fee structure in writing.",
+      },
+      {
+        q: "How do I verify a West Virginia lawyer's license, and what is the small claims limit?",
+        a: "Verify a lawyer through the West Virginia State Bar's member directory at wvbar.org, which confirms active membership and standing. For small disputes, magistrate court small claims now handles cases up to $20,000 — the limit was raised from $10,000 effective July 2025 — making it one of the highest small-claims ceilings in the country and a realistic self-help route for mid-size contract and property claims.",
+      },
+    ],
   },
   {
     name: "Wisconsin",
@@ -2192,6 +2244,32 @@ export const STATES_2: StateInfo[] = [
       "Wisconsin's trial courts are the Circuit Courts — 69 circuits covering all 72 counties — which hear everything from felonies to divorces to civil jury trials. Appeals go to the Court of Appeals, organized into four districts, and then to the seven-justice Wisconsin Supreme Court. Justices are chosen in nonpartisan elections, but Wisconsin's Supreme Court races have become famously expensive national battlegrounds — the 2023 contest drew tens of millions in spending — so the court's composition and direction can shift dramatically with a single election.",
     notableLaws:
       "Wisconsin's Lemon Law is among the nation's strongest, covering new vehicles for a year or 18,000 miles and awarding attorney's fees to prevailing consumers — which is why consumer attorneys here take these cases on contingency. The state's OWI (DUI) regime is unusually strict: absolute sobriety is required for drivers under 21, ignition interlock devices are mandatory for many offenders, and a fourth offense is a felony — ask any criminal defense lawyer about their specific OWI trial record. And Wisconsin Statute 103.465 voids noncompete agreements that aren't 'reasonably necessary,' a fact-specific test that makes employment attorneys' local case knowledge decisive.",
+    faqs: [
+      {
+        q: "Is a first OWI a crime in Wisconsin?",
+        a: "Usually not. Wisconsin is the only state where a standard first-offense OWI (Wis. Stat. § 346.63) is a civil forfeiture rather than a crime: a $150–$300 forfeiture under § 346.65(2)(am)1, plus a mandatory $535 driver improvement surcharge, and a license revocation of 6 to 9 months — no jail and no criminal record. It becomes a criminal charge if a child under 16 was in the vehicle or someone was injured, and every offense after the first is criminal.",
+      },
+      {
+        q: "What happens if I refuse a breath or blood test in Wisconsin?",
+        a: "Refusal is penalized separately from the OWI itself under the implied-consent law (Wis. Stat. § 343.305). Two different 10-day clocks matter: after a failed test you have 10 days to ask the DOT for an administrative review of the 6-month suspension, and after a refusal you have 10 days to request a refusal hearing in court. A first refusal revokes your license for 1 year and requires an ignition interlock — and an interlock is also required if your test result was 0.15 or higher.",
+      },
+      {
+        q: "How long do I have to file a personal injury lawsuit in Wisconsin?",
+        a: "Three years from the date of the injury under Wis. Stat. § 893.54. Wisconsin applies the discovery rule in some cases, so the clock can start when an injury is discovered rather than when it occurred, but that exception is narrow. Claims against government entities require a formal notice of claim on a much shorter timeline, so do not assume you have the full three years.",
+      },
+      {
+        q: "Can I recover damages if I was partly at fault in Wisconsin?",
+        a: "Yes, unless your negligence was greater than the defendant's. Wisconsin's comparative negligence statute (Wis. Stat. § 895.045) reduces your recovery by your percentage of fault and bars it only when your share exceeds the other party's — a 51% bar. With multiple defendants, your fault is compared against each defendant individually, which can matter in multi-vehicle cases.",
+      },
+      {
+        q: "How much does a lawyer cost in Wisconsin?",
+        a: "Personal injury lawyers typically work on contingency at about one-third of the recovery, and hourly rates in Milwaukee commonly run $225–$400, with Madison close behind. Wisconsin's dairy and agricultural economy means farm and agribusiness work is often priced as flat-fee or project-based engagements rather than hourly. Before signing, confirm the lawyer is in good standing through the State Bar of Wisconsin's Lawyer Search, and for smaller disputes note that small claims court handles up to $10,000 — though tort and personal injury third-party claims are capped at $5,000 (rising to $15,000 for cases filed on or after January 1, 2027).",
+      },
+      {
+        q: "How do I verify a Wisconsin lawyer's license?",
+        a: "Use the State Bar of Wisconsin's Lawyer Search at wisbar.org. Every lawyer practicing in Wisconsin must be a State Bar member, and the search confirms active status and contact details; court records through Wisconsin's CCAP system can also show whether a lawyer has appeared in the county where your case would be filed.",
+      },
+    ],
   },
   {
     name: "Wyoming",
@@ -2211,6 +2289,32 @@ export const STATES_2: StateInfo[] = [
       "Wyoming's trial courts of general jurisdiction are the nine District Courts, with Circuit Courts handling misdemeanors, small claims, and preliminary matters below them. There is no intermediate appellate court — appeals go directly to the five-justice Wyoming Supreme Court in Cheyenne. Judges are chosen through merit selection: a Judicial Nominating Commission screens applicants, the governor appoints, and voters then decide in retention elections whether each judge stays. The small docket means the Supreme Court often decides cases quickly and thoroughly.",
     notableLaws:
       "Wyoming is an open-range, 'fence-out' state: livestock owners are generally not liable when cattle roam onto unfenced land, which flips the liability assumptions outsiders bring to property-damage and auto-collision cases — hire attorneys who actually know range law. The state's LLC privacy protections (no public listing of members) plus strong charging-order protection are why Wyoming markets itself as the 'Delaware of the West' — but formation attorneys should explain what Wyoming law does and doesn't shield you from in your home state. And Wyoming's $1-per-megawatt-hour wind generation tax uniquely shapes energy deals here.",
+    faqs: [
+      {
+        q: "What is a DWUI in Wyoming, and what does a first offense carry?",
+        a: "Wyoming's statutes call the offense DWUI — driving while under the influence — under Wyo. Stat. § 31-5-233. A first offense is a misdemeanor carrying up to 6 months in jail, a fine of up to $750, and a 90-day license suspension. An ignition interlock device becomes mandatory for six months if your blood alcohol was 0.15% or higher, and a substance use assessment is part of the standard sentence.",
+      },
+      {
+        q: "What happens if I refuse a chemical test in Wyoming?",
+        a: "Under Wyoming's implied-consent law (Wyo. Stat. § 31-6-102), refusing the test triggers its own WYDOT suspension — 6 months for a first refusal and 18 months for a later one — separate from the criminal case, and the refusal can be used as evidence at trial. A failed test (0.08% or higher) brings a 90-day administrative suspension. Either way, you have 20 days from the WYDOT notice to request a contested-case hearing; miss it and the suspension starts automatically when the 30-day temporary permit expires, even if the criminal charge is later dismissed.",
+      },
+      {
+        q: "How long do I have to file a personal injury lawsuit in Wyoming?",
+        a: "Four years from the date of the injury under Wyo. Stat. § 1-3-105 — one of the longest personal injury deadlines in the country. The longer window helps in a rural state where treatment and investigation can be slow, but claims against a government entity require a formal claim filing far sooner, and waiting still costs evidence and leverage.",
+      },
+      {
+        q: "Can I recover damages if I was partly at fault in Wyoming?",
+        a: "Yes, unless your fault was more than 50%. Wyoming's comparative fault statute (Wyo. Stat. § 1-1-109) reduces your recovery by your percentage of fault and bars recovery only when your share passes the halfway mark — a 51% bar. At exactly 50% fault you can still recover half of your damages.",
+      },
+      {
+        q: "How much does a lawyer cost in Wyoming?",
+        a: "Personal injury cases typically run on contingency at around one-third of the recovery, and hourly rates commonly fall between $200 and $325 — moderate for the region. Wyoming's business-friendly reputation shows in its legal market: LLC formation packages are commonly offered as inexpensive flat fees. Before signing, verify the lawyer's standing in the Wyoming State Bar's member directory at wyomingbar.org, and note that small claims in circuit court handles disputes up to $6,000 without needing a lawyer at all.",
+      },
+      {
+        q: "How do I verify a Wyoming lawyer's license?",
+        a: "Use the Wyoming State Bar's member directory at wyomingbar.org to confirm that a lawyer is actively licensed and in good standing. Wyoming is a small bar — fewer lawyers per capita than most states — so also confirm the lawyer actually practices in your case's area and county, since travel distances can affect both cost and court familiarity.",
+      },
+    ],
   },
 ];
 
