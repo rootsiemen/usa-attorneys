@@ -93,6 +93,14 @@ The mistakes after a truck crash cost as much as the crash itself. Most of them 
 
 ![Damaged vehicles and debris on a highway after a collision](https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?w=1200&q=80&auto=format&fit=crop)
 
+## Who pays your medical bills while the claim is pending?
+
+People are often surprised that the trucking company's insurer usually does not pay bills as they come in. It typically pays once, at settlement or judgment. Until then, bills are generally paid by your own health insurance, and by personal injury protection (PIP) or medical payments coverage on your own auto policy if you have it.
+
+Those payers may later claim repayment from your settlement — health insurers and government programs can assert liens or subrogation claims against the recovery — which is why what you actually keep can differ from the headline settlement number. Keep every bill and every explanation-of-benefits statement anyway: the full documented total is what your demand is built on, even if some of it is later repaid out of the settlement.
+
+The coverage on the other side is not the problem in most truck cases. Interstate carriers of general freight must carry at least $750,000 in liability coverage (49 CFR 387.9), and many carry more. Damages in a serious case can still exceed one policy, which is why lawyers look for every liable party and every available policy.
+
 ## When to call a truck accident attorney — and what it costs
 
 The honest answer: sooner than you think, and it costs you nothing up front. Truck accident cases work on contingency — the lawyer is paid a percentage of what you recover, usually around one-third, and nothing if you recover nothing. That structure exists because the people who need these lawyers most cannot afford hourly fees after a crash.
@@ -100,6 +108,28 @@ The honest answer: sooner than you think, and it costs you nothing up front. Tru
 Call one early if any of these apply: you were injured, the truck's insurer has already called you, the carrier is a large company with its own legal team, fault is disputed, or the crash involved a fatality. The lawyer's first jobs are the time-sensitive ones — the spoliation letter, the black-box download, the carrier investigation — and those jobs get harder every day you wait. A [personal injury lawyer](/personal-injury-lawyer) who handles truck cases will also know which state deadlines apply to your crash and which federal rules the carrier may already have broken.
 
 If your crash happened in a high-volume trucking state, the local rules matter even more. Texas, for example, sees more truck traffic than any other state, and its two-year filing deadline runs from the date of the crash. Our [Texas attorney directory](/attorneys/texas) and [Louisiana attorney directory](/attorneys/louisiana) list licensed attorneys in the two states where interstate trucking claims are most common.
+
+## Frequently Asked Questions
+
+### What should I do first after a truck accident?
+
+Get to safety, call 911, and accept a medical evaluation even if you feel fine. Then photograph the scene and the truck's USDOT number, collect driver, trailer, and witness details, and do not admit fault. Decline the trucking insurer's recorded statement, and contact a lawyer quickly, before the carrier's records age out.
+
+### Do I have to give the trucking company's insurer a recorded statement?
+
+No. You are not required to give the other side's insurer a recorded statement, and early statements are routinely used against victims — they lock in answers about injuries you do not yet fully understand. Your own insurer needs only the basic facts: date, time, location, the vehicles involved, and the police report number.
+
+### How long does the trucking company have to keep its records?
+
+Federal rules require carriers to keep driver logs and supporting documents for only six months (49 CFR 395.8). Black-box and dash-cam data can be overwritten far sooner — sometimes within weeks — as the truck keeps running. That short retention window is why a spoliation (preservation) letter should go out in the first days after the crash.
+
+### Should I report the accident to my own insurance company?
+
+Yes — report the basics promptly, because your policy requires notice and your own coverage (including PIP or medical payments coverage, if you have it) may be what pays your bills while the claim is pending. Stick to the facts, do not speculate about fault, and direct the trucking company's insurer to your lawyer rather than speaking with them yourself.
+
+### Can I post about the crash on social media?
+
+Do not. Anything you post about the crash, your injuries, or your activities can appear later in court or in the insurer's file as evidence you were not hurt. Keep your accounts private and stay silent about the case until it is resolved.
 
 ## The deadlines that decide your case
 
