@@ -112,6 +112,32 @@ If you served in the Navy, the exposure story is often the strongest part of the
 5. **Ask specifically about trust funds.** If the attorney only talks about lawsuits, ask how many trust claims they will file and which ones. The trust track is where families most often leave money behind.
 6. **If you are a veteran, mention it in the first conversation.** The VA track is separate from the lawsuit and the trusts, and it should be filed in parallel, not after.
 
+## Frequently Asked Questions
+
+### How much is the average mesothelioma settlement in 2026?
+
+Reported case data places most mesothelioma settlements between $1 million and $1.4 million, with trial verdicts averaging considerably more — roughly $5 million to $11.4 million in commonly cited industry figures, and about $20.7 million in Mealey's 2024 verdict data. Your figure depends on diagnosis type, documented exposure, the number of defendants, and jurisdiction, so treat these averages as reference points, not guarantees.
+
+### Are mesothelioma settlements taxable?
+
+In most cases, no. Under general IRS rules, compensation for physical illness or injury is typically not taxed as income, while punitive damages and interest usually are. Because asbestos awards often blend compensatory and punitive components, the taxable portion varies by case — confirm your specific situation with a tax professional or an attorney familiar with settlement structuring. This is general information, not tax advice.
+
+### Can I file a trust claim and a lawsuit at the same time?
+
+Yes. Asbestos trust fund claims and personal injury lawsuits are separate tracks and can proceed simultaneously without canceling each other out. Trusts hold more than $30 billion across 60-plus funds, and career exposure usually qualifies a family to file with several trusts, which is how combined trust payouts commonly reach $300,000 to $400,000 alongside any lawsuit recovery.
+
+### How long do I have to file a mesothelioma claim?
+
+Deadlines run from your diagnosis date under the discovery rule, not from when the exposure occurred. State statutes of limitations range from 1 year in states like California, Louisiana, and Tennessee to 6 years in Maine, with most states allowing one to four years. Wrongful death claims run on their own clock from the date of death, and it is often shorter.
+
+### What do attorney fees take out of a mesothelioma settlement?
+
+Nearly all mesothelioma firms work on contingency — no upfront cost, and a fee only if they recover money. The standard range is 33% to 40% on lawsuits and about 25% on trust fund claims. Run the math on a $1.2 million settlement: at a 33% fee the attorney takes $396,000 and the family nets $804,000 before expenses; at 40%, the fee is $480,000 and the net is $720,000. Case costs — expert witnesses, depositions, filing fees — are usually advanced by the firm and reimbursed on top of the fee, so ask for a written net-recovery estimate before signing.
+
+### How long does a mesothelioma settlement take?
+
+Most cases settle within 6 to 12 months of filing, and many courts give mesothelioma cases priority scheduling because of the seriousness of the illness. First payments can arrive in as few as 90 days, with further checks coming in over the following months as each defendant settles. Trial verdicts take longer — typically 1 to 3 years — and can be delayed further by appeals.
+
 ## The bottom line on average mesothelioma settlement amounts
 
 The average mesothelioma settlement of $1 million to $1.4 million is real, and it is also a trap — because it is a combined number, and most families only ever see one half of it. Lawsuits pay from the companies still standing. Trust funds pay from the companies that went bankrupt. Veterans add a VA disability track on top. The families who recover the full amount are the ones who file all three, early, with an attorney who knows how to reconstruct a work history from the 1970s and 1980s product by product.
