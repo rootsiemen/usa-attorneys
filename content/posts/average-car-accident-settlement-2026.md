@@ -85,6 +85,16 @@ The first offer is not a valuation. It is a test. Adjusters are trained to make 
 
 The counter-move is unglamorous: finish treatment, gather every bill, and answer with a demand letter that shows the math — economic damages, multiplier, and the comparable ranges. A demand letter that cites the multiplier and attaches the records routinely moves an offer by tens of thousands of dollars, because it tells the adjuster you are pricing the claim the way their own company prices it. For the full timeline of how a claim moves from demand to check, see our [personal injury settlement timeline](/blog/personal-injury-settlement-timeline-month-by-month).
 
+## How Long Does a Car Accident Settlement Take?
+
+Settlement timelines track injury severity, because a case should not be valued until treatment is finished or the prognosis is clear. Based on published case data:
+
+- **Minor injury claims** with clear liability may settle in **2 to 4 months**.
+- **Moderate injuries** requiring ongoing treatment typically take **6 to 12 months**.
+- **Complex cases** involving severe injuries or disputed fault can take **1 to 3 years** to resolve.
+
+The biggest delay factor is maximum medical improvement — the point where your doctors say your condition has stabilized. Settling before that point risks accepting a number that does not account for a future surgery or a permanent limitation that has not revealed itself yet. Once a settlement is agreed, payment is typically issued within a few weeks of signing the release.
+
 ## The Policy-Limit Ceiling: The Number Nobody Talks About
 
 Here is the fact that breaks most settlement calculators: **your case cannot settle for more than the insurance that exists to pay it.** If the at-fault driver carries a $25,000-per-person liability limit — the legal minimum in many states — then a $200,000 injury case may still pay only $25,000 from that policy.
@@ -134,5 +144,31 @@ Before you call anyone, run this audit on your own case. It takes five minutes a
 5. **Check the calendar.** Every state has a statute of limitations — usually 2–3 years from the crash date. If you are past the halfway mark with no demand sent, the clock is now your biggest problem, not the adjuster.
 
 If the offer is within 15% of your calculated value and the policy limit is not capping you, it is probably a fair settlement. If it is 50% below your math, send a demand letter with the numbers attached — or get a [personal injury lawyer](/personal-injury-lawyer) to send it for you. And if you are still in the first days after the crash, start with the steps in our [after a car accident checklist](/blog/what-to-do-after-car-accident-legal-checklist) before you talk numbers with anyone.
+
+## Frequently Asked Questions
+
+### What is the average car accident settlement?
+
+Most bodily injury claims fall between $20,000 and $50,000, though outcomes vary widely. Across one published database of 4,188 car accident cases, the median settlement or verdict was $27,271, with the middle 50% of cases falling between $9,327 and $133,125. The median is a more realistic benchmark than the mean, because a small number of catastrophic payouts pulls the average up.
+
+### How long does a car accident settlement take?
+
+Simple cases may resolve in months, while more complex cases can take longer. Minor injury claims with clear liability may settle in 2 to 4 months, moderate injuries requiring ongoing treatment typically take 6 to 12 months, and complex cases involving severe injuries or disputed fault can take 1 to 3 years. Reaching maximum medical improvement before settling is what protects the number.
+
+### How much can you sue for after a car accident?
+
+You can seek compensation for medical expenses, lost income, future medical costs, property damage, and pain and suffering, based on your situation. In practice, the recovery is capped by the insurance that exists to pay it — the at-fault driver's policy limit plus any uninsured/underinsured motorist coverage of your own.
+
+### Do all car accident cases end in settlements?
+
+Most cases settle, but some proceed to litigation if necessary. About 95% of personal injury claims resolve through settlement rather than trial — a settlement is a negotiated agreement you approve, while a verdict is decided by a judge or jury and can come out higher or lower.
+
+### Should I accept the first settlement offer?
+
+Almost never. First offers from insurance companies are typically well below what a claim is worth — often 30–50% of the eventual value. Before accepting anything, finish medical treatment (or get a clear prognosis), document every expense and lost wage, and compare the offer against the multiplier math for your injury type.
+
+### When should I hire a car accident lawyer?
+
+As soon as possible after an accident to protect your rights and strengthen your claim — especially if injuries are moderate to severe, lost wages are significant, liability is disputed, or a child is involved. For a minor fender-bender with clear fault, you may be able to handle the claim yourself.
 
 The average car accident settlement is not one number — it is a range set by your injury, multiplied by your documentation, and capped by the insurance that exists. Know those three inputs and you will never have to guess what your case is worth again.
