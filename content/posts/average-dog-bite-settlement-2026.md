@@ -30,6 +30,26 @@ Three facts frame everything else in this article. First, roughly **85% of dog b
 
 If you were bitten recently, start with our [dog bite legal checklist](/blog/what-to-do-after-dog-bite-legal-checklist) — the photos, medical records, and animal-control report you collect in the first 72 hours are the same evidence that decides your settlement number later.
 
+## Average Dog Bite Claim by State: The 2025 Insurance Data
+
+The national average hides a wide state spread. The Insurance Information Institute and State Farm's 2025 data (published April 2026) put the national average cost per dog bite and dog-related injury claim at **$65,450 across 28,450 claims** — but the ten highest-volume states ranged from $41,413 to $92,154 per claim:
+
+| State | Claims (2025) | Average cost per claim |
+|---|---|---|
+| New York | 1,308 | $92,154 |
+| California | 2,830 | $81,789 |
+| Illinois | 1,283 | $79,596 |
+| New Jersey | 818 | $77,447 |
+| Texas | 1,313 | $70,885 |
+| Pennsylvania | 1,324 | $68,786 |
+| Michigan | 1,432 | $68,018 |
+| Florida | 2,347 | $62,375 |
+| Indiana | 824 | $53,396 |
+| Ohio | 1,348 | $41,413 |
+| **United States** | **28,450** | **$65,450** |
+
+Read this table the right way: these are **paid insurance claim averages, not litigated settlement averages**. They blend thousands of minor bites resolved for a few thousand dollars with a small number of catastrophic cases, and they include non-bite dog-related injuries such as fractures from being knocked down. No official national database of dog bite settlement amounts exists — which is exactly why firm-published "average settlement" figures vary so widely. Use your state's figure as a sanity check on the injury-based math below, not as a target.
+
 ## Average Dog Bite Settlement by Injury Type
 
 Insurers do not price "a dog bite." They price the injury, the treatment, and the permanent consequence. The table below gives **illustrative settlement bands** drawn from the published 2026 guides and insurer data — real cases land above or below these bands depending on state, policy limits, and proof.
