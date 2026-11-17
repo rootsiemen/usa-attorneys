@@ -936,6 +936,32 @@ export const STATES: StateInfo[] = [
       "Maryland's trial courts are the Circuit Courts, organized into eight judicial circuits. Appeals go to the Appellate Court of Maryland and then the Supreme Court of Maryland — both renamed in December 2022 by constitutional amendment (formerly the Court of Special Appeals and the Court of Appeals, so older documents use the old names). Circuit judges are elected in nonpartisan elections or appointed to fill vacancies; appellate judges go through merit-based appointment with senate confirmation. The courts are well-regarded for efficient case management, particularly in the Baltimore and DC-suburb corridors.",
     notableLaws:
       "First, Maryland's wiretapping and electronic surveillance statute requires all-party consent for recording conversations — stricter than federal one-party-consent law — which has major implications for employment disputes, divorce evidence, and workplace investigations. Second, Maryland abolished its feudal ground rent system but legacy ground rents still cloud some Baltimore-area titles, requiring specialized real estate counsel to clear. Third, Maryland's Consumer Protection Act provides strong remedies including attorney's fees for deceptive trade practices, making consumer cases more viable here than in many neighboring states.",
+    faqs: [
+      {
+        q: "What is the difference between a DUI and a DWI in Maryland?",
+        a: "They are two different charges under Transportation Article § 21-902. DUI (§ 21-902(a)) is the more serious offense — driving while substantially impaired, with a BAC of 0.08 or more treated as DUI per se; a first offense carries up to a year in jail, a $1,200 fine, and 12 points. DWI (§ 21-902(b)) is the lesser offense of driving while impaired to some degree — a 0.07 result is prima facie evidence — with up to two months in jail, a $500 fine, and 8 points on a first offense.",
+      },
+      {
+        q: "How long do I have to challenge a Maryland license suspension after a DUI arrest?",
+        a: "You have 10 days from the Order of Suspension to request a hearing with the Office of Administrative Hearings (with the $150 fee) to keep driving until your hearing. Under § 16-205.1, a first failed test (0.08–0.14) means a 180-day suspension and a first refusal means 270 days; you can still request a hearing up to 30 days, but only the 10-day request preserves your driving privilege while you wait. The hearing is before an administrative law judge, not the MVA itself.",
+      },
+      {
+        q: "Will I need an ignition interlock after a Maryland DUI or DWI?",
+        a: "Almost certainly. Under Noah's Law — expanded effective October 1, 2024 — participation in Maryland's Ignition Interlock System Program is now required for essentially every alcohol-related DUI and DWI disposition, including many cases resolved with probation before judgment (PBJ) that previously avoided it. The interlock period is typically six months to a year depending on the disposition.",
+      },
+      {
+        q: "Can I recover damages in Maryland if I was even slightly at fault?",
+        a: "Maryland is one of only a handful of pure contributory negligence jurisdictions. If the defense proves you were even 1% at fault, you recover nothing at all — there is no percentage reduction, just a complete bar. That is why Maryland injury cases are built around eliminating any suggestion of the plaintiff's fault from day one.",
+      },
+      {
+        q: "What is Maryland's deadline to file a personal injury lawsuit?",
+        a: "Three years from the date of the injury for most personal injury claims. Claims against the state require notice under the Maryland Tort Claims Act within one year, and claims against local governments have a 180-day notice deadline under the Local Government Tort Claims Act — both far shorter than the main three-year period.",
+      },
+      {
+        q: "How much do Maryland injury lawyers charge, and how do I verify one?",
+        a: "Maryland injury lawyers charge about one-third on contingency — the site data notes the contributory negligence risk is baked into which cases firms accept — while DC-suburb hourly rates ($350–$550) run well above Baltimore and rural rates. Small claims in Maryland are heard in District Court for amounts up to $5,000. To verify a lawyer, use the Maryland State Bar Association's directory and the Maryland Judiciary's records; discipline is handled by the Attorney Grievance Commission.",
+      },
+    ],
   },
   {
     name: "Massachusetts",
@@ -955,6 +981,32 @@ export const STATES: StateInfo[] = [
       "Massachusetts trial courts start with the Superior Court (general jurisdiction, jury trials), District Court and Boston Municipal Court (misdemeanors, smaller civil cases), plus specialized Housing Court, Land Court, Probate and Family Court, and Juvenile Court. Appeals go to the Massachusetts Appeals Court, then the Supreme Judicial Court — the oldest continuously operating appellate court in the Western Hemisphere, dating to 1692. Distinctively, Massachusetts judges are appointed by the governor with Governor's Council consent and serve to age 70; there are no judicial elections, so courtroom culture rewards preparation over politics.",
     notableLaws:
       "Three laws reshape hiring decisions here. First, the 2018 non-compete reform bans non-competes for hourly and most nonexempt workers and requires ‘garden leave’ pay for the rest — if you're hiring or leaving a job, get an employment lawyer before signing. Second, the Paid Family and Medical Leave program (2021) created a state-run paid leave system with job protections broader than federal FMLA, driving a wave of benefits disputes. Third, the $8,000 PIP threshold in the no-fault auto system controls when you can sue after a crash — a personal injury lawyer's first question will be whether your medical bills crossed it.",
+    faqs: [
+      {
+        q: "What is an OUI in Massachusetts, and what is the 24D disposition?",
+        a: "Massachusetts calls it OUI — Operating Under the Influence — under G.L. c. 90, § 24. A first offense can be resolved two ways: a straight conviction (up to 2½ years in the house of correction, a $500–$5,000 fine, and a one-year license suspension) or, far more commonly, the § 24D alternative disposition — a continuance without a finding (CWOF), probation, completion of the Driver Alcohol Education Program, and a license suspension of 45 to 90 days, with hardship license eligibility. A 24D disposition still counts as a prior offense if you are charged again.",
+      },
+      {
+        q: "What happens if I refuse the breath test in Massachusetts?",
+        a: "Refusing triggers an automatic RMV suspension separate from the court case: 180 days for a first refusal, three years for a second, five years for a third, and lifetime for a fourth, because Massachusetts uses a lifetime lookback under Melanie's Law. Your only challenge is an RMV hearing requested within 15 days, held in person at the Boston (Haymarket) RMV Service Center, and the review is narrow — reasonable grounds for the stop, that you were under arrest, and that you refused. One protection: your refusal cannot be used as evidence against you at the criminal trial.",
+      },
+      {
+        q: "What is the Massachusetts deadline to sue for personal injury, and what if I was partly at fault?",
+        a: "Three years from the date of injury for most personal injury claims (G.L. c. 260, § 2A). Massachusetts follows a modified comparative negligence rule (G.L. c. 231, § 85): if your fault is greater than the combined fault of the defendants (a 51% bar), you recover nothing; otherwise your award is reduced by your share.",
+      },
+      {
+        q: "Can I sue for pain and suffering after a Massachusetts car accident?",
+        a: "Usually, yes. Massachusetts is a no-fault state: your own PIP coverage pays initial medical bills regardless of fault, and you can only sue the at-fault driver for pain and suffering if your reasonable medical expenses exceed $2,000, or the crash caused death, loss of a body member, serious disfigurement, or loss of sight or hearing (G.L. c. 231, § 6D).",
+      },
+      {
+        q: "How much do Massachusetts personal injury lawyers charge?",
+        a: "Massachusetts injury contingency fees run 33–40% per the market, and Boston hourly rates ($350–$600) are New England's highest. The state's consumer protection law (Chapter 93A) allows multiple damages and attorney's fees, so some consumer cases are taken on contingency too. Get the fee agreement in writing before signing.",
+      },
+      {
+        q: "What is the Massachusetts small claims limit, and how do I verify a lawyer?",
+        a: "Massachusetts small claims sessions (in district and Boston Municipal courts) handle claims up to $7,000, plus statutory damages and costs in some consumer cases. To verify a lawyer, use the Board of Bar Overseers' official Look Up a Lawyer search — the BBO maintains every Massachusetts attorney's registration status and public disciplinary record.",
+      },
+    ],
   },
   {
     name: "Michigan",
@@ -974,6 +1026,32 @@ export const STATES: StateInfo[] = [
       "Michigan trial courts are the Circuit Courts (57 circuits, general jurisdiction including felonies and large civil cases), District Courts (misdemeanors, small claims, civil cases under $25,000), and Probate Courts (estates, guardianships). Appeals go to the Michigan Court of Appeals, then the seven-justice Michigan Supreme Court. All Michigan judges are elected in nonpartisan elections — including Supreme Court justices — so judicial philosophy can shift with election cycles. That matters because a case filed today may be decided years later by a different bench, something worth weighing when your dispute could turn on how a court reads a statute.",
     notableLaws:
       "First, Michigan legalized recreational marijuana in 2018, but employers can still enforce drug-free workplaces — a collision that generates employment and landlord-tenant disputes. Second, Michigan imposes strict liability on dog owners for bites, even on a first incident, which simplifies injury claims but makes homeowner-insurance coverage critical. Third, Michigan's dram shop law holds bars liable for serving visibly intoxicated patrons who cause injury — if a drunk driver hit you, an experienced attorney will investigate where they were drinking, not just who was driving.",
+    faqs: [
+      {
+        q: "What is Michigan's 'Super Drunk' law?",
+        a: "Under Michigan's 'Super Drunk' law (MCL 257.625(1)(c)), a first-offense OWI with a BAC of 0.17 or higher — more than double the 0.08 limit — is a separate, enhanced offense: up to 180 days in jail instead of 93, a $200–$700 fine, mandatory alcohol treatment, and a one-year license sanction made up of 45 days of no driving at all followed by restricted driving with an ignition interlock. Because the 0.17 number is an element of the offense, the accuracy of the test result is the whole case.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Michigan?",
+        a: "Refusal brings a separate civil action by the Secretary of State: a one-year license suspension and six points, even if you are acquitted of the OWI itself (two years for a second refusal within seven years). You have only 14 days from the refusal to request an implied-consent hearing to challenge it. The refusal can also be admitted as evidence in the criminal case.",
+      },
+      {
+        q: "What is Michigan's personal injury deadline?",
+        a: "Three years from the date of injury for most personal injury claims (MCL 600.5805). Michigan is a no-fault auto state, so car crash claims usually start with PIP benefits from your own insurer, and you can only sue the at-fault driver for pain and suffering if the injury qualifies as a serious impairment of body function, permanent serious disfigurement, or death (MCL 500.3135).",
+      },
+      {
+        q: "Can I recover in Michigan if I was partly at fault?",
+        a: "Only up to a point. Michigan uses modified comparative fault (MCL 600.2959): if you were more than 50% at fault, you cannot recover non-economic damages such as pain and suffering at all, and your economic damages are reduced by your percentage of fault. At 50% or less, both categories are reduced proportionally.",
+      },
+      {
+        q: "How much do Michigan injury lawyers charge?",
+        a: "Michigan injury contingency fees run about one-third of the recovery, and no-fault benefit disputes are often handled on contingency as well; Detroit hourly rates ($250–$450) lead the state. Michigan court rules require contingency agreements in writing, with the method of calculation stated — ask how costs are treated before you sign.",
+      },
+      {
+        q: "What is Michigan's small claims limit, and how do I check a lawyer?",
+        a: "Michigan small claims court handles cases up to $7,000, and cases are heard without a jury, usually by a district court judge or magistrate — neither side may be represented by an attorney unless the case is removed to the regular civil docket. To verify a lawyer, search the State Bar of Michigan's official member directory, which shows license status and any discipline.",
+      },
+    ],
   },
   {
     name: "Minnesota",
@@ -993,6 +1071,32 @@ export const STATES: StateInfo[] = [
       "Minnesota's trial courts are the District Courts, organized into 10 judicial districts with general jurisdiction over civil and criminal cases. Appeals go to the Minnesota Court of Appeals, then the seven-justice Minnesota Supreme Court. Two specialized courts stand out: the Tax Court and the Workers' Compensation Court of Appeals, which handle those technical areas exclusively. Judges are elected in nonpartisan elections but often first appointed by the governor to fill vacancies — and Minnesota's judiciary is known for actively steering cases into mediation and other alternative dispute resolution.",
     notableLaws:
       "First, Minnesota banned nearly all non-compete agreements in 2023 — if an employer asks you to sign one, it's likely unenforceable, but get advice before ignoring it. Second, the state's Earned Sick and Safe Time law (2024) guarantees paid sick leave statewide, broader than many employers realized, fueling wage-and-hour disputes. Third, Minnesota's DWI law sets the limit at 0.08 but treats 0.16 as an aggravating factor with harsher penalties — and the state runs intensive DWI courts, so a criminal defense lawyer's familiarity with local diversion and treatment programs can matter as much as trial skill.",
+    faqs: [
+      {
+        q: "Is refusing a breath test a crime in Minnesota?",
+        a: "Yes — Minnesota is one of the few states where refusing a breath test is a crime in itself. Under Minn. Stat. § 169A.20, subd. 2, refusing a lawful breath test is a gross misdemeanor (up to 364 days in jail and a $3,000 fine) and is charged at least as a third-degree DWI, on top of a one-year license revocation. Refusing a blood or urine test is criminal when the test is required by a search warrant.",
+      },
+      {
+        q: "How do I challenge a Minnesota DWI license revocation?",
+        a: "You have 60 days from receiving the notice and order of revocation to file a petition for judicial review in district court under Minn. Stat. § 169A.53. The officer takes your license and issues a temporary one (14 days for a breath case). Filing the petition does not pause the revocation by itself, so many drivers also pursue an ignition interlock license through Driver and Vehicle Services while the challenge is pending.",
+      },
+      {
+        q: "What is Minnesota's statute of limitations for personal injury?",
+        a: "Six years — Minnesota has one of the longest personal injury deadlines in the country (Minn. Stat. § 541.05). Claims against government bodies are the exception: a notice of claim is generally due within 180 days, so the six-year figure should never be assumed for a public defendant.",
+      },
+      {
+        q: "Can I recover in Minnesota if I was partly at fault?",
+        a: "Yes, if your fault is not greater than the defendants'. Minnesota follows modified comparative fault (Minn. Stat. § 604.01) with a 51% bar: a plaintiff whose negligence is greater than the negligence of the party or parties being compared recovers nothing, and any recovery is reduced by your percentage of fault.",
+      },
+      {
+        q: "How much do Minnesota injury lawyers charge?",
+        a: "Minnesota injury contingency fees run about one-third of the recovery, with Twin Cities hourly rates in the $250–$450 range for non-contingency work. Minnesota rules require the contingency agreement to be in writing; ask whether the percentage changes if the case is appealed and how litigation costs are advanced.",
+      },
+      {
+        q: "What is Minnesota's small claims limit, and how do I verify a lawyer?",
+        a: "Minnesota's conciliation court — its small claims court — handles claims up to $20,000, though consumer credit claims are capped at $4,000. To verify a lawyer, use the Minnesota Judicial Branch's official Lawyer Search, maintained by the Lawyer Registration Office, which confirms admission status for every Minnesota attorney.",
+      },
+    ],
   },
   {
     name: "Mississippi",
@@ -1012,6 +1116,32 @@ export const STATES: StateInfo[] = [
       "Mississippi has two parallel trial courts: Circuit Courts handle felonies and general civil cases, while Chancery Courts — a distinctive feature — handle equity matters including divorce, child custody, estates, and land disputes. County Courts handle smaller matters in 19 counties. Appeals go to the Mississippi Court of Appeals, then the nine-justice Supreme Court of Mississippi. All judges are elected in nonpartisan elections. The chancery/circuit split matters when hiring: a divorce or boundary dispute belongs in chancery court, and you want a lawyer who practices there regularly.",
     notableLaws:
       "First, Mississippi's tort reforms cap non-economic damages (generally $1 million), which directly limits what injury cases are worth — ask any prospective lawyer how the caps affect your claim. Second, Mississippi has no state minimum wage or overtime law beyond the federal $7.25, so wage disputes turn entirely on federal law and require attorneys fluent in it. Third, the three-year personal injury statute of limitations is shorter than in many states, so waiting to find a lawyer can cost you the case outright.",
+    faqs: [
+      {
+        q: "Can a first Mississippi DUI avoid a conviction through non-adjudication?",
+        a: "Mississippi is one of the few states offering first-time DUI offenders non-adjudication (Miss. Code § 63-11-30(14)): the court withholds a finding of guilt, and if you pay the fines and fees, complete the Mississippi Alcohol Safety Education Program (MASEP), and hold an interlock-restricted license for 120 days, no conviction is entered on your record. It is available only once in a lifetime, and it still counts as a prior DUI if you are arrested again.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Mississippi?",
+        a: "A first refusal triggers a 90-day administrative suspension by the Department of Public Safety (one year if you have a prior DUI), even if you are ultimately found not guilty. Once the Commissioner sustains the suspension, you have only 10 days to petition the circuit or county court for judicial review under § 63-11-25. A first-offense DUI conviction itself carries a $250–$1,000 fine, up to 48 hours in jail, and a 120-day suspension (or an interlock-restricted license).",
+      },
+      {
+        q: "What is Mississippi's deadline to file a personal injury claim?",
+        a: "Three years from the date of injury for most personal injury claims (Miss. Code § 15-1-49). Claims against government entities under the Mississippi Tort Claims Act require written notice within 90 days of the incident and carry a one-year filing period, so public defendants compress the timeline sharply.",
+      },
+      {
+        q: "Can I recover in Mississippi if I was mostly at fault?",
+        a: "Yes — Mississippi is a pure comparative negligence state (Miss. Code § 11-7-15). Your damages are reduced by your percentage of fault, but there is no percentage that bars recovery entirely: a plaintiff found 80% at fault can still recover 20% of their damages.",
+      },
+      {
+        q: "How much do Mississippi injury lawyers charge?",
+        a: "Mississippi contingency fees run about one-third of the recovery, and hourly rates ($175–$300) are among the lowest in the South — though the state's tort reforms have made the plaintiffs' bar selective about the cases it accepts. Confirm in writing whether the percentage applies before or after case expenses are deducted.",
+      },
+      {
+        q: "What is Mississippi's small claims limit, and how do I verify a lawyer?",
+        a: "Mississippi justice court handles small claims up to $3,500. To verify a lawyer, use The Mississippi Bar's official member directory — it confirms whether an attorney is admitted and in good standing, and the Bar also publishes disciplinary actions.",
+      },
+    ],
   },
 ];
 
@@ -1034,6 +1164,32 @@ export const STATES_2: StateInfo[] = [
       "Missouri's trial courts are the Circuit Courts (45 circuits, general jurisdiction). Appeals go to the Missouri Court of Appeals, split into Eastern, Western, and Southern districts, then the seven-judge Supreme Court of Missouri. The state's distinctive contribution to American law is the Missouri Plan: appellate judges are nominated by a merit commission, appointed by the governor, and then face periodic retention elections rather than contested races — a model copied nationwide. Trial judges in most circuits are elected, so local judicial temperament varies more at the trial level.",
     notableLaws:
       "First, the Missouri Merchandising Practices Act lets consumers recover attorney's fees in deception cases — which is why consumer lawyers take these cases on contingency; ask about it if a business misled you. Second, voters rejected right-to-work in 2018's Proposition A, keeping Missouri a strong union state, so labor and employment disputes here play out differently than across the river in Kansas. Third, Missouri's five-year personal injury statute of limitations is among the nation's longest, giving lawyers unusual room to build complex product-liability and mass-tort cases — a factor in St. Louis's national reputation for them.",
+    faqs: [
+      {
+        q: "How long do I have to save my license after a Missouri DWI arrest?",
+        a: "Fifteen days. After a Missouri DWI arrest where you failed a chemical test, the officer gives you Form 2385 (Notice of Suspension/Revocation) and a 15-day temporary permit. You must request an administrative hearing from the Department of Revenue within those 15 days or the suspension (90 days for a first alcohol contact — 30 days of no driving, then 60 days restricted) takes effect on day 16, regardless of what happens in the criminal case.",
+      },
+      {
+        q: "What happens if I refuse a chemical test in Missouri?",
+        a: "A refusal is a one-year revocation of your driving privilege (§§ 577.041, 302.574), with no limited driving privilege for the first 90 days. Unlike a test failure, a refusal is not challenged through the Department of Revenue hearing — you must file a petition for review in the circuit court of the county of arrest within 30 days of the notice of revocation.",
+      },
+      {
+        q: "What is Missouri's statute of limitations for personal injury?",
+        a: "Five years from the date of injury for most personal injury claims (§ 516.120, RSMo) — longer than most states. Property damage claims also get five years, while medical malpractice is generally two years, so the claim type controls the deadline.",
+      },
+      {
+        q: "Can I recover in Missouri if I was mostly at fault?",
+        a: "Yes — Missouri follows pure comparative fault (§ 537.765, RSMo). Your recovery is reduced by your share of fault, but no percentage of fault bars you from recovering: a plaintiff 90% at fault still recovers 10% of the damages. Missouri juries assign fault percentages, and defendants are generally liable only for their own share.",
+      },
+      {
+        q: "How much do Missouri injury lawyers charge?",
+        a: "Missouri injury contingency fees run about one-third of the recovery, with St. Louis and Kansas City hourly rates ($250–$450) above rural rates. Mass-tort and pharmaceutical cases are almost always contingency-based. Missouri requires contingency fee agreements to be in writing — review how costs are handled before signing.",
+      },
+      {
+        q: "What is Missouri's small claims limit, and how do I verify a lawyer?",
+        a: "Missouri's small claims court handles cases up to $5,000, with informal procedures designed for self-represented litigants. To verify a lawyer, use The Missouri Bar's official Find a Lawyer directory — Missouri attorneys are licensed by the Supreme Court of Missouri, and the Bar's records show admission status and public discipline.",
+      },
+    ],
   },
   {
     name: "Montana",
@@ -1053,6 +1209,32 @@ export const STATES_2: StateInfo[] = [
       "Montana's general-jurisdiction trial courts are the District Courts (22 judicial districts). Limited-jurisdiction matters go to Justice Courts and City Courts. Appeals go directly to the seven-justice Montana Supreme Court — there is no intermediate appellate court. Uniquely, Montana has a statewide Water Court that exclusively adjudicates water-rights claims, reflecting how central water is to the state's ranching economy. All judges are elected in nonpartisan elections, and Montana’s small, collegial bar means most practitioners know the judges and each other — which cuts both ways, fostering practical resolutions but making an outsider attorney’s local relationships worth asking about.",
     notableLaws:
       "First, Montana is the only state without at-will employment — the Wrongful Discharge from Employment Act requires ‘good cause’ for firing after probation, so employment disputes here favor workers more than anywhere else in America. Second, the Stream Access Law guarantees public recreational use of rivers and streams up to the high-water mark, generating constant property and trespass disputes that need lawyers versed in it. Third, Montana's lack of a general sales tax is offset by local option and resort taxes in tourist areas — a trap for new businesses that assume ‘no sales tax’ means no tax complexity.",
+    faqs: [
+      {
+        q: "What makes a Montana DUI 'aggravated'?",
+        a: "Aggravated DUI (MCA § 61-8-465) is a regular DUI plus one of several triggers: a BAC of 0.16 or higher, driving while your license is suspended or revoked for a prior DUI offense, driving in violation of an ignition interlock order, or refusing a breath test when you had a refusal-related suspension within the past 10 years. Even a first aggravated DUI carries a $1,000 fine and 48 hours to one year in jail — far above a standard first DUI.",
+      },
+      {
+        q: "What happens if I refuse a breath test in Montana?",
+        a: "Refusing a breath or blood test under Montana's implied consent law (MCA § 61-8-402) triggers an administrative license suspension by the Motor Vehicle Division — six months for a first refusal and 18 months for a second — imposed even before the criminal case is resolved. Montana courts may also order repeat offenders into the 24/7 Sobriety Program, which requires twice-daily breath testing or continuous alcohol monitoring instead of, or in addition to, jail time.",
+      },
+      {
+        q: "What is Montana's personal injury deadline, and what if I was partly at fault?",
+        a: "Three years from the date of injury for most personal injury claims (MCA § 27-2-204). Montana follows a modified comparative negligence rule (MCA § 27-1-702) with a 51% bar: you recover nothing if your fault is greater than the defendant's, and your award is reduced by your percentage of fault otherwise.",
+      },
+      {
+        q: "How much do Montana lawyers charge?",
+        a: "Montana rates are moderate: injury contingency around one-third of the recovery, and hourly rates of $200–$325. Water-rights and natural-resources work is typically hourly given its technical depth. Because Montana distances are long, ask how the firm bills for travel time to rural courthouses — it can add up quickly.",
+      },
+      {
+        q: "What is Montana's small claims limit, and how do I verify a lawyer?",
+        a: "Montana justice courts handle small claims up to $7,000, with simplified procedures. To verify a lawyer, use the State Bar of Montana's official member directory, which lists every attorney licensed in Montana and their current status.",
+      },
+      {
+        q: "Does Montana have a separate per se limit for THC?",
+        a: "Yes. Alongside its alcohol offenses, Montana has a separate 'DUI per se (THC)' offense (MCA § 61-8-411): driving with a THC concentration of 5 nanograms or more per milliliter of blood is a per se violation, without the state having to prove actual impairment. A THC per se conviction can also feed into an aggravated DUI charge under § 61-8-465 if one of the aggravating triggers is present.",
+      },
+    ],
   },
   {
     name: "Nebraska",
@@ -1072,6 +1254,32 @@ export const STATES_2: StateInfo[] = [
       "Nebraska trial courts are the District Courts (12 districts, general jurisdiction) and County Courts (misdemeanors, small claims, probate, preliminary hearings). Appeals go to the Nebraska Court of Appeals, then the seven-judge Nebraska Supreme Court. Judges are chosen through merit selection — a nominating commission sends finalists to the governor — and then face retention elections, so campaigns are yes-or-no rather than contested. The system tends to produce a stable, professional judiciary with less election-cycle volatility than in states with contested judicial races.",
     notableLaws:
       "First, Nebraska is one of few states with a county-level inheritance tax, with rates depending on your relationship to the deceased — estate planning here genuinely requires local counsel, not a generic online will. Second, the 2024 repeal of the motorcycle helmet mandate changed the liability landscape for bike crashes overnight; injury lawyers are still litigating how it affects fault arguments. Third, Nebraska permits wage garnishment for most consumer debts (unlike some neighboring states), so debtor-creditor work here has sharper teeth — if you're being pursued, don't wait to get advice.",
+    faqs: [
+      {
+        q: "How long do I have to fight a Nebraska DUI license revocation?",
+        a: "Ten days. Under Nebraska's Administrative License Revocation process (Neb. Rev. Stat. § 60-498.01), the officer confiscates your license and issues a 15-day temporary permit. Your petition for an ALR hearing must be delivered to the DMV or postmarked within 10 days of the arrest, and the revocation takes effect on day 15 whether or not you file. One trade-off to weigh: filing the petition makes you ineligible for an ignition interlock permit during the ALR revocation unless the criminal court separately orders one.",
+      },
+      {
+        q: "How long is the revocation for failing vs. refusing a test in Nebraska?",
+        a: "A failed test on a first offense means a 180-day ALR revocation; refusing the test means a full one-year revocation, imposed by the DMV separately from the criminal case. Many drivers apply for an ignition interlock permit to keep driving during the revocation — but as noted above, asking for the ALR hearing generally means giving up that permit on the administrative side.",
+      },
+      {
+        q: "What are the penalties for a first Nebraska DUI?",
+        a: "A first Nebraska DUI is a Class W misdemeanor (a class reserved for DUI): 7 to 60 days in jail, a $500 fine, and a six-month license revocation — or, if the court grants probation, a 60-day revocation with an ignition interlock permit. A BAC of 0.15 or higher raises the penalties, and a third offense within the 15-year lookback can become a felony depending on the BAC and priors.",
+      },
+      {
+        q: "What is Nebraska's personal injury deadline, and what if I was partly at fault?",
+        a: "Four years from the date of injury for most personal injury claims (Neb. Rev. Stat. § 25-207). Nebraska uses a modified comparative negligence rule (§ 25-21,185) with a 50% bar: if your fault equals or exceeds the combined fault of the defendants, you recover nothing; below that, your award is reduced by your share.",
+      },
+      {
+        q: "How much do Nebraska lawyers charge?",
+        a: "Nebraska contingency fees run about one-third of the recovery; Omaha hourly rates ($200–$350) are reasonable and rural rates run lower, while farm succession plans are often flat-fee. Get the contingency agreement in writing and ask how expert and filing costs are handled.",
+      },
+      {
+        q: "What is Nebraska's small claims limit, and how do I verify a lawyer?",
+        a: "Nebraska small claims court handles claims up to $7,500 — the limit was raised effective July 1, 2025 and is adjusted for inflation. To verify a lawyer, use the Nebraska State Bar Association's Find a Lawyer directory; Nebraska attorneys are admitted by the Nebraska Supreme Court, and the Association's records show membership and standing.",
+      },
+    ],
   },
   {
     name: "Nevada",
@@ -1091,6 +1299,32 @@ export const STATES_2: StateInfo[] = [
       "Nevada trial courts are the District Courts (11 judicial districts, general jurisdiction), Justice Courts (misdemeanors, small claims, evictions, preliminary hearings), and Municipal Courts (city ordinance violations). Appeals go to the Nevada Court of Appeals — created only in 2014, making it one of America's newest appellate courts — then the seven-justice Nevada Supreme Court. All judges are elected in nonpartisan elections. Gaming disputes follow a separate track through the Nevada Gaming Control Board and Gaming Commission, which is why casino-related matters need specialists, not general litigators.",
     notableLaws:
       "First, Nevada's two-year personal injury statute of limitations is among the shortest in the country — if you're hurt, the clock is brutally fast, so hire counsel immediately. Second, Nevada's HOA ‘super-priority’ lien law (upheld in the famous SFR Investments case) lets homeowners associations foreclose ahead of even first mortgages, creating a minefield for buyers that demands a real estate lawyer's review. Third, licensed brothels are legal in counties under 700,000 people — a regulatory framework generating unique licensing, employment, and criminal matters you won't find in any other state.",
+    faqs: [
+      {
+        q: "How long do I have to save my license after a Nevada DUI arrest?",
+        a: "Only seven days. The officer takes your license and issues a temporary permit good for just 7 days; you must request a DMV administrative hearing within that window to keep driving until a hearing officer decides. A failed test means a 185-day revocation; miss the 7-day deadline and the revocation takes effect automatically, whatever happens in the criminal case (NRS 484C.110).",
+      },
+      {
+        q: "Does refusing a breath test help in Nevada?",
+        a: "It usually makes things worse. Refusing an evidentiary breath or blood test under Nevada's implied consent law (NRS 484C.160) brings a one-year license revocation on the refusal alone — three years if you had a refusal revocation in the previous seven years — and it applies even if the DUI charge is dropped. And refusal does not prevent testing: officers can obtain a warrant and have blood drawn by reasonable force.",
+      },
+      {
+        q: "When is a Nevada DUI a felony?",
+        a: "A first or second DUI within seven years is a misdemeanor. A third DUI within seven years is a category B felony carrying one to six years in the Nevada State Prison, and a DUI causing death or substantial bodily harm is a felony regardless of prior history. Nevada counts priors on a rolling seven-year lookback.",
+      },
+      {
+        q: "What is Nevada's personal injury deadline, and what if I was partly at fault?",
+        a: "Two years from the date of injury for most personal injury claims (NRS 11.190). Nevada follows modified comparative negligence (NRS 41.141) with a 51% bar: if your fault is greater than the defendant's, you recover nothing; otherwise your damages are reduced by your percentage of fault.",
+      },
+      {
+        q: "How much do Nevada injury lawyers charge?",
+        a: "Nevada injury contingency fees run about one-third of the recovery, and Las Vegas hourly rates ($275–$500) reflect the metro market; gaming licensing work is typically flat-fee or project-based. Nevada requires contingency agreements in writing — confirm whether the percentage is taken before or after costs.",
+      },
+      {
+        q: "What is Nevada's small claims limit, and how do I verify a lawyer?",
+        a: "Nevada justice courts handle small claims up to $10,000. To verify a lawyer, use the State Bar of Nevada's official member directory, which shows whether an attorney is licensed and in good standing, along with any public discipline.",
+      },
+    ],
   },
   {
     name: "New Hampshire",
