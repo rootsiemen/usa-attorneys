@@ -111,6 +111,28 @@ If your case is in [Georgia](/attorneys/georgia) or any other high-freight state
 
 ![Truck on an open highway at sunrise — truck accident lawsuit timeline](https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?w=1200&q=80&auto=format&fit=crop)
 
+## Frequently Asked Questions
+
+### How long does a truck accident lawsuit take, in one number?
+
+There is no single number, but the honest range is 6 months to 3 years. A case with clear liability and moderate injuries can settle before a lawsuit is ever filed, in 6 to 12 months. Once suit is filed, 1 to 3 years is realistic. Cases that go to trial add roughly another year, and an appeal can add 6 months to 2 years more.
+
+### Will my truck accident case actually go to trial?
+
+Probably not. Bureau of Justice Statistics data shows only about 4% of tort cases are ever decided by a trial, and most filed truck cases settle at mediation, after depositions — the point where the defense has to price what a jury will hear from its own driver under oath. But the case has to be prepared as if it will be tried, because that readiness is what produces the serious offers.
+
+### Why can't I just settle in the first few months?
+
+Because a settlement signed before maximum medical improvement (MMI) is a guess — and the release is permanent. Until your doctors can say what is permanent, what future surgery is likely, and what it will cost, nobody can price the case accurately, including you. Insurers push early offers precisely because the medical picture is still incomplete. The exception is an offer that already covers your worst-case future care.
+
+### Do I have to pay a lawyer while the case is running?
+
+In almost every truck case, no. Truck accident attorneys work on contingency: they advance the case costs — experts, filing fees, depositions — and take a percentage only if the case settles or wins. If there is no recovery, you owe no attorney fee. That structure is also why the fee math belongs in the settle-fast-or-wait decision above: a later, larger settlement is not automatically a larger check after fees and costs.
+
+### What is the one deadline I cannot miss?
+
+Your state's statute of limitations. Most states give two to three years from the date of the crash to file suit, a few give only one, and claims involving a government vehicle can require a formal notice within months. Negotiating with the insurer does not pause the clock — only filing the lawsuit stops it. Miss the deadline and even a strong case is usually over.
+
 ## The bottom line
 
 A truck accident lawsuit takes **6 months if everything goes right, 1 to 3 years in the typical filed case, and longer if it goes to trial or appeal**. Very little of that time happens in a courtroom. Most of it goes into treatment, federal trucking records, discovery, and negotiation — and the single biggest driver is how long your injuries take to reach a stable, priceable point.
