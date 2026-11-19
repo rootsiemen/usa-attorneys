@@ -22,6 +22,9 @@ export interface BlogPostInput {
   state?: string; // state slug, optional
   keywords: string[];
   content: string; // markdown body
+  faqs?: { q: string; a: string }[]; // FAQ pairs (FAQ section + FAQPage schema)
+  metaTitle?: string; // optional <title> override for search results
+  ogImage?: string; // optional social-share image URL
 }
 
 interface DbBlogPostRow {
@@ -33,16 +36,26 @@ interface DbBlogPostRow {
   state: string | null;
   keywords: string; // JSON array string
   content: string;
+  faqs: string; // JSON array string of { q, a }
+  meta_title: string | null;
+  og_image: string | null;
 }
 
 let tableReady: Promise<void> | null = null;
 
-/** Creates the blog_posts table on first use (idempotent). */
+/**
+ * Creates the blog_posts table on first use (idempotent) and migrates
+ * older deployments: the faqs / meta_title / og_image columns are added
+ * with ALTER TABLE when missing. SQLite has no ADD COLUMN IF NOT
+ * EXISTS, so each ALTER runs in a try/catch and the "duplicate column"
+ * error on already-migrated tables is swallowed.
+ */
 export function ensureBlogTable(): Promise<void> {
   if (!isDbConfigured()) return Promise.resolve();
   if (!tableReady) {
-    tableReady = getDb()
-      .execute(
+    tableReady = (async () => {
+      const db = getDb();
+      await db.execute(
         `CREATE TABLE IF NOT EXISTS blog_posts (
           slug TEXT PRIMARY KEY,
           title TEXT NOT NULL,
@@ -52,17 +65,48 @@ export function ensureBlogTable(): Promise<void> {
           state TEXT,
           keywords TEXT NOT NULL DEFAULT '[]',
           content TEXT NOT NULL,
+          faqs TEXT NOT NULL DEFAULT '[]',
+          meta_title TEXT,
+          og_image TEXT,
           created_at TEXT NOT NULL DEFAULT (datetime('now')),
           updated_at TEXT NOT NULL DEFAULT (datetime('now'))
         )`
-      )
-      .then(() => undefined)
-      .catch((e) => {
-        tableReady = null; // allow a retry on the next call
-        throw e;
-      });
+      );
+      for (const ddl of [
+        "ALTER TABLE blog_posts ADD COLUMN faqs TEXT NOT NULL DEFAULT '[]'",
+        "ALTER TABLE blog_posts ADD COLUMN meta_title TEXT",
+        "ALTER TABLE blog_posts ADD COLUMN og_image TEXT",
+      ]) {
+        try {
+          await db.execute(ddl);
+        } catch {
+          // Column already exists — nothing to migrate.
+        }
+      }
+    })().catch((e) => {
+      tableReady = null; // allow a retry on the next call
+      throw e;
+    });
   }
   return tableReady;
+}
+
+/** Parses a stored FAQ JSON string; bad JSON / wrong shape → []. */
+function parseFaqs(raw: string | null | undefined): { q: string; a: string }[] {
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed
+      .filter(
+        (f): f is { q: unknown; a: unknown } =>
+          Boolean(f) && typeof f === "object"
+      )
+      .map((f) => ({ q: String(f.q ?? ""), a: String(f.a ?? "") }))
+      .filter((f) => f.q && f.a);
+  } catch {
+    return [];
+  }
 }
 
 function rowToPost(row: DbBlogPostRow): BlogPost {
@@ -92,11 +136,14 @@ function rowToPost(row: DbBlogPostRow): BlogPost {
     keywords,
     html,
     readingMinutes: Math.max(2, Math.round(wordCount / 200)),
+    faqs: parseFaqs(row.faqs),
+    metaTitle: row.meta_title || undefined,
+    ogImage: row.og_image || undefined,
   };
 }
 
 const COLUMNS =
-  "slug, title, description, date, practice_area, state, keywords, content";
+  "slug, title, description, date, practice_area, state, keywords, content, faqs, meta_title, og_image";
 
 /** All DB posts, newest first. Returns [] when the DB is not configured. */
 export async function getDbBlogPosts(): Promise<BlogPost[]> {
@@ -148,6 +195,9 @@ export async function getDbBlogPostInput(
     state: row.state || undefined,
     keywords,
     content: row.content || "",
+    faqs: parseFaqs(row.faqs),
+    metaTitle: row.meta_title || undefined,
+    ogImage: row.og_image || undefined,
   };
 }
 
@@ -162,8 +212,8 @@ export async function getDbBlogSlugs(): Promise<Set<string>> {
 export async function createDbBlogPost(input: BlogPostInput): Promise<void> {
   await ensureBlogTable();
   await getDb().execute({
-    sql: `INSERT INTO blog_posts (slug, title, description, date, practice_area, state, keywords, content)
-          VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+    sql: `INSERT INTO blog_posts (slug, title, description, date, practice_area, state, keywords, content, faqs, meta_title, og_image)
+          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
     args: [
       input.slug,
       input.title,
@@ -173,6 +223,9 @@ export async function createDbBlogPost(input: BlogPostInput): Promise<void> {
       input.state || null,
       JSON.stringify(input.keywords),
       input.content,
+      JSON.stringify(input.faqs ?? []),
+      input.metaTitle || null,
+      input.ogImage || null,
     ],
   });
 }
@@ -182,7 +235,8 @@ export async function updateDbBlogPost(input: BlogPostInput): Promise<boolean> {
   const res = await getDb().execute({
     sql: `UPDATE blog_posts
           SET title = ?, description = ?, date = ?, practice_area = ?,
-              state = ?, keywords = ?, content = ?, updated_at = datetime('now')
+              state = ?, keywords = ?, content = ?, faqs = ?,
+              meta_title = ?, og_image = ?, updated_at = datetime('now')
           WHERE slug = ?`,
     args: [
       input.title,
@@ -192,6 +246,9 @@ export async function updateDbBlogPost(input: BlogPostInput): Promise<boolean> {
       input.state || null,
       JSON.stringify(input.keywords),
       input.content,
+      JSON.stringify(input.faqs ?? []),
+      input.metaTitle || null,
+      input.ogImage || null,
       input.slug,
     ],
   });

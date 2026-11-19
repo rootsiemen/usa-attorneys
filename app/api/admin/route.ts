@@ -56,6 +56,29 @@ function parseBlogPostInput(body: Record<string, unknown>): {
   if (content.length > 200000) {
     return { error: "Article body is too long" };
   }
+  const metaTitle = String(body.metaTitle ?? "").trim().slice(0, 200);
+  const ogImage = String(body.ogImage ?? "").trim().slice(0, 500);
+  if (ogImage) {
+    let ogOk = false;
+    try {
+      ogOk = new URL(ogImage).protocol === "https:";
+    } catch {
+      ogOk = false;
+    }
+    if (!ogOk) return { error: "OG image must be a valid https:// URL" };
+  }
+  const faqs: { q: string; a: string }[] = [];
+  if (Array.isArray(body.faqs)) {
+    for (const item of body.faqs) {
+      if (!item || typeof item !== "object") continue;
+      const rec = item as Record<string, unknown>;
+      const q = String(rec.q ?? "").trim().slice(0, 200);
+      const a = String(rec.a ?? "").trim().slice(0, 1500);
+      if (!q || !a) continue; // drop empty pairs
+      faqs.push({ q, a });
+      if (faqs.length >= 10) break;
+    }
+  }
   return {
     input: {
       slug,
@@ -66,6 +89,9 @@ function parseBlogPostInput(body: Record<string, unknown>): {
       state: state || undefined,
       keywords,
       content,
+      faqs,
+      metaTitle: metaTitle || undefined,
+      ogImage: ogImage || undefined,
     },
   };
 }

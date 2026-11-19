@@ -20,6 +20,12 @@ import { JsonLd } from "@/components/JsonLd";
 const DISCLAIMER =
   "This article is for general information only and is not legal advice. For advice about your situation, consult a licensed attorney in your state.";
 
+/** First <img> URL in the rendered article body, if any. */
+function firstContentImage(html: string): string | undefined {
+  const m = html.match(/<img[^>]+src="([^"]+)"/);
+  return m ? m[1] : undefined;
+}
+
 export function generateStaticParams() {
   return getAllPostSlugs().map((slug) => ({ slug }));
 }
@@ -38,25 +44,37 @@ export async function generateMetadata({
   const post = await getPostMerged((await params).slug);
   if (!post) return {};
   const url = `${SITE_URL}/blog/${post.slug}`;
+  const displayTitle = post.metaTitle || post.title;
+  // Share image: explicit OG image, else the first image in the body,
+  // else the site's default generated OG image (previous behaviour).
+  const shareImage = post.ogImage || firstContentImage(post.html);
   return {
-    title: post.title,
+    title: displayTitle,
     description: post.description,
     keywords: post.keywords,
     alternates: { canonical: url },
     openGraph: {
-      title: `${post.title} | ${SITE_NAME}`,
+      title: `${displayTitle} | ${SITE_NAME}`,
       description: post.description,
       url,
       type: "article",
-      images: [
-        {
-          url: "/opengraph-image",
-          width: 1200,
-          height: 630,
-          alt: "USA Attorneys",
-        },
-      ],
+      images: shareImage
+        ? [{ url: shareImage, alt: post.title }]
+        : [
+            {
+              url: "/opengraph-image",
+              width: 1200,
+              height: 630,
+              alt: "USA Attorneys",
+            },
+          ],
       publishedTime: post.date,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${displayTitle} | ${SITE_NAME}`,
+      description: post.description,
+      images: [shareImage || "/opengraph-image"],
     },
   };
 }
@@ -100,6 +118,8 @@ export default async function BlogPostPage({
     ],
   };
 
+  const heroImage = post.ogImage || firstContentImage(post.html);
+
   const articleLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -111,12 +131,28 @@ export default async function BlogPostPage({
     author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
     publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    ...(heroImage ? { image: heroImage } : {}),
   };
+
+  const faqs = post.faqs ?? [];
+  const faqLd =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }
+      : null;
 
   return (
     <>
       <JsonLd data={breadcrumbLd} />
       <JsonLd data={articleLd} />
+      {faqLd && <JsonLd data={faqLd} />}
 
       <section className="page-hero">
         <div className="container">
@@ -158,6 +194,18 @@ export default async function BlogPostPage({
           />
 
           <div className="container" style={{ maxWidth: 800, padding: 0 }}>
+            {faqs.length > 0 && (
+              <section className="faq-section">
+                <h2>Frequently Asked Questions</h2>
+                {faqs.map((f, i) => (
+                  <div key={i} className="faq-item">
+                    <h3>{f.q}</h3>
+                    <p>{f.a}</p>
+                  </div>
+                ))}
+              </section>
+            )}
+
             <div className="disclaimer">
               <strong>Legal disclaimer:</strong> {DISCLAIMER}
             </div>

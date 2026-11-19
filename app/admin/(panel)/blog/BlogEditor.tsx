@@ -20,6 +20,9 @@ export interface EditorInitial {
   state?: string;
   keywords: string[];
   content: string;
+  faqs?: { q: string; a: string }[];
+  metaTitle?: string;
+  ogImage?: string;
 }
 
 function slugify(text: string): string {
@@ -55,6 +58,11 @@ export default function BlogEditor({
   const [keywords, setKeywords] = useState(
     (initial?.keywords ?? []).join(", ")
   );
+  const [metaTitle, setMetaTitle] = useState(initial?.metaTitle ?? "");
+  const [ogImage, setOgImage] = useState(initial?.ogImage ?? "");
+  const [faqs, setFaqs] = useState<{ q: string; a: string }[]>(
+    initial?.faqs ?? []
+  );
   const [content, setContent] = useState(initial?.content ?? "");
   const [saving, setSaving] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
@@ -82,6 +90,9 @@ export default function BlogEditor({
           state,
           keywords,
           content,
+          faqs,
+          metaTitle,
+          ogImage,
         }),
       });
       const d = await r.json();
@@ -139,6 +150,18 @@ export default function BlogEditor({
           placeholder="One-line summary shown on Google and the blog index."
         />
       </div>
+      <div>
+        <label className="admin-label">
+          Meta title (optional — overrides the title in Google results)
+        </label>
+        <input
+          className="admin-input"
+          value={metaTitle}
+          maxLength={200}
+          onChange={(e) => setMetaTitle(e.target.value)}
+          placeholder="Leave empty to use the article title."
+        />
+      </div>
       <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
         <div style={{ flex: "1 1 200px" }}>
           <label className="admin-label">Date *</label>
@@ -190,6 +213,18 @@ export default function BlogEditor({
       </div>
       <div>
         <label className="admin-label">
+          OG image URL (optional — social share image)
+        </label>
+        <input
+          className="admin-input"
+          value={ogImage}
+          maxLength={500}
+          onChange={(e) => setOgImage(e.target.value)}
+          placeholder="https://images.unsplash.com/…"
+        />
+      </div>
+      <div>
+        <label className="admin-label">
           Article body (Markdown) * — {wordCount} words
         </label>
         <textarea
@@ -204,6 +239,73 @@ export default function BlogEditor({
           The legal disclaimer is added automatically by the article template —
           do not write your own. Aim for 1,500+ words.
         </p>
+        <p className="muted" style={{ margin: "4px 0 0", fontSize: 13 }}>
+          AEO tip: start the body with a short direct answer, use ## question
+          headings, and add FAQs below.
+        </p>
+      </div>
+      <div>
+        <label className="admin-label">
+          FAQs (optional — shown on the article and used for FAQ schema)
+        </label>
+        {faqs.map((faq, i) => (
+          <div
+            key={i}
+            style={{
+              border: "1px solid #333",
+              borderRadius: 6,
+              padding: 12,
+              marginBottom: 10,
+            }}
+          >
+            <label className="admin-label">Question {i + 1}</label>
+            <input
+              className="admin-input"
+              value={faq.q}
+              maxLength={200}
+              onChange={(e) =>
+                setFaqs((prev) =>
+                  prev.map((f, j) => (j === i ? { ...f, q: e.target.value } : f))
+                )
+              }
+              placeholder="How long do I have to file a claim?"
+            />
+            <label className="admin-label">Answer {i + 1}</label>
+            <textarea
+              className="admin-input"
+              value={faq.a}
+              maxLength={1500}
+              rows={3}
+              onChange={(e) =>
+                setFaqs((prev) =>
+                  prev.map((f, j) => (j === i ? { ...f, a: e.target.value } : f))
+                )
+              }
+              placeholder="Plain-text answer, 1–3 short sentences."
+            />
+            <div className="admin-btn-row" style={{ marginTop: 8 }}>
+              <button
+                type="button"
+                className="admin-btn"
+                onClick={() =>
+                  setFaqs((prev) => prev.filter((_, j) => j !== i))
+                }
+              >
+                Remove question
+              </button>
+            </div>
+          </div>
+        ))}
+        <div className="admin-btn-row">
+          <button
+            type="button"
+            className="admin-btn"
+            disabled={faqs.length >= 10}
+            onClick={() => setFaqs((prev) => [...prev, { q: "", a: "" }])}
+          >
+            + Add question
+          </button>
+        </div>
       </div>
       {msg && (
         <p style={{ color: "#e88", margin: "12px 0 0" }}>{msg}</p>

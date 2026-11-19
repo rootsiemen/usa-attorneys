@@ -14,6 +14,9 @@ export interface BlogPost {
   state?: string; // state slug, optional
   stateName?: string; // resolved display name
   keywords: string[];
+  faqs?: { q: string; a: string }[];
+  metaTitle?: string;
+  ogImage?: string;
   html: string;
   readingMinutes: number;
 }
