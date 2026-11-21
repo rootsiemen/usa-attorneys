@@ -9,6 +9,12 @@ export interface StateInfo {
   feesHeading?: string;
   /** Optional state-specific FAQ set; when present it replaces the rotated generic sets. */
   faqs?: Faq[];
+  /** Optional curated firm listicle rendered high on the page, right after the intro (e.g. "Best Law Firms in {name}"). Only states that define it render the section; all other states are unaffected. */
+  featuredFirms?: {
+    heading: string;
+    intro: string;
+    firms: { name: string; city: string; practiceAreas: string; blurb: string }[];
+  };
   /** Optional extra content sections rendered after the notable-laws section (state-specific depth, e.g. city coverage and resource links). */
   extraSections?: {
     heading: string;
@@ -723,6 +729,83 @@ export const STATES: StateInfo[] = [
       "Kansas trial courts are the District Courts, organized into 31 judicial districts. Appeals go to the Kansas Court of Appeals and then the Kansas Supreme Court. Judicial selection is a hybrid: Supreme Court justices are appointed through merit selection (nominating commission plus gubernatorial appointment, then retention elections), but district judge selection varies by district — some use partisan elections, others use merit selection. In the Kansas City metro, which straddles the Kansas-Missouri line, attorneys must be licensed in the correct state, as the two states' procedures differ significantly.",
     notableLaws:
       "First, Kansas is a no-fault auto insurance state — every policy must include Personal Injury Protection ($4,500 medical, $900/month wage loss), and you can only sue for pain and suffering if medical bills exceed $2,000 or injuries meet statutory severity thresholds, so car-accident attorneys must understand PIP coordination. Second, Kansas' 50% comparative fault bar is stricter than the 51% rule in neighboring states — being exactly half at fault still bars recovery. Third, the Kansas Tort Claims Act sets special notice requirements and damage caps for claims against government entities.",
+    featuredFirms: {
+      heading: "Best Law Firms in Kansas (2026)",
+      intro:
+        "Most Kansas legal work concentrates in Wichita, the Kansas City suburbs, and Topeka, and a small group of well-established firms anchors each of those markets. The firms below are a practical starting point when you want an established name rather than a solo practice — an editorial overview based on public information, not a ranking, rating, or endorsement. For individual attorneys by practice area and city, use the full directory on this page.",
+      firms: [
+        {
+          name: "Foulston Siefkin LLP",
+          city: "Wichita",
+          practiceAreas: "Business & corporate law, litigation, employment law, health care law",
+          blurb:
+            "Foulston Siefkin is the largest law firm headquartered in Kansas, with its main office in Wichita and additional offices in Topeka and Overland Park. Its attorneys represent businesses and institutions across the state in corporate, litigation, employment, and health care matters.",
+        },
+        {
+          name: "Stinson LLP",
+          city: "Kansas City",
+          practiceAreas: "Corporate law, banking & finance, real estate, litigation",
+          blurb:
+            "Stinson is a large national firm with deep Kansas City roots and a Johnson County presence in Overland Park. It advises companies on corporate transactions, finance, real estate, and complex litigation throughout the metro and the wider region.",
+        },
+        {
+          name: "Adams Jones Law Firm, P.A.",
+          city: "Wichita",
+          practiceAreas: "Business law, real estate, litigation, estate planning",
+          blurb:
+            "Founded in Wichita in 1939, Adams Jones is one of the city's longest-standing firms. It serves businesses and families with corporate, real estate, litigation, and estate work, and its lawyers have been part of the Wichita business community for generations.",
+        },
+        {
+          name: "Martin, Pringle, Oliver, Wallace & Bauer, L.L.P.",
+          city: "Wichita",
+          practiceAreas: "Business litigation, employment law, health care & medical malpractice defense, insurance defense",
+          blurb:
+            "Martin Pringle is a long-established Wichita firm representing businesses, hospitals, and professionals. Its practice centers on litigation, employment matters, and health care work for clients across Kansas.",
+        },
+        {
+          name: "Klenda Austerman LLC",
+          city: "Wichita",
+          practiceAreas: "Corporate law, commercial litigation, aviation finance, bankruptcy, estate planning",
+          blurb:
+            "Based in downtown Wichita's Epic Center and tracing its roots to 1971, Klenda Austerman serves business clients in corporate, banking, and litigation matters. Reflecting its hometown, the firm also handles aviation finance work for the aircraft industry.",
+        },
+        {
+          name: "Joseph, Hollander & Craft LLC",
+          city: "Wichita · Topeka · Kansas City",
+          practiceAreas: "Criminal defense, family law, civil litigation",
+          blurb:
+            "Joseph, Hollander & Craft is a prominent Kansas trial firm with offices in Wichita, Topeka, and Kansas City. Its lawyers are best known for criminal defense and family law, alongside a broad civil litigation practice.",
+        },
+        {
+          name: "Hinkle Law Firm LLC",
+          city: "Overland Park",
+          practiceAreas: "Business law, estate planning, real estate, employment law",
+          blurb:
+            "Hinkle Law Firm serves the Kansas City suburbs from Overland Park. It focuses on business law, estate planning, real estate, and employment matters for companies and families in Johnson County and beyond.",
+        },
+        {
+          name: "Norton Hare, L.L.C.",
+          city: "Overland Park",
+          practiceAreas: "DUI defense, criminal defense",
+          blurb:
+            "Norton Hare is an Overland Park firm focused on DUI and criminal defense across the Kansas City metro. Drivers facing charges on either side of the state line make up a large share of its caseload.",
+        },
+        {
+          name: "Depew Gillen Rathbun & McInteer, LC",
+          city: "Wichita",
+          practiceAreas: "General practice — business, real estate, estate planning, litigation",
+          blurb:
+            "Depew Gillen Rathbun & McInteer is a long-standing Wichita general-practice firm. It handles business, real estate, probate, and litigation matters for clients throughout south-central Kansas.",
+        },
+        {
+          name: "Frieden & Forbes, LLP",
+          city: "Topeka",
+          practiceAreas: "Business litigation, administrative law, employment law",
+          blurb:
+            "Frieden & Forbes is a Topeka boutique handling complex business litigation, administrative law, and employment disputes. Based in the capital city, it regularly represents clients in matters involving state agencies as well as private disputes statewide.",
+        },
+      ],
+    },
     faqs: [
       {
         q: "What happens to my license after a Kansas DUI arrest?",

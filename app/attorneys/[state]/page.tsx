@@ -195,6 +195,22 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
           <p key={i}>{para}</p>
         ))}
 
+        {state.featuredFirms && (
+          <>
+            <h2>{state.featuredFirms.heading}</h2>
+            <p>{state.featuredFirms.intro}</p>
+            {state.featuredFirms.firms.map((f) => (
+              <div key={f.name}>
+                <h3>{f.name}</h3>
+                <p>
+                  <strong>{f.city}</strong> — {f.practiceAreas}
+                </p>
+                <p>{f.blurb}</p>
+              </div>
+            ))}
+          </>
+        )}
+
         <h2>How to Choose the Right {state.name} Attorney</h2>
         <p>{state.finding}</p>
 
